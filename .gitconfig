@@ -1,0 +1,6 @@
+[user]
+	name = vaammpyy
+	email = rohankumarprasad@yahoo.com
+	editor = vim
+[init]
+	defaultBranch = main
