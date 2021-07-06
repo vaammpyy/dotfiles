@@ -1,840 +1,3 @@
-sudo apt install git meson sassc libglib2.0-dev libxml2-utils
-which has been updated to support GNOME 40. Don't confuse this with Dash to Dock, from which the Ubuntu Dock is forked. This one did not yet have a release with GNOME 40 support, but there's a GNOME 40 work-in-progress branch that you can try if you want: Dash to Dock. You can build and install Dash to Dock using: sudo apt build-dep gnome-shell-extension-ubuntu-dock; git clone https://github.com/ewlsh/dash-to-dock; cd dash-to-dock; git checkout ewlsh/gnome-40; make; make install
-In my case, using the Yaru session, the GTK and GNOME Shell themes were set to Yaru, but not the icon theme (which was set to Adwaita). To switch to using Yaru icons, install GNOME Tweaks (sudo apt install gnome-tweaks), and from its Appearance tab, set the icon theme to Yaru.
-Using the GNOME session, you won't have AppIndicators (tray icons). To get indicator icons to work, install the GNOME Extensions app (sudo apt install gnome-shell-extension-prefs) and enable the Ubuntu AppIndicators extension from there
-Want to disable Tracker? This is done differently now, with the new Tracker3. See this updated article for instructions
-Looking for themes with GNOME 40 support? Check out Orchis and WhiteSur, they have both been updated to support GNOME 40
-Want to use the GNOME Software app (which can install DEB, Flatpak and Snap packages) instead of the Snap Store (can only install DEB and Snap packages)? Install it using: sudo apt install gnome-software gnome-software-plugin-flatpak
-
-How to undo the changes by purging the PPA
-
-So you want to undo the changes and purge the PPA? This can be done using PPA Purge, a tool that attempts to downgrade all packages installed from a PPA that are available in the repositories. You can install PPA Purge using:
-
-sudo apt install ppa-purge
-Once you have ppa-purge, you can purge the PPA using:
-
-sudo ppa-purge ppa:shemgp/gnome-40
-If you've also upraded to Yaru from Git, you can revert this by reinstalling the Yaru Ubuntu packages:
-sudo apt install --reinstall yaru-theme-icon yaru-theme-gtk yaru-theme-gnome-shell
-history
-cd ..
-ls
-rm -r dash-to-dock/
-clear
-sudo apt install gnome-session adwaita-icon-theme-full fonts-cantarell
-gnome-shell --version
-sudo apt update && sudo apt upgrade
-sudo apt remove gnome-session adwaita-icon-theme-full fonts-cantarell
-sudo apt autoremove
-sudo apt install gnome-session adwaita-icon-theme-full fonts-cantarell
-reboot
-bling
-texlive
-pdflatex
-clear
-sudo apt-get autoremove
-clear
-cd Desktop/Papers/Astrophysics/
-okular Beginner\'s\ guide\ to\ working\ with\ astronomical\ data.pdf 
-bling
-sudo apt-get autoremove
-clear
-ls
-sudo systemctl status gdm
-sudo journalctl -b
-df -Th
-du -sh /*
-sudo du -sh /*
-cd /root/
-sudo cd /root
-cd /
-cd root/
-sudo su
-bling
-sudo apt-get autoremove
-sudo apt-get purge bleachbit
-clear
-df -sh
-df -f
-df -f /
-df -f /*
-df -Th
-clear
-sudo apt-get update
-bling
-sudo apt purge
-locate libreoffice
-sudo apt clean
-locate libreoffice
-sudo apt-get remove --purge libreoffice*
-locate libreoffice
-sudo apt-get clean
-sudo apt-get autoremove
-locate libreoffice
-bling
-ls
-reboot
-sudo su
-ls | lolcat
-clear
-ls
-cd
-clear
-topcat
-bling
-passwd vampy
-sudo su
-clear
-sudo snap install camtrix
-sudo snap install cmatrix
-sudo apt-get install cmatrix
-cmatrix
-clear
-history | grep -w "ls" 
-history | grep -w "ls" | wc -l
-clear
-fortune
-sudo apt install fortune
-fortune
-sudo apt-get install cowsay
-cowsay
-fortune | cowsay
-cowsay -l
-cowsay -f apt "help"
-cowsay -f cock "help"
-cowsay -f snowman "help"
-cowsay -f kiss "help"
-cowsay -f vader "help"
-cowsay -f bunny fuck you
-fortune | cowsay -f $(ls /usr/share/cows | shuf -n 1)
-fortune | cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1)
-echo "fortue | cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1)" >> scripts/bling 
-bling
-vim scripts/bl
-fortune | cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1)
-fortune | cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1) | lolcat
-sudo apt-get install xcowsay
-fortune | xcowsay
-xcowsay --help
-man xcowsay 
-clear
-sudo apt-get install toilet
-toilet --metal "Vampy"
-toilet --metal "VaMPY"
-date help
-man date
-date %D
-man date
-watch -n 1 "date '+%D%n%T' | figlet -k"
-clear
-insults
-sudo apt-get install insults
-passwd vampy
-sudo vim
-sudo visudo
-cat visudo
-sudo vim
-/usr/bin/hollywood 
-sl -a
-clear
-bash
-sudo su
-clea
-clear
-sudo apt-get install asciiquarium
-sudo snap install asciiquarium
-asciiquarium
-sudo apt-get install hollywood
-hollywood
-sudo apt-get purge hollywodd
-sudo apt-get purge hollywood
-sudo apt-get autopurge
-sudo apt-get install bb
-bb
-clear
-telnet towel.blinkenlights.nl
-bling
-df -Th
-man df
-df
-cd /
-ls
-cd boot/
-ls
-cd 
-man mount
-cd
-clear
-bling
-cat scripts/bling 
-date
-sudo apt-get install tty-clock
-tty-clock
-cowsay
-cowsay help
-clear
-man toilet
-asciiquarium
-vim .tmux.conf 
-reload
-tmux ls
-tmux killserver
-tmux killservers
-tty-clock
-asciiquarium
-lolcat hey
-ls | lolcat
-clear
-ls
-cd Desktop/
-ls
-cd Papers/
-ls
-cd Astrophysics/
-ls
-clear
-tmux new -s monitor
-tmux
-ll
-tmux
-tmux ks
-tmux ls
-tmux kill
-tmux kill-server
-tmux ls
-vim .tmux.conf 
-tmux
-tmux ls
-tmux kill-server
-clear
-htop
-clear
-tty-clock
-clear
-sudo apt-get remove vimgolf
-sudo apt-get remove vim-golf
-exit
-ls
-sudo vim
-sudo visudo 
-cat visudo
-sudo vim
-sudo visudo 
-exit
-sudo vim
-sudo visudo 
-exit
-sudo vim
-clear
-apt list | grep "python" | wc -l
-man apt
-clear
-sudo apt-get remove bb
-clear
-sudo apt-get autoremove
-apt list
-apt list | wc -l
-apt list | grep "libreoffice"
-pip list
-apt list | grep "python"
-apt list | grep "python" | wc -l
-clear
-cd Desktop/intro2astro/
-ls
-cd Papers
-ls
-okular The\ First\ Habitable\ Zone\ Earth-sized\ Planet\ from\ TESS.\ I\:\ Validation\ of\ the\ TOI-700\ System\(W2\).pdf 
-exit
-reboot
-sudo dpkg -i virtualbox-6.1_6.1.22-144080_Ubuntu_eoan_amd64.deb 
-ls -l /usr/lib/virtualbox/
-sudo chmod 4711 /usr/lib/virtualbox/VirtualBox
-clear
-sudo dpkg -r virtualbox
-sudo dpkg -r virtualbox-6.1_6.1.22-144080_Ubuntu_eoan_amd64.deb 
-virtualbox
-virtualbox --version
-sudo apt-get install virtualbox
-apt --fix-broken install
-sudo apt --fix-broken install
-clear
-sudo apt-get install virtualbox
-clear
-cd Downloads/
-ls
-sudo dpkg -i virtualbox-6.1_6.1.22-144080_Ubuntu_eoan_amd64.deb 
-ls
-cd VirtualBox\ VMs/
-ls
-cd Arch
-ls
-clear
-bling
-cd
-clear
-sudo apt-get autoremove
-ll
-ls -ah
-ls -ahl
-vim tmux-server-325325.log 
-xournalpp
-xpp
-clear
-ls /bin
-xournalpp
-sudo apt -f install
-sudo apt-get install xournalpp
-clear
-exit
-sudo snap install xournalpp
-sudo apt-get remove xournalpp
-clear
-xournalpp
-clear
-bling
-clear
-ls
-rm tmux-*.log
-bling
-tmux
-clera
-clear
-reboot
-bling
-sudo apt-get autoremove
-sudo apt-get update
-sudo apt-get upgrade
-clear
-sudo snap update
-clear
-gnome
-clear
-bling
-tty-clock
-asciiquarium
-clear
-bling
-clear
-bling
-cd VirtualBox\ VMs/
-ls
-clear
-cler
-clear
-ls
-ll
-cd ..
-df -Th
-cd /
-df -Th
-clear
-df -Th
-cd
-cd OS/
-ls
-cd
-ll
-ll -H
-ls -h
-ls -alh
-du OS/
-du -h OS/
-du -h
-du -h ./
-cd /
-du -h ./
-du -h /root/
-sudo du -h /root/
-clear
-ls
-cd
-mkdir OS
-mv Downloads/Windows.iso OS/
-mv Downloads/archlinux-2021.06.01-x86_64.iso OS/
-cd /
-ls
-cd mnt
-ls
-cd /media/
-ls
-cd vampy/
-ls
-cd Ventoy/
-ls
-mv pentoo-full-amd64-hardened-2021.0_p20210613.iso ~/OS/
-ls
-cp ~/OS/pentoo-full-amd64-hardened-2021.0_p20210613.iso 
-cp -v ~/OS/pentoo-full-amd64-hardened-2021.0_p20210613.iso ./
-ll
-ls System\ Volume\ Information/
-clear
-cd
-clea
-clear
-bling
-du -h OS/
-clear
-virtualbox
-bling
-clear
-ls
-clear
-bling
-cd VirtualBox\ VMs/
-ls
-rm win10/
-rm -rf win10/
-bling
-ls
-ls win10/
-rm -rf win10/
-ls
-rm -rf win10/
-ls
-cd win10/
-ls
-ll
-cd ..
-du -h ./
-rm -rf
-ls
-rm -rf *
-ls
-cd ..
-ls
-clear
-rm VirtualBox\ VMs/
-rm -r VirtualBox\ VMs/
-cd VirtualBox\ VMs/
-ls
-cd pentoo/
-ls
-clear
-cd 
-rm -rf VirtualBox\ VMs/
-ls
-clear
-ls Vir
-ls VirtualBox\ VMs/
-cd
-cd /media/
-ls
-cd vampy/
-ls
-cd Ventoy/
-ls
-cp ./alpine-standard-3.14.0-x86_64.iso ~/OS/
-cd ~/OS/
-ls
-clear
-discord
-sudo snap install discord
-snap help refresh
-sudo apt-get install discord
-sudo snap install discord
-clear
-discord
-snap version
-snap connections discord
-snap connect discord:gnome-3-28-1804 gnome-3-28-1804:gnome-3-28-1804
-snap connect discord:gtk-3-themes gtk-common-themes:gtk-3-themes
-snap connect discord:icon-themes gtk-common-themes:icon-themes
-snap connect discord:sound-themes gtk-common-themes:sound-themes
-snap changes
-cd OS/
-lss
-ls
-rm *.iso !(arch*.iso)
-rm -i *.iso 
-ls
-ll
-clear
-sudo snap list
-reboot
-clear
-asciiquarium
-clear
-bling
-ls
-cd Vi
-cd VirtualBox\ VMs/
-ls
-df -Th
-cd /
-ls
-cd root
-sudo cd root
-ls
-cd root/
-sudo cd root/
-cd root/
-su
-sudo su
-bling
-cd
-cd Vi
-cd VirtualBox\ VMs/
-ls
-ll
-cd 
-sudo du -sh /home/vampy/
-sudo du -sh /home/vampy/*
-sudo du -sh /home/vampy/*.*
-sudo du -sh /home/vampy/.*
-ls -al
-sudo du -sh /home/vampy/*
-sudo du -sh /home/vampy/[*.]*
-sudo du -sh /home/vampy/*
-sudo du -sh /home/vampy/
-ls
-ls -a
-bling
-df /home
-du -ht 50M /home
-cd .local/
-ls
-cd share/
-ls
-cd Trash/
-ls
-cd files/
-ls
-cd
-bling
-vim scripts/bling 
-bling
-clear
-reboot
-man du
-du ./
-du -h ./
-clear
-ls
-clear
-ls
-ll
-clear
-exit
-vimgolf
-vimgolf helo
-vimgolf help
-rm -rf .vimgolf/
-vimgolf
-sudo apt-get remove vimgolf
-sudo dpkg -r vimgolf
-ls /bin | vim
-ls /bin | grep "vim"
-ls /sbin | grep "vim"
-ls /usr/bin/ | grep "vim"
-cd /
-ls
-cd usr/
-ls
-cd bin/
-ls
-cd ..
-ls
-cd local/
-ls
-cd bin/
-ls
-thor
-ls
-ll
-osync.sh
-ls
-rm vimgolf 
-sudo rm vimgolf 
-ls
-cd
-vimgolf
-cd
-clear
-du -h ./
-man du
-clear
-exit
-du -h /bin
-clear
-cd /bin/
-ls
-du -h /bin/
-clear
-cd
-clear
-exit
-bling
-clear
-exit
-tmux new -s papers
-sudo apt-get remove kdewallet
-sudo apt-get remove keyring
-cd -
-cd Desktop/Astro-data/M31\ Spectra\ Analysis/
-python3 test_plt.py 
-pip list
-vim 
-vim plt.py
-python3 plt.py 
-pip install numpy
-pip install scipy
-clear
-cd Desktop/Python/
-ls
-cd ../Astro-data/
-ls
-cd M31\ Spectra\ Analysis/
-ls
-git status
-vim pip
-pip install pip
-ls
-mv pip pip.txt
-pip install pip.txt 
-pip -v install pip.txt 
-where pip
-whereis pip
-cd .local/bin/pip3.8
-cd .local/
-cd bin/
-ls
-cd pip
-whereis pip list
-cd
-pip3 list
-python3
-clear
-tmux new -s astro
-pip list
-jupyter notebook
-systemctl shutdown
-shutdown
-cd Desktop/
-cd ari
-cd articles/
-ls
-jupyter notebook
-pip install jupyter_core
-jupyter notebook
-pip install notebook
-jupyter notebook
-pdflatex
-texlive
-clear
-bling
-pip install notebook
-jupyter notebook
-clear
-ls
-cd iraf-2.16.1-2018.11.01/
-ls
-pip install jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments notebook qtconsole nbconvert nbformat
-jupyter notebook
-vim
-clear
-ls
-sudo python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments notebook qtconsole nbconvert nbformat
-sudo python3 -m pip install -y jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments notebook qtconsole nbconvert nbformat
-sudo python3 -m pip install jupyter jupyter_core jupyter-client jupyter-console jupyterlab_pygments notebook qtconsole nbconvert nbformat
-jupyter notebook
-whereis tex
-cd /usr/bin/tex
-cd /usr/bin/
-ls
-ls | grep tex
-latex
-clear
-ls
-pip list
-sudo apt install python3-pip
-pip install notebook
-jupyter notebook
-sudo apt install jupyter-core
-clear
-ls
-clear
-ls
-clear
-apt
-vim
-vi
-clear
-vim
-vi
-clear
-sudo apt-get jupyter_core
-sudo apt install jupyter-core
-jupyter notebook
-sudo apt install notebook
-jupyter-notebook
-sudo apt install jupyter-notebook
-jupyter notebook
-sudo apt-get install brave
-sudo apt-get install brave-browser
-jupyter notebook
-pip install jupyter_contrib_nbextensions && jupyter contrib
-pip instal jupyter contrib
-pip install jupyter contrib
-nbextension install
-sudo apt-get install gnome-tweaks
-tweaks
-sudo apt-get purge libreoffice*
-sudo apt autoremove
-sudo apt-get install okular
-Jupyter Notebook Extensions Tab
-Enable the extensions you want and enjoy the productivity benefits.
-(If you don’t see a tab, open a notebook and click Edit > nbextensions config)
-The enabled extensions can be seen in the toolbar in a notebook:
-Slightly Longer Version
-If that isn’t satisfying enough for you, below are some details about Jupyter notebook extensions. I’ve also included my top 5 to get you started.
-What are notebook extensions?
-Jupyter Notebook extensions are simple add-ons that extend the basic functionality of the notebook environment. Written in JavaScript, they do things like autoformat your code or send a browser notification when a cell has completed. Extensions currently only work in Jupyter Notebooks (not Jupyter Lab).
-Why use these extensions? Jupyter Notebooks are great tools for teaching, learning, prototyping, exploring, and trying out new methods (or even in production at Netflix). However, vanilla notebooks are limited in features which can make working in them frustrating. While Jupyter Notebook extensions don’t completely solve the problem, they do add a few benefits that will make your work easier.
-Which to Use
-Following are the 5 Jupyter Notebook extensions I use most often:
-1. Table of Contents: easier navigation
-Once you start getting dozens of cells in one Jupyter Notebook, it can be difficult to keep track of them all. The Table of Contents solves that problem by adding a linked TOC that can be positioned anywhere on the page:
-Table of Contents
-You can also use the extension to add a linked table of contents at the top of the notebook. This even shows which cell is selected and which is running:
-Table of Contents in Notebook
-2. Autopep8: neat code in one click
-We should all write pep8 compliant code, but sometimes youStart up a Jupyter Notebook and navigate to the new Nbextensions tab:
-Jupyter Notebook Extensions Tab
-Enable the extensions you want and enjoy the productivity benefits.
-(If you don’t see a tab, open a notebook and click Edit > nbextensions config)
-The enabled extensions can be seen in the toolbar in a notebook:
-Slightly Longer Version
-If that isn’t satisfying enough for you, below are some details about Jupyter notebook extensions. I’ve also included my top 5 to get you started.
-What are notebook extensions?
-Jupyter Notebook extensions are simple add-ons that extend the basic functionality of the notebook environment. Written in JavaScript, they do things like autoformat your code or send a browser notification when a cell has completed. Extensions currently only work in Jupyter Notebooks (not Jupyter Lab).
-Why use these extensions? Jupyter Notebooks are great tools for teaching, learning, prototyping, exploring, and trying out new methods (or even in production at Netflix). However, vanilla notebooks are limited in features which can make working in them frustrating. While Jupyter Notebook extensions don’t completely solve the problem, they do add a few benefits that will make your work easier.
-Which to Use
-Following are the 5 Jupyter Notebook extensions I use most often:
-1. Table of Contents: easier navigation
-Once you start getting dozens of cells in one Jupyter Notebook, it can be difficult to keep track of them all. The Table of Contents solves that problem by adding a linked TOC that can be positioned anywhere on the page:
-Table of Contents
-You can also use the extension to add a linked table of contents at the top of the notebook. This even shows which cell is selected and which is running:
-Table of Contents in Notebook
-2. Autopep8: neat code in one click
-We should all write pep8 compliant code, but sometimes you get caught up in an analysis and it’s hard to stick to best practices. When you’re done writing that amazing plot, this extension allows you to simply click the gavel and automatically format your messy code.
-Autopep8 your code.
-Like the best add-ons, this one accomplishes a time-consuming and tedious task with a simple click, enabling you to focus on thinking through problems.
-3. Variable inspector: keep track of your workspace
-The variable inspector shows the names of all variables you’ve created in the notebook, along with their type, size, shape, and value.
-Variable inspector
-This tool is invaluable for data scientists migrating from RStudio or if you don’t want to have to keep printing df.shape or can’t recall the type of x.
-4. ExecuteTime: show when and how long cells ran
-I often find myself trying to figure out how long a cell took to run or when I last ran a notebook that has been open for days. ExecuteTime takes care of both of those by showing when a cell finished and how long it took.
-ExecuteTime extension output
-There are better methods for timing (such as the %%timeit cell magic) but this is easy to implement and covers all cells in the notebook.
-5. Hide Code input: hide the work show the results
-Although some of us like to see the hard work that goes into an analysis, some people just like to see the results. The Hide input all extension allows you to instantly hide all the code in the notebook while keeping outputs.
-Hide all code
-The next time someone says they just want to see the results, you have a single click solution. (Although you should always examine the code).
-These are just the extensions I find myself using the most often and you’re not limited to five. Check out the whole list by installing the extensions and opening a notebook (the notebook shown here is on GitHub)! (If you are up for it, you can even write your own extension. Documentation is pretty scarce, but here’s the basic structure.)
-Conclusions
-Install the Jupyter Notebook extensions, spend some time figuring out which ones are useful to you, and improve your productivity. While none of these are life-changing, they all add just enough benefit to be worthwhile, cumulatively saving you hours of valuable development time.
-Although you’ll probably want to put some time into learning an IDE if you are writing production code (I’m liking VS Code), Jupyter Notebooks are still an integral part of a data science workflow. If you are going to be using this environment, you might as well get the most from your tools.
-As always, I welcome feedback and constructive criticism. I can be reached on Twitter @koehrsen_will or through my personal website willk.online.
-Sign up for The Variable
-By Towards Data Science
-Every Thursday, the Variable delivers the very best of Towards Data Science: from hands-on tutorials and cutting-edge research to original features you don't want to miss. Take a look.
-
-You'll need to sign in or create an account to receive this newsletter.
-More from Towards Data Science
-Follow
-Your home for data science. A Medium publication sharing concepts, ideas and codes.
-Read more from Towards Data Science
-More From Medium
-Do Not Use Print For Debugging In Python Anymore
-Christopher Tao in Towards Data Science
-The 5 Certificate to Prove Your Python Knowledge Level
-Sara A. Metwalli in Towards Data Science
-4 Cool Python Libraries That You Should Know About
-Ismael Araujo in Towards Data Science
-19 Sklearn Features You Didn’t Know Existed | P(Guarantee) = 0.75
-Bex T. in Towards Data Science
-4 Tricks to Use Python F-strings More Efficiently
-Soner Yıldırım in Towards Data Science
-9 Useful Pandas Methods You Might Have Not Heard About
-Eryk Lewinson in Towards Data Science
-Crack Data Science Interviews: Five SQL Skills for Data Scientists
-Leihua Ye, Ph.D. Researcher in Towards Data Science
-The 3 Must-Read Data Science Books for Absolute Beginners
-Arunn Thevapalan in Towards Data Science
-About
-Write
-Help
-Legal
-Start up a Jupyter Notebook and navigate to the new Nbextensions tab:
-Jupyter Notebook Extensions Tab
-Enable the extensions you want and enjoy the productivity benefits.
-(If you don’t see a tab, open a notebook and click Edit > nbextensions config)
-The enabled extensions can be seen in the toolbar in a notebook:
-Slightly Longer Version
-If that isn’t satisfying enough for you, below are some details about Jupyter notebook extensions. I’ve also included my top 5 to get you started.
-What are notebook extensions?
-Jupyter Notebook extensions are simple add-ons that extend the basic functionality of the notebook environment. Written in JavaScript, they do things like autoformat your code or send a browser notification when a cell has completed. Extensions currently only work in Jupyter Notebooks (not Jupyter Lab).
-Why use these extensions? Jupyter Notebooks are great tools for teaching, learning, prototyping, exploring, and trying out new methods (or even in production at Netflix). However, vanilla notebooks are limited in features which can make working in them frustrating. While Jupyter Notebook extensions don’t completely solve the problem, they do add a few benefits that will make your work easier.
-Which to Use
-Following are the 5 Jupyter Notebook extensions I use most often:
-1. Table of Contents: easier navigation
-Once you start getting dozens of cells in one Jupyter Notebook, it can be difficult to keep track of them all. The Table of Contents solves that problem by adding a linked TOC that can be positioned anywhere on the page:
-Table of Contents
-You can also use the extension to add a linked table of contents at the top of the notebook. This even shows which cell is selected and which is running:
-Table of Contents in Notebook
-2. Autopep8: neat code in one click
-Start up a Jupyter Notebook and navigate to the new Nbextensions tab:
-Jupyter Notebook Extensions Tab
-Enable the extensions you want and enjoy the productivity benefits.
-(If you don’t see a tab, open a notebook and click Edit > nbextensions config)
-The enabled extensions can be seen in the toolbar in a notebook:
-Slightly Longer Version
-If that isn’t satisfying enough for you, below are some details about Jupyter notebook extensions. I’ve also included my top 5 to get you started.
-What are notebook extensions?
-Jupyter Notebook extensions are simple add-ons that extend the basic functionality of the notebook environment. Written in JavaScript, they do things like autoformat your code or send a browser notification when a cell has completed. Extensions currently only work in Jupyter Notebooks (not Jupyter Lab).
-Why use these extensions? Jupyter Notebooks are great tools for teaching, learning, prototyping, exploring, and trying out new methods (or even in production at Netflix). However, vanilla notebooks are limited in features which can make working in them frustrating. While Jupyter Notebook extensions don’t completely solve the problem, they do add a few benefits that will make your work easier.
-Which to Use
-Following are the 5 Jupyter Notebook extensions I use most often:
-1. Table of Contents: easier navigation
-Once you start getting dozens of cells in one Jupyter Notebook, it can be difficult to keep track of them all. The Table of Contents solves that problem by adding a linked TOC that can be positioned anywhere on the page:
-Table of Contents
-You can also use the extension to add a linked table of contents at the top of the notebook. This even shows which cell is selected and which is running:
-Table of Contents in Notebook
-2. Autopep8: neat code in one click
-We should all write pep8 compliant code, but sometimes you get caught up in an analysis and it’s hard to stick to best practices. When you’re done writing that amazing plot, this extension allows you to simply click the gavel and automatically format your messy code.
-Autopep8 your code.
-Like the best add-ons, this one accomplishes a time-consuming and tedious task with a simple click, enabling you to focus on thinking through problems.
-3. Variable inspector: keep track of your workspace
-The variable inspector shows the names of all variables you’ve created in the notebook, along with their type, size, shape, and value.
-Variable inspector
-This tool is invaluable for data scientists migrating from RStudio or if you don’t want to have to keep printing df.shape or can’t recall the type of x.
-4. ExecuteTime: show when and how long cells ran
-I often find myself trying to figure out how long a cell took to run or when I last ran a notebook that has been open for days. ExecuteTime takes care of both of those by showing when a cell finished and how long it took.
-ExecuteTime extension output
-There are better methods for timing (such as the %%timeit cell magic) but this is easy to implement and covers all cells in the notebook.
-5. Hide Code input: hide the work show the results
-Although some of us like to see the hard work that goes into an analysis, some people just like to see the results. The Hide input all extension allows you to instantly hide all the code in the notebook while keeping outputs.
-Hide all code
-The next time someone says they just want to see the results, you have a single click solution. (Although you should always examine the code).
-These are just the extensions I find myself using the most often and you’re not limited to five. Check out the whole list by installing the extensions and opening a notebook (the notebook shown here is on GitHub)! (If you are up for it, you can even write your own extension. Documentation is pretty scarce, but here’s the basic structure.)
-Conclusions
-Install the Jupyter Notebook extensions, spend some time figuring out which ones are useful to you, and improve your productivity. While none of these are life-changing, they all add just enough benefit to be worthwhile, cumulatively saving you hours of valuable development time.
-Although you’ll probably want to put some time into learning an IDE if you are writing production code (I’m liking VS Code), Jupyter Notebooks are still an integral part of a data science workflow. If you are going to be using this environment, you might as well get the most from your tools.
-As always, I welcome feedback and constructive criticism. I can be reached on Twitter @koehrsen_will or through my personal website willk.online.
-Sign up for The Variable
-By Towards Data Science
-Every Thursday, the Variable delivers the very best of Towards Data Science: from hands-on tutorials and cutting-edge research to original features you don't want to miss. Take a look.
-
-You'll need to sign in or create an account to receive this newsletter.
-More from Towards Data Science
-Follow
-Your home for data science. A Medium publication sharing concepts, ideas and codes.
-Read more from Towards Data Science
-More From Medium
-Do Not Use Print For Debugging In Python Anymore
-Christopher Tao in Towards Data Science
-The 5 Certificate to Prove Your Python Knowledge Level
 Sara A. Metwalli in Towards Data Science
 4 Cool Python Libraries That You Should Know About
 Ismael Araujo in Towards Data Science
@@ -1998,3 +1161,840 @@ clear
 ls
 ll
 sudo apt-get install firefox
+git remote add origin https://github.com/vaammpyy/dotfiles.git
+git push
+git push --set-upstream origin master
+git push
+clear
+git pull
+clear
+ls
+neofetch
+cd /
+ll
+cd
+ll
+cat .vimrc 
+cat .vimrc >> vimrc.txt
+cat .vimrc 
+cat vimrc.txt 
+ls
+clear
+ll
+clear
+exit
+ls
+cd .config/
+ls
+mkdir dotfiles
+cd dotfiles/
+ls
+cp ~/.bash* ./
+ls
+ls ~/.bash*
+ll
+ls
+ll
+cp ~/.vimrc ./
+ll
+cd ../
+ls
+cd neofetch/
+ls
+bling
+cd ../
+cp neofetch/ dotfiles/
+cp -r neofetch/ dotfiles/
+cd dotfiles/
+ls
+ll
+cd ..
+ll
+cd ..
+ls
+cd ll
+ll
+ll | grep git
+cat .gitconfig 
+cd .config/
+ls
+ll | grep git
+whereis .git
+rm -rf geary/
+cd tlpui/
+ls
+cat tlpui.cfg 
+cd ..
+clear
+ll
+cd dotfiles/
+ls
+ll
+cp ~/.gitconfig ./
+ll
+cd 
+ll
+less .tmux.conf 
+cp .tmux.conf .config/dotfiles/
+cd .config/dotfiles/
+ll
+locate .git
+sudo apt-get install mlocate
+cat .gitconfig 
+locate .git
+locate .git ~/
+clear
+ll
+git innit
+git init
+git add *
+git commit -m "Adding all the config files"
+git stats
+git status
+git add .*
+git ls files
+git log
+git ls -files
+git --help
+git ls-files
+git add .vimrc .bashrc .bash_profile
+git status
+git add .bash*
+git status
+git add .tmux.conf .gitconfig 
+git status
+git commit -m "Adding all the config files"
+git ls-files
+cd
+ll
+less .profile 
+cp .profile .config/dotfiles/
+cd .config/dotfiles/
+ls
+git add .profile 
+git commit -m "config profile added"
+git ls-files
+cd
+mkdir test
+cd test/
+touch f a kdf g s g
+ls
+mkdir new
+cd new
+ln -s ../* ./
+ll
+cd ..
+cd
+rm -rf test/
+mkdir test
+cd test/
+touch a d s h k l o
+ls >> del.txt
+cat del.txt 
+cat del.txt | rm 
+rm $(cat del.txt)
+ls
+cd 
+rm test/
+rm -r test/
+ls
+cat login.cl 
+cp login.cl .config/dotfiles/
+ls -a .config/dotfiles/
+ls -a .config/dotfiles/ >> delete.txt
+cat delete.txt 
+vim delete.txt 
+cat delete.txt 
+ls | grep $(delete.txt)
+rm $(cat delete.txt)
+ls
+ll
+ln -s .config/dotfiles/ ./
+ll
+rm dotfiles
+ll
+ln -s .config/dotfiles/* ./
+ll
+rm neofetch
+ll
+cd .config/dotfiles/
+ls
+ll
+cd
+ln -s .config/dotfiles/.* ./
+ll
+vim
+rm .git
+ll
+rm delete.txt 
+cd .config/
+ls
+rm -rf neofetch/
+ln -s dotfiles/neofetch/ ./
+ll
+bling
+clear
+cd
+bling
+ll
+cat .viminfo 
+clear
+ll
+mv .Xresources .config/dotfiles/
+ln -s .config/dotfiles/.Xresources ./
+ll
+cd .config/
+ll
+cd dotfiles/
+ls
+ll
+git status
+git add login.cl .Xresources 
+git commit -m "adding some more config files"
+clear
+git ls-files
+git help
+git pull
+git push
+git remote add https://github.com/vaammpyy/dotfiles.git
+bash
+exit
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get upgrade
+sudo apt-get full-upgrade
+bling
+reboot
+sudo reboot
+bling
+sudo apt-get autoremove
+clear
+cd /boot/
+ls
+ls efi/
+sudo ls efi/
+sudo su
+settings
+gsettings
+clear
+gnome-control-center 
+sudo su
+sudo apt --reinstall pop-desktop
+sudo apt install --reinstall pop-desktop
+reboot
+gnome-control-center 
+sudo apt update ; sudo apt upgrade
+sudo apt upgrade
+sudo apt-get install --reinstall gnome-control-center
+clear
+reboot
+apt policy libpop-upgrade-gtk
+sudo ldconfig
+sudo add-apt-repository ppa:ubuntu-desktop/ppa
+sudo apt install --reinstall gnome-control-center
+gnome-control-center 
+apt-get install -f --reinstall gnome-control-center gnome-control-center-data
+sudo apt-get install -f --reinstall gnome-control-center gnome-control-center-data
+dconf reset -f /org/gnome/control-center/
+sudo apt install gnome-control-center
+reboot
+sudo apt install ppa-purge
+sudo ppa-purge ppa:system76/pop
+sudo apt install gnome-control-center
+apt-get install -f --reinstall gnome-control-center gnome-control-center-data
+sudo apt-get install -f --reinstall gnome-control-center gnome-control-center-data
+sudo apt install pop-desktop
+sudo apt install --reinstall pop-desktop
+sudo apt-get autoremove
+sudo apt update && sudo apt install -f gnome-control-center gnome-conrol-center-data
+sudo apt install -f gnome-control-center gnome-conrol-center-data
+sudo apt install -f gnome-control-center gnome-control-center-data
+sudo apt install hidpi-daemon
+sudo apt install --reinstall hidpi-daemon
+clear
+sudo apt-get remove gnome-control-center
+sudo apt-get install gnome-control-center
+sudo apt-get install pop-desktop
+sudo apt-get remove geary libreoffice*
+sudo apt-get remove gnome-weather 
+sudo apt-get remove grub-customizer 
+sudo apt-get autoremove
+clear
+gnome-control-center 
+sudo add-apt-repository --remove ppa:system76/pop
+sudo apt install --reinstall gnome-control-center
+clear
+gnome-control-center 
+sudo add-apt-repository --remove ppa:system76/pop
+sudo add-apt-repository ppa:system76/pop
+sudo apt install --reinstall gnome-control-center
+clear
+exit
+sudo apt remove gnome-weather
+sudo vim /etc/apt/sources.list
+cd /etc/apt
+ls
+cat sources.list~
+cat sources.list.backup 
+cd sources.list.d
+ls
+ls ../sources.list.d.backup/
+sudo apt-get upgrade
+cd 
+sudo apt-get update
+sudo add-apt-repository --remove ppa:ubuntu-groovy
+cd /boot/efi/
+sudo cd /boot/efi/
+cd /boot/
+cd efi/
+sudo cd efi/
+sudo su 
+cd
+sudo apt install grub-efi grub2-common grub customizer
+sudo apt install grub-efi grub2-common grub-customizer
+sudo grub-install
+sudo cp /boot/grub/x86_64-efi/grub.efi /boot/efi/EFI/pop/grubx64.efi
+sudo reboot
+man awk
+clear
+cd Desktop/Python/cgpa/
+ls
+cat CGPA_online_vs_physical_semesters.csv 
+awk 'print $2' CGPA_online_vs_physical_semesters.csv 
+vim CGPA_online_vs_physical_semesters.csv 
+awk 'print $2' CGPA_online_vs_physical_semesters.csv 
+vim CGPA_online_vs_physical_semesters.csv 
+cat CGPA_online_vs_physical_semesters.csv | awk 'print $2'
+cat CGPA_online_vs_physical_semesters.csv | awk '{print $2}'
+awk '{print $2}' CGPA_online_vs_physical_semesters.csv 
+echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) ,$(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)",$(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)"
+echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) ,$(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)",$(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" >> new.csv
+ha
+
+
+
+
+echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv)"
+echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) ," 
+echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" 
+echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | wc -l
+echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | wc -l
+echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)"
+printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)"
+printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | grep -999
+printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | grep "-999"
+printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | grep "999"
+printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $4}' CGPA_online_vs_physical_semesters.csv)" >> text.txt
+wc -l text.txt 
+ls
+rm cgpa.txt 
+mv text.txt cgpa.txt
+ls
+vim cgpa.txt 
+ls
+clear
+vim 
+vim plot.py 
+pip install pandas
+vim plot.py 
+clear
+pip install matplotlib astropy specutils numba gnuplot
+sudo apt-get install gnuplot
+vim plot.py 
+clear
+pip install matplotlib
+python3 plot.py 
+vim plot.py 
+clear
+python3 plot.py 
+vim plot.py 
+cat cgpa.txt 
+wc -l cgpa.txt 
+vim plot.py 
+python3 plot.py 
+vim plot.py 
+python3 plot.py 
+vim plot.py 
+python3 plot.py 
+vim plot.py 
+python3 plot.py 
+ls
+rm *.txt
+ls
+clear
+awk '{print $2 "," $3 "," $4 ","}'
+awk '{print $2 "," $3 "," $4 ","}' CGPA_online_vs_physical_semesters.csv 
+awk '{print $2 "," $3 "," $4}' CGPA_online_vs_physical_semesters.csv 
+awk '{print $2 "," $3 "," $4}' CGPA_online_vs_physical_semesters.csv >> cgpa.csv && vim cgpa.csv
+cat cgpa.csv 
+clear
+cat cgpa.csv 
+vim cgpa.csv 
+less cgpa.csv 
+clear
+ls
+rm CGPA_online_vs_physical_semesters.csv 
+ls
+clear
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
+sudo apt update
+sudo apt install r-base
+R
+clear
+exit
+xterm &
+ls
+clear
+vim .bash_profile 
+xterm &
+cl
+iraf
+clera
+clear
+cl
+ds9 &
+cl
+exit
+tmux -a iraf
+tmux a -t iraf
+exit
+cl
+clear
+ls
+clear
+ls
+less login.cl 
+clear
+vi
+clear
+cd Desktop/iraf/
+cl
+clear
+tmux new -s "monitor"
+clear
+tmux new -s "iraf"
+cat .bashrc
+clear
+ls
+man sed
+clear
+cp login.cl test.txt
+cat test.txt 
+clear
+tmux new -s monitor
+clear
+awk '{print $0}' test.txt 
+clear
+awk '{print $1}' test.txt 
+clear
+awk '/#/' test.txt 
+awk '/xterm/' test.txt 
+clear
+man grep
+sudo apt-get update
+sudo apt-get install obsidian
+curl -o- https://raw.githubusercontent.com/ZA-PT/Obsidian/canary/configure_env/ubuntu/configure_env.sh | bash
+ls
+mv Obsidian/
+mv Obsidian/ Downloads/
+ls
+cd Do
+cd Downloads/
+ls
+rm Obsidian/
+rm -rf Obsidian/
+sudo curl -o- https://raw.githubusercontent.com/ZA-PT/Obsidian/canary/configure_env/ubuntu/configure_env.sh | bash
+cd Obsidian/
+ls
+./build.sh 
+sudo ./build.sh 
+cd ..
+rm -rf Obsidian/
+ls
+ll
+ls
+tar -xvf Zotero-5.0.96.2_linux-x86_64.tar.bz2 
+ls
+cd Zotero_linux-x86_64/
+ls
+./zotero
+cd ..
+ls /opt
+sudo cp Zotero_linux-x86_64/ /opt/zotero
+sudo cp -r Zotero_linux-x86_64/ /opt/zotero
+ls /opt
+cd /opt/zotero/
+ls
+cd -
+cd Zotero_linux-x86_64/
+./set_launcher_icon 
+cd /opt/zotero/
+ls
+./set_launcher_icon 
+sudo ./set_launcher_icon 
+ln -s /opt/zotero/zotero.desktop ~/.local/share/applications/
+cd ~/.local/share/applications/
+ll
+cd ~/Downloads/
+ll
+rm -rf Zotero*
+ll
+clear
+ll
+cd
+zotero
+clear
+cd /opt/zotero/
+ls
+./zotero
+ln -s /opt/zotero/zotero /usr/local/bin/
+sudo ln -s /opt/zotero/zotero /usr/local/bin/
+cd
+zotero
+zotero &
+xkill zotero
+zotero &
+clear
+ls
+clear
+ls
+rm test.txt 
+ll
+flatpak install obsidian
+clear
+flatpak install obsidian
+sudo apt-get installed texlive-full
+sudo apt-get install texlive-full
+clear
+cd Desktop/notes/
+ll
+touch .obsidian.vimrc
+vim .obsidian.vimrc 
+clear
+exit
+cd Desktop/notes/
+ll
+exit
+jupyter notebook
+clear
+gs
+clear
+ls --color=auto
+ll
+ls -a --color=auto
+ll
+clear
+ll
+cat .lesshst 
+cleas
+clear
+ls | grep --color=auto "."
+ls -a | grep --color=auto "."
+ls -a | grep "."
+ls -a | grep "a"
+ls -a | grep "a" --color=auto
+clear
+ls -A
+vim .bashrc 
+dir
+vim .bashrc 
+bash
+vim .bashrc 
+bash
+dir
+vdir
+cd Desktop/P
+cd Desktop/Python/
+dir
+cd Physics/
+dir
+ls
+cd
+vim .bashrc 
+bash
+dir
+clear
+bash
+bling
+clear
+bling
+clear
+dir
+clear
+ll
+clear
+ls
+clear
+ll
+clear
+vim .bashrc 
+bash
+sudo apt-get install texlive full
+sudo apt-get install texlive-full
+clear
+exit
+mount /media/vampy/Ventoy/ ~/
+sudo mount /media/vampy/Ventoy/ ~/
+ls
+sudo cp /media/vampy/Ventoy/pop-os_20.10_amd64_intel_17.iso ~/OS/
+exit
+cd OS
+ls
+ll
+virtualbox &
+cd OS
+ls
+cd
+cd Do
+cd Downloads/
+ls
+cd ~/Documents/
+ls
+mv IISER\ 21/ IISER-21
+ll
+clear
+cd IISER-21/
+ls
+evince SCB\ Channel\ 2021.pdf 
+ls
+cd ..
+mkdir Personal-docs
+ls
+cd ~/Downloads/
+ls
+mv cisce.org-HSCER-206753391.pdf ~/Do
+ll
+cd
+ls
+mv do Documents/Personal-docs/12th-marksheet.pdf
+mv Do Documents/Personal-docs/12th-marksheet.pdf
+cd Do
+cd Downloads/
+ls
+files
+nutilas 
+nautilus & 
+ll
+mv *.jpg ~/Documents/Personal-docs/
+cd ../Documents/Personal-docs/
+ls
+mv *14.jpg pancard.jpg
+mv *14(1).jpg pancard.jpg
+mv *14*.jpg pancard.jpg
+mv *-16.jpg sign.jpg
+mv 16*.jpg photo.jpg
+ll
+cd ~/OS/
+ls
+rm -rf *
+ls
+cd ..
+rm -r OS/
+ll
+la
+cd VirtualBox\ VMs/
+ls
+rm -rf pop-os/
+ls
+clear
+bling
+ls
+cd
+clear
+du
+clear
+df
+sudo apt-get install texlive-full
+clear
+sudo apt-get install texlive-full
+clear
+apt-get install ripgrep fd-find
+sudo apt-get install ripgrep fd-find
+clear
+emacs
+clear
+cd Downloads/
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+ls
+cd
+~/.emacs.d/bin/doom install
+cd .emacs.d/
+ls
+cd bin
+ls
+doom install
+./doom install
+~/.emacs.d/bin/doom install
+cd
+~/.emacs.d/bin/doom install
+sudo apt-get install doom-emacs
+sudo apt-get install emacs
+add-apt-repository ppa:kelleyk/emacs
+apt-get update
+apt-get install emacs27
+sudo add-apt-repository ppa:kelleyk/emacs
+apt-get update
+sudo apt-get update
+apt-get install emacs27
+sudo apt-get install emacs27
+snap install emacs --classic
+emacs
+ls
+la
+la | grep emacs
+cd Downloads/
+ls
+la
+ls
+cd
+rm -rf .emacs.d/
+ls
+emacs
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+emacs &
+emacs
+.emacs.d/bin/doom sync
+ls
+clear
+ls
+vim
+cd
+sudo apt-get install cmake
+clear
+sudo apt-get install libtool
+sudo apt-get install cmake
+sudo apt-get autoremove
+clear
+ls
+clear
+cl
+clear
+sudo snap remove emacs
+emacs
+ls
+la
+la | grep "emacs"
+rm -rf .emacs.d .doom.d
+la | grep "emacs"
+clear
+apt install build-essential cmake vim-nox python3-dev
+sudo apt install build-essential cmake vim-nox python3-dev
+sudo apt-get update
+sudo apt install build-essential cmake vim-nox python3-dev
+sudo apt install build-essential cmake python3-dev
+vim .vimrc 
+cd ~/.vim/bundle/YouCompleteMe
+python3 install.py --all
+cd .vim/
+ls
+mkdir bundle
+cd bundle/
+git clone https://github.com/Valloric/YouCompleteMe.git
+cd YouCompleteMe/
+ls
+python3 install.py --all
+git submodule update --init --recursive
+python3 install.py --all
+ls
+cd
+vim .vimrc 
+cd .vim/
+ls
+rm -rf bundle/
+ls
+clear
+cd
+vim test.py
+cd .vim/
+cd bun
+cd plugged/
+cd
+cd -
+la
+cd YouCompleteMe/
+ll
+clear
+ls
+python install.py 
+sudo apt-get install python3-dev
+python3 install.py 
+cd
+vim test.py
+clear
+vim test.py
+clear
+python3 test.py 
+pip install numba
+python3 test.py 
+vim test.py 
+python3 test.py 
+vim test.py 
+python3 test.py 
+clear
+rm test.py 
+clear
+ls
+bling
+clear
+ls
+clear
+pip list | grep multiprocessing
+pip list | grep multi
+pip install multiprocessing
+python3
+pip list | grep 'multiprocessing'
+clear
+pip install joblib
+sudo apt-get purge kwalletmanager
+pip uninstall keyring
+la | grep .kde
+vim .vimrc 
+vim 
+clear
+vim .vimrc 
+vim 
+vim .vimrc 
+vim
+vim .vimrc 
+vim
+clear
+vim
+clear
+cd .config/dotfiles/
+gs
+git add *
+git show changes
+git commit -m "Vim: adding the YCM and bracket complete"
+git add .vimrc 
+git add .bashrc 
+git commit -m "Vim: adding the YCM and bracket complete"
+git push
+git push origin master
+cd
+clear
+cd Desktop/Python/
+ls
+cd Physics/y
+cd Physics/
+ls
+clear
+git config --global credentials.helper cache
+git pull
+git status
+cd ..
+cd ~/.config/dotfiles/
+clear
+git pull
+git pull origin master
+git push
+git config --global credentials.helper cache
+git push
+clear
+git push
+clear
+ls
+gs
+cd
+clear
+t
+exit

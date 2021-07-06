@@ -14,14 +14,16 @@ set expandtab
 set smartindent
 set relativenumber number
 set incsearch 
+set ic
 set undodir=~/.vim/undodir
 set nowrap 
 set undofile 
 set hls is
 set encoding=utf-8
+set showcmd
 
 call plug#begin('~/.vim/plugged')
-Plug 'lervag/vimtex'
+"Plug 'lervag/vimtex'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
@@ -41,7 +43,9 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
-map <C-p> :MarkdownPreview<CR>
+map <C-c> <C-w>c
+map <C-p>m :MarkdownPreview<CR>
+map <C-p>l :LLPStartPreview<CR>
 
 inoremap ( ()<ESC>i
 inoremap { {}<ESC>i
