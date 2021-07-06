@@ -18,6 +18,7 @@ set undodir=~/.vim/undodir
 set nowrap 
 set undofile 
 set hls is
+set encoding=utf-8
 
 call plug#begin('~/.vim/plugged')
 Plug 'lervag/vimtex'
@@ -28,7 +29,7 @@ Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox'
 Plug 'rudrab/vimf90'
-Plug 'JuliaEditorSupport/julia-vim'
+Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 
 
@@ -41,5 +42,9 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 map <C-p> :MarkdownPreview<CR>
+
+inoremap ( ()<ESC>i
+inoremap { {}<ESC>i
+inoremap [ []<ESC>i
 inoremap jj <Esc>
 
