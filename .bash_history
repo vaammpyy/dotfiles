@@ -1,30 +1,3 @@
-Sara A. Metwalli in Towards Data Science
-4 Cool Python Libraries That You Should Know About
-Ismael Araujo in Towards Data Science
-19 Sklearn Features You Didn’t Know Existed | P(Guarantee) = 0.75
-Bex T. in Towards Data Science
-4 Tricks to Use Python F-strings More Efficiently
-Soner Yıldırım in Towards Data Science
-9 Useful Pandas Methods You Might Have Not Heard About
-Eryk Lewinson in Towards Data Science
-Crack Data Science Interviews: Five SQL Skills for Data Scientists
-Leihua Ye, Ph.D. Researcher in Towards Data Science
-The 3 Must-Read Data Science Books for Absolute Beginners
-Arunn Thevapalan in Towards Data Science
-About
-Write
-Help
-Legal
-Start up a Jupyter Notebook and navigate to the new Nbextensions tab:
-Jupyter Notebook Extensions Tab
-Enable the extensions you want and enjoy the productivity benefits.
-(If you don’t see a tab, open a notebook and click Edit > nbextensions config)
-The enabled extensions can be seen in the toolbar in a notebook:
-Slightly Longer Version
-If that isn’t satisfying enough for you, below are some details about Jupyter notebook extensions. I’ve also included my top 5 to get you started.
-What are notebook extensions?
-Jupyter Notebook extensions are simple add-ons that extend the basic functionality of the notebook environment. Written in JavaScript, they do things like autoformat your code or send a browser notification when a cell has completed. Extensions currently only work in Jupyter Notebooks (not Jupyter Lab).
-Why use these extensions? Jupyter Notebooks are great tools for teaching, learning, prototyping, exploring, and trying out new methods (or even in production at Netflix). However, vanilla notebooks are limited in features which can make working in them frustrating. While Jupyter Notebook extensions don’t completely solve the problem, they do add a few benefits that will make your work easier.
 Which to Use
 Following are the 5 Jupyter Notebook extensions I use most often:
 1. Table of Contents: easier navigation
@@ -1997,4 +1970,31 @@ gs
 cd
 clear
 t
+exit
+vim .vimrc 
+vim
+vim .vim
+clear
+vim .vimrc 
+clear
+vim
+clear
+cd .config/dotfiles/
+ls
+clear
+ll
+git add ./*
+git status
+git add  all
+git add  --all
+gs
+git commit -m "Adding the command in the buffer with window close shortcuts"
+git push
+clear
+gs
+clear
+git-ls
+clear
+cd .bashrc
+vim ~/.bashrc 
 exit
