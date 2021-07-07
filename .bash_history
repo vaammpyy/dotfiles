@@ -1,167 +1,3 @@
-add-apt-repository "deb http://apt.pop-os.org/proprietary $(lsb_release -cs) main"
-sudo add-apt-repository "deb http://apt.pop-os.org/proprietary $(lsb_release -cs) main"
-sudo apt-get update
-sudo apt-get install texlive
-sudo add-apt-repository "deb [arch=amd64] http://apt.pop-os.org/staging-ubuntu/master $(lsb_release -cs) main"
-add-apt-repository "deb http://apt.pop-os.org/ubuntu $(lsb_release -cs) main multiverse restricted universe"
-sudo add-apt-repository "deb http://apt.pop-os.org/ubuntu $(lsb_release -cs) main multiverse restricted universe"
-sudo add-apt-repository "deb http://apt.pop-os.org/ubuntu $(lsb_release -cs)-security main multiverse restricted universe"
-sudo apt-get install texlive
-add-apt-repository "deb http://apt.pop-os.org/ubuntu $(lsb_release -cs)-backports main multiverse restricted universe"
-sudo add-apt-repository "deb http://apt.pop-os.org/ubuntu $(lsb_release -cs)-backports main multiverse restricted universe"
-sudo apt-get install texlive
-sudo add-apt-repository "deb [arch=amd64] http://apt.pop-os.org/staging/master $(lsb_release -cs) main"
-man apt-secure
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 63C46DF0140D738961429F4E204DD8AEC33A7AFF
-sudo add-apt-repository "deb http://apt.pop-os.org/proprietary $(lsb_release -cs) main"
-sudo add-apt-repository "deb [arch=amd64] http://apt.pop-os.org/staging/master $(lsb_release -cs) main"
-sudo add-apt-repository "deb [arch=amd64] http://apt.pop-os.org/staging-ubuntu/master $(lsb_release -cs) main"
-sudo apt-get install texlive
-cat etc/apt/sources.list.save
-ls etc/apt/sources.list.save
-ls /etc/apt/sources.list.save
-cd /etc/apt
-ls
-cat sources.list.backup 
-cat sources.list
-cat sources.list~
-cat sources.list
-sudo apt-get install cmatrix
-cd
-sudo apt update && sudo apt full-upgrade
-cat /etc/apt/sources.list.d/system.sources
-cat /etc/apt/sources.list.d/pop-os-apps.sources
-cat /ect/apt/sources.list.d/pop-os-apps.sources
-sudo apt-get -f install
-sudo apt-get autoremove
-sudo apt-get upgrade
-sudo apt-get update
-lsb_release -a
-sudo apt-get install texlive
-sudo apt update
-sudo aptitude install texlive
-sudo apt-get install pandoc
-pandoc --version
-cd Desktop/
-ls
-cd articles/
-ls
-cd Uncertainty\ in\ velocity\ measurement\ via\ redshift\ method\ for\ distant\ objects/
-ls
-pandoc Redshift-no-intro-prog-lost.tex -o test.pdf
-pdflatex Redshift-no-intro-prog-lost.tex 
-cd
-sudo apt install gparted
-sudo apt install vlc
-sudo apt update
-sudo apt install vlc
-neofetch 
-sudo snap install texlive
-flatpak search texlive
-sudo add-apt-repository universe multiverse
-sudo apt install vlc
-sudo apt install texlive
-cd -
-pdflatex Redshift-no-intro-prog-lost.tex 
-ls
-evince Redshift-no-intro-prog-lost.pdf 
-cd ~/Desktop/
-ls
-vim new.tex
-sudo apt-get install texlive-full
-clear
-df
-cd VirtualBox\ VMs/
-ls
-rm -rf ./*
-df
-cd
-cd .local/
-ls
-cd share/
-ls
-cd Trash/
-ls
-cd files/
-ls
-cd ../../bi
-cd
-cd .local/
-ls
-cd bin/
-ls
-clear
-exit
-ls -a | wc -l
-ll
-tmux
-tmux new -s monitor
-cat /proc/sys/vm/swappiness
-sudo apt-get install popshop
-clear
-exit
-sudo apt autoremove
-sudo apt autopurge
-clear
-mv ~/Desktop/notes/intro-modern-astro-carroll-ostlie/swirling\ expansion/ Desktop/notes/
-cd OS/
-ls
-wget https://distro.ibiblio.org/tinycorelinux/12.x/x86/release/CorePlus-current.iso
-ls
-mv CorePlus-current.iso OS/
-ls
-ls OS/
-cd OS/
-ls
-ll
-chmod +x CorePlus-current.iso 
-ls
-ll
-chmod 766 CorePlus-current.iso 
-ll
-bling
-sudo apt-get install figlet
-sudo apt-get install asciiquarium cmatrix
-sudo apt-get install cmatrix
-ls
-snap install asciiquarium
-bling
-cd
-du -T
-du
-du OS/
-du -h OS/
-clc
-clear
-asciiquarium
-clear
-bling 
-ls
-man du
-du -Fh
-man du
-du -s
-du -s ./
-du -s /
-sudo du -s /
-bling
-sudo du -sh /
-cd /
-ls
-du -s timeshift/
-sudo du -s timeshift/
-df
-clear
-cd
-ls
-ls -a | wc -l
-ls
-ll
-cd .ssh/
-ls
-cd kn
-cat known_hosts 
-cd
 cat .Xauthority 
 cd Desktop/intro2astro/
 ls
@@ -1997,4 +1833,168 @@ ls
 clear
 exit
 ls
+clear
+apt list
+apt list | wc -l
+apt-get list | wc -l
+apt-get show | wc -l
+apt-list
+apt list
+apt list | grep "Python"
+apt list >> packages.txt
+cat packages.txt 
+ll
+ls -ha
+ls -hal
+sudo apt-get install < packages.txt 
+sudo apt-get remove
+sudo apt-get autopurge
+sudo apt-get install < packages.txt 
+clear
+apt list --installed
+grep "notebook" packages.txt 
+clear
+rm packages.txt 
+ls
+dpkg --get-selection
+dpkg --get-selections
+dpkg --get-selections | wc -l
+apt list --installed >>
+login-ssh 
+clear
+ls
+pip list --all
+pip list 
+cd .local/
+ls
+ls share/
+cd
+ls
+rm Templates/
+ls Templates/
+rm -r Templates/
+ls
+rm -r Music/
+ls
+cd Public/
+ls
+clear
+ls
+clear
+cd
+ls
+mkdir General
+ls
+cd General/
+ls
+cd
+apt list >> General/package.txt
+pip list >> General/lib.txt
+cd General/
+ls
+mv package.txt packages.txt 
+pip install < lib.txt 
+pip install << lib.txt 
+pip install < lib.txt 
+clear
+sudo apt install < packages.txt 
+clear
+cd
+clear
+ls
+clear
+cd General/
+ls
+cat lib.txt 
+awk '{print $1}' lib.txt 
+awk '{print $1 "==" $2}' lib.txt 
+awk '{print $1 "==" $2}' lib.txt > lib.txt 
+cat lib.txt 
+ls
+pip list >> General/lib.txt
+pip list >> ~/General/lib.txt
+awk '{print $1 "==" $2}' lib.txt > py-libs.txt 
+ls
+pip install < py-libs.txt 
+ls
+rm lib.txt 
+ls
+mv packages.txt py-libs.txt backup/
+mkdir backup/
+mv packages.txt py-libs.txt backup/
+cd backup/
+ls
+cd ..
+du
+ll -h
+cd backup/
+ll -h
+cd ..
+ls
+tar -cv packages-libs.tar backup/
+tar -cvf packages-libs.tar backup/
+ls
+ll
+ls -h
+ls -lh
+zip
+clear
+rm packages-libs.tar 
+ls
+tar 
+man tar
+tar -cvfz packages-libs.tar.gz backup 
+tar -cvzf packages-libs.tar.gz backup 
+ls
+ll
+cd z
+cat z
+clear
+ls
+tar -tvf packages-libs.tar.gz 
+rm z
+ls
+ll -h
+tar -xvf packages-libs.tar.gz 
+ll -h
+ls
+cd backup/
+ls
+clear
+ls
+cd ..
+ls
+rm *.gz
+ls
+clear
+ls
+cd
+clear
+ls
+clear
+cd .config/dotfiles/
+ls
+vim README.md
+touch README.md
+ls
+vim README.md 
+mv ~/General/backup/ ./
+ls
+cd ~/General/
+ls
+cd -
+gs
+git add all
+git add --all
+gs
+git commit -m "Adding the packages and library lists along with a REDEME.md file"
+git push
+clear
+cd
+clear
+cd Downloads/
+git clone https://github.com/vaammpyy/dotfiles.git
+git@github.com:vaammpyy/dotfiles.git
+git clonegit@github.com:vaammpyy/dotfiles.git
+git clone git@github.com:vaammpyy/dotfiles.git
 clear
