@@ -1,23 +1,3 @@
-cat .Xauthority 
-cd Desktop/intro2astro/
-ls
-cd planets/
-ls
-cd ..
-ls
-ll
-cd Papers
-ls
-cat exoplanet-review-lee\(W1\).pdf 
-cat exoplanet-review-lee\(W1\).pdf | wc -l
-cd
-vim .bash_profile 
-ls
-tmux
-clear
-ls
-vim .bashrc 
-exit
 ls
 clear
 vim .bashrc 
@@ -1997,4 +1977,24 @@ git clone https://github.com/vaammpyy/dotfiles.git
 git@github.com:vaammpyy/dotfiles.git
 git clonegit@github.com:vaammpyy/dotfiles.git
 git clone git@github.com:vaammpyy/dotfiles.git
+clear
+crontab -e
+crontab -l
+crontab -e
+ls
+clear
+l
+ls
+l
+clear
+ls
+clear
+ls
+clear
+ls
+rm packages.txt py-libs.txt 
+ls
+crontab -e
+clear
+ls
 clear
