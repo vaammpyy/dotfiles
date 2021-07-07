@@ -53,5 +53,6 @@ map <C-p>l :LLPStartPreview<CR>
 inoremap ( ()<ESC>i
 inoremap { {}<ESC>i
 inoremap [ []<ESC>i
+inoremap " ""<ESC>i
 inoremap jj <Esc>
 
