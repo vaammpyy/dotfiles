@@ -1,172 +1,3 @@
-ls -a
-cat .pam_environment 
-cd
-git config --list
-git config --global user.name vaammpyy
-git config --global user.email rohankumarprasad@yahoo.com
-git config --global user.editor vim
-git config --global init.defaultBranch main
-git config --list
-clear
-vim .bashrc 
-exit
-ls
-clear
-exit
-sudo apt install flatpacks
-sudo apt install flatpack
-sudo apt install flatpak
-sudo aptitude install flatpak
-flatpak
-flatpak --help
-clear
-exit
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak remote
-flatpak search discord
-clear
-sudo apt-get purge popshop
-sudo apt-get purge pop-shop
-whereis brigh.txt
-cd /media/vampy/
-ls
-cd /
-ls
-cd media/
-ls
-cd mn
-cd mnt
-cat brigh.txt 
-sudo apt-get install xdotool
-df
-cd .vim/
-ls
-df
-ls
-rm brigh.txt 
-ls
-cd scripts/
-ls
-cd
-lolcat
-bling
-clear
-bling
-cd .config/neofetch/
-ls
-vim config.conf 
-bling
-cd
-exit
-clear
-cp -v ubuntu-21.04-desktop-amd64.iso ~/OS/ && cp pentoo-full-amd64-hardened-2021.0_p20210613.iso ~/OS/ && cp Windows.iso ~/OS/
-ll
-ls
-cd
-ls
-clear
-ls
-cd OS
-ls
-ll
-clea
-cd /media/
-ls
-cd vampy/
-ls
-cd Ventoy/
-mkdir ~/OS
-ls
-tmux
-cd
-clear
-bling
-cd VirtualBox\ VMs/
-ls
-cd win10/
-ls
-vim win10.vdi
-exit
-tty
-cd
-ls
-cd /
-ls
-cd
-startx
-reboot
-tmux new -s monitor
-tmux -a 
-tmux a  
-htop
-df
-cal
-clc
-calc
-ls
-clear
-ls
-clear
-tmux
-okular The\ First\ Habitable\ Zone\ Earth-sized\ Planet\ from\ TESS.\ I\:\ Validation\ of\ the\ TOI-700\ System\(W2\).pdf 
-sudo apt-get update
-cd Desktop/intro2astro/Pa
-cd Desktop/intro2astro/Papers
-ls
-okular The\ First\ Habitable\ Zone\ Earth-sized\ Planet\ from\ TESS.\ I\:\ Validation\ of\ the\ TOI-700\ System\(W2\).pdf 
-tmux
-okular The\ First\ Habitable\ Zone\ Earth-sized\ Planet\ from\ TESS.\ I\:\ Validation\ of\ the\ TOI-700\ System\(W2\).pdf 
-~/scripts/exam-ans 
-whereis hey
-ls
-cd ~/scripts/
-ls
-clear
-cd
-sudo apt-get upgrade
-cat /usr/share/doc/apt/examples/sources.list
-sudo mv /etc/apt/sources.list{,.backup}
-ls
-rm hey.txt 
-sudo mv /etc/apt/sources.list.d{,.backup}
-sudo mkdir /etc/apt/sources.list.d
-sudo cp /usr/share/doc/apt/examples/sources.list /etc/apt/sources.list
-sudo apt update
-sudo apt-get upgrade
-sudo apt update
-sudo apt list --upgradable
-sudo apt list --upgradable -a
-sudo apt update
-sudo apt list --upgradable
-sudo apt list --upgradable -a
-sudo apt update
-gcc --version
-clear
-sudo flatpak install discord
-sudo flatpak install com.discordapp.Discord
-sudo apt-get install spotify
-sudo snap install spotify
-sudo apt-get install texlive
-sudo add-apt-repository ppa:jonathonf/texlive-2019
-sudo apt-get update
-sudo apt-get install texlive
-sudo add-apt-repository ppa:jonathonf/texlive-2019
-sudo apt-get update
-sudo apt-get install texlive
-sudo ppa-purge ppa:jonathonf/texlive-2019
-sudo add-apt-repository --remove ppa:mc3man/trusty-media
-sudo add-apt-repository --remove ppa:jonathonf/texlive-2019
-sudo apt-get update 
-sudo apt-get install texlive
-sudo apt-get --fix-broken
-sudo apt-get install --fix-broken
-sudo apt update
-sudo apt list --upgradable
-sudo apt list --upgradable -a
-sudo apt update
-cat /etc/apt/sources.list
-apt-cache search texlive
-sudo apt-get install pandoc
 add-apt-repository "deb http://apt.pop-os.org/proprietary $(lsb_release -cs) main"
 sudo add-apt-repository "deb http://apt.pop-os.org/proprietary $(lsb_release -cs) main"
 sudo apt-get update
@@ -1998,3 +1829,172 @@ clear
 lo-ssh 
 tmux -s new "ssh"
 tmux new -s "ssh"
+ls
+vim .vimrc 
+vim 
+clear
+vim 
+clear
+cd .config/
+cd dotfiles/
+gs
+git add --all
+gs
+git commit -m "Vim: added the run python shortcut"
+git push
+cd ~/Desktop/Python/
+ls
+mv -r Multicore/ Multi-core-thread/
+mv Multicore/ Multi-core-thread/
+ls
+cd Multi-core-thread/
+ls
+vim threading
+vim threading.py
+pip install threading
+vimm
+vim
+clear
+vim
+clear
+pip list | grep threading
+pip list | grep thread
+pip list | grep multiprocessing
+vim
+clear
+mv threading.py thread.py
+vim
+vim thread2.py
+clear
+cd ../Factorial/
+vim fact-thread.py
+clear
+vim fact-thread.py
+ll
+rm .fact-thread.py.swp 
+vim fact-thread.py
+ls
+cd ..
+ls
+cd Multi-core-thread/
+ls
+cd p
+cd __py
+cd __pycache__/
+ls
+cd ..
+..
+ls
+vim core.py
+ls
+vim core.py 
+clear
+vim core2.py
+clear
+cd ../Factorial/
+vim
+vim fact-core.py
+clear
+vim 
+rm core.py 
+ls
+python3 fact2\(slow+numba\[super\ fast\]\).py 
+clear
+ls
+clear
+ls
+mv fact2
+mv fact2\(slow+numba\[super\ fast\]\).py fact-numba.py
+ls
+mv 'fact(fast).py' fact-fast-logic.py
+ls
+python fact-fast-logic.py 
+clear
+vim fact-fast-logic.py 
+vim out.sh
+la
+chmod 774 out.sh 
+ls
+clear
+ls
+./out.sh 
+clear
+cd ~/.config/dotfiles/
+gs
+vim .vimrc 
+gs
+gs add .vimrc 
+git add .vimrc 
+gs
+git commit -m "Vim:  adding the " pair functionality"
+git commit -m "Vim:  adding the quotes pair functionality"
+git push
+clear
+git show
+git url
+git get0url
+git get-url
+man git
+clear
+cd
+vim
+clear
+cd Desktop/Python/
+cd Factorial/
+ls
+clear
+nautilus &
+lo-ssh 
+cd ~/scripts/
+vim lo-ssh 
+mv lo-ssh login-ssh
+sudo ln -s ./login-ssh /usr/local/bin/
+cd /usr/local/bin/
+ls
+sudo ln -s ~/scripts/login-ssh /usr/local/bin/
+ls
+sudo ln -s ~/scripts/login-ssh /usr/local/bin
+sudo rm *ssh
+ls
+sudo ln -s ~/scripts/login-ssh /usr/local/bin/
+ls
+clear
+login-ssh 
+clear
+cd
+clear
+login
+sudo su
+clear
+login-ssh 
+clear
+login-ssh 
+ssh -i .ssh/my_phone my_phone 
+ssh -iv .ssh/my_phone my_phone 
+ssh -i .ssh/my_phone my_phone -v
+login-ssh 
+clear
+login-ssh 
+ls
+clear
+ls
+clear
+vim 
+clear
+ls
+clear
+ls
+clear
+cd
+login-ss
+login-ssh 
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+ls
+clear
