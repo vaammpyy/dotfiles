@@ -1,481 +1,3 @@
-Which to Use
-Following are the 5 Jupyter Notebook extensions I use most often:
-1. Table of Contents: easier navigation
-Once you start getting dozens of cells in one Jupyter Notebook, it can be difficult to keep track of them all. The Table of Contents solves that problem by adding a linked TOC that can be positioned anywhere on the page:
-Table of Contents
-You can also use the extension to add a linked table of contents at the top of the notebook. This even shows which cell is selected and which is running:
-Table of Contents in Notebook
-2. Autopep8: neat code in one click
-We should all write pep8 compliant code, but sometimes you get caught up in an analysis and it’s hard to stick to best practices. When you’re done writing that amazing plot, this extension allows you to simply click the gavel and automatically format your messy code.
-Autopep8 your code.
-Like the best add-ons, this one accomplishes a time-consuming and tedious task with a simple click, enabling you to focus on thinking through problems.
-3. Variable inspector: keep track of your workspace
-The variable inspector shows the names of all variables you’ve created in the notebook, along with their type, size, shape, and value.
-Variable inspector
-This tool is invaluable for data scientists migrating from RStudio or if you don’t want to have to keep printing df.shape or can’t recall the type of x.
-4. ExecuteTime: show when and how long cells ran
-I often find myself trying to figure out how long a cell took to run or when I last ran a notebook that has been open for days. ExecuteTime takes care of both of those by showing when a cell finished and how long it took.
-ExecuteTime extension output
-There are better methods for timing (such as the %%timeit cell magic) but this is easy to implement and covers all cells in the notebook.
-5. Hide Code input: hide the work show the results
-Although some of us like to see the hard work that goes into an analysis, some people just like to see the results. The Hide input all extension allows you to instantly hide all the code in the notebook while keeping outputs.
-Hide all code
-The next time someone says they just want to see the results, you have a single click solution. (Although you should always examine the code).
-These are just the extensions I find myself using the most often and you’re not limited to five. Check out the whole list by installing the extensions and opening a notebook (the notebook shown here is on GitHub)! (If you are up for it, you can even write your own extension. Documentation is pretty scarce, but here’s the basic structure.)
-Conclusions
-Install the Jupyter Notebook extensions, spend some time figuring out which ones are useful to you, and improve your productivity. While none of these are life-changing, they all add just enough benefit to be worthwhile, cumulatively saving you hours of valuable development time.
-Although you’ll probably want to put some time into learning an IDE if you are writing production code (I’m liking VS Code), Jupyter Notebooks are still an integral part of a data science workflow. If you are going to be using this environment, you might as well get the most from your tools.
-As always, I welcome feedback and constructive criticism. I can be reached on Twitter @koehrsen_will or through my personal website willk.online.
-Sign up for The Variable
-By Towards Data Science
-Every Thursday, the Variable delivers the very best of Towards Data Science: from hands-on tutorials and cutting-edge research to original features you don't want to miss. Take a look.
-
-You'll need to sign in or create an account to receive this newsletter.
-More from Towards Data Science
-Follow
-Your home for data science. A Medium publication sharing concepts, ideas and codes.
-Read more from Towards Data Science
-More From Medium
-Do Not Use Print For Debugging In Python Anymore
-Christopher Tao in Towards Data Science
-The 5 Certificate to Prove Your Python Knowledge Level
-Sara A. Metwalli in Towards Data Science
-4 Cool Python Libraries That You Should Know About
-Ismael Araujo in Towards Data Science
-19 Sklearn Features You Didn’t Know Existed | P(Guarantee) = 0.75
-Bex T. in Towards Data Science
-4 Tricks to Use Python F-strings More Efficiently
-Soner Yıldırım in Towards Data Science
-9 Useful Pandas Methods You Might Have Not Heard About
-Eryk Lewinson in Towards Data Science
-Crack Data Science Interviews: Five SQL Skills for Data Scientists
-Leihua Ye, Ph.D. Researcher in Towards Data Science
-The 3 Must-Read Data Science Books for Absolute Beginners
-Arunn Thevapalan in Towards Data Science
-About
-Write
-Help
-Legal
-sudo apt-get install vim
-vim
-clear
-sudo apt-get install tmux
-tmux
-clear
-sudo apt-get install neofetch
-neofetch
-clear
-clea
-clear
-ls
-clear
-bash
-clear
-ls
-rm nbextensions 
-jupyter notebook
-clear
-sudo apt install apt-transport-https curl
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update
-sudo apt install brave-browser
-pip install jupyter_contrib_nbextensions
-pip install jupyter_nbextensions_configurator
-jupyter contrib nbextension install --user
-pip install jupyter-contrib
-pip install jupyter contrib
-jupyter contrib nbextension install --user
-pip3 install jupyter_contrib_nbextensions
-~/.local/bin/jupyter-contrib-nbextension install --user
-jupyter notebook
-clear
-sudo apt-get install aladin
-sudo apt-get install ds9
-sudo apt-get install saods9
-sudo apt-get install ds9
-sudo apt-get install topcat
-vim
-clear
-bling
-clear
-neofetch
-sudo apt-get snaps
-sudo apt-get snapd
-sudo apt-get install snapd
-snap install
-bash
-tmux
-ls
-clear
-cd iraf-2.16.1-2018.11.01/
-ls
-install
-bash install 
-cl
-mkiraf
-cd
-mkiraf
-% mkiraf
-clear
-sudo apt-get install git
-git
-clear
-cd Desktop/
-ls
-cd Astro-data/
-cd M31\ Spectra\ Analysis/
-ls
-git status
-clear
-cd
-cd -
-cd
-ls
-sudo apt-get install auto-cpufreq
-sudo apt-get install tlpui
-sudo apt-get install xterm
-sudo snap install xournalpp
-xournalpp
-clear
-df
-cd iraf-2.16.1-2018.11.01/
-ls
-mkiraf
-cd
-mkiraf
-cl
-clear
-xournalpp --version
-sudo apt-get install djvu
-sudo apt-get install kite
-sudo apt-get purge firefox*
-sudo apt-get autoremove 
-clera
-clear
-ls
-ll
-vim 
-bash
-dpkg
-clear
-df
-sudo apt-get purge document scanners
-sudo apt-get purge document-scanner
-clear
-ls
-man
-cowsay hey
-clera
-cl
-clear
-whereis cargo
-cd .cache/
-cd .cargo
-cd
-vim
-sudo su
-clear
-ls
-tmux
-cler
-clear
-vim .bashrc 
-tmux
-cd /
-cd /media/
-ls
-cd vampy/
-ls
-cd
-nautilus
-git config
-git
-clea
-clear
-ls
-neofetch
-clear
-cd Desktop/
-cd articles/
-cd Uncer
-nautilus
-cd Uncertainty\ in\ velocity\ measurement\ via\ redshift\ method\ for\ distant\ objects/
-vim
-cd
-clear
-ls
-ls homr
-cd home/vampy/
-ls
-cp scripts/ ~/
-cp scripts ~/
-cp -r scripts ~/
-ls
-cd scripts/
-ls
-exam-ans
-ll
-bash exam-ans 
-ls
-rm ~
-ls
-cd /
-cd /usr/local/bin/
-ls
-ln -s ~/scripts/bling ./
-sudo ln -s ~/scripts/bling ./
-bling 
-clear
-cd
-bling
-clear
-ls
-ll
-vim .bashrc 
-bash
-ll
-tmux
-ls
-rm -rf uparm/
-ls
-cl
-clear
-ls
-ls -a
-rm -r .imtoolrc 
-cd iraf-2.16.1-2018.11.01/
-ls
-bash install 
-cd 
-ls
-ls -a
-cd .iraf/
-ls
-cd
-rm -rf .iraf/
-cl
-ls
-ls -a
-cay .profile
-cat .profile
-cd iraf-2.16.1-2018.11.01/
-ls
-bash intstall
-bash install
-clear
-xterm
-cd
-xrdb
-history
-history | grep "xrdb"
-history | grep "xresources"
-history | grep -i "xresources"
-exit
-vim
-df
-ls
-vim
-clear
-sudo apt install grub-efi grub2-common grub-customizer
-sudo grub-install
-sudo cp /boot/grub/x86_64-efi/grub.efi /boot/efi/EFI/pop/grubx64.efi
-reboot
-cd /
-ls
-cd boot/
-ls
-cd
-eixt
-exit
-python
-python3
-clear
-xterm
-exit
-sudo apt-get install virtualbox
-sudo snap install virtualbox
-sudo apt-get install virtualbox
-sudo apt-get autoremove
-sudo apt-get -f
-sudo apt -f
-cd Downloads/
-ls
-ll
-ll -h
-clear
-ll
-man ll
-man ls
-ls -h
-sudo dpkg -i virtualbox-6.1_6.1.22-144080_Ubuntu_eoan_amd64.deb 
-cd
-virtualbox
-ls
-sudo dpkg -i virtualbox-6.1_6.1.22-144080_Ubuntu_eoan_amd64.deb 
-cd Downloads/
-sudo dpkg -i virtualbox-6.1_6.1.22-144080_Ubuntu_eoan_amd64.deb 
-sudo apt-get install libqt5gui5 libqt5opengl5 libqt5printsupport5 
-apt --fix-broken install
-sudo apt --fix-broken install
-sudo apt-get update
-sudo apt --fix-missing install
-sudo apt --fix-broken install
-sudo dpkg -i virtualbox-6.1_6.1.22-144080_Ubuntu_eoan_amd64.deb 
-cd
-cd Downloads/
-ls
-rm virtualbox-6.1_6.1.22-144080_Ubuntu_eoan_amd64.deb 
-ls
-cd
-clear
-cd Downloads/
-git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
-cd Top-5-Bootloader-Themes/
-ls
-sudo ./install.sh 
-reboot
-ls
-sudo apt-get install lolcat
-sudo apt-get purge eddy
-sudo apt-get install discord
-pip list
-clear
-sudo apt-get install tlpui
-reboot
-sudo apt-get install tlpui
-sudo apt-get install tlp
-sudo add-apt-repository ppa:linuxuprising/apps
-sudo apt-get update
-sudo apt-get install tlpui
-sudo snap install auto-cpufreq
-sudo auto-cpufreq --install
-sudo auto-cpufreq --live
-systemctl status snap.auto-cpufreq.service.service
-systemctl status auto-cpufreq
-sudo auto-cpufreq --install
-sudo snap uninstall auto-cpufreq
-sudo snap remove auto-cpufreq
-cd Downloads/
-git clone https://github.com/AdnanHodzic/auto-cpufreq.git
-cd auto-cpufreq/
-sudo ./auto-cpufreq-installer 
-auto-cpufreq
-cd
-sudo auto-cpufreq --install
-systemctl status auto-cpufreq
-clear
-sudo apt-get install htop
-htop
-clear
-exit
-sudo apt-get install gcc
-gcc --version
-sudo apt-get install gfortran
-sudo apt-get install gcc-10-base gcc-10 libbfortran-10-dev
-sudo apt-get install gcc-10-base gcc-10
-sudo apt-get install gfortran
-sudo apt-get install 10.3.0-1ubuntu1~20.10 
-sudo apt-get update
-sudo apt-get install gfortran
-sudo apt-get install -f
-sudo apt-get update && sudo apt-get upgrade
-clear
-sudo apt-get install okular
-sudo apt-get --fix-missing
-sudo apt-get insta  okular --fix-missing
-sudo apt-get install  okular --fix-missing
-sudo apt-get upgrade
-df
-sudo apt-get upgrade
-sudo apt-get install  okular --fix-missing
-sudo apt-get upgrade
-reboot
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install -f
-reboot
-sudo apt-get install -f
-sudo apt-get install -f remove
-sudo apt-get install -f okular
-sudo apt-get install -f gfortran
-sudo apt-get install aptitude
-sudo apt-get install -f gfortran
-sudo aptitude install gfortran
-gfortran --version
-sudo apt-get clean
-sudo apt-get autoremove
-clear
-sudo apt-get install -y python-pyraf
-sudo apt-get install dejavu
-sudo apt-get install timeshift
-clear
-exit
-clear
-exit
-ls
-ls -a | wc -l
-clear
-LS
-ls
-ll
-clear
-tmux
-clear
-cd ..
-ls
-whereis timeshift
-cd /usr/share/
-ls
-cd timeshift/
-ls
-cd images/
-ls
-cd /
-ls
-cd timeshift/
-ls
-cd snapshots
-ls
-cd 2021-06-30_15-51-25/
-ls
-cd
-sudo apt-get remove geary
-sudo apt-get autoremove
-gedit
-clear
-sudo vim
-exit
-sudo apt-get install mailspring
-sudo snap install mailspring
-cler
-clear
-cd ..
-ls
-cd /
-ls
-du -h
-du -Th
-cd
-ls
-df
-sudo visudo 
-sudo vim
-vim
-bash
-exit
-sudo
-sudo vim
-clear
-sudo apt-get install sensors
-sudo apt-get install lmtsensors
-sudo apt-get install lm-sensors
-sudo apt-get install psensors
-sensors
-sudo apt-get install psensor
-clear
-htop
-clear
 ls -a
 cat .pam_environment 
 cd
@@ -1998,3 +1520,481 @@ clear
 cd .bashrc
 vim ~/.bashrc 
 exit
+gls
+cd .config/dotfiles/
+gls
+clear
+gls
+g-ls
+g-s
+gcc --version
+clear
+vim 
+clear
+gls
+clear
+git add -all
+git add --all
+gs
+clear
+git commit -m "Adding alias for git ls-files as gls "
+clear
+git push
+clear
+cd
+clear
+gs
+gls
+clear
+ssh-keygen -t ed25519 -C "rohankumarprasad@yahoo.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cd .ssh/
+ls
+cat id_ed25519
+sudo apt-get install xclip
+xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+cd
+clear
+git fetch
+cd .config/
+cd dotfiles/
+git fetch
+git remote get url origin
+git remote get-url origin
+git remote set-url origin git@github.com:vaammpyy/dotfiles.git
+git fetch
+ls
+clear
+cd ~/Desktop/Python/
+ls
+cd Physics/
+ls
+clear
+git remote set-url origin git@github.com:vaammpyy/Physics.git
+cd ~/Desktop/Astro-data
+ls
+cd 'M31 Spectra Analysis'/
+clear
+git remote set-url origin git@github.com:vaammpyy/M31-Spectra-Analysis.git
+clear
+gs
+git pull
+clear
+jupyter-lab --version
+clear
+pip install jupyterlab
+jupyter-lab
+clear
+pip install "jupyterlab-kite>=2.0.2"
+clear
+jupyter-lab
+clear
+jupyter-lab
+clear
+jupyter lab --debug
+cd .config/
+ll
+locate kwalletrc
+cat kwalletrc 
+# Create required directory in case (optional)
+mkdir -p $(jupyter --data-dir)/nbextensions
+# Clone the repository
+cd $(jupyter --data-dir)/nbextensions
+git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
+# Activate the extension
+jupyter nbextension enable vim_binding/vim_binding
+clear
+cd
+clear
+cd .jupyter/
+ls
+mkdir custom
+cd custom/
+clear
+vim custom.js
+clear
+exit
+sudo apt install build-essential dkms
+cd Downloads/
+wget https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-17.40-492261.tar.xz
+clear
+ls
+rm kite-installer 
+la
+clear
+pip install pyopencl
+sudo apt install libnuma-dev
+sudo apt install libncurses5
+cd Downloads/
+wget -q -O - https://repo.radeon.com/rocm/rocm.gpg.key | sudo apt-key add -
+sudo wget -q -O - https://repo.radeon.com/rocm/rocm.gpg.key | sudo apt-key add -
+echo 'deb [arch=amd64] https://repo.radeon.com/rocm/apt/debian/ ubuntu main' | sudo tee /etc/apt/sources.list.d/rocm.list
+sudo apt update
+reboot
+sudo reboot
+jupyter notebook
+pip3 install jupyter-tabnine
+jupyter nbextension install --py jupyter_tabnine
+jupyter nbextension enable --py jupyter_tabnine
+jupyter serverextension enable --py jupyter_tabnine
+jupyter notebook
+jupyter nbextension install --py jupyter_tabnine
+sudo jupyter nbextension install --py jupyter_tabnine
+pip3 install jupyter-tabnine
+sudo jupyter nbextension install --py jupyter_tabnine
+sudo jupyter nbextension install --py jupyter-tabnine
+clear
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter notebook
+pip3 uninstall jupyter-tabnine
+jupyter notebook
+clear
+jupyter notebook
+clear
+jupyter notebook &
+bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+jupyter serverextension list
+mv kite-installer Downloads/
+clear
+sudo pip uninstall jupyterlab-kite
+sudo pip uninstall jupyter-kite
+sudo apt-get purge kite
+sudo apt-get purge jupyter-kite
+sudo apt-get purge jupyterlab-kite
+clear
+pip uninstall jupyterlab_kite
+clear
+pip uninstall jupyterlab
+jupyter-lab
+whereis site-package
+locate site-packages
+cd .local/
+pip install virtualenv
+cd
+ls
+clear
+cd .jupyter/
+ls
+cd
+pip install jupyterlab
+pip install "jupyterlab-kite>=2.0.2"
+jupyter lab
+clear
+pip uninstall "jupyterlab-kite>=2.0.2"
+cd .config/
+ls
+ll
+ll | grep "kwallet"
+vim kwalletrc
+cd
+clear
+pip install astropy
+clear
+pip list
+clear
+jupyter lab
+sudo apt update
+tmux
+pip list
+vim .vimrc 
+clear
+pip list | grep joblib
+/opt/rocm/bin/rocminfo
+sudo update-grub
+reboot
+grub-install 
+clear
+sudo apt-add-repository ppa:yannubuntu/boot-repair
+sudo apt-get update
+sudo apt-add-repository ppa:yannubuntu/boot-repair
+ps aux | grep -i apt
+ps aux | grep -iw apt
+clear
+sudo apt-add-repository ppa:yannubuntu/boot-repair
+sudo apt-get update
+reboot
+sudo reboot
+sudo dpkg --configure -a
+sudo apt-get install -fy
+sudo apt-get purge --allow-remove-essential -y grub*-common shim-signed
+reboot
+sudo reboot
+sudo apt updat
+sudo apt-get install -y boot-repair
+boot-repair
+sudo fdisk -l
+sudo blkid
+clear
+sudo mount /dev/sda1/ /mnt/vampy
+sudo mount /dev/sda1 /mnt
+clear
+sudo mount /dev/sda1 /mnt
+sudo mount /dev/sda1 /mnt/
+clear
+cd /
+sudo su
+sudo grub-install
+sudo apt install grub-efi grub2-common grub-customizer
+sudo grub-install
+clear
+sudo cp /boot/grub/x86_64-efi/grub.efi /boot/efi/EFI/pop/grubx64.efi 
+reboot
+sudo reboot
+cd Downloads/
+git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
+cd Top-5-Bootloader-Themes
+sudo ./install.sh
+git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
+cd Top-5-Bootloader-Themes
+sudo ./install.sh
+ls
+cd Downloads/
+ls
+rm .cr*
+rm .*cr*
+rm *.cr*
+ls
+rm -rf Top-5-Bootloader-Themes/
+ls
+rm -rf ./*
+ls
+clear
+exit
+ssh u0_a402@25.243.170.79
+ssh u0_a402@25.243.170.79 -p 8022
+cd .ssh/
+vim config
+cd
+clear
+ssh my_phone
+clear
+ssh my_phone 
+clear
+cd .ssh/
+ll
+la
+cat known_hosts 
+clear
+cd ..
+ssh-keygen
+cd .ssh
+la
+cat id_rsa.pub 
+cat id_rsa
+clear
+cat id_rsa
+cat id_rsa.pub 
+clear
+cat id_rsa.pub 
+ssh my_phone 
+clear
+cd
+ssh my_phone 
+clear
+ssh my_phone 
+ssh -v my_phone 
+ssh mahi@192.168.43.190
+ssh mahi@192.168.43.255
+ssh mahi@192.168.43.190
+ssh -v mahi@192.168.43.190
+ssh -v mahi@192.168.43.190 port 8022
+clear
+ssh -v mahi@192.168.43.190
+ssh hp_laptop 
+clear
+ssh-keygen -t ed25519 "hp laptop"
+ssh-keygen -t ed25519 -C "hp laptop"
+ssh-copy-id -i /home/vampy/.ssh/hplaptop.pub hp_laptop 
+ssh hp_laptop 
+cd .ssh/
+vim config 
+ssh-keygen
+ls
+ssh-copy-id -i ~/.ssh/id_hplaptop.pub hp_laptop 
+ssh hp_laptop 
+cat id_ed25519
+cat id_ed25519.pub 
+ls
+vim id_hplaptop
+cd
+ssh hp_laptop 
+clear
+cd .ssh/
+ls
+rm id_hplaptop*
+ls
+mkdir backup
+cp id_ed25519* backup/
+ls
+ssh-copy-id -i ~/.ssh/hplaptop.pub hp_laptop 
+ssh hp_laptop 
+ls
+clear
+ls
+rm -rf backup/
+ls
+ll
+cd
+ssh hp_laptop 
+ssh -v hp_laptop 
+cd .ssh/
+cat hplaptop.pub 
+ssh hp_laptop 
+rm hplaptop* ./
+rm hplaptop*
+ls
+ssh-keygen -t ed25519 -C "HP Laptop G250"
+ssh-copy-id -i ~/.ssh/hplaptop.pub hp_laptop 
+ssh hp_laptop 
+ssh -v hp_laptop 
+ssh -v mahi@192.168.43.190
+clear
+ls
+ssh hp_laptop 
+ssh -v hp_laptop 
+ssh -o PreferredAuthentications=publickey user1@host
+ssh -o PreferredAuthentications=publickey hp_laptop 
+ssh_add
+ssh-add
+ls
+ssh -o PreferredAuthentications=publickey hp_laptop 
+ssh hp_laptop 
+cd .ssh/
+ll
+ssh my_phone 
+ssh hp_laptop -i ~/.ssh/hplaptop 
+ssh-add ~/.ssh/hplaptop
+ssh hp_laptop 
+ssh-add list
+ssh 
+clear
+ssh-add
+clear
+ssh my_phone 
+cd .ssh/
+ls
+rm id_rsa*
+ls
+ssh-keygen -t ed25519 -C "RedMi note 8 pro"
+ssh-copy-id -i ~/.ssh/my_phone.pub my_phone 
+ssh my_phone 
+ssh-add ~/.ssh/my_phone
+ssh my_phone 
+clear
+ssh hp_laptop 
+ls
+cat known_hosts 
+clear
+vi config 
+clear
+cd
+cd /etc/ssh
+ls
+ll
+cat  ssh_config
+clear
+cd
+ssh my_phone 
+clear
+exit
+ssh my_phone 
+ssh -i ~/.ssh/my_phone my_phone 
+clear
+ssh my_phone 
+clear
+ssh-add
+ssh hp_laptop 
+ssh -i ~/.ssh/hplaptop hp_laptop 
+ssh -i ~/.ssh/hplaptop -X hp_laptop 
+ssh -v hp_laptop 
+ssh -v my_phone 
+clear
+ls
+clear
+cd scripts/
+ls
+ssh-login
+vim ssh-login
+tmux
+history 
+cd scripts/
+vim ssh-login 
+./ssh-login 
+vim ssh-login 
+ssh -i ~/.ssh/my_phone my_phone 
+vim ssh-login 
+./ssh-login 
+clear
+ln -s ./ssh-login /usr/local/bin/
+sudo ln -s ./ssh-login /usr/local/bin/
+ssh-login
+cd /usr/local/
+ls
+cd bin/
+ls
+rm ssh-login 
+sudo rm ssh-login 
+sudo ln -s ~/scripts/ssh-login /usr/local/bin/
+ls
+cd -
+cd
+ssh-login 
+cd scripts/
+vim 
+ssh-login 
+vim 
+ssh-login 
+clear
+vim ssh-login 
+ssh-login 
+clear
+ls
+vim ssh-login 
+ssh-login 
+vim ssh-login 
+ssh-login 
+vim ssh-login 
+ssh-login 
+clear
+ssh-login 
+clear
+mv ssh-login 
+mv ssh-login ./lo-ssh
+ls
+cd /usr/local/bin/
+ls
+rm ssh-login 
+sudo rm ssh-login 
+ln -s ~/scripts/lo-ssh ./
+sudo ln -s ~/scripts/lo-ssh ./
+ls
+cd -
+ls
+vim lo-ssh 
+lo-ssh 
+vim lo-ssh 
+lo-ssh 
+man ssh
+vim lo-ssh 
+lo-ssh 
+vim lo-ssh 
+lo-ssh 
+vim lo-ssh 
+lo-ssh 
+vim lo-ssh 
+clear
+cd
+lo-ssh 
+vim scripts/lo-ssh 
+lo-ssh 
+clear
+lo-ssh 
+vim scripts/lo-ssh 
+clear
+lc
+clear
+lo-ssh 
+tmux -s new "ssh"
+tmux new -s "ssh"
