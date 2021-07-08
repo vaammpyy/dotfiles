@@ -55961,7 +55961,7 @@ python3-avahi/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 python3-avahi/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 python3-avogadro/hirsute 1.93.1-2 amd64
 python3-avro/hirsute,hirsute 1.10.1+dfsg-1 all
-python3-aws-requests-auth/hirsute,hirsute 0.4.3-1 all
+python3-aws-requests-auth/hirsute,hirsute,hirsute-updates,hirsute-updates 0.4.3-1 all
 python3-aws-xray-sdk/hirsute,hirsute 0.95-2 all
 python3-awsauth/hirsute,hirsute 0.1.5-2 all
 python3-axolotl-curve25519/hirsute 0.4.1.post2-2build4 amd64
