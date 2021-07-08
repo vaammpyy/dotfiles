@@ -1,144 +1,4 @@
 ls
-clear
-vim .bashrc 
-exit
-ls
-clear
-ls
-clear
-vim .bashrc 
-exit
-htop
-tmux ls
-tmux kill-server
-tmux ls
-exit
-tmux new -s monitor
-vim 
-ls
-clear
-sudo apt-get install pwmconfig
-exit
-bling
-pip install numba
-jupyter notebook
-clear
-ls
-pip list
-clear
-exit
-tmux a
-sudo apt remove audience
-sudo apt remove totem
-tmux a
-tmux new -s monitor
-cmatrix -f
-cmatrix -s
-clear
-cmatrix -f
-clear
-cmatrix -o
-cmatrix -m
-cmatrix -V
-cmatrix
-clear
-exit
-man matrix
-man cmatrix
-man asciiquarium
-man lolcat
-sudo apt-get install cowsay
-cowsay help
-clear
-sudo apt-get update
-clear
-sudo apt-get install toilet
-man toilet
-toilet hello
-figlet hello
-clear
-exit
-ls
-vim thinkfan.conf 
-find /sys/devices -type f -name "temp*_input"
-find /sys/devices -type f -name "temp*_input"|sed 's/^/hwmon /g'
-cmatrix
-tmux 
-clear
-sudo apt-get purge weather
-lm-sensors
-lm-sensors --version
-sudo apt-get install pwmconfig
-pwmconfig
-sudo apt-get install fancontrol
-sudo pwmconfig
-sudo apt-get install thinkfan
-sudo pwmconfig
-find /sys/devices -type f -name "temp*_input"
-
-ls
-ls | grep think
-vim thinkfan.conf 
-tmux 
-vim thinkfan.conf 
-sudo vim thinkfan.conf 
-cd modprobe.d/
-
-sudo touch thinkpad_acpi.conf
-ls
-vim thinkpad_acpi.conf 
-sudo su
-cat thinkpad_acpi.conf 
-cd /etc/
-sudo su
-cat thinkfan.conf 
-sudo su
-vim thinkfan.conf 
-sudo su
-cat thinkfan.conf 
-vim
-ls
-clear
-exit
-ls
-clear
-vim
-cl
-mkiraf
-cd iraf-2.16.1-2018.11.01/
-mkiraf
-bash in
-ls
-bash install 
-cd
-cl
-bash install 
-cd iraf-2.16.1-2018.11.01/
-ls
-bash in
-bash install 
-source ~/.login
-cl
-cd
-cl
-mkiraf
-ls
-ls -a
-XTerm*Background: black
-cd iraf-2.16.1-2018.11.01/
-mkiraf
-ls
-cat INSTALL.md 
-XTerm*Background: black
-./install 
-source ~/.login
-cl
-mkiraf
-exit
-ps -ax | grep thinkfan
-htop
-clear
-ls
 cd Desktop/Python
 ls
 cd Physics/
@@ -1995,6 +1855,146 @@ ls
 rm packages.txt py-libs.txt 
 ls
 crontab -e
+clear
+ls
+clear
+cd .config/dotfiles/
+pip install -r backup/py-libs.txt 
+cd backup/
+ls
+pip install -r py-libs.txt 
+vim py-libs.txt 
+pip install -r py-libs.txt 
+clear
+l
+ls
+cd
+cd /etc
+ls
+cat chrontab
+cd
+clear
+cd /usr/bin/
+ls
+passwd
+clear
+sudo su
+clear
+cd
+cat /etc/crontab 
+crontab -e
+crontab -l
+clear
+ls
+clear
+ls
+clear
+pip list | tail -n $(pip list | wc -l -2)
+pip list | tail -n $(pip list | wc -l)-2
+pip list | tail -n $(pip list | wc -l)
+ls
+rm test.txt 
+pip list | tail -n ($(pip list | wc -l)-2)
+pip list | tail -n $(pip list | wc -l)-2
+pip list | tail -n +3
+pip list | tail -n +3 | awk '{print $1 "=="$2 }'
+apt list 
+clear
+cd .config/dotfiles/
+ls
+cd backup/
+ls
+rm -r ./*
+ls
+clear
+ls
+clear
+ls
+sudo apt-get install <packages.txt 
+pip install -r py-libs.txt 
+clear
+cd ..
+gs
+git add backup/py-libs.txt 
+git add .bash_history 
+gs
+clear
+git commit -m "Testing the crontab functionality and removing the error in the py-libs.txt"
+cd backup/
+touch install.md
+vim
+gs
+git add install.md 
+gs
+git add --all
+clear
+git commit -m "Adding the installation instruction for the backup package installation."
+clear
+cd
+cd .config/dotfiles/
+gs
+clear
+git push
+cd backup/
+mv install.md README.me
+gs
+git add -all
+gs
+git add --all
+gs
+git commit -m "Changing the name of the install instruction file"
+git push
+mv README.me README.md
+git add --all
+git commit -m "changing the name of the file"
+git push
+clear
+cd
+crontab -e
+clear
+exit
+which cd
+whereis cd
+locate cd
+clear
+/usr/bin/cd
+crontab -e
+cd .config/dotfiles/
+git show
+cd backup/
+ls
+touch new
+ls
+crontab -e
+clear
+gs
+ls
+gs
+ls
+gs
+cd
+clear
+mkdir desktop
+mv Desktop/* desktop/
+rm -r Desktop/
+ls
+mv desktop/ Desktop/
+mv Desktop/ desktop/
+ls
+mkdir desk
+htop
+ls
+ls desk
+ls desk/
+ls desktop/
+rm -r desk
+ls
+ls desktop/
+clear
+htop
+clear
+ls
+cler
 clear
 ls
 clear
