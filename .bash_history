@@ -1,258 +1,3 @@
-ls
-cd Desktop/Python
-ls
-cd Physics/
-ls
-jupyter notebook
-cp /media/vampy/Ventoy/archlinux-2021.06.01-x86_64.iso OS/
-sudo cp /media/vampy/Ventoy/archlinux-2021.06.01-x86_64.iso OS/
-ll OS/
-df
-xrdb ~/.Xresources
-xrdb -load ~/.Xresources
-ls | grep .X
-vim .Xresources
-ls | grep .X
-vim ~/.Xresources
-xrdb -load ~/.Xresources
-xterm
-vim ~/.Xresources
-xrdb -load ~/.Xresources
-cat .Xresources 
-vim .Xresources 
-xrdb -load ~/.Xresources
-vim .Xresources 
-xrdb -load ~/.Xresources
-vim .Xresources 
-xrdb -load ~/.Xresources
-export PATH=/usr/local/bin:$PATH # for Bash
-mkiraf
-ls
-clear
-ls
-cleaer
-clear
-mkiraf
-ls
-cd iraf-2.16.1-2018.11.01/
-mkiraf
-cd
-mkiraf 
-cl
-clear
-cl
-clear
-ls
-clear
-man mount
-man unmount
-df
-df -h
-mount /dev/sda1 /mnt
-sudo mount /dev/sda1 /mnt
-ls /media/vampy/Ventoy/
-ls /mnt/
-sudo umount /dev/sda1
-ls /mnt/
-ls /media/vampy/Ventoy/
-sudo apt-get install texlive-full
-clear
-cl
-df
-df -h
-umount /dev/sda1
-df -h
-clear
-sudo pwmconfig
-service status fancontrol
-service fancontrol status
-reboot
-service fancontrol status
-clear
-sudo cp ~/OS/CorePlus-current.iso /media/vampy/Ventoy/
-ls /media/vampy/Ventoy/
-du /media/vampy/Ventoy/
-df
-df -h
-clear
-exit
-man tar
-cd Downloads/
-ls
-tar -xf  julia-1.6.1-linux-x86_64.tar.gz 
-ls
-cd julia-1.6.1/
-ls
-export PATH="$PATH:/path/to/<Julia directory>/bin"
-julia
-sudo apt-get install julia
-julia
-cd ..
-rm -rf julia*
-ls
-clear
-julia
-less .bash_profile 
-vim .bash_profile 
-exit
-ds9 && help
-clear
-cl
-clear
-cl
-exit
-xkill ds9
-gnome-terminal
-startx
-clear
-startx
-pwd
-ls
-df -h
-pip list
-whereis bling
-clear
-man startx
-startx
-awk
-man awk
-ps
-clear
-ls
-bling
-bash -c  "$(wget -qO- https://git.io/vQgMr)" 
-exit
-ls
-clear
-ls
-clear
-bash -c  "$(wget -qO- https://git.io/vQgMr)" 
-bash
-bling
-ls
-clear
-bash -c  "$(wget -qO- https://git.io/vQgMr)" 
-clear
-bash
-clear
-ls
-clear
-bling
-bash -c  "$(wget -qO- https://git.io/vQgMr)" 
-ls
-bling
-vim
-clear
-ls
-ls Desktop/intro2astro/
-clear
-bash -c  "$(wget -qO- https://git.io/vQgMr)" 
-ls
-clear
-vim
-ls
-clear
-ll
-clear
-bling
-clear
-ls
-bling
-ll
-clear
-ls
-ll
-sudo apt-get install firefox
-git remote add origin https://github.com/vaammpyy/dotfiles.git
-git push
-git push --set-upstream origin master
-git push
-clear
-git pull
-clear
-ls
-neofetch
-cd /
-ll
-cd
-ll
-cat .vimrc 
-cat .vimrc >> vimrc.txt
-cat .vimrc 
-cat vimrc.txt 
-ls
-clear
-ll
-clear
-exit
-ls
-cd .config/
-ls
-mkdir dotfiles
-cd dotfiles/
-ls
-cp ~/.bash* ./
-ls
-ls ~/.bash*
-ll
-ls
-ll
-cp ~/.vimrc ./
-ll
-cd ../
-ls
-cd neofetch/
-ls
-bling
-cd ../
-cp neofetch/ dotfiles/
-cp -r neofetch/ dotfiles/
-cd dotfiles/
-ls
-ll
-cd ..
-ll
-cd ..
-ls
-cd ll
-ll
-ll | grep git
-cat .gitconfig 
-cd .config/
-ls
-ll | grep git
-whereis .git
-rm -rf geary/
-cd tlpui/
-ls
-cat tlpui.cfg 
-cd ..
-clear
-ll
-cd dotfiles/
-ls
-ll
-cp ~/.gitconfig ./
-ll
-cd 
-ll
-less .tmux.conf 
-cp .tmux.conf .config/dotfiles/
-cd .config/dotfiles/
-ll
-locate .git
-sudo apt-get install mlocate
-cat .gitconfig 
-locate .git
-locate .git ~/
-clear
-ll
-git innit
-git init
-git add *
-git commit -m "Adding all the config files"
-git stats
-git status
 git add .*
 git ls files
 git log
@@ -1996,5 +1741,260 @@ clear
 ls
 cler
 clear
+ls
+clear
+crontab -e
+cd .config/dotfiles/
+gs
+ls
+gs
+ls
+gs
+ls
+clear
+gs
+crontab -e
+clear
+gs
+ls
+ll
+cat .profile 
+clear
+ls
+cd backup/
+ls
+rm new 
+ls
+git push
+gs
+git add --all
+gs
+git commit -m "Rmoving the testing file"
+gs
+git push
+crontab -e
+touch t1 backup/t2
+cd..
+cd ..
+ls
+touch t2
+ls
+clear
+ls
+gs
+git-ls
+git ls-files
+git show
+crontab -e
+touch he
+gs
+git ls-fi
+git ls-files
+rm he t2
+cd backup/
+rm t1 
+cd
+cd .config/dotfiles/
+gs
+git add --all
+git push
+git ls-files
+gs
+git commit -m "Removing the test files"
+git push
+crontab -e
+touch t1 
+cd backup/
+touch t4
+ls
+cd ..
+gs
+clear
+gs
+crontab -l
+rm t1 
+cd backup/
+rm t4 
+cd ..
+gs
+git add --all 
+gs
+git commit -m "Removing the test files"
+git push
+clear
+crontab -e
+crontab -l
+cd
+clear
+bling
+ls
+clear
+bling
+login-ssh 
+clear
+cd scripts/
+ls
+vim bling 
+bling
+clear
+vim bling 
+bling
+vim bling 
+bling
+clear
+cd
+bling
+clear
+vim .vimrc 
+vim
+lsblk
+fdisk
+fdisk -l
+sudo fdisk -l
+clear
+lsblk
+clear
+bling
+clear
+ls
+clear
+fdick
+fdisk
+fdisk --help
+clear
+ls
+tar -cvzf iraf.tar.gz iraf-2.16.1-2018.11.01/
+ls
+ll -h
+du ~/iraf
+du ~/iraf.tar.gz 
+du -h ~/iraf.tar.gz 
+du -h ~/iraf-2.16.1-2018.11.01/
+ls
+rm  iraf.tar.gz 
+ls
+du -hr desktop/
+du --help
+clear
+man du
+du -hu desktop/
+man du
+du -hc desktop/
+clear
+du -c desktop/
+clear
+du -hc iraf-2.16.1-2018.11.01/
+clear
+du -hc ./*
+sudo apt-get zotero
+sudo apt-get autopurge zotero
+clear
+cd Do
+cd Downloads/
+ls
+rm ./*
+cd
+login-ssh 
+clear
+ssh my_phone 
+ssh -v my_phone 
+cd .ssh/
+ls
+cat config 
+clear
+cd
+ssh my_phone 
+ls
+cd desktop/
+ls
+cd
+mv desktop/* desk
+cd desk
+ls
+cd
+ls desktop/
+;s
+rm desktop/
+rm -ri desktop/
+ls
+xdg-user-dirs-update --set Desktop ~/desk/
+ls
+ls desk/
+mv desktop/* desk
+ls
+ll
+mv test/* ./*
+ls
+cd test/
+mv ./* ~/
+ls
+ll
+cd
+ll
+clear
+rm -r test/
+ls
+clear
+cd .config/
+ll
+vim user-dirs.dirs 
+clear
+cd
+killall nautilus
+ls
+cd .config/
+vim user-dirs.dirs 
+cd
+mv desk/ Desktop
+ls
+clear
+cd .config/
+vim user-dirs.dirs 
+cd
+mkdir desktop
+mv Desktop/ desktop/
+ls
+clear
+ls
+ls desktop/
+ls
+cd desktop/
+cd Desktop/
+ls
+mv ./* ~/desktop/
+ls
+cd ..
+ls
+rm Desktop/
+rmdir Desktop/
+ls
+cd
+clear
+ls
+mkdir desk
+mv desktop/* desk
+ls desk
+ls desktop/
+rm desktop/
+rm -r desktop/
+ls
+clear
+ls
+clear
+ls
+clear
+cd
+clear
+mv desk desktop
+ls
+ls desktop/
+clear
+ls
+clear
+which git
+clear
+which bling
+clear
+exit
 ls
 clear

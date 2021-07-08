@@ -39,7 +39,7 @@ call plug#end()
 
 
 colorscheme gruvbox
-
+hi Normal guibg=NONE ctermbg=NONE
 map <C-t> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
 map <C-h> <C-w>h
