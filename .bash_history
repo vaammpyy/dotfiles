@@ -1,246 +1,3 @@
-git add .*
-git ls files
-git log
-git ls -files
-git --help
-git ls-files
-git add .vimrc .bashrc .bash_profile
-git status
-git add .bash*
-git status
-git add .tmux.conf .gitconfig 
-git status
-git commit -m "Adding all the config files"
-git ls-files
-cd
-ll
-less .profile 
-cp .profile .config/dotfiles/
-cd .config/dotfiles/
-ls
-git add .profile 
-git commit -m "config profile added"
-git ls-files
-cd
-mkdir test
-cd test/
-touch f a kdf g s g
-ls
-mkdir new
-cd new
-ln -s ../* ./
-ll
-cd ..
-cd
-rm -rf test/
-mkdir test
-cd test/
-touch a d s h k l o
-ls >> del.txt
-cat del.txt 
-cat del.txt | rm 
-rm $(cat del.txt)
-ls
-cd 
-rm test/
-rm -r test/
-ls
-cat login.cl 
-cp login.cl .config/dotfiles/
-ls -a .config/dotfiles/
-ls -a .config/dotfiles/ >> delete.txt
-cat delete.txt 
-vim delete.txt 
-cat delete.txt 
-ls | grep $(delete.txt)
-rm $(cat delete.txt)
-ls
-ll
-ln -s .config/dotfiles/ ./
-ll
-rm dotfiles
-ll
-ln -s .config/dotfiles/* ./
-ll
-rm neofetch
-ll
-cd .config/dotfiles/
-ls
-ll
-cd
-ln -s .config/dotfiles/.* ./
-ll
-vim
-rm .git
-ll
-rm delete.txt 
-cd .config/
-ls
-rm -rf neofetch/
-ln -s dotfiles/neofetch/ ./
-ll
-bling
-clear
-cd
-bling
-ll
-cat .viminfo 
-clear
-ll
-mv .Xresources .config/dotfiles/
-ln -s .config/dotfiles/.Xresources ./
-ll
-cd .config/
-ll
-cd dotfiles/
-ls
-ll
-git status
-git add login.cl .Xresources 
-git commit -m "adding some more config files"
-clear
-git ls-files
-git help
-git pull
-git push
-git remote add https://github.com/vaammpyy/dotfiles.git
-bash
-exit
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get upgrade
-sudo apt-get full-upgrade
-bling
-reboot
-sudo reboot
-bling
-sudo apt-get autoremove
-clear
-cd /boot/
-ls
-ls efi/
-sudo ls efi/
-sudo su
-settings
-gsettings
-clear
-gnome-control-center 
-sudo su
-sudo apt --reinstall pop-desktop
-sudo apt install --reinstall pop-desktop
-reboot
-gnome-control-center 
-sudo apt update ; sudo apt upgrade
-sudo apt upgrade
-sudo apt-get install --reinstall gnome-control-center
-clear
-reboot
-apt policy libpop-upgrade-gtk
-sudo ldconfig
-sudo add-apt-repository ppa:ubuntu-desktop/ppa
-sudo apt install --reinstall gnome-control-center
-gnome-control-center 
-apt-get install -f --reinstall gnome-control-center gnome-control-center-data
-sudo apt-get install -f --reinstall gnome-control-center gnome-control-center-data
-dconf reset -f /org/gnome/control-center/
-sudo apt install gnome-control-center
-reboot
-sudo apt install ppa-purge
-sudo ppa-purge ppa:system76/pop
-sudo apt install gnome-control-center
-apt-get install -f --reinstall gnome-control-center gnome-control-center-data
-sudo apt-get install -f --reinstall gnome-control-center gnome-control-center-data
-sudo apt install pop-desktop
-sudo apt install --reinstall pop-desktop
-sudo apt-get autoremove
-sudo apt update && sudo apt install -f gnome-control-center gnome-conrol-center-data
-sudo apt install -f gnome-control-center gnome-conrol-center-data
-sudo apt install -f gnome-control-center gnome-control-center-data
-sudo apt install hidpi-daemon
-sudo apt install --reinstall hidpi-daemon
-clear
-sudo apt-get remove gnome-control-center
-sudo apt-get install gnome-control-center
-sudo apt-get install pop-desktop
-sudo apt-get remove geary libreoffice*
-sudo apt-get remove gnome-weather 
-sudo apt-get remove grub-customizer 
-sudo apt-get autoremove
-clear
-gnome-control-center 
-sudo add-apt-repository --remove ppa:system76/pop
-sudo apt install --reinstall gnome-control-center
-clear
-gnome-control-center 
-sudo add-apt-repository --remove ppa:system76/pop
-sudo add-apt-repository ppa:system76/pop
-sudo apt install --reinstall gnome-control-center
-clear
-exit
-sudo apt remove gnome-weather
-sudo vim /etc/apt/sources.list
-cd /etc/apt
-ls
-cat sources.list~
-cat sources.list.backup 
-cd sources.list.d
-ls
-ls ../sources.list.d.backup/
-sudo apt-get upgrade
-cd 
-sudo apt-get update
-sudo add-apt-repository --remove ppa:ubuntu-groovy
-cd /boot/efi/
-sudo cd /boot/efi/
-cd /boot/
-cd efi/
-sudo cd efi/
-sudo su 
-cd
-sudo apt install grub-efi grub2-common grub customizer
-sudo apt install grub-efi grub2-common grub-customizer
-sudo grub-install
-sudo cp /boot/grub/x86_64-efi/grub.efi /boot/efi/EFI/pop/grubx64.efi
-sudo reboot
-man awk
-clear
-cd Desktop/Python/cgpa/
-ls
-cat CGPA_online_vs_physical_semesters.csv 
-awk 'print $2' CGPA_online_vs_physical_semesters.csv 
-vim CGPA_online_vs_physical_semesters.csv 
-awk 'print $2' CGPA_online_vs_physical_semesters.csv 
-vim CGPA_online_vs_physical_semesters.csv 
-cat CGPA_online_vs_physical_semesters.csv | awk 'print $2'
-cat CGPA_online_vs_physical_semesters.csv | awk '{print $2}'
-awk '{print $2}' CGPA_online_vs_physical_semesters.csv 
-echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) ,$(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)",$(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)"
-echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) ,$(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)",$(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" >> new.csv
-ha
-
-
-
-
-echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv)"
-echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) ," 
-echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" 
-echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | wc -l
-echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | wc -l
-echo "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)"
-printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)"
-printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | grep -999
-printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | grep "-999"
-printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv)" | grep "999"
-printf "$(awk '{print $2}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $3}' CGPA_online_vs_physical_semesters.csv) -999 $(awk '{print $4}' CGPA_online_vs_physical_semesters.csv)" >> text.txt
-wc -l text.txt 
-ls
-rm cgpa.txt 
-mv text.txt cgpa.txt
-ls
-vim cgpa.txt 
-ls
-clear
-vim 
-vim plot.py 
 pip install pandas
 vim plot.py 
 clear
@@ -1996,5 +1753,248 @@ clear
 which bling
 clear
 exit
+ls
+clear
+pyraf
+ls
+pyraf
+cd pyraf/
+ls
+clear
+login-ssh 
+ssh my_phone 
+ssh my_phone -v
+clear
+ps
+clear
+ps
+ps aux
+man ps
+clear
+exit
+ls
+clear
+ls
+clear
+login-ssh 
+clear
+exit
+crontab -l | tail -n 1
+echo "today is$(date)"
+crontab -e
+pip install pyraf
+sudo apt-get install X11/X.h
+sudo apt install libx11-dev
+pip install pyraf
+ls
+pyraf
+clear
+ls
+pyraf
+clear
+crontab -e
+clear
+pyraf
+pyraf >> log.txt
+clear
+ls
+cat log
+cat log.txt 
+clear
+ks
+ls
+rm log.txt 
+ls
+cd pyraf/
+ls
+cat clcache.v2 
+clear
+ls
+pyraf
+ls
+cd
+ls
+clear
+pyraf -v
+cd desktop/
+cl
+clear
+pyraf
+% pyraf
+clear
+pyraf -v
+man pyraf
+pyraf --help
+pip install tkinter
+python -m tkinter
+python3 -m tkinter
+sudo apt-get install python3-tk
+pyraf --help
+pyraf -y
+pyraf
+pyraf --help
+pyraf -c
+pyraf -c xterm
+clear
+ls
+clear
+systemctl status auto-cpufreq.service 
+systemctl status thinkfan.service 
+cd Do
+cd Downloads/
+ls
+git clone https://github.com/vmatare/thinkfan.git
+cd thinkfan/
+ls
+mkdir build && cd build
+ccmake ..
+sudo apt  install cmake-curses-gui
+ccmake ..
+sudo apt install yaml-cpp
+ccmake ..
+sudo apt install yaml-cpp[-devel]
+sudo apt install yaml-cpp
+sudo snap install yaml-cpp
+clear
+cd ../..
+rm -rf thinkfan/
+ls
+clear
+htop 
+systemctl
+auto-cpufreq 
+sudo apt-get install auto-cpufreq
+sudo snap install auto-cpufreq
+sudo auto-cpufreq
+sudo auto-cpufreq -install
+auto-cpufreq
+clear
+sudo auto-cpufreq --monitor
+sudo snap install auto-cpufreq
+snap help refresh
+sudo snap remove auto-cpufreq
+sudo snap install auto-cpufreq
+sudo auto-cpufreq --monitor
+sudo snap remove auto-cpufreq
+cd Downloads/
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+auto-cpufreq
+auto-cpufreq --install
+sudo auto-cpufreq --install
+systemctl
+clear
+cd ..
+ls
+rm -r auto-cpufreq/
+sudo rm -r auto-cpufreq/
+systemctl
+clear
+systemctl 
+clear
+systemctl status apache2
+sudo apt-get install apache2
+clear
+systemctl apache2
+systemctl status apache2
+clear
+cd
+clear
+bling
+clear
+systemctl status apache2.service 
+clear
+systemctl status apache2.service 
+clear
+crontab -e
+clear
+sudo systemctl disable --now apache2.service 
+clear
+systemctl status auto-cpufreq.service 
+clear
+syncthing
+clear
+systemctl status thinkfan*
+sudo apt install syncthing
+systemctl status syncthing-resume.service 
+clear
+systemctl status syncthing
+systemctl status syncthing@vampy
+sudo systemctl enable --now syncthing@vampy
+systemctl status syncthing
+systemctl status syncthing@vampy
+clear
+htop
+sudo systemctl disable --now syncthing@vampy
+htop
+clear
+sudo systemctl diable --now apache2
+sudo systemctl disable --now apache2
+htop
+clear
+ls
+clear
+rm -rf Desktop/
+mv desktop/ Desktop/
+ls
+clear
+systemctl status thinkfan*
+systemctl status auto-cpufreq.service 
+clear
+ls -li
+cd desktop/
+cd IISER/
+ls
+okular IISER\ Aptitude\ Test\ 2017\ Previous\ Year\ Paper.pdf &
+sudo apt-get dejavu
+sudo apt-get install dejavu
+sudo apt-get install deja-dup
+clear
+sudo apt update
+sudo apt-get install deja-dup
+sudo apt update
+sudo apt-get install deja-dup
+sudo apt install deja-dup
+sudo apt-get install deja-dup
+ls
+clear
+ls
+clear
+ls
+cd 0ALYA3V8XrKqbUk9PVA/
+ls
+clear
+cd /run/
+ls
+cd user/
+ls
+cd GVfsSharedWithMe/
+ls
+cd
+rm -rf General/
+clear
+cd Desktop/
+cd IISER/
+du ./
+du -h ./
+clear
+cd
+cd Desktop/Astro-data/M31\ Spectra\ Analysis/
+ls
+clear
+cd
+clear
+locate IISER
+clear
+cd $(locate IISER)
+clear
+ls
+clear
+ls
+cd Videos/
+ls
+clear
+cd
+clear
 ls
 clear
