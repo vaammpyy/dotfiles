@@ -1,87 +1,3 @@
-pip install pandas
-vim plot.py 
-clear
-pip install matplotlib astropy specutils numba gnuplot
-sudo apt-get install gnuplot
-vim plot.py 
-clear
-pip install matplotlib
-python3 plot.py 
-vim plot.py 
-clear
-python3 plot.py 
-vim plot.py 
-cat cgpa.txt 
-wc -l cgpa.txt 
-vim plot.py 
-python3 plot.py 
-vim plot.py 
-python3 plot.py 
-vim plot.py 
-python3 plot.py 
-vim plot.py 
-python3 plot.py 
-ls
-rm *.txt
-ls
-clear
-awk '{print $2 "," $3 "," $4 ","}'
-awk '{print $2 "," $3 "," $4 ","}' CGPA_online_vs_physical_semesters.csv 
-awk '{print $2 "," $3 "," $4}' CGPA_online_vs_physical_semesters.csv 
-awk '{print $2 "," $3 "," $4}' CGPA_online_vs_physical_semesters.csv >> cgpa.csv && vim cgpa.csv
-cat cgpa.csv 
-clear
-cat cgpa.csv 
-vim cgpa.csv 
-less cgpa.csv 
-clear
-ls
-rm CGPA_online_vs_physical_semesters.csv 
-ls
-clear
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
-sudo apt update
-sudo apt install r-base
-R
-clear
-exit
-xterm &
-ls
-clear
-vim .bash_profile 
-xterm &
-cl
-iraf
-clera
-clear
-cl
-ds9 &
-cl
-exit
-tmux -a iraf
-tmux a -t iraf
-exit
-cl
-clear
-ls
-clear
-ls
-less login.cl 
-clear
-vi
-clear
-cd Desktop/iraf/
-cl
-clear
-tmux new -s "monitor"
-clear
-tmux new -s "iraf"
-cat .bashrc
-clear
-ls
-man sed
-clear
-cp login.cl test.txt
 cat test.txt 
 clear
 tmux new -s monitor
@@ -1997,4 +1913,88 @@ clear
 cd
 clear
 ls
+clear
+cron
+crontab -e
+clear
+cd .config/
+clear
+exit
+mkdir acads
+ln -s Papers/Astrophysics/ Books/Astrophysics/intro\ to\ modern\ astrophysics/
+ln -s ~/acads/Papers/Astrophysics/ ~/acads/Books/Astrophysics/intro\ to\ modern\ astrophysics/
+ln -s ~/acads/Papers/Astrophysics/ ~/acads/Books/Astrophysics/intro\ to\ modern\ astrophysics/papers
+ln -s ~/acads/notes/Astrophysics/ ~/acads/Books/Astrophysics/intro\ to\ modern\ astrophysics/notes
+ln -s ~/acads/Papers/Quantum-Mechanics/ ~/acads/Books/Quantum\ Mechanics/papers
+clear
+cd acads/
+ls
+cd Books/
+ls
+cd
+cd acads/
+ls
+cd Books/
+ls
+cd Classical\ mech/
+ls
+clear
+pidof kdeconnectd 
+lsof -i UDP:1716
+$ kill -15 `lsof -t -i UDP:1716`
+kill -15 `lsof -t -i UDP:1716`
+sudo apt-get remove kdeconnect
+sudo apt-get autoremove
+cleaer
+clear
+sudo apt-get install texlive-full
+clear
+ll
+vim .obsidian.vimrc
+cd ../.config/dotfiles/
+vim .vimrc 
+cd acads/
+ls
+ll
+cd .obsidian/
+ls
+cd pu
+cd plugins/
+ls
+cd obsidian-vimrc-support/
+ls
+cd ~/acads/
+ls
+ll
+tmux new -s "vim"
+clear
+exit
+cd acads/
+ls
+cd
+cd Python/
+ls
+mv Untitled\ Folder/ 'Drag in fluid'
+ls
+clear
+ls
+cd Drag\ in\ fluid/
+ls
+mv ~/Downloads/5_6289774228245840610.pdf ./
+ls
+clear
+cd
+sudo apt-get install texlive-full
+clear
+auto-cpufreq --moitor
+auto-cpufreq --monitor
+sudo auto-cpufreq --monitor
+auto-cpufreq --status
+auto-cpufreq --stats
+clear
+sudo apt-get install texlive-full
+clear
+sudo apt-get install texlive-full
+sudo apt-get update
+sudo apt-get upgrade
 clear

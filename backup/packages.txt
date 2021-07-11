@@ -694,15 +694,15 @@ apt-rollback/hirsute,hirsute 1.0.16-0ubuntu1 all
 apt-show-source/hirsute,hirsute 0.11+nmu1 all
 apt-show-versions/hirsute,hirsute 0.22.12 all
 apt-src/hirsute,hirsute 0.25.3 all
-apt-transport-https/hirsute,hirsute,now 2.2.3 all [installed]
+apt-transport-https/hirsute-updates,hirsute-updates,now 2.2.4ubuntu0.1 all [installed]
 apt-transport-in-toto/hirsute,hirsute 0.1.1-2 all
 apt-transport-s3/hirsute,hirsute 2.0.0-1 all
 apt-transport-tor/hirsute,hirsute 0.4 all
-apt-utils/hirsute,now 2.2.3 amd64 [installed]
+apt-utils/hirsute-updates,now 2.2.4ubuntu0.1 amd64 [installed]
 apt-utils/hirsute-updates 2.2.4ubuntu0.1 i386
 apt-venv/hirsute,hirsute 1.0.0-2.1 all
 apt-xapian-index/hirsute,hirsute 0.51ubuntu1 all
-apt/hirsute,now 2.2.3 amd64 [installed]
+apt/hirsute-updates,now 2.2.4ubuntu0.1 amd64 [installed]
 apt/hirsute-updates 2.2.4ubuntu0.1 i386
 aptdaemon-data/hirsute,hirsute,now 1.1.1+bzr982-0ubuntu36 all [installed,automatic]
 aptdaemon/hirsute,hirsute,now 1.1.1+bzr982-0ubuntu36 all [installed,automatic]
@@ -1064,9 +1064,9 @@ asunder/hirsute 2.9.7-1 amd64
 asused/hirsute,hirsute 3.72-14 all
 asylum-data/hirsute,hirsute 0.3.2-3build1 all
 asylum/hirsute 0.3.2-3build1 amd64
-asymptote-doc/hirsute,hirsute 2.69+ds-1 all
+asymptote-doc/hirsute,hirsute,now 2.69+ds-1 all [installed,automatic]
 asymptote-x11/hirsute 2.69+ds-1 amd64
-asymptote/hirsute 2.69+ds-1 amd64
+asymptote/hirsute,now 2.69+ds-1 amd64 [installed,automatic]
 at-spi2-core/hirsute,now 2.40.0-1 amd64 [installed,automatic]
 at-spi2-core/hirsute 2.40.0-1 i386
 at-spi2-doc/hirsute,hirsute 2.40.0-1 all
@@ -1201,16 +1201,16 @@ autossh/hirsute 1.4g-1 amd64
 autosuspend/hirsute,hirsute 3.0-1 all
 autotalent/hirsute 0.2-6 amd64
 autotools-dev/hirsute,hirsute 20180224.1+nmu1 all
-avahi-autoipd/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64 [upgradable from: 0.8-5ubuntu3]
+avahi-autoipd/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed]
 avahi-autoipd/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
-avahi-daemon/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64 [upgradable from: 0.8-5ubuntu3]
+avahi-daemon/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed]
 avahi-daemon/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 avahi-discover/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 0.8-5ubuntu3.1 all
 avahi-dnsconfd/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 avahi-dnsconfd/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 avahi-ui-utils/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 avahi-ui-utils/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
-avahi-utils/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64 [upgradable from: 0.8-5ubuntu3]
+avahi-utils/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed,automatic]
 avahi-utils/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 avarice/hirsute 2.14-1 amd64
 avce00/hirsute 2.0.0-8 amd64
@@ -1488,7 +1488,7 @@ bgpq4/hirsute 0.0.6-2 amd64
 biabam/hirsute,hirsute 0.9.7-7.2 all
 bibclean/hirsute 2.11.4.1-4build1 amd64
 bibcursed/hirsute 2.0.0-6.1build1 amd64
-biber/hirsute,hirsute 2.16-1 all
+biber/hirsute,hirsute,now 2.16-1 all [installed,automatic]
 bible-kjv-text/hirsute,hirsute 4.32 all
 bible-kjv/hirsute 4.32 amd64
 bibledit-cloud-data/hirsute,hirsute 5.0.922-1 all
@@ -2695,7 +2695,7 @@ chise-db/hirsute,hirsute 0.3.0-2.1 all
 chkboot/hirsute,hirsute 1.3-7 all
 chkrootkit/hirsute 0.54-1 amd64
 chkservice/hirsute 0.3-1build1 amd64
-chktex/hirsute 1.7.6-4 amd64
+chktex/hirsute,now 1.7.6-4 amd64 [installed,automatic]
 chntpw/hirsute 1.0-1.1 amd64
 chocolate-doom/hirsute 3.0.1-1 amd64
 choosewm/hirsute 0.1.6-3build1 amd64
@@ -3130,9 +3130,9 @@ clusterssh/hirsute,hirsute 4.16-2 all
 clutter-1.0-tests/hirsute 1.26.4+dfsg-2 amd64
 clutter-1.0-tests/hirsute 1.26.4+dfsg-2 i386
 clzip/hirsute 1.12-2 amd64
-cm-super-minimal/hirsute,hirsute 0.3.4-15 all
+cm-super-minimal/hirsute,hirsute,now 0.3.4-15 all [installed,automatic]
 cm-super-x11/hirsute,hirsute 0.3.4-15 all
-cm-super/hirsute,hirsute 0.3.4-15 all
+cm-super/hirsute,hirsute,now 0.3.4-15 all [installed,automatic]
 cmake-curses-gui/hirsute,now 3.18.4-2ubuntu1 amd64 [installed]
 cmake-curses-gui/hirsute 3.18.4-2ubuntu1 i386
 cmake-data/hirsute,hirsute,now 3.18.4-2ubuntu1 all [installed,automatic]
@@ -3397,9 +3397,9 @@ consulfs/hirsute 0.2.1-2build1 amd64
 containerd/hirsute 1.4.4-0ubuntu1 amd64
 containernetworking-plugins/hirsute 0.9.0-1 amd64
 containers-storage/hirsute 1.24.8+dfsg1-1ubuntu1 amd64
-context-modules/hirsute,hirsute 20200331-1 all
+context-modules/hirsute,hirsute,now 20200331-1 all [installed,automatic]
 context-nonfree/hirsute,hirsute 2007.03.22-2 all
-context/hirsute,hirsute 2020.03.10.20200331-1 all
+context/hirsute,hirsute,now 2020.03.10.20200331-1 all [installed,automatic]
 contextfree/hirsute 3.3+dfsg1-1build1 amd64
 conv-tools/hirsute 20160905-2 amd64
 converseen/hirsute 0.9.9.0-1 amd64
@@ -5202,8 +5202,8 @@ dvi2ps-fontdata-tbank/hirsute,hirsute 1.0.1-3.1 all
 dvi2ps-fontdata-three/hirsute,hirsute 1.0.1-3.1 all
 dvi2ps-fontdesc-morisawa5/hirsute,hirsute 0.6 all
 dvi2ps/hirsute 5.1j-1.4 amd64
-dvidvi/hirsute 1.0-8.2 amd64
-dvipng/hirsute 1.15-1.1 amd64
+dvidvi/hirsute,now 1.0-8.2 amd64 [installed,automatic]
+dvipng/hirsute,now 1.15-1.1 amd64 [installed,automatic]
 dvisvgm/hirsute,now 2.11.1-1 amd64 [installed,automatic]
 dvorak7min/hirsute 1.6.1+repack-4 amd64
 dvtm/hirsute 0.15+40.g311a8c0-1build1 amd64
@@ -6560,7 +6560,7 @@ fetchyahoo/hirsute,hirsute 2.14.7-1.1 all
 fever/hirsute 1.0.16-1 amd64
 fex-utils/hirsute,hirsute 20160919-2 all
 fex/hirsute,hirsute 20160919-2 all
-feynmf/hirsute,hirsute 1.08-12 all
+feynmf/hirsute,hirsute,now 1.08-12 all [installed,automatic]
 ffado-dbus-server/hirsute 2.4.4-1 amd64
 ffado-dbus-server/hirsute 2.4.4-1 i386
 ffado-mixer-qt4/hirsute,hirsute 2.4.4-1 all
@@ -6936,10 +6936,10 @@ fontmake/hirsute,hirsute 2.3.0-2 all
 fontmanager.app/hirsute 0.1-3 amd64
 fontmatrix/hirsute 0.9.99-2 amd64
 fonts-3270/hirsute,hirsute 2.2.1-1 all
-fonts-adf-accanthis/hirsute,hirsute 0.20190904-2 all
+fonts-adf-accanthis/hirsute,hirsute,now 0.20190904-2 all [installed,automatic]
 fonts-adf-baskervald/hirsute,hirsute 0.20190904-2 all
-fonts-adf-berenis/hirsute,hirsute 0.20190904-2 all
-fonts-adf-gillius/hirsute,hirsute 0.20190904-2 all
+fonts-adf-berenis/hirsute,hirsute,now 0.20190904-2 all [installed,automatic]
+fonts-adf-gillius/hirsute,hirsute,now 0.20190904-2 all [installed,automatic]
 fonts-adf-ikarius/hirsute,hirsute 0.20190904-2 all
 fonts-adf-irianis/hirsute,hirsute 0.20190904-2 all
 fonts-adf-libris/hirsute,hirsute 0.20190904-2 all
@@ -6949,7 +6949,7 @@ fonts-adf-romande/hirsute,hirsute 0.20190904-2 all
 fonts-adf-solothurn/hirsute,hirsute 0.20190904-2 all
 fonts-adf-switzera/hirsute,hirsute 0.20190904-2 all
 fonts-adf-tribun/hirsute,hirsute 0.20190904-2 all
-fonts-adf-universalis/hirsute,hirsute 0.20190904-2 all
+fonts-adf-universalis/hirsute,hirsute,now 0.20190904-2 all [installed,automatic]
 fonts-adf-verana/hirsute,hirsute 0.20190904-2 all
 fonts-aenigma/hirsute,hirsute 0.0.20080511+dfsg-4 all
 fonts-agave/hirsute,hirsute 37-1 all
@@ -6965,10 +6965,10 @@ fonts-apropal/hirsute,hirsute 1.0-2 all
 fonts-arabeyes/hirsute,hirsute 2.1-7 all
 fonts-arapey/hirsute,hirsute 0+git20200408-2 all
 fonts-arkpandora/hirsute,hirsute 2.04-1.1 all
-fonts-arphic-bkai00mp/hirsute,hirsute 2.10-21 all
-fonts-arphic-bsmi00lp/hirsute,hirsute 2.10-18 all
-fonts-arphic-gbsn00lp/hirsute,hirsute 2.11-16 all
-fonts-arphic-gkai00mp/hirsute,hirsute 2.11-16 all
+fonts-arphic-bkai00mp/hirsute,hirsute,now 2.10-21 all [installed,automatic]
+fonts-arphic-bsmi00lp/hirsute,hirsute,now 2.10-18 all [installed,automatic]
+fonts-arphic-gbsn00lp/hirsute,hirsute,now 2.11-16 all [installed,automatic]
+fonts-arphic-gkai00mp/hirsute,hirsute,now 2.11-16 all [installed,automatic]
 fonts-arphic-ukai/hirsute,hirsute,now 0.2.20080216.2-5 all [installed]
 fonts-arphic-uming/hirsute,hirsute,now 0.2.20080216.2-10ubuntu2 all [installed]
 fonts-arundina/hirsute,hirsute 0.3.2-1 all
@@ -6979,7 +6979,7 @@ fonts-averia-serif-gwf/hirsute,hirsute 1.00-2.1 all
 fonts-b612/hirsute,hirsute 1.008-3 all
 fonts-babelstone-han/hirsute,hirsute 12.1.5-1 all
 fonts-babelstone-modern/hirsute,hirsute 6.002-1.1 all
-fonts-baekmuk/hirsute,hirsute 2.2-13 all
+fonts-baekmuk/hirsute,hirsute,now 2.2-13 all [installed,automatic]
 fonts-bajaderka/hirsute,hirsute 1.0-3 all
 fonts-bebas-neue/hirsute,hirsute 3.0-2 all
 fonts-beng-extra/hirsute,hirsute 1.0-7 all
@@ -6989,10 +6989,10 @@ fonts-blankenburg/hirsute,hirsute 0.1-3 all
 fonts-bpg-georgian/hirsute,hirsute 2012-5 all
 fonts-breip/hirsute,hirsute 1:0.5.1-3 all
 fonts-bwht/hirsute,hirsute 0.1-3 all
-fonts-cabin/hirsute,hirsute 1.5-3 all
+fonts-cabin/hirsute,hirsute,now 1.5-3 all [installed,automatic]
 fonts-cabinsketch/hirsute,hirsute 1.02-3 all
 fonts-campania/hirsute,hirsute 2.009-2 all
-fonts-cantarell/hirsute,hirsute 0.111-3 all
+fonts-cantarell/hirsute,hirsute,now 0.111-3 all [installed,automatic]
 fonts-cardo/hirsute,hirsute 1.04-3 all
 fonts-cascadia-code/hirsute,hirsute 2102.03-1 all
 fonts-cegui/hirsute,hirsute 0.8.7-9build1 all
@@ -7003,13 +7003,13 @@ fonts-clear-sans/hirsute,hirsute 1.00-2 all
 fonts-cmu/hirsute,hirsute 0.7.0-4 all
 fonts-cns11643-kai/hirsute,hirsute 103.1+20181001-1ubuntu1 all
 fonts-cns11643-sung/hirsute,hirsute 103.1+20181001-1ubuntu1 all
-fonts-comfortaa/hirsute,hirsute 3.001-3 all
+fonts-comfortaa/hirsute,hirsute,now 3.001-3 all [installed,automatic]
 fonts-comic-neue/hirsute,hirsute 2.51-2 all
 fonts-compagnon/hirsute,hirsute 0.2-2 all
 fonts-courier-prime/hirsute,hirsute 0+git20190115-3 all
-fonts-croscore/hirsute,hirsute 20201225-1build1 all
-fonts-crosextra-caladea/hirsute,hirsute 20130214-2.1 all
-fonts-crosextra-carlito/hirsute,hirsute 20130920-1.1 all
+fonts-croscore/hirsute,hirsute,now 20201225-1build1 all [installed,automatic]
+fonts-crosextra-caladea/hirsute,hirsute,now 20130214-2.1 all [installed,automatic]
+fonts-crosextra-carlito/hirsute,hirsute,now 20130920-1.1 all [installed,automatic]
 fonts-cwtex-docs/hirsute,hirsute 1.0-4 all
 fonts-cwtex-fs/hirsute,hirsute 1.0-4 all
 fonts-cwtex-heib/hirsute,hirsute 1.0-4 all
@@ -7032,8 +7032,8 @@ fonts-droid-fallback/hirsute,hirsute,now 1:6.0.1r16-1.1build1 all [installed,aut
 fonts-dseg/hirsute,hirsute 0.46-1 all
 fonts-dustin/hirsute,hirsute 20030517-14 all
 fonts-dzongkha/hirsute,hirsute 0.3-8.1 all
-fonts-ebgaramond-extra/hirsute,hirsute 0.016-4 all
-fonts-ebgaramond/hirsute,hirsute 0.016-4 all
+fonts-ebgaramond-extra/hirsute,hirsute,now 0.016-4 all [installed,automatic]
+fonts-ebgaramond/hirsute,hirsute,now 0.016-4 all [installed,automatic]
 fonts-ecolier-court/hirsute,hirsute 1.00-6 all
 fonts-ecolier-lignes-court/hirsute,hirsute 1.00-7 all
 fonts-eeyek/hirsute,hirsute 1.0-5 all
@@ -7055,28 +7055,28 @@ fonts-firacode/hirsute,hirsute 5.2+dfsg1-2 all
 fonts-font-awesome/hirsute,hirsute,now 5.0.10+really4.7.0~dfsg-4 all [installed,automatic]
 fonts-fork-awesome/hirsute,hirsute 1.1.5+ds1-2 all
 fonts-freefarsi/hirsute,hirsute 1.0.0~beta1-8 all
-fonts-freefont-otf/hirsute,hirsute 20120503-10build1 all
+fonts-freefont-otf/hirsute,hirsute,now 20120503-10build1 all [installed,automatic]
 fonts-freefont-ttf/hirsute,hirsute,now 20120503-10build1 all [installed]
 fonts-gamaliel/hirsute,hirsute 0.1-2 all
 fonts-gargi/hirsute,hirsute 2.0-5 all
 fonts-gemunu-libre/hirsute,hirsute 1.001-3 all
 fonts-georgewilliams/hirsute,hirsute 20031023-3 all
-fonts-gfs-artemisia/hirsute,hirsute 1.1-6 all
-fonts-gfs-baskerville/hirsute,hirsute 1.1-6 all
-fonts-gfs-bodoni-classic/hirsute,hirsute 1.1-6 all
-fonts-gfs-complutum/hirsute,hirsute 1.1-7 all
-fonts-gfs-didot-classic/hirsute,hirsute 1.1-6 all
-fonts-gfs-didot/hirsute,hirsute 1.1-7 all
-fonts-gfs-gazis/hirsute,hirsute 1.1-6 all
-fonts-gfs-neohellenic/hirsute,hirsute 1.1-7 all
-fonts-gfs-olga/hirsute,hirsute 1.1-6 all
-fonts-gfs-porson/hirsute,hirsute 1.1-7 all
-fonts-gfs-solomos/hirsute,hirsute 1.1-6 all
-fonts-gfs-theokritos/hirsute,hirsute 1.1-6 all
+fonts-gfs-artemisia/hirsute,hirsute,now 1.1-6 all [installed,automatic]
+fonts-gfs-baskerville/hirsute,hirsute,now 1.1-6 all [installed,automatic]
+fonts-gfs-bodoni-classic/hirsute,hirsute,now 1.1-6 all [installed,automatic]
+fonts-gfs-complutum/hirsute,hirsute,now 1.1-7 all [installed,automatic]
+fonts-gfs-didot-classic/hirsute,hirsute,now 1.1-6 all [installed,automatic]
+fonts-gfs-didot/hirsute,hirsute,now 1.1-7 all [installed,automatic]
+fonts-gfs-gazis/hirsute,hirsute,now 1.1-6 all [installed,automatic]
+fonts-gfs-neohellenic/hirsute,hirsute,now 1.1-7 all [installed,automatic]
+fonts-gfs-olga/hirsute,hirsute,now 1.1-6 all [installed,automatic]
+fonts-gfs-porson/hirsute,hirsute,now 1.1-7 all [installed,automatic]
+fonts-gfs-solomos/hirsute,hirsute,now 1.1-6 all [installed,automatic]
+fonts-gfs-theokritos/hirsute,hirsute,now 1.1-6 all [installed,automatic]
 fonts-glasstty/hirsute,hirsute 0-2 all
 fonts-glyphicons-halflings/hirsute,hirsute,now 1.009~3.4.1+dfsg-2 all [installed,automatic]
 fonts-gnutypewriter/hirsute,hirsute 1.0-2 all
-fonts-go/hirsute,hirsute 0~20170330-1 all
+fonts-go/hirsute,hirsute,now 0~20170330-1 all [installed,automatic]
 fonts-gotico-antiqua/hirsute,hirsute 0+git20190704-4 all
 fonts-goudybookletter/hirsute,hirsute 2010.07.03-6 all
 fonts-gubbi/hirsute,hirsute 1.3-5build1 all
@@ -7092,7 +7092,7 @@ fonts-hanazono/hirsute,hirsute 20170904-2.1 all
 fonts-havana/hirsute,hirsute 1.0-3 all
 fonts-hermit/hirsute 1.1.1+git20200723-2 amd64
 fonts-horai-umefont/hirsute,hirsute 670-5 all
-fonts-hosny-amiri/hirsute,hirsute 0.113-1 all
+fonts-hosny-amiri/hirsute,hirsute,now 0.113-1 all [installed,automatic]
 fonts-hosny-thabit/hirsute,hirsute 0.02-2.1 all
 fonts-humor-sans/hirsute,hirsute 1.0-4 all
 fonts-ibm-plex/hirsute,hirsute 5.1.3-1 all
@@ -7100,11 +7100,11 @@ fonts-inconsolata/hirsute,hirsute 001.010-6build1 all
 fonts-indic/hirsute,hirsute 2:1.4 all
 fonts-inter-variable/hirsute,hirsute 3.15+ds-3 all
 fonts-inter/hirsute,hirsute 3.15+ds-3 all
-fonts-ipaexfont-gothic/hirsute,hirsute 00401-3ubuntu1 all
-fonts-ipaexfont-mincho/hirsute,hirsute 00401-3ubuntu1 all
+fonts-ipaexfont-gothic/hirsute,hirsute,now 00401-3ubuntu1 all [installed,automatic]
+fonts-ipaexfont-mincho/hirsute,hirsute,now 00401-3ubuntu1 all [installed,automatic]
 fonts-ipaexfont/hirsute,hirsute 00401-3ubuntu1 all
-fonts-ipafont-gothic/hirsute,hirsute 00303-21ubuntu1 all
-fonts-ipafont-mincho/hirsute,hirsute 00303-21ubuntu1 all
+fonts-ipafont-gothic/hirsute,hirsute,now 00303-21ubuntu1 all [installed,automatic]
+fonts-ipafont-mincho/hirsute,hirsute,now 00303-21ubuntu1 all [installed,automatic]
 fonts-ipafont-nonfree-jisx0208/hirsute,hirsute 1:00103-7 all
 fonts-ipafont-nonfree-uigothic/hirsute,hirsute 00203-26 all
 fonts-ipafont/hirsute,hirsute 00303-21ubuntu1 all
@@ -7115,7 +7115,7 @@ fonts-johnsmith-induni/hirsute,hirsute 20101012-7.1 all
 fonts-joscelyn/hirsute,hirsute 1.012+ds-2 all
 fonts-jsmath/hirsute,hirsute 0.090709+0-4 all
 fonts-junction/hirsute,hirsute 20110525.18de841-1.1 all
-fonts-junicode/hirsute,hirsute 1.002-2 all
+fonts-junicode/hirsute,hirsute,now 1.002-2 all [installed,automatic]
 fonts-jura/hirsute,hirsute 5.103-3 all
 fonts-kacst-one/hirsute,hirsute 5.0+svn11846-10 all
 fonts-kacst/hirsute,hirsute 2.01+mry-15 all
@@ -7155,11 +7155,11 @@ fonts-liberation2/hirsute,hirsute,now 2.1.2-2 all [installed,automatic]
 fonts-liberation/hirsute,hirsute,now 1:1.07.4-11 all [installed]
 fonts-lindenhill/hirsute,hirsute 1.2-6 all
 fonts-linex/hirsute,hirsute 2.2-8 all
-fonts-linuxlibertine/hirsute,hirsute 5.3.0-6 all
+fonts-linuxlibertine/hirsute,hirsute,now 5.3.0-6 all [installed,automatic]
 fonts-lklug-sinhala/hirsute,hirsute 0.6-3.1build1 all
 fonts-lmodern/hirsute,hirsute,now 2.004.5-6.1 all [installed,automatic]
-fonts-lobster/hirsute,hirsute 2.0-2.1 all
-fonts-lobstertwo/hirsute,hirsute 2.0-2.1 all
+fonts-lobster/hirsute,hirsute,now 2.0-2.1 all [installed,automatic]
+fonts-lobstertwo/hirsute,hirsute,now 2.0-2.1 all [installed,automatic]
 fonts-lohit-beng-assamese/hirsute,hirsute 2.91.5-2 all
 fonts-lohit-beng-bengali/hirsute,hirsute 2.91.5-2 all
 fonts-lohit-deva-marathi/hirsute,hirsute 2.94.2-3 all
@@ -7227,11 +7227,11 @@ fonts-noto/hirsute,hirsute 20201225-1build1 all
 fonts-ocr-a/hirsute,hirsute 1.0-10 all
 fonts-ocr-b/hirsute,hirsute 0.2~dfsg1-5.1 all
 fonts-octicons/hirsute,hirsute 4.4.0-2 all
-fonts-oflb-asana-math/hirsute,hirsute 000.907-7build1 all
+fonts-oflb-asana-math/hirsute,hirsute,now 000.907-7build1 all [installed,automatic]
 fonts-oflb-euterpe/hirsute,hirsute 1.1-6 all
 fonts-okolaks/hirsute,hirsute 0.6.0-2build1 all
 fonts-oldstandard/hirsute,hirsute 2.2really-4 all
-fonts-open-sans/hirsute,hirsute 1.11-1.1 all
+fonts-open-sans/hirsute,hirsute,now 1.11-1.1 all [installed,automatic]
 fonts-opendin/hirsute,hirsute 1.0-4 all
 fonts-opendyslexic/hirsute,hirsute 20160623-4 all
 fonts-opensymbol/hirsute-updates,hirsute-updates 2:102.12+LibO7.1.4-0ubuntu0.21.04.1 all
@@ -7263,7 +7263,7 @@ fonts-roadgeek/hirsute,hirsute 3.1-3 all
 fonts-roboto-fontface/hirsute,hirsute 0.5.0-3 all
 fonts-roboto-hinted/hirsute,hirsute 2:0~20170802-3 all
 fonts-roboto-slab/hirsute,hirsute 1.100263+20170512-2 all
-fonts-roboto-unhinted/hirsute,hirsute 2:0~20170802-3 all
+fonts-roboto-unhinted/hirsute,hirsute,now 2:0~20170802-3 all [installed,automatic]
 fonts-roboto/hirsute,hirsute 2:0~20170802-3 all
 fonts-rocknroll/hirsute,hirsute 1.000-20210120-2 all
 fonts-rufscript/hirsute,hirsute 010-6 all
@@ -7290,23 +7290,23 @@ fonts-sil-andikanewbasic/hirsute,hirsute 5.500-3.1 all
 fonts-sil-annapurna/hirsute,hirsute 1.204-2 all
 fonts-sil-awami-nastaliq/hirsute,hirsute 2.000-1 all
 fonts-sil-charis-compact/hirsute,hirsute 5.000-2 all
-fonts-sil-charis/hirsute,hirsute 5.000-3.1 all
+fonts-sil-charis/hirsute,hirsute,now 5.000-3.1 all [installed,automatic]
 fonts-sil-dai-banna/hirsute,hirsute 2.200-2 all
 fonts-sil-doulos-compact/hirsute,hirsute 5.000-3 all
 fonts-sil-doulos/hirsute,hirsute 5.000-4.1 all
 fonts-sil-ezra/hirsute,hirsute 2.51-9 all
 fonts-sil-galatia/hirsute,hirsute 2.1-6 all
-fonts-sil-gentium-basic/hirsute,hirsute 1.102-1.1 all
-fonts-sil-gentium/hirsute,hirsute 20081126:1.03-4 all
-fonts-sil-gentiumplus-compact/hirsute,hirsute 5.000-4 all
-fonts-sil-gentiumplus/hirsute,hirsute 5.000-2.1 all
+fonts-sil-gentium-basic/hirsute,hirsute,now 1.102-1.1 all [installed,automatic]
+fonts-sil-gentium/hirsute,hirsute,now 20081126:1.03-4 all [installed,automatic]
+fonts-sil-gentiumplus-compact/hirsute,hirsute,now 5.000-4 all [installed,automatic]
+fonts-sil-gentiumplus/hirsute,hirsute,now 5.000-2.1 all [installed,automatic]
 fonts-sil-harmattan/hirsute,hirsute 2.000-1 all
 fonts-sil-lateef/hirsute,hirsute 1.200-1 all
 fonts-sil-mingzat/hirsute,hirsute 1.000-3 all
 fonts-sil-mondulkiri-extra/hirsute,hirsute 5.300-2 all
 fonts-sil-mondulkiri/hirsute,hirsute 7.100-3 all
 fonts-sil-nuosusil/hirsute,hirsute 2.200-1 all
-fonts-sil-padauk/hirsute,hirsute 4.000-1build1 all
+fonts-sil-padauk/hirsute,hirsute,now 4.000-1build1 all [installed,automatic]
 fonts-sil-scheherazade/hirsute,hirsute 2.100-2.1build1 all
 fonts-sil-shimenkan-gsm/hirsute,hirsute 1.000-3 all
 fonts-sil-shimenkan-guifan/hirsute,hirsute 1.000-3 all
@@ -7340,7 +7340,7 @@ fonts-solide-mirage/hirsute,hirsute 0.2-2 all
 fonts-spleen/hirsute,hirsute 1.8.2-1 all
 fonts-staypuft/hirsute,hirsute 0.04-10 all
 fonts-stick/hirsute,hirsute 1.000-20210120-2 all
-fonts-stix/hirsute,hirsute 1.1.1-4.1 all
+fonts-stix/hirsute,hirsute,now 1.1.1-4.1 all [installed,automatic]
 fonts-summersby/hirsute,hirsute 1.007-12 all
 fonts-symbola/hirsute,hirsute 2.60-1.1 all
 fonts-takao-gothic/hirsute,hirsute 00303.01-3ubuntu1 all
@@ -7362,45 +7362,45 @@ fonts-thai-tlwg-web/hirsute,hirsute 1:0.7.2-1build1 all
 fonts-thai-tlwg/hirsute,hirsute 1:0.7.2-1build1 all
 fonts-tibetan-machine/hirsute,hirsute 1.901b-5.1build1 all
 fonts-tiresias/hirsute,hirsute 0.1-6 all
-fonts-tlwg-garuda-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-garuda-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-garuda-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-garuda/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-kinnari-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-garuda/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-kinnari-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-kinnari-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-kinnari/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-laksaman-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-kinnari/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-laksaman-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-laksaman-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-laksaman/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-loma-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-laksaman/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-loma-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-loma-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-loma/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-mono-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-loma/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-mono-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-mono-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-mono/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-norasi-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-mono/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-norasi-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-norasi-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-norasi/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-purisa-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-norasi/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-purisa-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-purisa-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-purisa/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-sawasdee-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-purisa/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-sawasdee-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-sawasdee-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-sawasdee/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-typewriter-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-sawasdee/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-typewriter-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-typewriter-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-typewriter/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-typist-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-typewriter/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-typist-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-typist-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-typist/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-typo-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-typist/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-typo-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-typo-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-typo/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-umpush-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-typo/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-umpush-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-umpush-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-umpush/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-waree-otf/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-umpush/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
+fonts-tlwg-waree-otf/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tlwg-waree-ttf/hirsute,hirsute 1:0.7.2-1build1 all
-fonts-tlwg-waree/hirsute,hirsute 1:0.7.2-1build1 all
+fonts-tlwg-waree/hirsute,hirsute,now 1:0.7.2-1build1 all [installed,automatic]
 fonts-tomsontalks/hirsute,hirsute 1.1-9 all
 fonts-train/hirsute,hirsute 1.000-20210120-2 all
 fonts-triod-postnaja/hirsute,hirsute 20130809-2 all
@@ -7412,8 +7412,8 @@ fonts-ubuntu/hirsute,hirsute,now 0.83-4ubuntu2 all [installed,automatic]
 fonts-ukij-uyghur/hirsute,hirsute 20110217-4build2 all
 fonts-umeplus-cl/hirsute,hirsute 20180604-2 all
 fonts-umeplus/hirsute,hirsute 20180604-3 all
-fonts-unfonts-core/hirsute,hirsute 1:1.0.2-080608-16 all
-fonts-unfonts-extra/hirsute,hirsute 1:1.0.2-080608+dfsg-9 all
+fonts-unfonts-core/hirsute,hirsute,now 1:1.0.2-080608-16 all [installed,automatic]
+fonts-unfonts-extra/hirsute,hirsute,now 1:1.0.2-080608+dfsg-9 all [installed,automatic]
 fonts-unifont/hirsute,hirsute 1:13.0.05-1 all
 fonts-unikurdweb/hirsute,hirsute 1.0-6 all
 fonts-uralic/hirsute,hirsute 0.0.20040829-7 all
@@ -7594,7 +7594,7 @@ fqterm/hirsute 0.9.10.1-1 amd64
 fracplanet/hirsute 0.5.1-5.1build1 amd64
 fractalnow/hirsute 0.8.2-4build1 amd64
 fractgen/hirsute 2.1.5-1.1 amd64
-fragmaster/hirsute,hirsute 1.7-8.1 all
+fragmaster/hirsute,hirsute,now 1.7-8.1 all [installed,automatic]
 frama-c-base/hirsute 20201209+titanium-4.1 amd64
 frame-tools/hirsute 2.5.0daily13.06.05+16.10.20160809-0ubuntu3 amd64
 frameworkintegration/hirsute 5.80.0-0ubuntu1 amd64
@@ -7650,7 +7650,7 @@ freegish-data/hirsute,hirsute 1.53+git20170110+dfsg-2 all
 freegish/hirsute 1.53+git20170110+dfsg-2 amd64
 freeglut3-dev/hirsute 2.8.1-6 amd64
 freeglut3-dev/hirsute 2.8.1-6 i386
-freeglut3/hirsute 2.8.1-6 amd64
+freeglut3/hirsute,now 2.8.1-6 amd64 [installed,automatic]
 freeglut3/hirsute 2.8.1-6 i386
 freeipa-client-samba/hirsute 4.8.6-1ubuntu5 amd64
 freeipa-client/hirsute 4.8.6-1ubuntu5 amd64
@@ -11242,7 +11242,7 @@ gnome-common/hirsute,hirsute 3.18.0-4 all
 gnome-contacts/hirsute,now 3.38.1-1build1 amd64 [installed]
 gnome-control-center-data/hirsute,hirsute 1:3.38.3-1pop1~1625268318~21.04~2880306 all
 gnome-control-center-dev/hirsute,hirsute 1:3.38.3-1pop1~1625268318~21.04~2880306 all
-gnome-control-center-faces/hirsute,hirsute 1:3.38.3-1pop1~1625268318~21.04~2880306 all [upgradable from: 1:3.38.3-1pop1~1624555020~21.04~668f3c0]
+gnome-control-center-faces/hirsute,hirsute,now 1:3.38.3-1pop1~1625268318~21.04~2880306 all [installed,automatic]
 gnome-control-center/hirsute,now 1:3.38.3-1pop1~1625268318~21.04~2880306 amd64 [installed]
 gnome-core/hirsute 1:3.38+3 amd64
 gnome-desktop-testing/hirsute 2018.1-3 amd64
@@ -15350,13 +15350,13 @@ imageinfo/hirsute 0.04-0ubuntu12 amd64
 imagej/hirsute,hirsute 1.53g-2 all
 imagemagick-6-common/hirsute,hirsute,now 8:6.9.11.60+dfsg-1ubuntu1 all [installed,automatic]
 imagemagick-6-doc/hirsute,hirsute 8:6.9.11.60+dfsg-1ubuntu1 all
-imagemagick-6.q16/hirsute 8:6.9.11.60+dfsg-1ubuntu1 amd64
+imagemagick-6.q16/hirsute,now 8:6.9.11.60+dfsg-1ubuntu1 amd64 [installed,automatic]
 imagemagick-6.q16/hirsute 8:6.9.11.60+dfsg-1ubuntu1 i386
 imagemagick-6.q16hdri/hirsute 8:6.9.11.60+dfsg-1ubuntu1 amd64
 imagemagick-6.q16hdri/hirsute 8:6.9.11.60+dfsg-1ubuntu1 i386
 imagemagick-common/hirsute,hirsute 8:6.9.11.60+dfsg-1ubuntu1 all
 imagemagick-doc/hirsute,hirsute 8:6.9.11.60+dfsg-1ubuntu1 all
-imagemagick/hirsute 8:6.9.11.60+dfsg-1ubuntu1 amd64
+imagemagick/hirsute,now 8:6.9.11.60+dfsg-1ubuntu1 amd64 [installed,automatic]
 imagemagick/hirsute 8:6.9.11.60+dfsg-1ubuntu1 i386
 imagetooth/hirsute,hirsute 2.0.1-3 all
 imagination-common/hirsute,hirsute 3.6-1 all
@@ -16219,7 +16219,7 @@ kde-zeroconf/hirsute 4:20.12.3-0ubuntu1 amd64
 kdeaccessibility/hirsute 4:20.12.0+5.111ubuntu1 amd64
 kdeadmin/hirsute 4:20.12.0+5.111ubuntu1 amd64
 kdebugsettings/hirsute 20.12.3-0ubuntu1 amd64
-kdeconnect/hirsute,now 20.12.3-1 amd64 [installed,automatic]
+kdeconnect/hirsute,now 20.12.3-1 amd64 [residual-config]
 kded5-dev/hirsute 5.80.0-0ubuntu1 amd64
 kded5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
 kdeedu-data/hirsute,hirsute 4:20.12.3-0ubuntu1 all
@@ -16629,7 +16629,7 @@ kpat/hirsute 4:20.12.3-0ubuntu1 amd64
 kpatch-build/hirsute 0.8.0-0ubuntu7 amd64
 kpatch/hirsute 0.8.0-0ubuntu7 amd64
 kpcli/hirsute,hirsute 3.1-3.1 all
-kpeople-vcard/hirsute,now 0.1-2 amd64 [installed,automatic]
+kpeople-vcard/hirsute 0.1-2 amd64
 kphotoalbum/hirsute 5.7.0-1 amd64
 kquickcharts-dev/hirsute 5.80.0-0ubuntu1 amd64
 kraft/hirsute 0.96-1 amd64
@@ -16808,7 +16808,7 @@ labplot-data/hirsute,hirsute 2.8.1-2 all
 labplot/hirsute 2.8.1-2 amd64
 labrea/hirsute 2.5-stable-3.1 amd64
 laby/hirsute 0.7.0-1build1 amd64
-lacheck/hirsute 1.26-17 amd64
+lacheck/hirsute,now 1.26-17 amd64 [installed,automatic]
 lacme-accountd/hirsute,hirsute 0.8.0-1 all
 lacme/hirsute,hirsute 0.8.0-1 all
 ladspa-foo-plugins/hirsute 1.0-0ubuntu2 amd64
@@ -17260,17 +17260,17 @@ latd/hirsute 1.35 amd64
 late-data/hirsute,hirsute 0.1.0-14 all
 late/hirsute 0.1.0-14 amd64
 latencytop/hirsute 0.5ubuntu4 amd64
-latex-cjk-all/hirsute,hirsute 4.8.4+git20170127-3 all
-latex-cjk-chinese-arphic-bkai00mp/hirsute,hirsute 1.23+nmu1 all
-latex-cjk-chinese-arphic-bsmi00lp/hirsute,hirsute 1.23+nmu1 all
-latex-cjk-chinese-arphic-gbsn00lp/hirsute,hirsute 1.23+nmu1 all
-latex-cjk-chinese-arphic-gkai00mp/hirsute,hirsute 1.23+nmu1 all
-latex-cjk-chinese/hirsute 4.8.4+git20170127-3 amd64
-latex-cjk-common/hirsute 4.8.4+git20170127-3 amd64
-latex-cjk-japanese-wadalab/hirsute,hirsute 0.20050817-17.1 all
-latex-cjk-japanese/hirsute 4.8.4+git20170127-3 amd64
-latex-cjk-korean/hirsute,hirsute 4.8.4+git20170127-3 all
-latex-cjk-thai/hirsute,hirsute 4.8.4+git20170127-3 all
+latex-cjk-all/hirsute,hirsute,now 4.8.4+git20170127-3 all [installed,automatic]
+latex-cjk-chinese-arphic-bkai00mp/hirsute,hirsute,now 1.23+nmu1 all [installed,automatic]
+latex-cjk-chinese-arphic-bsmi00lp/hirsute,hirsute,now 1.23+nmu1 all [installed,automatic]
+latex-cjk-chinese-arphic-gbsn00lp/hirsute,hirsute,now 1.23+nmu1 all [installed,automatic]
+latex-cjk-chinese-arphic-gkai00mp/hirsute,hirsute,now 1.23+nmu1 all [installed,automatic]
+latex-cjk-chinese/hirsute,now 4.8.4+git20170127-3 amd64 [installed,automatic]
+latex-cjk-common/hirsute,now 4.8.4+git20170127-3 amd64 [installed,automatic]
+latex-cjk-japanese-wadalab/hirsute,hirsute,now 0.20050817-17.1 all [installed,automatic]
+latex-cjk-japanese/hirsute,now 4.8.4+git20170127-3 amd64 [installed,automatic]
+latex-cjk-korean/hirsute,hirsute,now 4.8.4+git20170127-3 all [installed,automatic]
+latex-cjk-thai/hirsute,hirsute,now 4.8.4+git20170127-3 all [installed,automatic]
 latex-coffee-stains/hirsute,hirsute 7-1 all
 latex-fonts-arundina/hirsute,hirsute 0.3.2-1 all
 latex-fonts-sipa-arundina/hirsute,hirsute 0.3.2-1 all
@@ -17282,11 +17282,11 @@ latex209-src/hirsute,hirsute 25.mar.1992-21 all
 latex2html/hirsute,hirsute 2021-debian1-1 all
 latex2rtf-doc/hirsute,hirsute 2.3.18a-3 all
 latex2rtf/hirsute 2.3.18a-3 amd64
-latexdiff/hirsute,hirsute 1.3.1-1 all
+latexdiff/hirsute,hirsute,now 1.3.1-1 all [installed,automatic]
 latexdraw/hirsute,hirsute 3.3.8+ds1-1 all
 latexila-data/hirsute,hirsute 3.22.0-1.1 all
 latexila/hirsute 3.22.0-1.1 amd64
-latexmk/hirsute,hirsute 1:4.70b-0.2 all
+latexmk/hirsute,hirsute,now 1:4.70b-0.2 all [installed,automatic]
 latexml/hirsute,hirsute 0.8.5-2 all
 latrace/hirsute 0.5.11-1 amd64
 latte-dock/hirsute 0.9.11-1 amd64
@@ -17326,7 +17326,7 @@ lcalc/hirsute 1.23+dfsg-11build2 amd64
 lcas-interface/hirsute,hirsute 1.3.19-2.1 all
 lcas-lcmaps-gt4-interface/hirsute 0.3.1-1 amd64
 lcd4linux/hirsute 0.11.0~svn1203-3 amd64
-lcdf-typetools/hirsute 2.108-2 amd64
+lcdf-typetools/hirsute,now 2.108-2 amd64 [installed,automatic]
 lcdproc-extra-drivers/hirsute 0.5.9-6 amd64
 lcdproc/hirsute 0.5.9-6 amd64
 lcl-2.0/hirsute 2.0.10+dfsg-4 amd64
@@ -18260,7 +18260,7 @@ libaldmb1-dev/hirsute 1:0.9.3-6build1 amd64
 libaldmb1/hirsute 1:0.9.3-6build1 amd64
 libalglib-dev/hirsute 3.17.0-2 amd64
 libalglib3.17/hirsute 3.17.0-2 amd64
-libalgorithm-c3-perl/hirsute,hirsute 0.11-1 all
+libalgorithm-c3-perl/hirsute,hirsute,now 0.11-1 all [installed,automatic]
 libalgorithm-checkdigits-perl/hirsute,hirsute 0.50-1.1 all
 libalgorithm-combinatorics-perl/hirsute 0.27-2build7 amd64
 libalgorithm-dependency-perl/hirsute,hirsute 1.110-1.2 all
@@ -18666,7 +18666,7 @@ libapt-pkg-dev/hirsute-updates 2.2.4ubuntu0.1 amd64
 libapt-pkg-dev/hirsute-updates 2.2.4ubuntu0.1 i386
 libapt-pkg-doc/hirsute-updates,hirsute-updates 2.2.4ubuntu0.1 all
 libapt-pkg-perl/hirsute 0.1.39build1 amd64
-libapt-pkg6.0/hirsute,now 2.2.3 amd64 [installed]
+libapt-pkg6.0/hirsute-updates,now 2.2.4ubuntu0.1 amd64 [installed]
 libapt-pkg6.0/hirsute-updates 2.2.4ubuntu0.1 i386
 libaqbanking-data/hirsute,hirsute 6.2.10-1 all
 libaqbanking-dev/hirsute 6.2.10-1 amd64
@@ -19081,16 +19081,16 @@ libautocomplete-java-doc/hirsute,hirsute 2.5.3-1 all
 libautocomplete-java/hirsute,hirsute 2.5.3-1 all
 libautomaton-java/hirsute,hirsute 1.11-8+dfsg1-1.1 all
 libautopilot-gtk/hirsute 1.6.1 amd64
-libautovivification-perl/hirsute 0.18-1build3 amd64
+libautovivification-perl/hirsute,now 0.18-1build3 amd64 [installed,automatic]
 libavahi-client-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 libavahi-client-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
-libavahi-client3/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64 [upgradable from: 0.8-5ubuntu3]
+libavahi-client3/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed,automatic]
 libavahi-client3/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
-libavahi-common-data/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64 [upgradable from: 0.8-5ubuntu3]
+libavahi-common-data/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed,automatic]
 libavahi-common-data/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 libavahi-common-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 libavahi-common-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
-libavahi-common3/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64 [upgradable from: 0.8-5ubuntu3]
+libavahi-common3/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed,automatic]
 libavahi-common3/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 libavahi-compat-libdnssd-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 libavahi-compat-libdnssd-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
@@ -19098,11 +19098,11 @@ libavahi-compat-libdnssd1/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 libavahi-compat-libdnssd1/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 libavahi-core-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 libavahi-core-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
-libavahi-core7/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64 [upgradable from: 0.8-5ubuntu3]
+libavahi-core7/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed,automatic]
 libavahi-core7/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 libavahi-glib-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 libavahi-glib-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
-libavahi-glib1/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64 [upgradable from: 0.8-5ubuntu3]
+libavahi-glib1/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed,automatic]
 libavahi-glib1/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 libavahi-gobject-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 amd64
 libavahi-gobject-dev/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
@@ -19208,10 +19208,10 @@ libb-compiling-perl/hirsute 0.06-1build7 amd64
 libb-cow-perl/hirsute 0.004-1build1 amd64
 libb-cow-perl/hirsute 0.004-1build1 i386
 libb-debug-perl/hirsute,hirsute 1.26-2 all
-libb-hooks-endofscope-perl/hirsute,hirsute 0.24-1.1 all
+libb-hooks-endofscope-perl/hirsute,hirsute,now 0.24-1.1 all [installed,automatic]
 libb-hooks-op-annotation-perl/hirsute 0.44-2build8 amd64
 libb-hooks-op-check-entersubforcv-perl/hirsute 0.10-1build4 amd64
-libb-hooks-op-check-perl/hirsute 0.22-1build3 amd64
+libb-hooks-op-check-perl/hirsute,now 0.22-1build3 amd64 [installed,automatic]
 libb-hooks-op-check-perl/hirsute 0.22-1build3 i386
 libb-hooks-op-ppaddr-perl/hirsute 0.06-1build3 amd64
 libb-hooks-parser-perl/hirsute 0.21-1build2 amd64
@@ -19860,7 +19860,7 @@ libbtbb1/hirsute 2018.12.R1-1 amd64
 libbtf1/hirsute 1:5.8.1+dfsg-2 amd64
 libbtm-java/hirsute,hirsute 2.1.4-6build1 all
 libbtparse-dev/hirsute 0.88-3build2 amd64
-libbtparse2/hirsute 0.88-3build2 amd64
+libbtparse2/hirsute,now 0.88-3build2 amd64 [installed,automatic]
 libbtrfs-dev/hirsute 5.10.1-1build1 amd64
 libbtrfs-dev/hirsute 5.10.1-1build1 i386
 libbtrfs0/hirsute 5.10.1-1build1 amd64
@@ -19895,11 +19895,11 @@ libbusiness-creditcard-perl/hirsute,hirsute 0.36-1 all
 libbusiness-edi-perl/hirsute,hirsute 0.05-2.1 all
 libbusiness-edifact-interchange-perl/hirsute,hirsute 0.07-1.1 all
 libbusiness-hours-perl/hirsute,hirsute 0.13-1 all
-libbusiness-isbn-data-perl/hirsute,hirsute 20210112.001-1 all
-libbusiness-isbn-perl/hirsute,hirsute 3.006-1 all
+libbusiness-isbn-data-perl/hirsute,hirsute,now 20210112.001-1 all [installed,automatic]
+libbusiness-isbn-perl/hirsute,hirsute,now 3.006-1 all [installed,automatic]
 libbusiness-isin-perl/hirsute,hirsute 0.20-2 all
-libbusiness-ismn-perl/hirsute,hirsute 1.202-1 all
-libbusiness-issn-perl/hirsute,hirsute 1.004-1 all
+libbusiness-ismn-perl/hirsute,hirsute,now 1.202-1 all [installed,automatic]
+libbusiness-issn-perl/hirsute,hirsute,now 1.004-1 all [installed,automatic]
 libbusiness-onlinepayment-authorizenet-perl/hirsute,hirsute 3.23-1 all
 libbusiness-onlinepayment-ippay-perl/hirsute,hirsute 0.09-2 all
 libbusiness-onlinepayment-openecho-perl/hirsute,hirsute 0.03-4 all
@@ -20819,20 +20819,20 @@ libclass-accessor-grouped-perl/hirsute,hirsute 0.10014-1 all
 libclass-accessor-lite-perl/hirsute,hirsute 0.08-1.1 all
 libclass-accessor-lvalue-perl/hirsute,hirsute 0.11-4.1 all
 libclass-accessor-named-perl/hirsute,hirsute 0.009-1 all
-libclass-accessor-perl/hirsute,hirsute 0.51-1 all
+libclass-accessor-perl/hirsute,hirsute,now 0.51-1 all [installed,automatic]
 libclass-adapter-perl/hirsute,hirsute 1.09-1 all
 libclass-autoloadcan-perl/hirsute,hirsute 0.03-2.1 all
 libclass-autouse-perl/hirsute,hirsute 2.01-1.1 all
 libclass-base-perl/hirsute,hirsute 0.09-1 all
 libclass-c3-adopt-next-perl/hirsute,hirsute 0.14-1 all
 libclass-c3-componentised-perl/hirsute,hirsute 1.001002-1 all
-libclass-c3-perl/hirsute,hirsute 0.35-1 all
-libclass-c3-xs-perl/hirsute 0.15-1build1 amd64
+libclass-c3-perl/hirsute,hirsute,now 0.35-1 all [installed,automatic]
+libclass-c3-xs-perl/hirsute,now 0.15-1build1 amd64 [installed,automatic]
 libclass-container-perl/hirsute,hirsute 0.13-1 all
 libclass-contract-perl/hirsute,hirsute 1.14-8.1 all
 libclass-csv-perl/hirsute,hirsute 1.03-2.2 all
 libclass-data-accessor-perl/hirsute,hirsute 0.04004-2 all
-libclass-data-inheritable-perl/hirsute,hirsute 0.08-3 all
+libclass-data-inheritable-perl/hirsute,hirsute,now 0.08-3 all [installed,automatic]
 libclass-date-perl/hirsute,hirsute 1.1.17-1 all
 libclass-dbi-abstractsearch-perl/hirsute,hirsute 0.07-4.1 all
 libclass-dbi-asform-perl/hirsute,hirsute 2.42-7 all
@@ -20862,7 +20862,7 @@ libclass-gomor-perl/hirsute,hirsute 1.03-1 all
 libclass-handle-perl/hirsute,hirsute 1.07-3 all
 libclass-inner-perl/hirsute,hirsute 0.200001-2 all
 libclass-insideout-perl/hirsute,hirsute 1.14-2 all
-libclass-inspector-perl/hirsute,hirsute 1.36-1 all
+libclass-inspector-perl/hirsute,hirsute,now 1.36-1 all [installed,automatic]
 libclass-isa-perl/hirsute,hirsute 0.36-6 all
 libclass-load-perl/hirsute,hirsute 0.25-1 all
 libclass-load-xs-perl/hirsute 0.10-1build6 amd64
@@ -20871,7 +20871,7 @@ libclass-loader-perl/hirsute,hirsute 2.03-2 all
 libclass-loader1d/hirsute 0.5.0-3 amd64
 libclass-makemethods-perl/hirsute,hirsute 1.01-5 all
 libclass-meta-perl/hirsute,hirsute 0.66-2.1 all
-libclass-method-modifiers-perl/hirsute,hirsute 2.13-1 all
+libclass-method-modifiers-perl/hirsute,hirsute,now 2.13-1 all [installed,automatic]
 libclass-methodmaker-perl/hirsute 2.24-2build1 amd64
 libclass-mix-perl/hirsute,hirsute 0.006-1 all
 libclass-mixinfactory-perl/hirsute,hirsute 0.92-3.1 all
@@ -20883,7 +20883,7 @@ libclass-pluggable-perl/hirsute,hirsute 0.022-2.1 all
 libclass-prototyped-perl/hirsute,hirsute 1.13-2.1 all
 libclass-refresh-perl/hirsute,hirsute 0.07-2 all
 libclass-returnvalue-perl/hirsute,hirsute 0.55-2.1 all
-libclass-singleton-perl/hirsute,hirsute 1.6-1 all
+libclass-singleton-perl/hirsute,hirsute,now 1.6-1 all [installed,automatic]
 libclass-spiffy-perl/hirsute,hirsute 0.15-3.1 all
 libclass-std-fast-perl/hirsute,hirsute 0.0.8-2.1 all
 libclass-std-perl/hirsute,hirsute 0.013-1.1 all
@@ -20897,7 +20897,7 @@ libclass-trigger-perl/hirsute,hirsute 0.15-1 all
 libclass-unload-perl/hirsute,hirsute 0.11-1 all
 libclass-virtual-perl/hirsute,hirsute 0.08-1 all
 libclass-whitehole-perl/hirsute,hirsute 0.04-7 all
-libclass-xsaccessor-perl/hirsute 1.19-3build7 amd64
+libclass-xsaccessor-perl/hirsute,now 1.19-3build7 amd64 [installed,automatic]
 libclasslojure-clojure/hirsute,hirsute 0.7.1-4 all
 libclassmate-java/hirsute,hirsute 1.3.4-1.1 all
 libclassycle-java-doc/hirsute,hirsute 1.4.2-1.1 all
@@ -21811,7 +21811,7 @@ libdata-binary-perl/hirsute,hirsute 0.01-1.1 all
 libdata-bitmask-perl/hirsute,hirsute 0.91-2.1 all
 libdata-buffer-perl/hirsute,hirsute 0.04-2 all
 libdata-clone-perl/hirsute 0.004-2build3 amd64
-libdata-compare-perl/hirsute,hirsute 1.27-1 all
+libdata-compare-perl/hirsute,hirsute,now 1.27-1 all [installed,automatic]
 libdata-csv-clojure/hirsute,hirsute 1.0.0-1 all
 libdata-dmp-perl/hirsute,hirsute 0.240-1 all
 libdata-downsample-largesttrianglethreebuckets-perl/hirsute,hirsute 1.00-2.1 all
@@ -21846,7 +21846,7 @@ libdata-methodproxy-perl/hirsute,hirsute 0.04-1 all
 libdata-miscellany-perl/hirsute,hirsute 1.100850-2.1 all
 libdata-munge-perl/hirsute,hirsute 0.097-1 all
 libdata-objectdriver-perl/hirsute,hirsute 0.21-1 all
-libdata-optlist-perl/hirsute,hirsute 0.110-1.1 all
+libdata-optlist-perl/hirsute,hirsute,now 0.110-1.1 all [installed,automatic]
 libdata-page-pageset-perl/hirsute,hirsute 1.02-1.1 all
 libdata-page-perl/hirsute,hirsute 2.03-1 all
 libdata-pageset-perl/hirsute,hirsute 1.06-2 all
@@ -21887,7 +21887,7 @@ libdata-treedumper-perl/hirsute,hirsute 0.40-3 all
 libdata-treedumper-renderer-dhtml-perl/hirsute,hirsute 0.09-2.1 all
 libdata-treedumper-renderer-gtk-perl/hirsute,hirsute 0.02-2 all
 libdata-types-perl/hirsute,hirsute 0.17-1 all
-libdata-uniqid-perl/hirsute,hirsute 0.12-1.1 all
+libdata-uniqid-perl/hirsute,hirsute,now 0.12-1.1 all [installed,automatic]
 libdata-uriencode-perl/hirsute,hirsute 0.11-2 all
 libdata-url-java/hirsute,hirsute 1.0.1-2 all
 libdata-util-perl/hirsute 0.66-1build3 amd64
@@ -21920,15 +21920,15 @@ libdate-manip-perl/hirsute,hirsute 6.83-1 all
 libdate-pcalc-perl/hirsute 6.1-6build4 amd64
 libdate-pregnancy-perl/hirsute,hirsute 0.06-1.1 all
 libdate-range-perl/hirsute,hirsute 1.41-3 all
-libdate-simple-perl/hirsute 3.0300-3build1 amd64
+libdate-simple-perl/hirsute,now 3.0300-3build1 amd64 [installed,automatic]
 libdate-tiny-perl/hirsute,hirsute 1.07-1.1 all
 libdatetime-calendar-discordian-perl/hirsute,hirsute 1.0-2.1 all
-libdatetime-calendar-julian-perl/hirsute,hirsute 0.103-1 all
+libdatetime-calendar-julian-perl/hirsute,hirsute,now 0.103-1 all [installed,automatic]
 libdatetime-event-cron-perl/hirsute,hirsute 0.09-1 all
 libdatetime-event-ical-perl/hirsute,hirsute 0.13-1 all
 libdatetime-event-recurrence-perl/hirsute,hirsute 0.19-1 all
 libdatetime-event-sunrise-perl/hirsute,hirsute 0.0506-1 all
-libdatetime-format-builder-perl/hirsute,hirsute 0.8300-1 all
+libdatetime-format-builder-perl/hirsute,hirsute,now 0.8300-1 all [installed,automatic]
 libdatetime-format-dateparse-perl/hirsute,hirsute 0.05-2.1 all
 libdatetime-format-db2-perl/hirsute,hirsute 0.05-3.1 all
 libdatetime-format-dbi-perl/hirsute,hirsute 0.041-2.1 all
@@ -21946,14 +21946,14 @@ libdatetime-format-oracle-perl/hirsute,hirsute 0.06-1.1 all
 libdatetime-format-pg-perl/hirsute,hirsute 0.16013-1 all
 libdatetime-format-rfc3339-perl/hirsute,hirsute 1.2.0-1 all
 libdatetime-format-sqlite-perl/hirsute,hirsute 0.11-2 all
-libdatetime-format-strptime-perl/hirsute,hirsute 1.7800-1 all
+libdatetime-format-strptime-perl/hirsute,hirsute,now 1.7800-1 all [installed,automatic]
 libdatetime-format-w3cdtf-perl/hirsute,hirsute 0.08-1 all
 libdatetime-format-xsd-perl/hirsute,hirsute 0.2-1.1 all
 libdatetime-incomplete-perl/hirsute,hirsute 0.08-1.1 all
-libdatetime-locale-perl/hirsute,hirsute 1:1.31-1 all
-libdatetime-perl/hirsute 2:1.54-1 amd64
+libdatetime-locale-perl/hirsute,hirsute,now 1:1.31-1 all [installed,automatic]
+libdatetime-perl/hirsute,now 2:1.54-1 amd64 [installed,automatic]
 libdatetime-set-perl/hirsute,hirsute 0.3900-1.1 all
-libdatetime-timezone-perl/hirsute,hirsute 1:2.47-1+2021a all
+libdatetime-timezone-perl/hirsute,hirsute,now 1:2.47-1+2021a all [installed,automatic]
 libdatetime-timezone-systemv-perl/hirsute,hirsute 0.010-1 all
 libdatetime-timezone-tzfile-perl/hirsute,hirsute 0.011-1 all
 libdatetime-tiny-perl/hirsute,hirsute 1.07-1 all
@@ -22248,10 +22248,10 @@ libdesktop-notify-perl/hirsute,hirsute 0.05-2 all
 libdevel-argnames-perl/hirsute,hirsute 0.03-2.1 all
 libdevel-autoflush-perl/hirsute,hirsute 0.06-1.1 all
 libdevel-backtrace-perl/hirsute,hirsute 0.12-2.1 all
-libdevel-callchecker-perl/hirsute 0.008-1ubuntu2 amd64
+libdevel-callchecker-perl/hirsute,now 0.008-1ubuntu2 amd64 [installed,automatic]
 libdevel-callchecker-perl/hirsute 0.008-1ubuntu2 i386
 libdevel-caller-ignorenamespaces-perl/hirsute,hirsute 1.1-1 all
-libdevel-caller-perl/hirsute 2.06-2build3 amd64
+libdevel-caller-perl/hirsute,now 2.06-2build3 amd64 [installed,automatic]
 libdevel-callparser-perl/hirsute 0.002-4build4 amd64
 libdevel-callsite-perl/hirsute 1.0.1-1build3 amd64
 libdevel-calltrace-perl/hirsute,hirsute 1.2-2.1 all
@@ -22267,10 +22267,10 @@ libdevel-dprof-perl/hirsute 20110802.00-3build7 amd64
 libdevel-dumpvar-perl/hirsute,hirsute 1.06-1.1 all
 libdevel-findperl-perl/hirsute,hirsute 0.015-2 all
 libdevel-gdb-perl/hirsute,hirsute 2.02-4 all
-libdevel-globaldestruction-perl/hirsute,hirsute 0.14-1.1 all
+libdevel-globaldestruction-perl/hirsute,hirsute,now 0.14-1.1 all [installed,automatic]
 libdevel-hide-perl/hirsute,hirsute 0.0013-1 all
 libdevel-leak-perl/hirsute 0.03-3build7 amd64
-libdevel-lexalias-perl/hirsute 0.05-2build3 amd64
+libdevel-lexalias-perl/hirsute,now 0.05-2build3 amd64 [installed,automatic]
 libdevel-mat-dumper-perl/hirsute 0.42-3build1 amd64
 libdevel-nytprof-perl/hirsute 6.06+dfsg-1build3 amd64
 libdevel-overloadinfo-perl/hirsute,hirsute 0.005-1 all
@@ -22286,7 +22286,7 @@ libdevel-repl-perl/hirsute,hirsute 1.003028-1 all
 libdevel-simpletrace-perl/hirsute,hirsute 0.08-2.1 all
 libdevel-size-perl/hirsute 0.83-1build2 amd64
 libdevel-stacktrace-ashtml-perl/hirsute,hirsute 0.15-1.1 all
-libdevel-stacktrace-perl/hirsute,hirsute 2.0400-1 all
+libdevel-stacktrace-perl/hirsute,hirsute,now 2.0400-1 all [installed,automatic]
 libdevel-stacktrace-withlexicals-perl/hirsute,hirsute 2.01-2 all
 libdevel-strictmode-perl/hirsute,hirsute 0.003-1.1 all
 libdevel-symdump-perl/hirsute,hirsute 2.18-4 all
@@ -22380,7 +22380,7 @@ libdispatch-class-perl/hirsute,hirsute 0.02-2.1 all
 libdispatch-dev/hirsute 0~svn197-3.3ubuntu2 amd64
 libdispatch0/hirsute 0~svn197-3.3ubuntu2 amd64
 libdisruptor-java/hirsute,hirsute 3.4.2-2 all
-libdist-checkconflicts-perl/hirsute,hirsute 0.11-1.1 all
+libdist-checkconflicts-perl/hirsute,hirsute,now 0.11-1.1 all [installed,automatic]
 libdist-inkt-doap-perl/hirsute,hirsute 0.110-3 all
 libdist-inkt-perl/hirsute,hirsute 0.025-1 all
 libdist-inkt-profile-tobyink-perl/hirsute,hirsute 0.024-1 all
@@ -22581,20 +22581,20 @@ libdri2-dbg/hirsute 1.0.0~git20120510+26fee2e-0ubuntu3 amd64
 libdri2-dev/hirsute 1.0.0~git20120510+26fee2e-0ubuntu3 amd64
 libdrilbo-common/hirsute,hirsute 0.2.11-2.1 all
 libdrilbo-dev/hirsute 0.2.11-2.1 amd64
-libdrm-amdgpu1/hirsute-updates 2.4.105-3~21.04.1 amd64 [upgradable from: 2.4.104-1build1]
+libdrm-amdgpu1/hirsute-updates,now 2.4.105-3~21.04.1 amd64 [installed,automatic]
 libdrm-amdgpu1/hirsute-updates 2.4.105-3~21.04.1 i386
-libdrm-common/hirsute-updates,hirsute-updates 2.4.105-3~21.04.1 all [upgradable from: 2.4.104-1build1]
+libdrm-common/hirsute-updates,hirsute-updates,now 2.4.105-3~21.04.1 all [installed,automatic]
 libdrm-dev/hirsute-updates 2.4.105-3~21.04.1 amd64
 libdrm-dev/hirsute-updates 2.4.105-3~21.04.1 i386
-libdrm-intel1/hirsute-updates 2.4.105-3~21.04.1 amd64 [upgradable from: 2.4.104-1build1]
+libdrm-intel1/hirsute-updates,now 2.4.105-3~21.04.1 amd64 [installed,automatic]
 libdrm-intel1/hirsute-updates 2.4.105-3~21.04.1 i386
-libdrm-nouveau2/hirsute-updates 2.4.105-3~21.04.1 amd64 [upgradable from: 2.4.104-1build1]
+libdrm-nouveau2/hirsute-updates,now 2.4.105-3~21.04.1 amd64 [installed,automatic]
 libdrm-nouveau2/hirsute-updates 2.4.105-3~21.04.1 i386
-libdrm-radeon1/hirsute-updates 2.4.105-3~21.04.1 amd64 [upgradable from: 2.4.104-1build1]
+libdrm-radeon1/hirsute-updates,now 2.4.105-3~21.04.1 amd64 [installed,automatic]
 libdrm-radeon1/hirsute-updates 2.4.105-3~21.04.1 i386
 libdrm-tests/hirsute-updates 2.4.105-3~21.04.1 amd64
 libdrm-tests/hirsute-updates 2.4.105-3~21.04.1 i386
-libdrm2/hirsute-updates 2.4.105-3~21.04.1 amd64 [upgradable from: 2.4.104-1build1]
+libdrm2/hirsute-updates,now 2.4.105-3~21.04.1 amd64 [installed,automatic]
 libdrm2/hirsute-updates 2.4.105-3~21.04.1 i386
 libdrmaa1.0-java-doc/hirsute,hirsute 8.1.9+dfsg-9.1ubuntu1 all
 libdrmaa1.0-java/hirsute,hirsute 8.1.9+dfsg-9.1ubuntu1 all
@@ -22723,7 +22723,7 @@ libdx4/hirsute 1:4.4.4-13 amd64
 libdxflib-dev/hirsute 3.17.0-3build1 amd64
 libdxflib3/hirsute 3.17.0-3build1 amd64
 libdynalang-java/hirsute,hirsute 0.4-3.1 all
-libdynaloader-functions-perl/hirsute,hirsute 0.003-1.1 all
+libdynaloader-functions-perl/hirsute,hirsute,now 0.003-1.1 all [installed,automatic]
 libdynamic-reconfigure-config-init-mutex-dev/hirsute 1.7.1-3 amd64
 libdynamic-reconfigure-config-init-mutex0d/hirsute 1.7.1-3 amd64
 libdynamicedt3d-dev/hirsute 1.9.5+dfsg-1 amd64
@@ -23081,7 +23081,7 @@ libemail-abstract-perl/hirsute,hirsute 3.008-2 all
 libemail-address-list-perl/hirsute,hirsute 0.06-1 all
 libemail-address-perl/hirsute,hirsute 1.912-1 all
 libemail-address-xs-perl/hirsute 1.04-1build4 amd64
-libemail-date-format-perl/hirsute,hirsute 1.005-1.1 all
+libemail-date-format-perl/hirsute,hirsute,now 1.005-1.1 all [installed,automatic]
 libemail-date-perl/hirsute,hirsute 1.104-2 all
 libemail-filter-perl/hirsute,hirsute 1.034-1.1 all
 libemail-find-perl/hirsute,hirsute 0.10-dfsg-3.1 all
@@ -23117,7 +23117,7 @@ libemeraldengine-dev/hirsute 0.8.18-2 amd64
 libemeraldengine0/hirsute 0.8.18-2 amd64
 libemf-dev/hirsute 1.0.13-2 amd64
 libemf-doc/hirsute,hirsute 1.0.13-2 all
-libemf1/hirsute 1.0.13-2 amd64
+libemf1/hirsute,now 1.0.13-2 amd64 [installed,automatic]
 libemile1/hirsute 1.25.1-1build1 amd64
 libemile1/hirsute 1.25.1-1build1 i386
 libemos-bin/hirsute 2:4.5.9-6 amd64
@@ -23138,10 +23138,10 @@ libenchant-2-voikko/hirsute 2.2.15-1 i386
 libencode-arabic-perl/hirsute,hirsute 14.2-2 all
 libencode-base58-perl/hirsute,hirsute 0.01-1.1 all
 libencode-detect-perl/hirsute 1.01-5build4 amd64
-libencode-eucjpms-perl/hirsute 0.07-3build8 amd64
-libencode-hanextra-perl/hirsute 0.23-5build3 amd64
+libencode-eucjpms-perl/hirsute,now 0.07-3build8 amd64 [installed,automatic]
+libencode-hanextra-perl/hirsute,now 0.23-5build3 amd64 [installed,automatic]
 libencode-imaputf7-perl/hirsute,hirsute 1.05-2.1 all
-libencode-jis2k-perl/hirsute 0.03-1build6 amd64
+libencode-jis2k-perl/hirsute,now 0.03-1build6 amd64 [installed,automatic]
 libencode-locale-perl/hirsute,hirsute,now 1.05-1.1 all [installed,automatic]
 libencode-perl/hirsute 3.08-1 amd64
 libencode-zapcp1252-perl/hirsute,hirsute 0.40-1 all
@@ -23318,7 +23318,7 @@ libev-perl/hirsute 4.33-1build1 amd64
 libev-perl/hirsute 4.33-1build1 i386
 libev4/hirsute 1:4.33-1 amd64
 libev4/hirsute 1:4.33-1 i386
-libeval-closure-perl/hirsute,hirsute 0.14-1 all
+libeval-closure-perl/hirsute,hirsute,now 0.14-1 all [installed,automatic]
 libeval-context-perl/hirsute,hirsute 0.09.11-3.1 all
 libeval-linenumbers-perl/hirsute,hirsute 0.34-1.1 all
 libevas-loaders/hirsute 1.25.1-1build1 amd64
@@ -23390,7 +23390,7 @@ libexcel-template-perl/hirsute,hirsute 0.34-2 all
 libexcel-template-plus-perl/hirsute,hirsute 0.06-1.1 all
 libexcel-writer-xlsx-perl/hirsute,hirsute 1.07-1 all
 libexception-class-dbi-perl/hirsute,hirsute 1.04-1 all
-libexception-class-perl/hirsute,hirsute 1.44-1 all
+libexception-class-perl/hirsute,hirsute,now 1.44-1 all [installed,automatic]
 libexception-class-trycatch-perl/hirsute,hirsute 1.13-1.1 all
 libexception-handler-perl/hirsute,hirsute 1.004-2.1 all
 libexec-maven-plugin-java/hirsute,hirsute 1.6.0-4.1 all
@@ -23445,7 +23445,7 @@ libexporter-easy-perl/hirsute,hirsute 0.18-1 all
 libexporter-lite-perl/hirsute,hirsute 0.08-1 all
 libexporter-renaming-perl/hirsute,hirsute 1.19-2.1 all
 libexporter-tidy-perl/hirsute,hirsute 0.08-1 all
-libexporter-tiny-perl/hirsute,hirsute 1.002002-1 all
+libexporter-tiny-perl/hirsute,hirsute,now 1.002002-1 all [installed,automatic]
 libext2fs-dev/hirsute 1.45.7-1ubuntu2 amd64
 libext2fs-dev/hirsute 1.45.7-1ubuntu2 i386
 libext2fs2/hirsute,now 1.45.7-1ubuntu2 amd64 [installed]
@@ -23530,7 +23530,7 @@ libfaiss-dev/hirsute 1.7.0-1 amd64
 libfakechroot/hirsute 2.19-3.3 amd64
 libfakekey-dev/hirsute 0.3+git20170516-2build2 amd64
 libfakekey-doc/hirsute,hirsute 0.3+git20170516-2build2 all
-libfakekey0/hirsute,now 0.3+git20170516-2build2 amd64 [installed,automatic]
+libfakekey0/hirsute 0.3+git20170516-2build2 amd64
 libfakeroot/hirsute,now 1.25.3-1.1ubuntu2 amd64 [installed,automatic]
 libfakeroot/hirsute 1.25.3-1.1ubuntu2 i386
 libfaketime/hirsute 0.9.8-9 amd64
@@ -23768,7 +23768,7 @@ libfile-find-object-perl/hirsute,hirsute 0.3.5-1 all
 libfile-find-object-rule-perl/hirsute,hirsute 0.0312-1 all
 libfile-find-rule-filesys-virtual-perl/hirsute,hirsute 1.22-2.1 all
 libfile-find-rule-perl-perl/hirsute,hirsute 1.15-2 all
-libfile-find-rule-perl/hirsute,hirsute 0.34-1 all
+libfile-find-rule-perl/hirsute,hirsute,now 0.34-1 all [installed,automatic]
 libfile-find-rule-vcs-perl/hirsute,hirsute 1.08-2.1 all
 libfile-find-wanted-perl/hirsute,hirsute 1.00-1.1 all
 libfile-finder-perl/hirsute,hirsute 0.53-2 all
@@ -23778,7 +23778,7 @@ libfile-flock-retry-perl/hirsute,hirsute 0.631-1 all
 libfile-fnmatch-perl/hirsute 0.02-2build7 amd64
 libfile-fu-perl/hirsute,hirsute 0.0.8-3 all
 libfile-grep-perl/hirsute,hirsute 0.02-1.1 all
-libfile-homedir-perl/hirsute,hirsute 1.006-1 all
+libfile-homedir-perl/hirsute,hirsute,now 1.006-1 all [installed,automatic]
 libfile-inplace-perl/hirsute,hirsute 0.20-2 all
 libfile-keepass-perl/hirsute,hirsute 2.03-1.1 all
 libfile-lchown-perl/hirsute 0.02-2build6 amd64
@@ -23812,12 +23812,12 @@ libfile-searchpath-perl/hirsute,hirsute 0.06-2.2 all
 libfile-share-perl/hirsute,hirsute 0.25-1.1 all
 libfile-sharedir-install-perl/hirsute,hirsute 0.13-1.1 all
 libfile-sharedir-par-perl/hirsute,hirsute 0.06-2 all
-libfile-sharedir-perl/hirsute,hirsute 1.118-1 all
+libfile-sharedir-perl/hirsute,hirsute,now 1.118-1 all [installed,automatic]
 libfile-sharedir-projectdistdir-perl/hirsute,hirsute 1.000009-1 all
 libfile-slurp-perl/hirsute,hirsute 9999.32-1 all
 libfile-slurp-tiny-perl/hirsute,hirsute 0.004-1 all
 libfile-slurp-unicode-perl/hirsute,hirsute 0.7.1-2.1 all
-libfile-slurper-perl/hirsute,hirsute 0.012-1 all
+libfile-slurper-perl/hirsute,hirsute,now 0.012-1 all [installed,automatic]
 libfile-sort-perl/hirsute,hirsute 1.01-2 all
 libfile-spec-native-perl/hirsute,hirsute 1.004-1 all
 libfile-stripnondeterminism-perl/hirsute,hirsute 1.11.0-1 all
@@ -23829,7 +23829,7 @@ libfile-type-perl/hirsute,hirsute 0.22-3.1 all
 libfile-type-webimages-perl/hirsute,hirsute 1.01-2.1 all
 libfile-userconfig-perl/hirsute,hirsute 0.06-4 all
 libfile-util-perl/hirsute,hirsute 4.201720-1 all
-libfile-which-perl/hirsute,hirsute 1.23-1 all
+libfile-which-perl/hirsute,hirsute,now 1.23-1 all [installed,automatic]
 libfile-wildcard-perl/hirsute,hirsute 0.11-3.1 all
 libfile-write-rotate-perl/hirsute,hirsute 0.321-1 all
 libfile-zglob-perl/hirsute,hirsute 0.11-1.1 all
@@ -24013,7 +24013,7 @@ libfont-freetype-perl/hirsute 0.16-1build1 amd64
 libfont-ttf-perl/hirsute,hirsute 1.06-1.1 all
 libfontawesomefx-java/hirsute,hirsute 9.1.2-2 all
 libfontbox-java-doc/hirsute,hirsute 1:1.8.16-2 all
-libfontbox-java/hirsute,hirsute 1:1.8.16-2 all
+libfontbox-java/hirsute,hirsute,now 1:1.8.16-2 all [installed,automatic]
 libfontbox2-java-doc/hirsute,hirsute 2.0.22-1 all
 libfontbox2-java/hirsute,hirsute 2.0.22-1 all
 libfontchooser-java/hirsute,hirsute 1.0.0-3 all
@@ -24345,7 +24345,7 @@ libgbtools-dev/hirsute 4.44.1+dfsg-6 amd64
 libgbtools0/hirsute 4.44.1+dfsg-6 amd64
 libgc-dev/hirsute 1:8.0.4-3 amd64
 libgc-dev/hirsute 1:8.0.4-3 i386
-libgc1/hirsute 1:8.0.4-3 amd64
+libgc1/hirsute,now 1:8.0.4-3 amd64 [installed,automatic]
 libgc1/hirsute 1:8.0.4-3 i386
 libgcab-1.0-0/hirsute,now 1.4-3 amd64 [installed,automatic]
 libgcab-1.0-0/hirsute 1.4-3 i386
@@ -28185,7 +28185,7 @@ libgles2-mesa/hirsute 21.0.1-2pop0~1624392450~21.04~6fbdfd2 i386
 libgles2/hirsute,now 1.3.2-1 amd64 [installed,automatic]
 libgles2/hirsute 1.3.2-1 i386
 libglew-dev/hirsute 2.1.0-4 amd64
-libglew2.1/hirsute 2.1.0-4 amd64
+libglew2.1/hirsute,now 2.1.0-4 amd64 [installed,automatic]
 libglewmx-dev/hirsute 1.13.0-4ubuntu3 amd64
 libglewmx1.13/hirsute 1.13.0-4ubuntu3 amd64
 libglfw3-dev/hirsute 3.3.2-1 amd64
@@ -29292,9 +29292,9 @@ libgsl-dbg/hirsute 2.6+dfsg-2 amd64
 libgsl-dbg/hirsute 2.6+dfsg-2 i386
 libgsl-dev/hirsute 2.6+dfsg-2 amd64
 libgsl-dev/hirsute 2.6+dfsg-2 i386
-libgsl25/hirsute 2.6+dfsg-2 amd64
+libgsl25/hirsute,now 2.6+dfsg-2 amd64 [installed,automatic]
 libgsl25/hirsute 2.6+dfsg-2 i386
-libgslcblas0/hirsute 2.6+dfsg-2 amd64
+libgslcblas0/hirsute,now 2.6+dfsg-2 amd64 [installed,automatic]
 libgslcblas0/hirsute 2.6+dfsg-2 i386
 libgsm-tools/hirsute 1.0.18-2 amd64
 libgsm-tools/hirsute 1.0.18-2 i386
@@ -30342,7 +30342,7 @@ libiksemel-utils/hirsute 1.4-3build1 amd64
 libiksemel3/hirsute 1.4-3build1 amd64
 libilmbase-dev/hirsute 2.5.4-1 amd64
 libilmbase-dev/hirsute 2.5.4-1 i386
-libilmbase25/hirsute 2.5.4-1 amd64
+libilmbase25/hirsute,now 2.5.4-1 amd64 [installed,automatic]
 libilmbase25/hirsute 2.5.4-1 i386
 libima-dbi-perl/hirsute,hirsute 0.35-2.1 all
 libimage-base-bundle-perl/hirsute,hirsute 1.0.7-3.3 all
@@ -30581,8 +30581,8 @@ libipc-filter-perl/hirsute,hirsute 0.004-2.1 all
 libipc-pubsub-perl/hirsute,hirsute 0.29-2 all
 libipc-run-perl/hirsute,hirsute 20200505.0-1 all
 libipc-run-safehandles-perl/hirsute,hirsute 0.04-2 all
-libipc-run3-perl/hirsute,hirsute 0.048-2 all
-libipc-shareable-perl/hirsute,hirsute 0.61-2 all
+libipc-run3-perl/hirsute,hirsute,now 0.048-2 all [installed,automatic]
+libipc-shareable-perl/hirsute,hirsute,now 0.61-2 all [installed,automatic]
 libipc-sharedcache-perl/hirsute,hirsute 1.3-9.1 all
 libipc-sharelite-perl/hirsute 0.17-4build4 amd64
 libipc-signal-perl/hirsute,hirsute 1.00-7 all
@@ -31620,8 +31620,8 @@ libjxgrabkey-jni/hirsute 0.3.2-10build1 amd64
 libjxp-java/hirsute,hirsute 1.6.1-6.1 all
 libjxr-dbg/hirsute 1.1-6build1 amd64
 libjxr-dev/hirsute 1.1-6build1 amd64
-libjxr-tools/hirsute 1.1-6build1 amd64
-libjxr0/hirsute 1.1-6build1 amd64
+libjxr-tools/hirsute,now 1.1-6build1 amd64 [installed,automatic]
+libjxr0/hirsute,now 1.1-6build1 amd64 [installed,automatic]
 libjzlib-java/hirsute,hirsute 1.1.3-2 all
 libk3b-dev/hirsute 20.12.3-0ubuntu1 amd64
 libk3b7-extracodecs/hirsute 20.12.3-0ubuntu1 amd64
@@ -31760,7 +31760,7 @@ libkf5auth-data/hirsute,hirsute,now 5.80.0-0ubuntu1 all [installed,automatic]
 libkf5auth-dev-bin/hirsute 5.80.0-0ubuntu1 amd64
 libkf5auth-dev/hirsute 5.80.0-0ubuntu1 amd64
 libkf5auth-doc/hirsute,hirsute 5.80.0-0ubuntu1 all
-libkf5auth5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
+libkf5auth5/hirsute 5.80.0-0ubuntu1 amd64
 libkf5authcore5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
 libkf5baloo-doc/hirsute,hirsute 5.80.0-0ubuntu1 all
 libkf5baloo5/hirsute 5.80.0-0ubuntu1 amd64
@@ -31819,10 +31819,10 @@ libkf5configwidgets5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
 libkf5contacteditor-data/hirsute 4:20.12.3-0ubuntu1 amd64
 libkf5contacteditor-dev/hirsute 4:20.12.3-0ubuntu1 amd64
 libkf5contacteditor5/hirsute 4:20.12.3-0ubuntu1 amd64
-libkf5contacts-data/hirsute,hirsute,now 5:5.80.0-0ubuntu1 all [installed,automatic]
+libkf5contacts-data/hirsute,hirsute,now 5:5.80.0-0ubuntu1 all [residual-config]
 libkf5contacts-dev/hirsute 5:5.80.0-0ubuntu1 amd64
 libkf5contacts-doc/hirsute,hirsute 5:5.80.0-0ubuntu1 all
-libkf5contacts5/hirsute,now 5:5.80.0-0ubuntu1 amd64 [installed,automatic]
+libkf5contacts5/hirsute 5:5.80.0-0ubuntu1 amd64
 libkf5coreaddons-data/hirsute,hirsute,now 5.80.0-0ubuntu1 all [installed,automatic]
 libkf5coreaddons-dev-bin/hirsute 5.80.0-0ubuntu1 amd64
 libkf5coreaddons-dev/hirsute 5.80.0-0ubuntu1 amd64
@@ -31926,10 +31926,10 @@ libkf5kaddressbookgrantlee-dev/hirsute 4:20.08.3-1 amd64
 libkf5kaddressbookgrantlee5/hirsute 4:20.08.3-1 amd64
 libkf5kaddressbookimportexport-dev/hirsute 4:20.08.3-1 amd64
 libkf5kaddressbookimportexport5/hirsute 4:20.08.3-1 amd64
-libkf5kcmutils-data/hirsute,hirsute,now 5.80.0-0ubuntu1 all [installed,automatic]
+libkf5kcmutils-data/hirsute,hirsute 5.80.0-0ubuntu1 all
 libkf5kcmutils-dev/hirsute 5.80.0-0ubuntu1 amd64
 libkf5kcmutils-doc/hirsute,hirsute 5.80.0-0ubuntu1 all
-libkf5kcmutils5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
+libkf5kcmutils5/hirsute 5.80.0-0ubuntu1 amd64
 libkf5kdcraw-dev/hirsute 20.12.3-0ubuntu2 amd64
 libkf5kdcraw5/hirsute 20.12.3-0ubuntu2 amd64
 libkf5kdegames-data/hirsute,hirsute 4:20.12.3-0ubuntu1 all
@@ -31949,7 +31949,7 @@ libkf5khtml5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
 libkf5kio-dev/hirsute 5.80.1-0ubuntu3 amd64
 libkf5kio-doc/hirsute,hirsute 5.80.1-0ubuntu3 all
 libkf5kiocore5/hirsute,now 5.80.1-0ubuntu3 amd64 [installed,automatic]
-libkf5kiofilewidgets5/hirsute,now 5.80.1-0ubuntu3 amd64 [installed,automatic]
+libkf5kiofilewidgets5/hirsute 5.80.1-0ubuntu3 amd64
 libkf5kiogui5/hirsute,now 5.80.1-0ubuntu3 amd64 [installed,automatic]
 libkf5kiontlm5/hirsute,now 5.80.1-0ubuntu3 amd64 [installed,automatic]
 libkf5kiowidgets5/hirsute,now 5.80.1-0ubuntu3 amd64 [installed,automatic]
@@ -32042,12 +32042,12 @@ libkf5parts-dev/hirsute 5.80.0-0ubuntu1 amd64
 libkf5parts-doc/hirsute,hirsute 5.80.0-0ubuntu1 all
 libkf5parts-plugins/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
 libkf5parts5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
-libkf5people-data/hirsute,hirsute,now 5.80.0-0ubuntu1 all [installed,automatic]
+libkf5people-data/hirsute,hirsute 5.80.0-0ubuntu1 all
 libkf5people-dev/hirsute 5.80.0-0ubuntu1 amd64
 libkf5people-doc/hirsute,hirsute 5.80.0-0ubuntu1 all
-libkf5people5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
-libkf5peoplebackend5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
-libkf5peoplewidgets5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
+libkf5people5/hirsute,now 5.80.0-0ubuntu1 amd64 [residual-config]
+libkf5peoplebackend5/hirsute 5.80.0-0ubuntu1 amd64
+libkf5peoplewidgets5/hirsute 5.80.0-0ubuntu1 amd64
 libkf5pimcommon-data/hirsute,hirsute 4:20.12.3-0ubuntu1 all
 libkf5pimcommon-dev/hirsute 4:20.12.3-0ubuntu1 amd64
 libkf5pimcommon-plugins/hirsute 4:20.12.3-0ubuntu1 amd64
@@ -32072,7 +32072,7 @@ libkf5pty-doc/hirsute,hirsute 5.80.0-0ubuntu1 all
 libkf5pty5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
 libkf5pulseaudioqt-dev/hirsute 1.2-2build1 amd64
 libkf5pulseaudioqt2-doc/hirsute,hirsute 1.2-2build1 all
-libkf5pulseaudioqt2/hirsute,now 1.2-2build1 amd64 [installed,automatic]
+libkf5pulseaudioqt2/hirsute 1.2-2build1 amd64
 libkf5purpose-bin/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
 libkf5purpose-dev/hirsute 5.80.0-0ubuntu1 amd64
 libkf5purpose5/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
@@ -32600,7 +32600,7 @@ liblingua-stem-ru-perl/hirsute,hirsute 0.04-2 all
 liblingua-stem-snowball-da-perl/hirsute,hirsute 1.01-5 all
 liblingua-stem-snowball-perl/hirsute 0.952-3build5 amd64
 liblingua-stopwords-perl/hirsute,hirsute 0.09-2 all
-liblingua-translit-perl/hirsute,hirsute 0.28-1 all
+liblingua-translit-perl/hirsute,hirsute,now 0.28-1 all [installed,automatic]
 liblink-grammar-dev/hirsute 5.8.1-1 amd64
 liblink-grammar-java/hirsute 5.8.1-1 amd64
 liblink-grammar5/hirsute 5.8.1-1 amd64
@@ -32635,17 +32635,17 @@ liblircclient-dev/hirsute 0.10.1-6.3 amd64
 liblircclient-dev/hirsute 0.10.1-6.3 i386
 liblircclient0/hirsute 0.10.1-6.3 amd64
 liblircclient0/hirsute 0.10.1-6.3 i386
-liblist-allutils-perl/hirsute,hirsute 0.18-1 all
+liblist-allutils-perl/hirsute,hirsute,now 0.18-1 all [installed,automatic]
 liblist-compare-perl/hirsute,hirsute 0.55-1 all
 liblist-maker-perl/hirsute,hirsute 0.005-2.1 all
-liblist-moreutils-perl/hirsute,hirsute 0.430-2 all
-liblist-moreutils-xs-perl/hirsute 0.430-2 amd64
+liblist-moreutils-perl/hirsute,hirsute,now 0.430-2 all [installed,automatic]
+liblist-moreutils-xs-perl/hirsute,now 0.430-2 amd64 [installed,automatic]
 liblist-moreutils-xs-perl/hirsute 0.430-2 i386
 liblist-objects-withutils-perl/hirsute,hirsute 2.028003-2 all
 liblist-rotation-cycle-perl/hirsute,hirsute 1.009-1.1 all
-liblist-someutils-perl/hirsute,hirsute 0.58-1 all
-liblist-someutils-xs-perl/hirsute 0.58-2build1 amd64
-liblist-utilsby-perl/hirsute,hirsute 0.11-1 all
+liblist-someutils-perl/hirsute,hirsute,now 0.58-1 all [installed,automatic]
+liblist-someutils-xs-perl/hirsute,now 0.58-2build1 amd64 [installed,automatic]
+liblist-utilsby-perl/hirsute,hirsute,now 0.11-1 all [installed,automatic]
 liblist-utilsby-xs-perl/hirsute 0.05-1build2 amd64
 liblistserialsj-dev/hirsute 1.4.0-1 amd64
 liblistserialsj1/hirsute 1.4.0-1 amd64
@@ -32759,11 +32759,11 @@ liblog-dispatch-filerotate-perl/hirsute,hirsute 1.19-1.1 all
 liblog-dispatch-filewriterotate-perl/hirsute,hirsute 0.060-1 all
 liblog-dispatch-message-passing-perl/hirsute,hirsute 0.009-4 all
 liblog-dispatch-perl-perl/hirsute,hirsute 0.05-1 all
-liblog-dispatch-perl/hirsute,hirsute 2.70-1 all
+liblog-dispatch-perl/hirsute,hirsute,now 2.70-1 all [installed,automatic]
 liblog-dispatchouli-perl/hirsute,hirsute 2.022-1 all
 liblog-fast-perl/hirsute,hirsute 2.0.1-1 all
 liblog-handler-perl/hirsute,hirsute 0.90-1 all
-liblog-log4perl-perl/hirsute,hirsute 1.54-1 all
+liblog-log4perl-perl/hirsute,hirsute,now 1.54-1 all [installed,automatic]
 liblog-loglite-perl/hirsute,hirsute 0.82-8.1 all
 liblog-message-perl/hirsute,hirsute 0.8-1.1 all
 liblog-message-simple-perl/hirsute,hirsute 0.10-3 all
@@ -33056,7 +33056,7 @@ libmagic-ocaml/hirsute 0.7.3-5build11 amd64
 libmagic1/hirsute,now 1:5.39-3 amd64 [installed]
 libmagic1/hirsute 1:5.39-3 i386
 libmagick++-6-headers/hirsute,hirsute 8:6.9.11.60+dfsg-1ubuntu1 all
-libmagick++-6.q16-8/hirsute 8:6.9.11.60+dfsg-1ubuntu1 amd64
+libmagick++-6.q16-8/hirsute,now 8:6.9.11.60+dfsg-1ubuntu1 amd64 [installed,automatic]
 libmagick++-6.q16-8/hirsute 8:6.9.11.60+dfsg-1ubuntu1 i386
 libmagick++-6.q16-dev/hirsute 8:6.9.11.60+dfsg-1ubuntu1 amd64
 libmagick++-6.q16-dev/hirsute 8:6.9.11.60+dfsg-1ubuntu1 i386
@@ -33068,7 +33068,7 @@ libmagick++-dev/hirsute,hirsute 8:6.9.11.60+dfsg-1ubuntu1 all
 libmagickcore-6-arch-config/hirsute 8:6.9.11.60+dfsg-1ubuntu1 amd64
 libmagickcore-6-arch-config/hirsute 8:6.9.11.60+dfsg-1ubuntu1 i386
 libmagickcore-6-headers/hirsute,hirsute 8:6.9.11.60+dfsg-1ubuntu1 all
-libmagickcore-6.q16-6-extra/hirsute 8:6.9.11.60+dfsg-1ubuntu1 amd64
+libmagickcore-6.q16-6-extra/hirsute,now 8:6.9.11.60+dfsg-1ubuntu1 amd64 [installed,automatic]
 libmagickcore-6.q16-6-extra/hirsute 8:6.9.11.60+dfsg-1ubuntu1 i386
 libmagickcore-6.q16-6/hirsute,now 8:6.9.11.60+dfsg-1ubuntu1 amd64 [installed,automatic]
 libmagickcore-6.q16-6/hirsute 8:6.9.11.60+dfsg-1ubuntu1 i386
@@ -33126,7 +33126,7 @@ libmail-rbl-perl/hirsute,hirsute 1.10-2 all
 libmail-rfc822-address-perl/hirsute,hirsute 0.4-1.1 all
 libmail-sendeasy-perl/hirsute,hirsute 1.2-2.1 all
 libmail-sender-perl/hirsute,hirsute 0.8.16-2 all
-libmail-sendmail-perl/hirsute,hirsute 0.80-1.1 all
+libmail-sendmail-perl/hirsute,hirsute,now 0.80-1.1 all [installed,automatic]
 libmail-spf-perl/hirsute,hirsute 2.9.0-5 all
 libmail-spf-xs-perl/hirsute 1.2.10-7build5 amd64
 libmail-srs-perl/hirsute,hirsute 0.31-6 all
@@ -33605,14 +33605,14 @@ libmilter-dev/hirsute 8.15.2-20 amd64
 libmilter1.0.1/hirsute 8.15.2-20 amd64
 libmime-base32-perl/hirsute,hirsute 1.303-1.1 all
 libmime-base64-urlsafe-perl/hirsute,hirsute 0.01-2.1 all
-libmime-charset-perl/hirsute,hirsute 1.012.2-1 all
+libmime-charset-perl/hirsute,hirsute,now 1.012.2-1 all [installed,automatic]
 libmime-encwords-perl/hirsute,hirsute 1.014.3-2 all
 libmime-explode-perl/hirsute 0.39-3build7 amd64
 libmime-lite-html-perl/hirsute,hirsute 1.24-3.1 all
-libmime-lite-perl/hirsute,hirsute 3.031-1 all
+libmime-lite-perl/hirsute,hirsute,now 3.031-1 all [installed,automatic]
 libmime-lite-tt-perl/hirsute,hirsute 0.02-1.1 all
 libmime-tools-perl/hirsute,hirsute 5.509-1 all
-libmime-types-perl/hirsute,hirsute 2.18-1 all
+libmime-types-perl/hirsute,hirsute,now 2.18-1 all [installed,automatic]
 libmime-util-java/hirsute,hirsute 2.1.3-3 all
 libmimelib1-dev/hirsute 5:1.1.4-3build1 amd64
 libmimelib1c2a/hirsute 5:1.1.4-3build1 amd64
@@ -33816,7 +33816,7 @@ libmodule-extract-use-perl/hirsute,hirsute 1.047-1 all
 libmodule-extractuse-perl/hirsute,hirsute 0.343-1 all
 libmodule-faker-perl/hirsute,hirsute 0.022-1 all
 libmodule-find-perl/hirsute,hirsute 0.15-1 all
-libmodule-implementation-perl/hirsute,hirsute 0.09-1.1 all
+libmodule-implementation-perl/hirsute,hirsute,now 0.09-1.1 all [installed,automatic]
 libmodule-info-perl/hirsute,hirsute 0.37-1 all
 libmodule-inspector-perl/hirsute,hirsute 1.05-2.1 all
 libmodule-install-authorrequires-perl/hirsute,hirsute 0.02-1.1 all
@@ -33851,7 +33851,7 @@ libmodule-pluggable-perl/hirsute,hirsute 5.2-1 all
 libmodule-reader-perl/hirsute,hirsute 0.003003-1 all
 libmodule-refresh-perl/hirsute,hirsute 0.17-1.1 all
 libmodule-runtime-conflicts-perl/hirsute,hirsute 0.003-1.1 all
-libmodule-runtime-perl/hirsute,hirsute 0.016-1 all
+libmodule-runtime-perl/hirsute,hirsute,now 0.016-1 all [installed,automatic]
 libmodule-scandeps-perl/hirsute,hirsute 1.30-1 all
 libmodule-signature-perl/hirsute,hirsute 0.87-1 all
 libmodule-starter-pbp-perl/hirsute,hirsute 0.0.3-2.1 all
@@ -34300,7 +34300,7 @@ libmr-tarantool-perl/hirsute,hirsute 0.0.24-2 all
 libmrm4/hirsute 2.3.8-3 amd64
 libmrmpi-dev/hirsute 1.0~20140404-3build1 amd64
 libmrmpi1/hirsute 1.0~20140404-3build1 amd64
-libmro-compat-perl/hirsute,hirsute 0.13-1 all
+libmro-compat-perl/hirsute,hirsute,now 0.13-1 all [installed,automatic]
 libmrpt-apps-dev/hirsute 1:2.1.7-1 amd64
 libmrpt-apps2.1/hirsute 1:2.1.7-1 amd64
 libmrpt-bayes-dev/hirsute 1:2.1.7-1 amd64
@@ -34731,8 +34731,8 @@ libnacore-doc/hirsute,hirsute 0.5.1-3 all
 libnacore5/hirsute 0.5.1-3 amd64
 libnaga-java/hirsute,hirsute 3.0+svn80-4 all
 libnagios-object-perl/hirsute,hirsute 0.21.20-2.1 all
-libnamespace-autoclean-perl/hirsute,hirsute 0.29-1 all
-libnamespace-clean-perl/hirsute,hirsute 0.27-1 all
+libnamespace-autoclean-perl/hirsute,hirsute,now 0.29-1 all [installed,automatic]
+libnamespace-clean-perl/hirsute,hirsute,now 0.27-1 all [installed,automatic]
 libnamespace-sweep-perl/hirsute,hirsute 0.006-2.1 all
 libnanoflann-dev/hirsute,hirsute 1.3.2+ds-1 all
 libnanomsg-dev/hirsute 1.1.5+dfsg-1 amd64
@@ -35074,7 +35074,7 @@ libnetlib-java/hirsute,hirsute 0.9.3-7 all
 libnetpacket-perl/hirsute,hirsute 1.7.2-1 all
 libnetpbm10-dev/hirsute 2:10.0-15.4 amd64
 libnetpbm10-dev/hirsute 2:10.0-15.4 i386
-libnetpbm10/hirsute 2:10.0-15.4 amd64
+libnetpbm10/hirsute,now 2:10.0-15.4 amd64 [installed,automatic]
 libnetpbm10/hirsute 2:10.0-15.4 i386
 libnetpbm9-dev/hirsute 2:10.0-15.4 amd64
 libnetpbm9-dev/hirsute 2:10.0-15.4 i386
@@ -35417,7 +35417,7 @@ libnuma-dev/hirsute 2.0.14-0ubuntu2 i386
 libnuma1/hirsute,now 2.0.14-0ubuntu2 amd64 [installed,automatic]
 libnuma1/hirsute 2.0.14-0ubuntu2 i386
 libnumber-bytes-human-perl/hirsute,hirsute 0.11-1 all
-libnumber-compare-perl/hirsute,hirsute 0.03-1.1 all
+libnumber-compare-perl/hirsute,hirsute,now 0.03-1.1 all [installed,automatic]
 libnumber-format-perl/hirsute,hirsute 1.75-1.1 all
 libnumber-fraction-perl/hirsute,hirsute 2.01-1 all
 libnumber-phone-perl/hirsute,hirsute 3.6006-1 all
@@ -36191,7 +36191,7 @@ libopenems-dev/hirsute 0.0.35+git20190103.6a75e98+dfsg.1-3 amd64
 libopenems0/hirsute 0.0.35+git20190103.6a75e98+dfsg.1-3 amd64
 libopenexr-dev/hirsute 2.5.4-1 amd64
 libopenexr-dev/hirsute 2.5.4-1 i386
-libopenexr25/hirsute 2.5.4-1 amd64
+libopenexr25/hirsute,now 2.5.4-1 amd64 [installed,automatic]
 libopenexr25/hirsute 2.5.4-1 i386
 libopenfoam/hirsute 1912.200626-1 amd64
 libopengl-dev/hirsute 1.3.2-1 amd64
@@ -36478,7 +36478,7 @@ libosmpbf1/hirsute 1.5.0-1 amd64
 libosmvendor5/hirsute 3.3.23-2 amd64
 libosp-dev/hirsute 1.5.2-13ubuntu3 amd64
 libosp-dev/hirsute 1.5.2-13ubuntu3 i386
-libosp5/hirsute 1.5.2-13ubuntu3 amd64
+libosp5/hirsute,now 1.5.2-13ubuntu3 amd64 [installed,automatic]
 libosp5/hirsute 1.5.2-13ubuntu3 i386
 libosptk-dev/hirsute 4.13.0-1build1 amd64
 libosptk4/hirsute 4.13.0-1build1 amd64
@@ -36526,7 +36526,7 @@ libostree-dev/hirsute,now 2020.8-2 amd64 [installed,automatic]
 libostree-doc/hirsute,hirsute 2020.8-2 all
 libostyle-dev/hirsute 1.4devel1-22 amd64
 libostyle-dev/hirsute 1.4devel1-22 i386
-libostyle1c2/hirsute 1.4devel1-22 amd64
+libostyle1c2/hirsute,now 1.4devel1-22 amd64 [installed,automatic]
 libostyle1c2/hirsute 1.4devel1-22 i386
 libotb-apps/hirsute 7.2.0+dfsg-1build3 amd64
 libotb-dev/hirsute 7.2.0+dfsg-1build3 amd64
@@ -36635,8 +36635,8 @@ libpackage-deprecationmanager-perl/hirsute,hirsute 0.17-1.1 all
 libpackage-locator-perl/hirsute,hirsute 0.10-2.1 all
 libpackage-new-perl/hirsute,hirsute 0.09-1 all
 libpackage-pkg-perl/hirsute,hirsute 0.0020-1.1 all
-libpackage-stash-perl/hirsute,hirsute 0.39-1 all
-libpackage-stash-xs-perl/hirsute 0.29-1build3 amd64
+libpackage-stash-perl/hirsute,hirsute,now 0.39-1 all [installed,automatic]
+libpackage-stash-xs-perl/hirsute,now 0.29-1build3 amd64 [installed,automatic]
 libpackage-variant-perl/hirsute,hirsute 1.003002-1.1 all
 libpackagekit-glib2-18/hirsute,now 1.2.2-2ubuntu1 amd64 [installed,automatic]
 libpackagekit-glib2-dev/hirsute 1.2.2-2ubuntu1 amd64
@@ -36646,7 +36646,7 @@ libpacketdump3-dev/hirsute 3.0.21-1ubuntu5 amd64
 libpacketdump3v5/hirsute 3.0.21-1ubuntu5 amd64
 libpacparser-dev/hirsute 1.3.6-1.2build2 amd64
 libpacparser1/hirsute 1.3.6-1.2build2 amd64
-libpadwalker-perl/hirsute 2.5-1build1 amd64
+libpadwalker-perl/hirsute,now 2.5-1build1 amd64 [installed,automatic]
 libpagemaker-0.0-0/hirsute 0.0.4-1build1 amd64
 libpagemaker-dev/hirsute 0.0.4-1build1 amd64
 libpaho-mqtt-dev/hirsute 1.3.8-1build1 amd64
@@ -36805,14 +36805,14 @@ libparallel-iterator-perl/hirsute,hirsute 1.00-2.1 all
 libparallel-prefork-perl/hirsute,hirsute 0.17-1.1 all
 libparallel-runner-perl/hirsute,hirsute 0.013-2.1 all
 libparams-callbackrequest-perl/hirsute,hirsute 1.20-2.1 all
-libparams-classify-perl/hirsute 0.015-1build3 amd64
+libparams-classify-perl/hirsute,now 0.015-1build3 amd64 [installed,automatic]
 libparams-classify-perl/hirsute 0.015-1build3 i386
 libparams-coerce-perl/hirsute,hirsute 0.15-1 all
-libparams-util-perl/hirsute 1.102-1build1 amd64
+libparams-util-perl/hirsute,now 1.102-1build1 amd64 [installed,automatic]
 libparams-util-perl/hirsute 1.102-1build1 i386
-libparams-validate-perl/hirsute 1.30-1build1 amd64
+libparams-validate-perl/hirsute,now 1.30-1build1 amd64 [installed,automatic]
 libparams-validate-perl/hirsute 1.30-1build1 i386
-libparams-validationcompiler-perl/hirsute,hirsute 0.30-1 all
+libparams-validationcompiler-perl/hirsute,hirsute,now 0.30-1 all [installed,automatic]
 libparanamer-java-doc/hirsute,hirsute 2.8-5 all
 libparanamer-java/hirsute,hirsute 2.8-5 all
 libparanamer-maven-plugin-java/hirsute,hirsute 2.8-5 all
@@ -36851,7 +36851,7 @@ libparse-nessus-nbe-perl/hirsute,hirsute 1.1-1.1 all
 libparse-netstat-perl/hirsute,hirsute 0.14-1.1 all
 libparse-plainconfig-perl/hirsute,hirsute 3.05-1.1 all
 libparse-pmfile-perl/hirsute,hirsute 0.43-1 all
-libparse-recdescent-perl/hirsute,hirsute 1.967015+dfsg-2 all
+libparse-recdescent-perl/hirsute,hirsute,now 1.967015+dfsg-2 all [installed,automatic]
 libparse-syslog-perl/hirsute,hirsute 1.10-3.1 all
 libparse-win32registry-perl/hirsute,hirsute 1.1-1 all
 libparse-yapp-perl/hirsute,hirsute 1.21-2 all
@@ -37028,7 +37028,7 @@ libpdf-reuse-perl/hirsute,hirsute 0.39-1.1 all
 libpdf-table-perl/hirsute,hirsute 1:1.002-1 all
 libpdf-writer-perl/hirsute,hirsute 0.06-1.1 all
 libpdfbox-java-doc/hirsute,hirsute 1:1.8.16-2 all
-libpdfbox-java/hirsute,hirsute 1:1.8.16-2 all
+libpdfbox-java/hirsute,hirsute,now 1:1.8.16-2 all [installed,automatic]
 libpdfbox2-java-doc/hirsute,hirsute 2.0.22-1 all
 libpdfbox2-java/hirsute,hirsute 2.0.22-1 all
 libpdfrenderer-java/hirsute,hirsute 0.9.0-1.1 all
@@ -37103,7 +37103,7 @@ libperlio-eol-perl/hirsute 0.17-1build3 amd64
 libperlio-gzip-perl/hirsute 0.19-1build6 amd64
 libperlio-gzip-perl/hirsute 0.19-1build6 i386
 libperlio-layers-perl/hirsute 0.012-2 amd64
-libperlio-utf8-strict-perl/hirsute 0.008-1build1 amd64
+libperlio-utf8-strict-perl/hirsute,now 0.008-1build1 amd64 [installed,automatic]
 libperlio-via-dynamic-perl/hirsute,hirsute 0.14-1.1 all
 libperlio-via-symlink-perl/hirsute,hirsute 0.05-3.1 all
 libperlio-via-timeout-perl/hirsute,hirsute 0.32-1 all
@@ -37349,7 +37349,7 @@ libpll0/hirsute 0.3.2-4 amd64
 libploop-dev/hirsute 1.15-9 amd64
 libploop1/hirsute 1.15-9 amd64
 libplot-dev/hirsute 2.6-11 amd64
-libplot2c2/hirsute 2.6-11 amd64
+libplot2c2/hirsute,now 2.6-11 amd64 [installed,automatic]
 libploticus0-dev/hirsute 2.42-4.2 amd64
 libploticus0/hirsute 2.42-4.2 amd64
 libplplot-data/hirsute,hirsute 5.15.0+dfsg-19ubuntu1 all
@@ -37828,7 +37828,7 @@ libpspell-dev/hirsute 0.60.8-2 i386
 libpst-dev/hirsute 0.6.75-1 amd64
 libpst4/hirsute 0.6.75-1 amd64
 libpstoedit-dev/hirsute 3.75-1build2 amd64
-libpstoedit0c2a/hirsute 3.75-1build2 amd64
+libpstoedit0c2a/hirsute,now 3.75-1build2 amd64 [installed,automatic]
 libpstreams-dev/hirsute,hirsute 1.0.3-1 all
 libpsurface-dbg/hirsute 2.0.0-2build1 amd64
 libpsurface-dev/hirsute 2.0.0-2build1 amd64
@@ -37977,8 +37977,8 @@ libqb100/hirsute 2.0.2-1 amd64
 libqb100/hirsute 2.0.2-1 i386
 libqbscore1.18/hirsute 1.18.0-5 amd64
 libqca-qt5-2-dev/hirsute 2.3.2-2 amd64
-libqca-qt5-2-plugins/hirsute,now 2.3.2-2 amd64 [installed,automatic]
-libqca-qt5-2/hirsute,now 2.3.2-2 amd64 [installed,automatic]
+libqca-qt5-2-plugins/hirsute 2.3.2-2 amd64
+libqca-qt5-2/hirsute 2.3.2-2 amd64
 libqca2-doc/hirsute,hirsute 2.3.2-2 all
 libqcheck-core-ocaml-dev/hirsute 0.15-1build1 amd64
 libqcheck-core-ocaml/hirsute 0.15-1build1 amd64
@@ -38163,7 +38163,7 @@ libqt5multimedia5/hirsute,now 5.15.2-3 amd64 [installed,automatic]
 libqt5multimedia5/hirsute 5.15.2-3 i386
 libqt5multimediagsttools5/hirsute 5.15.2-3 amd64
 libqt5multimediagsttools5/hirsute 5.15.2-3 i386
-libqt5multimediaquick5/hirsute,now 5.15.2-3 amd64 [installed,automatic]
+libqt5multimediaquick5/hirsute 5.15.2-3 amd64
 libqt5multimediaquick5/hirsute 5.15.2-3 i386
 libqt5multimediawidgets5/hirsute 5.15.2-3 amd64
 libqt5multimediawidgets5/hirsute 5.15.2-3 i386
@@ -38203,14 +38203,14 @@ libqt5quick5/hirsute,now 5.15.2+dfsg-5 amd64 [installed,automatic]
 libqt5quick5/hirsute 5.15.2+dfsg-5 i386
 libqt5quickcontrols2-5/hirsute,now 5.15.2+dfsg-2 amd64 [installed,automatic]
 libqt5quickparticles5-gles/hirsute 5.15.2+dfsg-2 amd64
-libqt5quickparticles5/hirsute,now 5.15.2+dfsg-5 amd64 [installed,automatic]
+libqt5quickparticles5/hirsute 5.15.2+dfsg-5 amd64
 libqt5quickparticles5/hirsute 5.15.2+dfsg-5 i386
 libqt5quickshapes5/hirsute 5.15.2+dfsg-5 amd64
 libqt5quickshapes5/hirsute 5.15.2+dfsg-5 i386
 libqt5quicktemplates2-5/hirsute,now 5.15.2+dfsg-2 amd64 [installed,automatic]
 libqt5quicktest5/hirsute 5.15.2+dfsg-5 amd64
 libqt5quicktest5/hirsute 5.15.2+dfsg-5 i386
-libqt5quickwidgets5/hirsute,now 5.15.2+dfsg-5 amd64 [installed,automatic]
+libqt5quickwidgets5/hirsute 5.15.2+dfsg-5 amd64
 libqt5quickwidgets5/hirsute 5.15.2+dfsg-5 i386
 libqt5remoteobjects5-bin/hirsute 5.15.2-2 amd64
 libqt5remoteobjects5-bin/hirsute 5.15.2-2 i386
@@ -38549,7 +38549,7 @@ libreadline-dev/hirsute 8.1-1 i386
 libreadline-java/hirsute 0.8.0.1+dfsg-10build1 amd64
 libreadline8/hirsute,now 8.1-1 amd64 [installed]
 libreadline8/hirsute 8.1-1 i386
-libreadonly-perl/hirsute,hirsute 2.050-3 all
+libreadonly-perl/hirsute,hirsute,now 2.050-3 all [installed,automatic]
 libreadonlyx-perl/hirsute,hirsute 1.04-2 all
 libreadosm-dev/hirsute 1:1.1.0a+dfsg-1 amd64
 libreadosm-doc/hirsute,hirsute 1:1.1.0a+dfsg-1 all
@@ -38569,8 +38569,8 @@ libredis-perl/hirsute,hirsute 2:1.9980-2 all
 libredkite-dev/hirsute 1.3.1-0ubuntu1 amd64
 libref-array-dev/hirsute 0.6.1-2build1 amd64
 libref-array1/hirsute 0.6.1-2build1 amd64
-libref-util-perl/hirsute,hirsute 0.204-1 all
-libref-util-xs-perl/hirsute 0.117-1build3 amd64
+libref-util-perl/hirsute,hirsute,now 0.204-1 all [installed,automatic]
+libref-util-xs-perl/hirsute,now 0.117-1build3 amd64 [installed,automatic]
 libreflectasm-java-doc/hirsute,hirsute 1.05-4.1 all
 libreflectasm-java/hirsute,hirsute 1.05-4.1 all
 libreflections-java/hirsute,hirsute 0.9.12+dfsg-3 all
@@ -38578,7 +38578,7 @@ libregex-clojure/hirsute,hirsute 1.1.0-3 all
 libregexp-assemble-perl/hirsute,hirsute 0.36-1.1 all
 libregexp-common-email-address-perl/hirsute,hirsute 1.01-5 all
 libregexp-common-net-cidr-perl/hirsute,hirsute 0.03-1 all
-libregexp-common-perl/hirsute,hirsute 2017060201-1 all
+libregexp-common-perl/hirsute,hirsute,now 2017060201-1 all [installed,automatic]
 libregexp-common-time-perl/hirsute,hirsute 0.16-1 all
 libregexp-debugger-perl/hirsute,hirsute 0.002006-1 all
 libregexp-grammars-perl/hirsute,hirsute 1.057-1 all
@@ -39002,7 +39002,7 @@ librole-commons-perl/hirsute,hirsute 0.104-1.1 all
 librole-hasmessage-perl/hirsute,hirsute 0.006-1.1 all
 librole-identifiable-perl/hirsute,hirsute 0.007-1 all
 librole-rest-client-perl/hirsute,hirsute 0.23-1 all
-librole-tiny-perl/hirsute,hirsute 2.002004-1 all
+librole-tiny-perl/hirsute,hirsute,now 2.002004-1 all [installed,automatic]
 libroman-perl/hirsute,hirsute 1.24-1.1 all
 libromana-perligata-perl/hirsute,hirsute 0.55-1.3 all
 librome-java/hirsute,hirsute 1.12.2-1 all
@@ -41429,7 +41429,7 @@ libsigscan-utils/hirsute 20201117-1 amd64
 libsigscan1/hirsute 20201117-1 amd64
 libsigsegv-dev/hirsute 2.13-1ubuntu1 amd64
 libsigsegv-dev/hirsute 2.13-1ubuntu1 i386
-libsigsegv2/hirsute 2.13-1ubuntu1 amd64
+libsigsegv2/hirsute,now 2.13-1ubuntu1 amd64 [installed,automatic]
 libsigsegv2/hirsute 2.13-1ubuntu1 i386
 libsilly-dev/hirsute 0.1.0-8.1 amd64
 libsilly-doc/hirsute,hirsute 0.1.0-8.1 all
@@ -41701,7 +41701,7 @@ libsolvext-dev/hirsute 0.7.17-1 amd64
 libsolvext1/hirsute 0.7.17-1 amd64
 libsombok-dev/hirsute 2.4.0-2 amd64
 libsombok-dev/hirsute 2.4.0-2 i386
-libsombok3/hirsute 2.4.0-2 amd64
+libsombok3/hirsute,now 2.4.0-2 amd64 [installed,automatic]
 libsombok3/hirsute 2.4.0-2 i386
 libsonic-dev/hirsute 0.2.0-10 amd64
 libsonic-dev/hirsute 0.2.0-10 i386
@@ -41721,7 +41721,7 @@ libsord-dev/hirsute 0.16.8-2 amd64
 libsord-dev/hirsute 0.16.8-2 i386
 libsord-doc/hirsute,hirsute 0.16.8-2 all
 libsort-fields-perl/hirsute,hirsute 1.001-1 all
-libsort-key-perl/hirsute 1.33-2build3 amd64
+libsort-key-perl/hirsute,now 1.33-2build3 amd64 [installed,automatic]
 libsort-key-perl/hirsute 1.33-2build3 i386
 libsort-key-top-perl/hirsute 0.08-4 amd64
 libsort-maker-perl/hirsute,hirsute 0.06-2 all
@@ -41810,7 +41810,7 @@ libspdlog1/hirsute 1:1.8.1+ds-2.1 i386
 libspe2-doc/hirsute 2.2.80-95-3.1ubuntu7 amd64
 libspec-alpha-clojure/hirsute,hirsute 0.2.194-1 all
 libspecio-library-path-tiny-perl/hirsute,hirsute 0.04-3 all
-libspecio-perl/hirsute,hirsute 0.47-1 all
+libspecio-perl/hirsute,hirsute,now 0.47-1 all [installed,automatic]
 libspecter-clojure/hirsute,hirsute 1.0.2-2.1 all
 libspectre-dev/hirsute 0.2.9-1 amd64
 libspectre-dev/hirsute 0.2.9-1 i386
@@ -42475,19 +42475,19 @@ libstylebook-java/hirsute,hirsute 1.0~b3~svn20061109-7 all
 libsub-delete-perl/hirsute,hirsute 1.00002-2.1 all
 libsub-exporter-formethods-perl/hirsute,hirsute 0.100052-1 all
 libsub-exporter-globexporter-perl/hirsute,hirsute 0.005-1 all
-libsub-exporter-perl/hirsute,hirsute 0.987-1 all
-libsub-exporter-progressive-perl/hirsute,hirsute 0.001013-1 all
+libsub-exporter-perl/hirsute,hirsute,now 0.987-1 all [installed,automatic]
+libsub-exporter-progressive-perl/hirsute,hirsute,now 0.001013-1 all [installed,automatic]
 libsub-handlesvia-perl/hirsute,hirsute 0.016-1 all
-libsub-identify-perl/hirsute 0.14-1build3 amd64
+libsub-identify-perl/hirsute,now 0.14-1build3 amd64 [installed,automatic]
 libsub-identify-perl/hirsute 0.14-1build3 i386
 libsub-infix-perl/hirsute,hirsute 0.004-1.1 all
 libsub-info-perl/hirsute,hirsute 0.002-1.1 all
-libsub-install-perl/hirsute,hirsute 0.928-1.1 all
-libsub-name-perl/hirsute 0.26-1build1 amd64
+libsub-install-perl/hirsute,hirsute,now 0.928-1.1 all [installed,automatic]
+libsub-name-perl/hirsute,now 0.26-1build1 amd64 [installed,automatic]
 libsub-name-perl/hirsute 0.26-1build1 i386
 libsub-override-perl/hirsute,hirsute 0.09-2 all
 libsub-prototype-perl/hirsute 0.03-1build1 amd64
-libsub-quote-perl/hirsute,hirsute 2.006006-1 all
+libsub-quote-perl/hirsute,hirsute,now 2.006006-1 all [installed,automatic]
 libsub-recursive-perl/hirsute,hirsute 0.05-1 all
 libsub-uplevel-perl/hirsute,hirsute 0.2800-1.1 all
 libsub-wrappackages-perl/hirsute,hirsute 2.01-1 all
@@ -42643,7 +42643,7 @@ libsys-cpuload-perl/hirsute 0.31-1build1 amd64
 libsys-filesystem-perl/hirsute,hirsute 1.408-1 all
 libsys-gamin-perl/hirsute 0.1-2build7 amd64
 libsys-hostip-perl/hirsute,hirsute 2.120-1 all
-libsys-hostname-long-perl/hirsute,hirsute 1.5-2 all
+libsys-hostname-long-perl/hirsute,hirsute,now 1.5-2 all [installed,automatic]
 libsys-info-base-perl/hirsute,hirsute 0.7807-3 all
 libsys-info-driver-linux-perl/hirsute,hirsute 0.7905-2 all
 libsys-info-perl/hirsute,hirsute 0.7811-2 all
@@ -43174,7 +43174,7 @@ libtext-ansi-util-perl/hirsute,hirsute 0.230-2 all
 libtext-asciitable-perl/hirsute,hirsute 0.22-1 all
 libtext-aspell-perl/hirsute 0.09-2build2 amd64
 libtext-autoformat-perl/hirsute,hirsute 1.750000-1 all
-libtext-bibtex-perl/hirsute 0.88-3build2 amd64
+libtext-bibtex-perl/hirsute,now 0.88-3build2 amd64 [installed,automatic]
 libtext-bidi-perl/hirsute 2.15-2build1 amd64
 libtext-brew-perl/hirsute,hirsute 0.02-1.1 all
 libtext-charwidth-perl/hirsute,now 0.04-10build1 amd64 [installed]
@@ -43183,8 +43183,8 @@ libtext-chasen-perl/hirsute 1.04-5build6 amd64
 libtext-context-eitherside-perl/hirsute,hirsute 1.4-2.1 all
 libtext-context-perl/hirsute,hirsute 3.7-2.1 all
 libtext-csv-encoded-perl/hirsute,hirsute 0.25-2 all
-libtext-csv-perl/hirsute,hirsute 2.00-1 all
-libtext-csv-xs-perl/hirsute 1.45-1 amd64
+libtext-csv-perl/hirsute,hirsute,now 2.00-1 all [installed,automatic]
+libtext-csv-xs-perl/hirsute,now 1.45-1 amd64 [installed,automatic]
 libtext-dhcpleases-perl/hirsute,hirsute 1.0-2.1 all
 libtext-diff-perl/hirsute,hirsute 1.45-1 all
 libtext-english-perl/hirsute,hirsute 1.606-1.1 all
@@ -43193,7 +43193,7 @@ libtext-flow-perl/hirsute,hirsute 0.01-2.1 all
 libtext-format-perl/hirsute,hirsute 0.62-1 all
 libtext-formattable-perl/hirsute,hirsute 1.03-2.1 all
 libtext-german-perl/hirsute,hirsute 0.06-3 all
-libtext-glob-perl/hirsute,hirsute 0.11-1 all
+libtext-glob-perl/hirsute,hirsute,now 0.11-1 all [installed,automatic]
 libtext-greeking-perl/hirsute,hirsute 0.14-1.1 all
 libtext-header-perl/hirsute,hirsute 1.03+pristine-1.1 all
 libtext-hogan-perl/hirsute,hirsute 2.03-1 all
@@ -43225,7 +43225,7 @@ libtext-recordparser-perl/hirsute,hirsute 1.6.5-2 all
 libtext-reflow-perl/hirsute 1.17-1build4 amd64
 libtext-reform-perl/hirsute,hirsute 1.20-3 all
 libtext-rewriterules-perl/hirsute,hirsute 0.25-1.1 all
-libtext-roman-perl/hirsute,hirsute 3.5-2.1 all
+libtext-roman-perl/hirsute,hirsute,now 3.5-2.1 all [installed,automatic]
 libtext-sass-perl/hirsute,hirsute 1.0.4-2 all
 libtext-simpletable-autowidth-perl/hirsute,hirsute 0.09-1.1 all
 libtext-simpletable-perl/hirsute,hirsute 2.07-1 all
@@ -43241,7 +43241,7 @@ libtext-trim-perl/hirsute,hirsute 1.04-1 all
 libtext-typography-perl/hirsute,hirsute 0.01-3.1 all
 libtext-unaccent-perl/hirsute 1.08-1.3build4 amd64
 libtext-unicode-equivalents-perl/hirsute,hirsute 0.05-1.1 all
-libtext-unidecode-perl/hirsute,hirsute 1.30-1 all
+libtext-unidecode-perl/hirsute,hirsute,now 1.30-1 all [installed,automatic]
 libtext-vcard-perl/hirsute,hirsute 3.09-1.1 all
 libtext-vfile-asdata-perl/hirsute,hirsute 0.08-1.1 all
 libtext-wagnerfischer-perl/hirsute,hirsute 0.04-2 all
@@ -43342,7 +43342,7 @@ libtie-array-iterable-perl/hirsute,hirsute 0.03-2 all
 libtie-array-sorted-perl/hirsute,hirsute 1.41-3.1 all
 libtie-cache-perl/hirsute,hirsute 0.21-1 all
 libtie-cphash-perl/hirsute,hirsute 2.000-1.1 all
-libtie-cycle-perl/hirsute,hirsute 1.226-1 all
+libtie-cycle-perl/hirsute,hirsute,now 1.226-1 all [installed,automatic]
 libtie-dbi-perl/hirsute,hirsute 1.08-1 all
 libtie-dxhash-perl/hirsute,hirsute 1.05-2.1 all
 libtie-encryptedhash-perl/hirsute,hirsute 1.24-2 all
@@ -43996,7 +43996,7 @@ libunicode-casefold-perl/hirsute 1.01-1build3 amd64
 libunicode-collate-perl/hirsute 1.29-1build1 amd64
 libunicode-escape-perl/hirsute,hirsute 0.0.2-4.1 all
 libunicode-japanese-perl/hirsute 0.49-1build6 amd64
-libunicode-linebreak-perl/hirsute 0.0.20190101-1build2 amd64
+libunicode-linebreak-perl/hirsute,now 0.0.20190101-1build2 amd64 [installed,automatic]
 libunicode-linebreak-perl/hirsute 0.0.20190101-1build2 i386
 libunicode-map-perl/hirsute 0.112-12build3 amd64
 libunicode-map8-perl/hirsute 0.13+dfsg-4build7 amd64
@@ -44216,7 +44216,7 @@ libuutf-ocaml/hirsute 1.0.2-1build1 amd64
 libuutil3linux/hirsute 2.0.2-1ubuntu5 amd64
 libuv1-dev/hirsute-security,hirsute-updates 1.40.0-1ubuntu0.1 amd64
 libuv1-dev/hirsute-security,hirsute-updates 1.40.0-1ubuntu0.1 i386
-libuv1/hirsute-security,hirsute-updates 1.40.0-1ubuntu0.1 amd64 [upgradable from: 1.40.0-1]
+libuv1/hirsute-security,hirsute-updates,now 1.40.0-1ubuntu0.1 amd64 [installed,automatic]
 libuv1/hirsute-security,hirsute-updates 1.40.0-1ubuntu0.1 i386
 libuvc-dev/hirsute 0.0.6-1.1 amd64
 libuvc-doc/hirsute,hirsute 0.0.6-1.1 all
@@ -44277,7 +44277,7 @@ libvar-pairs-perl/hirsute,hirsute 0.004001-1 all
 libvarconf-1.0-8v5/hirsute 1.0.1-7 amd64
 libvarconf-dev/hirsute 1.0.1-7 amd64
 libvariable-disposition-perl/hirsute,hirsute 0.004-2 all
-libvariable-magic-perl/hirsute 0.62-1build3 amd64
+libvariable-magic-perl/hirsute,now 0.62-1build3 amd64 [installed,automatic]
 libvariable-magic-perl/hirsute 0.62-1build3 i386
 libvariantslib-ocaml-dev/hirsute 1:0.14.0-1build1 amd64
 libvariantslib-ocaml/hirsute 1:0.14.0-1build1 amd64
@@ -44845,7 +44845,7 @@ libwmf-dev/hirsute 0.2.8.4-17ubuntu1 i386
 libwmf-doc/hirsute,hirsute 0.2.8.4-17ubuntu1 all
 libwmf0.2-7-gtk/hirsute 0.2.8.4-17ubuntu1 amd64
 libwmf0.2-7-gtk/hirsute 0.2.8.4-17ubuntu1 i386
-libwmf0.2-7/hirsute 0.2.8.4-17ubuntu1 amd64
+libwmf0.2-7/hirsute,now 0.2.8.4-17ubuntu1 amd64 [installed,automatic]
 libwmf0.2-7/hirsute 0.2.8.4-17ubuntu1 i386
 libwnck-3-0/hirsute,now 3.36.0-1 amd64 [installed,automatic]
 libwnck-3-0/hirsute 3.36.0-1 i386
@@ -45620,17 +45620,17 @@ libxml-java/hirsute,hirsute 1.1.7-1 all
 libxml-libxml-debugging-perl/hirsute,hirsute 0.103-2.1 all
 libxml-libxml-iterator-perl/hirsute,hirsute 1.06-1 all
 libxml-libxml-lazybuilder-perl/hirsute,hirsute 0.08-2.1 all
-libxml-libxml-perl/hirsute 2.0134+dfsg-2build1 amd64
+libxml-libxml-perl/hirsute,now 2.0134+dfsg-2build1 amd64 [installed,automatic]
 libxml-libxml-perl/hirsute 2.0134+dfsg-2build1 i386
-libxml-libxml-simple-perl/hirsute,hirsute 1.01-1 all
-libxml-libxslt-perl/hirsute 1.99-1build1 amd64
+libxml-libxml-simple-perl/hirsute,hirsute,now 1.01-1 all [installed,automatic]
+libxml-libxslt-perl/hirsute,now 1.99-1build1 amd64 [installed,automatic]
 libxml-light-ocaml-dev/hirsute 2.4-1build3 amd64
 libxml-light-ocaml/hirsute 2.4-1build3 amd64
 libxml-maven-plugin-java/hirsute,hirsute 1.0.1-4 all
 libxml-mini-perl/hirsute,hirsute 1.38-3.1 all
 libxml-namespace-perl/hirsute,hirsute 0.02-3.1 all
 libxml-namespacefactory-perl/hirsute,hirsute 1.02-1.1 all
-libxml-namespacesupport-perl/hirsute,hirsute 1.12-1.1 all
+libxml-namespacesupport-perl/hirsute,hirsute,now 1.12-1.1 all [installed,automatic]
 libxml-node-perl/hirsute,hirsute 0.11-9 all
 libxml-nodefilter-perl/hirsute,hirsute 0.01-7.1 all
 libxml-opml-perl/hirsute,hirsute 0.26-3.1 all
@@ -45649,12 +45649,12 @@ libxml-rss-libxml-perl/hirsute,hirsute 0.3105+dfsg-2.1 all
 libxml-rss-perl/hirsute,hirsute 1.62-1 all
 libxml-rss-simplegen-perl/hirsute,hirsute 11.11-6 all
 libxml-rsslite-perl/hirsute,hirsute 0.15+dfsg-3.1 all
-libxml-sax-base-perl/hirsute,hirsute 1.09-1.1 all
+libxml-sax-base-perl/hirsute,hirsute,now 1.09-1.1 all [installed,automatic]
 libxml-sax-expat-incremental-perl/hirsute,hirsute 0.05-2.1 all
-libxml-sax-expat-perl/hirsute,hirsute 0.51-1 all
+libxml-sax-expat-perl/hirsute,hirsute,now 0.51-1 all [installed,automatic]
 libxml-sax-expatxs-perl/hirsute 1.33-2build6 amd64
 libxml-sax-machines-perl/hirsute,hirsute 0.46-1.1 all
-libxml-sax-perl/hirsute,hirsute 1.02+dfsg-1 all
+libxml-sax-perl/hirsute,hirsute,now 1.02+dfsg-1 all [installed,automatic]
 libxml-sax-writer-perl/hirsute,hirsute 0.57-1.1 all
 libxml-saxon-xslt2-perl/hirsute,hirsute 0.010-3 all
 libxml-security-c-dev/hirsute 2.0.2-4 amd64
@@ -45680,7 +45680,7 @@ libxml-twig-perl/hirsute,hirsute,now 1:3.52-1 all [installed,automatic]
 libxml-um-perl/hirsute,hirsute 0.01-9.1 all
 libxml-validate-perl/hirsute,hirsute 1.025-3 all
 libxml-validator-schema-perl/hirsute,hirsute 1.10-2.1 all
-libxml-writer-perl/hirsute,hirsute 0.900-1 all
+libxml-writer-perl/hirsute,hirsute,now 0.900-1 all [installed,automatic]
 libxml-writer-simple-perl/hirsute,hirsute 0.12-1.1 all
 libxml-writer-string-perl/hirsute,hirsute 0.1-1.1 all
 libxml-xpath-perl/hirsute,hirsute 1.44-1 all
@@ -45873,7 +45873,7 @@ libxss1/hirsute,now 1:1.2.3-1 amd64 [installed,automatic]
 libxss1/hirsute 1:1.2.3-1 i386
 libxstr-ocaml-dev/hirsute 0.2.1-23build2 amd64
 libxstream-java/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 1.4.15-1ubuntu0.1 all
-libxstring-perl/hirsute 0.005-1build1 amd64
+libxstring-perl/hirsute,now 0.005-1build1 amd64 [installed,automatic]
 libxstrp4-camlp4-dev/hirsute,hirsute 1.8.2-3build1 all
 libxt-dev/hirsute 1:1.2.0-1 amd64
 libxt-dev/hirsute 1:1.2.0-1 i386
@@ -45958,7 +45958,7 @@ libyaml-shell-perl/hirsute,hirsute 0.71-2.1 all
 libyaml-snake-java-doc/hirsute,hirsute 1.28-1 all
 libyaml-snake-java/hirsute,hirsute 1.28-1 all
 libyaml-syck-perl/hirsute 1.34-1build1 amd64
-libyaml-tiny-perl/hirsute,hirsute 1.73-1 all
+libyaml-tiny-perl/hirsute,hirsute,now 1.73-1 all [installed,automatic]
 libyanfs-java/hirsute,hirsute 0.0+cvs20070825-4.1 all
 libyang-cpp-dev/hirsute 1.0.184-2ubuntu1 amd64
 libyang-cpp1/hirsute 1.0.184-2ubuntu1 amd64
@@ -46338,7 +46338,7 @@ linux-azure-tools-5.11.0-1006/hirsute-security,hirsute-updates 5.11.0-1006.6 amd
 linux-azure-tools-5.11.0-1009/hirsute-security,hirsute-updates 5.11.0-1009.9 amd64
 linux-azure/hirsute-security,hirsute-updates 5.11.0.1009.9 amd64
 linux-base-sgx/hirsute-updates,hirsute-updates 4.5ubuntu5.3 all
-linux-base/hirsute-updates,hirsute-updates 4.5ubuntu5.3 all [upgradable from: 4.5ubuntu5.2]
+linux-base/hirsute-updates,hirsute-updates,now 4.5ubuntu5.3 all [installed,automatic]
 linux-buildinfo-5.11.0-1004-azure/hirsute 5.11.0-1004.4 amd64
 linux-buildinfo-5.11.0-1005-azure/hirsute-security,hirsute-updates 5.11.0-1005.5 amd64
 linux-buildinfo-5.11.0-1005-oracle/hirsute 5.11.0-1005.5 amd64
@@ -49596,7 +49596,7 @@ netmaze/hirsute 0.81+jpg0.82-16build1 amd64
 netopeer2/hirsute 1.1.39-1 amd64
 netpanzer-data/hirsute,hirsute 0.8.7+ds-3 all
 netpanzer/hirsute 0.8.7+ds-3 amd64
-netpbm/hirsute 2:10.0-15.4 amd64
+netpbm/hirsute,now 2:10.0-15.4 amd64 [installed,automatic]
 netpbm/hirsute 2:10.0-15.4 i386
 netperf/hirsute 2.7.0-0.1 amd64
 netperfmeter-plotting/hirsute,hirsute 1.8.6~rc2-1ubuntu1 all
@@ -52121,7 +52121,7 @@ openigtlink-examples/hirsute,hirsute 1.11.0-4build1 all
 openimageio-tools/hirsute 2.2.10.1+dfsg-1build1 amd64
 openipmi/hirsute 2.0.29-0.1ubuntu3 amd64
 openipmi/hirsute 2.0.29-0.1ubuntu3 i386
-openjade/hirsute 1.4devel1-22 amd64
+openjade/hirsute,now 1.4devel1-22 amd64 [installed,automatic]
 openjade/hirsute 1.4devel1-22 i386
 openjazz/hirsute 20190106-3build1 amd64
 openjdk-11-dbg/hirsute-security,hirsute-updates 11.0.11+9-0ubuntu2 amd64
@@ -53065,7 +53065,7 @@ petsc64-dev/hirsute,hirsute 3.14.5+dfsg1-2 all
 pev/hirsute 0.81-2 amd64
 pex/hirsute,hirsute 1.1.14-3.1 all
 pexec/hirsute 1.0~rc8-4 amd64
-pfb2t1c2pfb/hirsute 0.3-11 amd64
+pfb2t1c2pfb/hirsute,now 0.3-11 amd64 [installed,automatic]
 pff-tools/hirsute 20180714-3 amd64
 pflogsumm/hirsute,hirsute 1.1.5-7 all
 pfm/hirsute,hirsute 2.0.8-3 all
@@ -54152,9 +54152,9 @@ pong2/hirsute 0.1.3-3 amd64
 ponyprog/hirsute 3.1.2+ds-1 amd64
 poolcounter/hirsute 1.1.3-1 amd64
 pop-boot/hirsute,hirsute 3.1.4~1623173088~21.04~afe27ca all
-pop-cosmic/hirsute,hirsute 0.1.0~1625761311~21.04~82efb97 all [upgradable from: 0.1.0~1625073306~21.04~c3bd569]
+pop-cosmic/hirsute,hirsute,now 0.1.0~1625761311~21.04~82efb97 all [installed,automatic]
 pop-default-settings/hirsute,hirsute,now 5.0.0~1624981545~21.04~38927e0 all [installed]
-pop-desktop/hirsute,hirsute 1.6.0~1625267683~21.04~ac0465f all [upgradable from: 1.6.0~1621442056~21.04~e522a3e]
+pop-desktop/hirsute,hirsute,now 1.6.0~1625267683~21.04~ac0465f all [installed]
 pop-fonts/hirsute,hirsute,now 1.0.3~1555617065~21.04~a86eb73 all [installed,automatic]
 pop-gnome-initial-setup/hirsute,now 3.36.1~1624980476~21.04~a0b0a53 amd64 [installed]
 pop-gnome-shell-theme/hirsute,hirsute,now 5.3.3~1621633256~21.04~c5f700d all [installed,automatic]
@@ -54165,11 +54165,11 @@ pop-installer-session/hirsute 0.0.1~1625591366~21.04~7dd2e61 amd64
 pop-installer/hirsute 0.0.1~1625591366~21.04~7dd2e61 amd64
 pop-plymouth-timeout/hirsute,hirsute 2.0.1~1602194015~21.04~000f1ca all
 pop-session/hirsute,hirsute,now 5.0.0~1624974371~21.04~9888dc1 all [installed]
-pop-shell-plugin-system76-power/hirsute,hirsute 1.1.0~1625501479~21.04~b33c5e2 all [upgradable from: 1.1.0~1625079016~21.04~9970fd3]
+pop-shell-plugin-system76-power/hirsute,hirsute,now 1.1.0~1625501479~21.04~b33c5e2 all [installed,automatic]
 pop-shell-shortcuts/hirsute,now 0.1.0~1601316015~21.04~a653635 amd64 [installed,automatic]
-pop-shell/hirsute,hirsute 1.1.0~1625501479~21.04~b33c5e2 all [upgradable from: 1.1.0~1625079016~21.04~9970fd3]
+pop-shell/hirsute,hirsute,now 1.1.0~1625501479~21.04~b33c5e2 all [installed,automatic]
 pop-shop-casper/hirsute 3.4.2pop0~1625253683~21.04~eff4ef8 amd64
-pop-shop/hirsute 3.4.2pop0~1625253683~21.04~eff4ef8 amd64 [upgradable from: 3.4.2pop0~1622814255~21.04~2653c0f]
+pop-shop/hirsute,now 3.4.2pop0~1625253683~21.04~eff4ef8 amd64 [installed,automatic]
 pop-sound-theme/hirsute,hirsute,now 5.3.3~1621633256~21.04~c5f700d all [installed,automatic]
 pop-theme/hirsute,hirsute,now 1.0.4~1571245319~21.04~ed52981 all [installed,automatic]
 pop-transition/hirsute,hirsute,now 1.1.2~1622814235~21.04~44c59f0 all [installed]
@@ -54392,7 +54392,7 @@ prelude-manager/hirsute 5.2.0-2build2 amd64
 prelude-utils/hirsute 5.2.0-3build1 amd64
 preludedb-utils/hirsute,hirsute 5.2.0-1build1 all
 premake4/hirsute 4.3+repack1-2build1 amd64
-prerex/hirsute 6.8.0-1 amd64
+prerex/hirsute,now 6.8.0-1 amd64 [installed,automatic]
 presage-dbg/hirsute 0.9.1-2.2ubuntu1 amd64
 presage-dbg/hirsute 0.9.1-2.2ubuntu1 i386
 presage/hirsute 0.9.1-2.2ubuntu1 amd64
@@ -54400,7 +54400,7 @@ presage/hirsute 0.9.1-2.2ubuntu1 i386
 presentty/hirsute,hirsute 0.2.1-1.1 all
 presto/hirsute,hirsute 0.6.2-1 all
 prettyping/hirsute,hirsute 1.0.1-1.1 all
-preview-latex-style/hirsute,hirsute 11.91-2ubuntu2 all
+preview-latex-style/hirsute,hirsute,now 11.91-2ubuntu2 all [installed,automatic]
 preview.app/hirsute 0.8.5-11build3 amd64
 previsat/hirsute 3.5.1.7+dfsg1-4 amd64
 prewikka/hirsute,hirsute 5.2.0-1 all
@@ -54612,7 +54612,7 @@ prt/hirsute,hirsute 0.22-1 all
 prusa-slicer/hirsute 2.3.0+dfsg-1 amd64
 pry/hirsute,hirsute 0.13.1-1 all
 ps-watcher/hirsute,hirsute 1.08-10 all
-ps2eps/hirsute 1.68+binaryfree-3 amd64
+ps2eps/hirsute,now 1.68+binaryfree-3 amd64 [installed,automatic]
 psad/hirsute 2.4.3-1.2 amd64
 psautohint/hirsute,hirsute 2.2.0-1 all
 pscan-chip-data/hirsute,hirsute 1.1-3 all
@@ -54659,10 +54659,10 @@ pssh/hirsute,hirsute 2.3.1-4 all
 psst/hirsute 1.0-3 amd64
 pst-utils/hirsute 0.6.75-1 amd64
 pstack/hirsute 1.3.1-1build1 amd64
-pstoedit/hirsute 3.75-1build2 amd64
+pstoedit/hirsute,now 3.75-1build2 amd64 [installed,automatic]
 pstotext/hirsute 1.9-6build1 amd64
 psurface/hirsute 2.0.0-2build1 amd64
-psutils/hirsute 1.17.dfsg-4 amd64
+psutils/hirsute,now 1.17.dfsg-4 amd64 [installed,automatic]
 psutils/hirsute 1.17.dfsg-4 i386
 psychopy/hirsute,hirsute 2020.2.10+dfsg-1 all
 psychtoolbox-3-common/hirsute,hirsute 3.0.17.9.dfsg1-2 all
@@ -54822,7 +54822,7 @@ puredata-import/hirsute 1.3-5 amd64
 puredata-utils/hirsute 0.51.4-1 amd64
 puredata/hirsute,hirsute 0.51.4-1 all
 purify/hirsute 2.0.0-5build1 amd64
-purifyeps/hirsute,hirsute 1.1-2.1 all
+purifyeps/hirsute,hirsute,now 1.1-2.1 all [installed,automatic]
 purity-off/hirsute,hirsute 0-4.1 all
 purity/hirsute 1-19 amd64
 purple-discord/hirsute 0.9.2020.10.14.git.8216905-1 amd64
@@ -59884,7 +59884,7 @@ qml-module-org-kde-ksysguard/hirsute 4:5.21.4-0ubuntu1 amd64
 qml-module-org-kde-kwindowsystem/hirsute 5.80.0-0ubuntu1 amd64
 qml-module-org-kde-newstuff/hirsute 5.80.0-0ubuntu1 amd64
 qml-module-org-kde-okular/hirsute 4:20.12.3-1ubuntu1 amd64
-qml-module-org-kde-people/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
+qml-module-org-kde-people/hirsute 5.80.0-0ubuntu1 amd64
 qml-module-org-kde-prison/hirsute 5.80.0-0ubuntu1 amd64
 qml-module-org-kde-purpose/hirsute,now 5.80.0-0ubuntu1 amd64 [installed,automatic]
 qml-module-org-kde-qqc2breezestyle/hirsute 5.21.4-0ubuntu1 amd64
@@ -59903,7 +59903,7 @@ qml-module-qt-labs-folderlistmodel/hirsute,now 5.15.2+dfsg-5 amd64 [installed,au
 qml-module-qt-labs-folderlistmodel/hirsute 5.15.2+dfsg-5 i386
 qml-module-qt-labs-location/hirsute 5.15.2+dfsg-2 amd64
 qml-module-qt-labs-location/hirsute 5.15.2+dfsg-2 i386
-qml-module-qt-labs-platform/hirsute,now 5.15.2+dfsg-2 amd64 [installed,automatic]
+qml-module-qt-labs-platform/hirsute 5.15.2+dfsg-2 amd64
 qml-module-qt-labs-qmlmodels/hirsute 5.15.2+dfsg-5 amd64
 qml-module-qt-labs-qmlmodels/hirsute 5.15.2+dfsg-5 i386
 qml-module-qt-labs-settings/hirsute,now 5.15.2+dfsg-5 amd64 [installed,automatic]
@@ -59928,7 +59928,7 @@ qml-module-qtgraphicaleffects/hirsute,now 5.15.2-2 amd64 [installed,automatic]
 qml-module-qtgstreamer/hirsute 1.2.0-5.1 amd64
 qml-module-qtlocation/hirsute 5.15.2+dfsg-2 amd64
 qml-module-qtlocation/hirsute 5.15.2+dfsg-2 i386
-qml-module-qtmultimedia/hirsute,now 5.15.2-3 amd64 [installed,automatic]
+qml-module-qtmultimedia/hirsute 5.15.2-3 amd64
 qml-module-qtmultimedia/hirsute 5.15.2-3 i386
 qml-module-qtnfc/hirsute 5.15.2-2 amd64
 qml-module-qtnfc/hirsute 5.15.2-2 i386
@@ -59952,7 +59952,7 @@ qml-module-qtquick-layouts/hirsute,now 5.15.2+dfsg-5 amd64 [installed,automatic]
 qml-module-qtquick-layouts/hirsute 5.15.2+dfsg-5 i386
 qml-module-qtquick-localstorage/hirsute 5.15.2+dfsg-5 amd64
 qml-module-qtquick-localstorage/hirsute 5.15.2+dfsg-5 i386
-qml-module-qtquick-particles2/hirsute,now 5.15.2+dfsg-5 amd64 [installed,automatic]
+qml-module-qtquick-particles2/hirsute 5.15.2+dfsg-5 amd64
 qml-module-qtquick-particles2/hirsute 5.15.2+dfsg-5 i386
 qml-module-qtquick-pdf/hirsute 5.15.3+dfsg-5 amd64
 qml-module-qtquick-privatewidgets/hirsute,now 5.15.2-2 amd64 [installed,automatic]
@@ -64131,9 +64131,9 @@ shiki-noble-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shiki-wine-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shiki-wise-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shim-canonical-unsigned/hirsute 2 amd64
-shim-dbg/hirsute-updates 15.4-0ubuntu5 amd64
+shim-dbg/hirsute 15.4-0ubuntu1 amd64
 shim-signed/hirsute-updates 1.48+15.4-0ubuntu5 amd64
-shim/hirsute-updates 15.4-0ubuntu5 amd64
+shim/hirsute 15.4-0ubuntu1 amd64
 shimmer-themes/hirsute,hirsute 2.1.3 all
 shineenc/hirsute 3.1.1-2 amd64
 shineenc/hirsute 3.1.1-2 i386
@@ -64893,7 +64893,7 @@ ssh-tools/hirsute,hirsute 1.6-1 all
 ssh/hirsute,hirsute 1:8.4p1-5ubuntu1 all
 sshcommand/hirsute,hirsute 0~20160110.1~2795f65-1 all
 sshesame/hirsute 0.0~git20161116.b74f93f-3 amd64
-sshfs/hirsute,now 3.6.0+repack+really2.10-0ubuntu1 amd64 [installed,automatic]
+sshfs/hirsute 3.6.0+repack+really2.10-0ubuntu1 amd64
 sshguard/hirsute 2.3.1-1ubuntu3 amd64
 sshoot/hirsute,hirsute 1.4.2-1 all
 sshpass/hirsute 1.09-1 amd64
@@ -65653,7 +65653,7 @@ tdsodbc/hirsute 1.2.3-1 i386
 te923con/hirsute 0.6.1-6 amd64
 tea-data/hirsute,hirsute 50.0.4-1 all
 tea/hirsute 50.0.4-1 amd64
-teckit/hirsute 2.5.10+ds1-3 amd64
+teckit/hirsute,now 2.5.10+ds1-3 amd64 [installed,automatic]
 teckit/hirsute 2.5.10+ds1-3 i386
 tecnoballz-data/hirsute,hirsute 0.93.1-10 all
 tecnoballz/hirsute 0.93.1-10 amd64
@@ -65904,62 +65904,62 @@ tex-common/hirsute,hirsute,now 6.16 all [installed,automatic]
 tex-gyre/hirsute,hirsute,now 20180621-3.1 all [installed,automatic]
 texi2html/hirsute,hirsute 1.82+dfsg1-6 all
 texify/hirsute,hirsute 1.20-4.1 all
-texinfo/hirsute 6.7.0.dfsg.2-6 amd64
+texinfo/hirsute,now 6.7.0.dfsg.2-6 amd64 [installed,automatic]
 texinfo/hirsute 6.7.0.dfsg.2-6 i386
 texlive-base/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
-texlive-bibtex-extra/hirsute,hirsute 2020.20210202-3 all
+texlive-bibtex-extra/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
 texlive-binaries/hirsute,now 2020.20200327.54578-7 amd64 [installed,automatic]
 texlive-binaries/hirsute 2020.20200327.54578-7 i386
-texlive-extra-utils/hirsute,hirsute 2020.20210202-3 all
-texlive-font-utils/hirsute,hirsute 2020.20210202-3 all
-texlive-fonts-extra-doc/hirsute,hirsute 2020.20210202-3 all
-texlive-fonts-extra-links/hirsute,hirsute 2020.20210202-3 all
-texlive-fonts-extra/hirsute,hirsute 2020.20210202-3 all
-texlive-fonts-recommended-doc/hirsute,hirsute 2020.20210202-3 all
+texlive-extra-utils/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-font-utils/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-fonts-extra-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-fonts-extra-links/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-fonts-extra/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-fonts-recommended-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
 texlive-fonts-recommended/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
-texlive-formats-extra/hirsute,hirsute 2020.20210202-3 all
-texlive-full/hirsute,hirsute 2020.20210202-3 all
-texlive-games/hirsute,hirsute 2020.20210202-3 all
-texlive-humanities-doc/hirsute,hirsute 2020.20210202-3 all
-texlive-humanities/hirsute,hirsute 2020.20210202-3 all
+texlive-formats-extra/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-full/hirsute,hirsute,now 2020.20210202-3 all [installed]
+texlive-games/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-humanities-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-humanities/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
 texlive-lang-all/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-arabic/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-chinese/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-cjk/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-cyrillic/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-czechslovak/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-english/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-european/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-french/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-german/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-greek/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-italian/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-japanese/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-korean/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-other/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-polish/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-portuguese/hirsute,hirsute 2020.20210202-1 all
-texlive-lang-spanish/hirsute,hirsute 2020.20210202-1 all
-texlive-latex-base-doc/hirsute,hirsute 2020.20210202-3 all
+texlive-lang-arabic/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-chinese/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-cjk/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-cyrillic/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-czechslovak/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-english/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-european/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-french/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-german/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-greek/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-italian/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-japanese/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-korean/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-other/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-polish/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-portuguese/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-lang-spanish/hirsute,hirsute,now 2020.20210202-1 all [installed,automatic]
+texlive-latex-base-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
 texlive-latex-base/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
-texlive-latex-extra-doc/hirsute,hirsute 2020.20210202-3 all
-texlive-latex-extra/hirsute,hirsute 2020.20210202-3 all
-texlive-latex-recommended-doc/hirsute,hirsute 2020.20210202-3 all
+texlive-latex-extra-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-latex-extra/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-latex-recommended-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
 texlive-latex-recommended/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
-texlive-luatex/hirsute,hirsute 2020.20210202-3 all
-texlive-metapost-doc/hirsute,hirsute 2020.20210202-3 all
-texlive-metapost/hirsute,hirsute 2020.20210202-3 all
-texlive-music/hirsute,hirsute 2020.20210202-3 all
-texlive-pictures-doc/hirsute,hirsute 2020.20210202-3 all
-texlive-pictures/hirsute,hirsute 2020.20210202-3 all
-texlive-plain-generic/hirsute,hirsute 2020.20210202-3 all
-texlive-pstricks-doc/hirsute,hirsute 2020.20210202-3 all
-texlive-pstricks/hirsute,hirsute 2020.20210202-3 all
-texlive-publishers-doc/hirsute,hirsute 2020.20210202-3 all
-texlive-publishers/hirsute,hirsute 2020.20210202-3 all
-texlive-science-doc/hirsute,hirsute 2020.20210202-3 all
-texlive-science/hirsute,hirsute 2020.20210202-3 all
-texlive-xetex/hirsute,hirsute 2020.20210202-3 all
+texlive-luatex/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-metapost-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-metapost/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-music/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-pictures-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-pictures/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-plain-generic/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-pstricks-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-pstricks/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-publishers-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-publishers/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-science-doc/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-science/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
+texlive-xetex/hirsute,hirsute,now 2020.20210202-3 all [installed,automatic]
 texlive/hirsute,hirsute,now 2020.20210202-3 all [installed]
 texmaker-data/hirsute,hirsute 5.0.3-1build8 all
 texmaker/hirsute 5.0.3-1build8 amd64
@@ -66009,7 +66009,7 @@ themonospot/hirsute,hirsute 0.7.3.1-7.1 all
 therion-doc/hirsute,hirsute 5.5.6ds1-5ubuntu1 all
 therion-viewer/hirsute 5.5.6ds1-5ubuntu1 amd64
 therion/hirsute 5.5.6ds1-5ubuntu1 amd64
-thermald/hirsute-updates 2.4.3-1ubuntu1 amd64 [upgradable from: 2.4.3-1]
+thermald/hirsute-updates,now 2.4.3-1ubuntu1 amd64 [installed,automatic]
 theseus-examples/hirsute,hirsute 3.3.0-9 all
 theseus/hirsute 3.3.0-9 amd64
 thesias/hirsute 3.1.1-1 amd64
@@ -67799,7 +67799,7 @@ vpcs/hirsute 0.5b2-2.2 amd64
 vpnc-scripts/hirsute,hirsute 0.1~git20200930-1 all
 vpnc/hirsute 0.5.3+git20210125-1 amd64
 vpoll-dkms/hirsute,hirsute 0.1-2 all
-vprerex/hirsute 1:6.5.1-1build1 amd64
+vprerex/hirsute,now 1:6.5.1-1build1 amd64 [installed,automatic]
 vpx-tools/hirsute 1.9.0-1 amd64
 vpx-tools/hirsute 1.9.0-1 i386
 vramsteg/hirsute 1.1.0-1build2 amd64
