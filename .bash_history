@@ -1,12 +1,3 @@
-crontab -e
-clear
-pyraf
-pyraf >> log.txt
-clear
-ls
-cat log
-cat log.txt 
-clear
 ks
 ls
 rm log.txt 
@@ -501,4 +492,159 @@ ln -s .config/dotfiles/* ./
 ls
 clear
 ll
+clear
+ln -s ~/.config/dotfiles/.* ~/
+ls -al
+rm .git
+clear
+bash
+clear
+ll
+rm testdisk.log 
+clear
+ls
+clear
+ls
+clera
+ls
+clear
+ls
+ll
+rm .profile 
+clear
+ls
+ll
+pip list
+clera
+clear
+ls
+clear
+ls
+clear
+ls codes/
+ls
+bling 
+clear
+bling 
+clear
+ls
+cd Documents/
+ls
+cd
+clear
+ls
+ls media/
+clera
+clear
+ls
+clera
+ll | wc -l
+clear
+ls
+clear
+ls
+clear
+cd acads/Astrophysics/
+ls
+wget https://github.com/iraf-community/iraf/archive/refs/tags/v2.16.1+2021.06.14.tar.gz
+ls
+tar -xvf v2.16.1+2021.06.14.tar.gz 
+ls
+cd i
+cd iraf
+clear
+cd ../iraf-2.16.1-2021.06.14/
+ls
+clear
+./install 
+cd
+cl
+ls
+mv acads/Astrophysics/iraf-2.16.1-2021.06.14/ ./
+ls
+clear
+cl
+cd iraf-2.16.1-2021.06.14/
+ls
+./install 
+cd
+ls
+ll
+gs
+clear
+ls
+clear
+ls
+ll
+rm .bashrc 
+ln -s ~/.config/dotfiles/.bashrc ~/
+ll
+ln -s ~/.config/dotfiles/.bash_profile ~/
+rm .bash_profile 
+ln -s ~/.config/dotfiles/.bash_profile ~/
+clear
+ll
+ln -s ~/.config/dotfiles/login.cl ~/
+clear
+ll
+cl
+clear
+lc
+ls
+clear
+ls
+clear
+ls
+clear
+mkiraf
+clear
+cd iraf-2.16.1-2021.06.14/
+ls
+./install 
+ls
+source ~/.login
+clear
+ls
+clear
+ls
+clear
+cd
+mkiraf
+ls
+clear
+ls
+cl
+cat .login
+clear
+ls
+rm login.cl
+rm -r uparm/
+ls
+clear
+mv login.cl.OLD login.cl
+clear
+ls
+cd iraf-2.16.1-2021.06.14/
+ls
+clear
+ls
+cd
+vim .bashrc 
+cl
+cd iraf-2.16.1-2021.06.14/
+clear
+./test/run_tests 
+cd
+vim .bash
+vim .bashrc 
+vim .bashr
+vim .bashrc 
+cl
+vim .bash_profile 
+clear
+cd iraf-2.16.1-2021.06.14/
+./install 
+clera
+clear
+ls
 clear
