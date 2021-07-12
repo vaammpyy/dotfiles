@@ -47408,7 +47408,7 @@ lskat/hirsute 4:20.12.3-0ubuntu1 amd64
 lsm/hirsute 1.0.4-2 amd64
 lsmbox/hirsute 2.1.3-1build3 amd64
 lsmount/hirsute 0.2.4-1 amd64
-lsof/hirsute,now 4.93.2+dfsg-1.1 amd64 [installed,automatic]
+lsof/hirsute,now 4.93.2+dfsg-1.1 amd64 [installed]
 lsof/hirsute 4.93.2+dfsg-1.1 i386
 lsp-plugins-jack/hirsute 1.1.29-1 amd64
 lsp-plugins-ladspa/hirsute 1.1.29-1 amd64
@@ -65885,7 +65885,7 @@ tesseract-ocr/hirsute 4.1.1-2.1 amd64
 tesseract-ocr/hirsute 4.1.1-2.1 i386
 test-kitchen/hirsute,hirsute 1.23.2-5 all
 testdisk-dbg/hirsute 7.1-5 amd64
-testdisk/hirsute 7.1-5 amd64
+testdisk/hirsute,now 7.1-5 amd64 [installed]
 testng/hirsute,hirsute 6.9.12-4 all
 testrepository/hirsute,hirsute 0.0.20-5 all
 testssl.sh/hirsute,hirsute 3.0.4+dfsg1-1 all

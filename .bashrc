@@ -118,6 +118,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+if [ -d "$HOME/codes/shell-scripts" ] ; then
+    export PATH="$HOME/codes/shell-scripts:$PATH"
+fi
+
 # Add iraf setup commands
 if [ -e /home/vampy/.iraf/setup.sh ]; then
     source /home/vampy/.iraf/setup.sh
