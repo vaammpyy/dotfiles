@@ -116,7 +116,6 @@ PyNaCl==1.4.0
 pyopencl==2021.2.5
 pyOpenSSL==20.0.1
 pyparsing==2.4.7
-pyraf==2.1.15
 pyRFC3339==1.1
 pyrsistent==0.15.5
 python-apt==2.2.0-ubuntu0.21.04.1
@@ -128,6 +127,7 @@ pytz==2021.1
 pyxdg==0.27
 PyYAML==5.3.1
 pyzmq==20.0.0
+ranger-fm==1.9.3
 repolib==1.5.2
 repoman==1.4.0
 requests==2.25.1
@@ -148,6 +148,7 @@ testpath==0.4.4
 TLPUI==1.4.0a0
 tornado==6.1
 traitlets==5.0.5
+trash-cli==0.17.1.14
 ubuntu-advantage-tools==27.0
 ubuntu-drivers-common==0.0.0
 ufw==0.36

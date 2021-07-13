@@ -1930,7 +1930,7 @@ bppsuite-examples/hirsute,hirsute 2.4.1-3 all
 bppsuite/hirsute 2.4.1-3 amd64
 bpython3/hirsute,hirsute 0.21-3 all
 bpython/hirsute,hirsute 0.21-3 all
-bpytop/hirsute,hirsute 1.0.61-1 all
+bpytop/hirsute,hirsute,now 1.0.61-1 all [installed]
 br2684ctl/hirsute 1:2.5.1-4 amd64
 br2684ctl/hirsute 1:2.5.1-4 i386
 braa/hirsute 0.82-6 amd64
@@ -2556,26 +2556,26 @@ centreon-connector-perl/hirsute 19.10.0-1build2 amd64
 centreon-connector-ssh/hirsute 19.10.0-1build2 amd64
 centreon-engine/hirsute 19.10.8-1build1 amd64
 centrifuge/hirsute 1.0.3-8 amd64
-ceph-base/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-ceph-common/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+ceph-base/hirsute 16.2.0-0ubuntu1 amd64
+ceph-common/hirsute 16.2.0-0ubuntu1 amd64
 ceph-deploy/hirsute,hirsute 2.0.1-0ubuntu1 all
-ceph-fuse/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-ceph-immutable-object-cache/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+ceph-fuse/hirsute 16.2.0-0ubuntu1 amd64
+ceph-immutable-object-cache/hirsute 16.2.0-0ubuntu1 amd64
 ceph-iscsi/hirsute,hirsute 3.4-0ubuntu2 all
-ceph-mds/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-ceph-mgr-cephadm/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-ceph-mgr-dashboard/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-ceph-mgr-diskprediction-local/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-ceph-mgr-k8sevents/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-ceph-mgr-modules-core/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-ceph-mgr-rook/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-ceph-mgr/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-ceph-mon/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-ceph-osd/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-ceph-resource-agents/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-ceph/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-cephadm/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-cephfs-shell/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
+ceph-mds/hirsute 16.2.0-0ubuntu1 amd64
+ceph-mgr-cephadm/hirsute,hirsute 16.2.0-0ubuntu1 all
+ceph-mgr-dashboard/hirsute,hirsute 16.2.0-0ubuntu1 all
+ceph-mgr-diskprediction-local/hirsute,hirsute 16.2.0-0ubuntu1 all
+ceph-mgr-k8sevents/hirsute,hirsute 16.2.0-0ubuntu1 all
+ceph-mgr-modules-core/hirsute,hirsute 16.2.0-0ubuntu1 all
+ceph-mgr-rook/hirsute,hirsute 16.2.0-0ubuntu1 all
+ceph-mgr/hirsute 16.2.0-0ubuntu1 amd64
+ceph-mon/hirsute 16.2.0-0ubuntu1 amd64
+ceph-osd/hirsute 16.2.0-0ubuntu1 amd64
+ceph-resource-agents/hirsute,hirsute 16.2.0-0ubuntu1 all
+ceph/hirsute 16.2.0-0ubuntu1 amd64
+cephadm/hirsute 16.2.0-0ubuntu1 amd64
+cephfs-shell/hirsute,hirsute 16.2.0-0ubuntu1 all
 cereal/hirsute,hirsute 0.24-1.1 all
 ceres-solver-doc/hirsute,hirsute 1.14.0-14 all
 certbot/hirsute,hirsute 1.12.0-2 all
@@ -6787,8 +6787,8 @@ firmware-tomu/hirsute,hirsute 2.0~rc7-2 all
 fis-gtm-6.3-014/hirsute 6.3-014-3 amd64
 fis-gtm/hirsute 6.3-014-3 amd64
 fische/hirsute 3.2.2-4build1 amd64
-fish-common/hirsute,hirsute 3.1.2-3ubuntu1 all
-fish/hirsute 3.1.2-3ubuntu1 amd64
+fish-common/hirsute,hirsute,now 3.1.2-3ubuntu1 all [installed,automatic]
+fish/hirsute,now 3.1.2-3ubuntu1 amd64 [installed]
 fitgcp/hirsute,hirsute 0.0.20150429-4 all
 fitscut/hirsute 1.4.4-5build1 amd64
 fitsh/hirsute 0.9.4-1 amd64
@@ -6839,7 +6839,7 @@ flent/hirsute,hirsute 2.0.0-2 all
 flex-doc/hirsute,hirsute 2.6.4-8 all
 flex-old-doc/hirsute,hirsute 2.5.4a-10.1 all
 flex-old/hirsute 2.5.4a-10.1 amd64
-flex/hirsute 2.6.4-8 amd64
+flex/hirsute,now 2.6.4-8 amd64 [installed]
 flex/hirsute 2.6.4-8 i386
 flexbackup/hirsute,hirsute 1.2.1-6.5 all
 flexbar/hirsute 1:3.5.0-3 amd64
@@ -19195,12 +19195,12 @@ libayatana-appindicator-doc/hirsute,hirsute 0.5.5-2 all
 libayatana-appindicator0.1-cil-dev/hirsute 0.5.5-2 amd64
 libayatana-appindicator0.1-cil/hirsute 0.5.5-2 amd64
 libayatana-appindicator1/hirsute 0.5.5-2 amd64
-libayatana-appindicator3-1/hirsute,now 0.5.5-2 amd64 [installed,automatic]
+libayatana-appindicator3-1/hirsute 0.5.5-2 amd64
 libayatana-appindicator3-dev/hirsute 0.5.5-2 amd64
-libayatana-ido3-0.4-0/hirsute,now 0.8.2-1 amd64 [installed,automatic]
+libayatana-ido3-0.4-0/hirsute 0.8.2-1 amd64
 libayatana-ido3-dev/hirsute 0.8.2-1 amd64
 libayatana-indicator-dev/hirsute 0.8.4-1 amd64
-libayatana-indicator3-7/hirsute,now 0.8.4-1 amd64 [installed,automatic]
+libayatana-indicator3-7/hirsute 0.8.4-1 amd64
 libayatana-indicator3-dev/hirsute 0.8.4-1 amd64
 libayatana-indicator3-tools/hirsute 0.8.4-1 amd64
 libayatana-indicator7/hirsute 0.8.4-1 amd64
@@ -20539,10 +20539,10 @@ libcegui-mk2-data/hirsute,hirsute 0.8.7-9build1 all
 libcegui-mk2-dev/hirsute 0.8.7-9build1 amd64
 libcegui-mk2-doc/hirsute,hirsute 0.8.7-9build1 all
 libcentreon-clib/hirsute 19.10.0-1build1 amd64
-libcephfs-dev/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-libcephfs-java/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-libcephfs-jni/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-libcephfs2/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+libcephfs-dev/hirsute 16.2.0-0ubuntu1 amd64
+libcephfs-java/hirsute,hirsute 16.2.0-0ubuntu1 all
+libcephfs-jni/hirsute 16.2.0-0ubuntu1 amd64
+libcephfs2/hirsute 16.2.0-0ubuntu1 amd64
 libcereal-dev/hirsute,hirsute 1.3.0+dfsg-1 all
 libcereal-doc/hirsute,hirsute 1.3.0+dfsg-1 all
 libceres-dev/hirsute 1.14.0-14 amd64
@@ -21680,7 +21680,7 @@ libcurl4-gnutls-dev/hirsute 7.74.0-1ubuntu2 amd64
 libcurl4-gnutls-dev/hirsute 7.74.0-1ubuntu2 i386
 libcurl4-nss-dev/hirsute 7.74.0-1ubuntu2 amd64
 libcurl4-nss-dev/hirsute 7.74.0-1ubuntu2 i386
-libcurl4-openssl-dev/hirsute 7.74.0-1ubuntu2 amd64
+libcurl4-openssl-dev/hirsute,now 7.74.0-1ubuntu2 amd64 [installed]
 libcurl4-openssl-dev/hirsute 7.74.0-1ubuntu2 i386
 libcurl4/hirsute,now 7.74.0-1ubuntu2 amd64 [installed,automatic]
 libcurl4/hirsute 7.74.0-1ubuntu2 i386
@@ -23424,7 +23424,7 @@ libexpat-gst/hirsute 3.2.5-1.3build5 amd64
 libexpat-gst/hirsute 3.2.5-1.3build5 i386
 libexpat-ocaml-dev/hirsute 1.1.0-1build1 amd64
 libexpat-ocaml/hirsute 1.1.0-1build1 amd64
-libexpat1-dev/hirsute,now 2.2.10-2 amd64 [installed,automatic]
+libexpat1-dev/hirsute,now 2.2.10-2 amd64 [installed]
 libexpat1-dev/hirsute 2.2.10-2 i386
 libexpat1/hirsute,now 2.2.10-2 amd64 [installed]
 libexpat1/hirsute 2.2.10-2 i386
@@ -23890,9 +23890,9 @@ libfko-doc/hirsute,hirsute 2.6.10-12 all
 libfko-perl/hirsute 2.6.10-12 amd64
 libfko3-dev/hirsute 2.6.10-12 amd64
 libfko3/hirsute 2.6.10-12 amd64
-libfl-dev/hirsute 2.6.4-8 amd64
+libfl-dev/hirsute,now 2.6.4-8 amd64 [installed,automatic]
 libfl-dev/hirsute 2.6.4-8 i386
-libfl2/hirsute 2.6.4-8 amd64
+libfl2/hirsute,now 2.6.4-8 amd64 [installed,automatic]
 libfl2/hirsute 2.6.4-8 i386
 libflac++-dev/hirsute 1.3.3-2 amd64
 libflac++-dev/hirsute 1.3.3-2 i386
@@ -30238,7 +30238,7 @@ libid3-doc/hirsute,hirsute 3.8.3-16.3 all
 libid3-tools/hirsute 3.8.3-16.3 amd64
 libid3tag0-dev/hirsute 0.15.1b-14 amd64
 libid3tag0-dev/hirsute 0.15.1b-14 i386
-libid3tag0/hirsute 0.15.1b-14 amd64
+libid3tag0/hirsute,now 0.15.1b-14 amd64 [installed,automatic]
 libid3tag0/hirsute 0.15.1b-14 i386
 libiddawc-dev/hirsute 0.9.8-2 amd64
 libiddawc0.9/hirsute 0.9.8-2 amd64
@@ -30398,7 +30398,7 @@ libiml-dev/hirsute 1.0.4-1build1 amd64
 libiml0/hirsute 1.0.4-1build1 amd64
 libimlib2-dev/hirsute 1.7.1-2 amd64
 libimlib2-dev/hirsute 1.7.1-2 i386
-libimlib2/hirsute 1.7.1-2 amd64
+libimlib2/hirsute,now 1.7.1-2 amd64 [installed,automatic]
 libimlib2/hirsute 1.7.1-2 i386
 libimobiledevice-dev/hirsute 1.3.0-6 amd64
 libimobiledevice-dev/hirsute 1.3.0-6 i386
@@ -38393,11 +38393,11 @@ librad0-tools/hirsute 2.12.0-6 amd64
 librad0/hirsute 2.12.0-6 amd64
 libradcli-dev/hirsute 1.2.11-1build1 amd64
 libradcli4/hirsute 1.2.11-1build1 amd64
-librados-dev/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-librados2/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-libradospp-dev/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-libradosstriper-dev/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-libradosstriper1/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+librados-dev/hirsute 16.2.0-0ubuntu1 amd64
+librados2/hirsute 16.2.0-0ubuntu1 amd64
+libradospp-dev/hirsute 16.2.0-0ubuntu1 amd64
+libradosstriper-dev/hirsute 16.2.0-0ubuntu1 amd64
+libradosstriper1/hirsute 16.2.0-0ubuntu1 amd64
 libradsec-dev/hirsute 0.0.5-5build1 amd64
 libradsec0/hirsute 0.0.5-5build1 amd64
 libraft-dev/hirsute 0.9.25-1 amd64
@@ -38455,8 +38455,8 @@ libraw20/hirsute 0.20.2-1ubuntu2 amd64
 libraw20/hirsute 0.20.2-1ubuntu2 i386
 libraynes-fs-clojure/hirsute,hirsute 1.5.2-1 all
 librbac-client-clojure/hirsute,hirsute 0.9.4-1 all
-librbd-dev/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-librbd1/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+librbd-dev/hirsute 16.2.0-0ubuntu1 amd64
+librbd1/hirsute 16.2.0-0ubuntu1 amd64
 librbio2/hirsute 1:5.8.1+dfsg-2 amd64
 librbl-dev/hirsute 2.11.0~beta2-4 amd64
 librbl1/hirsute 2.11.0~beta2-4 amd64
@@ -38544,7 +38544,7 @@ libreactivedata-ocaml-dev/hirsute 0.2.2-1build2 amd64
 libreactivedata-ocaml/hirsute 0.2.2-1build2 amd64
 libreactor-core-java/hirsute,hirsute 2.0.8-1 all
 libreaderwriterqueue-dev/hirsute,hirsute 1.0.3-1 all
-libreadline-dev/hirsute,now 8.1-1 amd64 [installed,automatic]
+libreadline-dev/hirsute,now 8.1-1 amd64 [installed]
 libreadline-dev/hirsute 8.1-1 i386
 libreadline-java/hirsute 0.8.0.1+dfsg-10build1 amd64
 libreadline8/hirsute,now 8.1-1 amd64 [installed]
@@ -38906,8 +38906,8 @@ librg-reprof-bundle-perl/hirsute,hirsute 1.0.1-7 all
 librg-utils-perl/hirsute,hirsute 1.0.43-7 all
 librgpio-dev/hirsute 0.1.6.1-0ubuntu2 amd64
 librgpio1/hirsute 0.1.6.1-0ubuntu2 amd64
-librgw-dev/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-librgw2/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+librgw-dev/hirsute 16.2.0-0ubuntu1 amd64
+librgw2/hirsute 16.2.0-0ubuntu1 amd64
 librgxg-dev/hirsute 0.1.2-4 amd64
 librgxg0/hirsute 0.1.2-4 amd64
 librhash-dev/hirsute 1.4.1-1 amd64
@@ -41930,8 +41930,8 @@ libsqlite3-dev/hirsute 3.34.1-3 i386
 libsqlite3-gst/hirsute 3.2.5-1.3build5 amd64
 libsqlite3-gst/hirsute 3.2.5-1.3build5 i386
 libsqlite3-mod-blobtoxy/hirsute 0.9998-2 amd64
-libsqlite3-mod-ceph-dev/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-libsqlite3-mod-ceph/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+libsqlite3-mod-ceph-dev/hirsute 16.2.0-0ubuntu1 amd64
+libsqlite3-mod-ceph/hirsute 16.2.0-0ubuntu1 amd64
 libsqlite3-mod-csvtable/hirsute 0.9998-2 amd64
 libsqlite3-mod-impexp/hirsute 0.9998-2 amd64
 libsqlite3-mod-rasterlite2/hirsute 1.1.0~beta1-2 amd64
@@ -45784,7 +45784,7 @@ libxnnpack-dev/hirsute 0.0~git20201031.beca652+really.git20200323.1b35463-2 amd6
 libxnnpack0/hirsute 0.0~git20201031.beca652+really.git20200323.1b35463-2 amd64
 libxnvctrl-dev/hirsute-updates 460.73.01-0ubuntu0.21.04.1 amd64
 libxnvctrl-dev/hirsute-updates 460.73.01-0ubuntu0.21.04.1 i386
-libxnvctrl0/hirsute-updates,now 460.73.01-0ubuntu0.21.04.1 amd64 [installed,automatic]
+libxnvctrl0/hirsute-updates 460.73.01-0ubuntu0.21.04.1 amd64
 libxnvctrl0/hirsute-updates 460.73.01-0ubuntu0.21.04.1 i386
 libxom-java-doc/hirsute,hirsute 1.2.10-1.1 all
 libxom-java/hirsute,hirsute 1.2.10-1.1 all
@@ -47787,7 +47787,7 @@ m17n-lib-mimx/hirsute 1.8.0-2 amd64
 m2r/hirsute,hirsute 0.2.1-5 all
 m2vrequantiser/hirsute 1.1-5 amd64
 m4-doc/hirsute,hirsute 1.4.18-5 all
-m4/hirsute 1.4.18-5 amd64
+m4/hirsute,now 1.4.18-5 amd64 [installed,automatic]
 m4/hirsute 1.4.18-5 i386
 m4api/hirsute 0.3~0.9646fd-2 amd64
 mac-fdisk-cross/hirsute 0.1-18 i386
@@ -47875,7 +47875,7 @@ mairix/hirsute 0.24-2 amd64
 make-doc/hirsute,hirsute 4.3-2 all
 make-guile/hirsute 4.3-4ubuntu1 amd64
 make-guile/hirsute 4.3-4ubuntu1 i386
-make/hirsute,now 4.3-4ubuntu1 amd64 [installed,automatic]
+make/hirsute,now 4.3-4ubuntu1 amd64 [installed]
 make/hirsute 4.3-4ubuntu1 i386
 makebootfat/hirsute 1.4-8 amd64
 makedepf90/hirsute 3.0.0-1 amd64
@@ -54619,9 +54619,9 @@ pscan-chip-data/hirsute,hirsute 1.1-3 all
 pscan-chip/hirsute 1.1-3 amd64
 pscan-tfbs/hirsute 1.2.2-4 amd64
 pscan/hirsute 1.2-9build1 amd64
-psensor-common/hirsute,hirsute,now 1.1.5-1.3ubuntu2 all [installed,automatic]
+psensor-common/hirsute,hirsute 1.1.5-1.3ubuntu2 all
 psensor-server/hirsute 1.1.5-1.3ubuntu2 amd64
-psensor/hirsute,now 1.1.5-1.3ubuntu2 amd64 [installed]
+psensor/hirsute 1.1.5-1.3ubuntu2 amd64
 pseudo/hirsute 1.9.0+git20200626+067950b-2 amd64
 psf-unifont/hirsute,hirsute 1:13.0.05-1 all
 psfex/hirsute 3.17.1+dfsg-6 amd64
@@ -56167,10 +56167,10 @@ python3-ceilometermiddleware/hirsute,hirsute 2.1.0-0ubuntu1 all
 python3-celery-batches/hirsute 0.2-2 amd64
 python3-celery/hirsute,hirsute 5.0.0-3 all
 python3-cement/hirsute,hirsute 2.10.0-2 all
-python3-ceph-argparse/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-python3-ceph-common/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-python3-ceph/hirsute-updates,hirsute-updates 16.2.1-0ubuntu0.21.04.1 all
-python3-cephfs/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+python3-ceph-argparse/hirsute 16.2.0-0ubuntu1 amd64
+python3-ceph-common/hirsute,hirsute 16.2.0-0ubuntu1 all
+python3-ceph/hirsute,hirsute 16.2.0-0ubuntu1 all
+python3-cephfs/hirsute 16.2.0-0ubuntu1 amd64
 python3-cerberus/hirsute,hirsute 1.3.2-1 all
 python3-cerealizer/hirsute,hirsute 0.8.1-3build1 all
 python3-certbot-apache/hirsute,hirsute 1.10.1-1 all
@@ -56467,7 +56467,7 @@ python3-distorm3/hirsute,hirsute 3.4.1-5 all
 python3-distributed/hirsute,hirsute 2021.01.0+ds.1-2 all
 python3-distro-info/hirsute,hirsute,now 1.0 all [installed,automatic]
 python3-distro/hirsute,hirsute,now 1.5.0-1 all [installed,automatic]
-python3-distupgrade/hirsute-updates,hirsute-updates,now 1:21.04.13 all [installed,automatic]
+python3-distupgrade/now 1:21.04.13 all [installed,local]
 python3-distutils-extra/hirsute,hirsute 2.45 all
 python3-distutils/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates,now 3.9.5-0ubuntu3~21.04 all [installed,automatic]
 python3-dj-database-url/hirsute,hirsute 0.5.0-2 all
@@ -58167,7 +58167,7 @@ python3-proxmoxer/hirsute,hirsute 1.0.3-2 all
 python3-psautohint/hirsute 2.2.0-1 amd64
 python3-pskc/hirsute,hirsute 1.1-3 all
 python3-psutil-dbg/hirsute 5.8.0-1 amd64
-python3-psutil/hirsute 5.8.0-1 amd64
+python3-psutil/hirsute,now 5.8.0-1 amd64 [installed,automatic]
 python3-psycogreen/hirsute,hirsute 1.0.1-1.1 all
 python3-psycopg2-dbg/hirsute 2.8.6-2 amd64
 python3-psycopg2/hirsute 2.8.6-2 amd64
@@ -58709,7 +58709,7 @@ python3-raccoon/hirsute,hirsute 3.0.0-1 all
 python3-radicale/hirsute,hirsute 2.1.12-2 all
 python3-radio-beam/hirsute,hirsute 0.3.2-1 all
 python3-radix/hirsute 0.10.0-3build3 amd64
-python3-rados/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+python3-rados/hirsute 16.2.0-0ubuntu1 amd64
 python3-rally/hirsute,hirsute 3.1.0-2 all
 python3-random2/hirsute,hirsute 1.0.1-2.1 all
 python3-randomize/hirsute,hirsute 0.14-2 all
@@ -58718,7 +58718,7 @@ python3-raritan-json-rpc/hirsute,hirsute 3.6.1+ds1-1 all
 python3-rasterio/hirsute 1.2.0-1 amd64
 python3-ratelimiter/hirsute 1.2.0.post0-1 amd64
 python3-rawkit/hirsute,hirsute 0.6.0-2 all
-python3-rbd/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+python3-rbd/hirsute 16.2.0-0ubuntu1 amd64
 python3-rcssmin/hirsute 1.0.6-2build4 amd64
 python3-rdflib-jsonld/hirsute,hirsute 0.5.0-1 all
 python3-rdflib/hirsute,hirsute 5.0.0-1.1build1 all
@@ -58786,7 +58786,7 @@ python3-rfc3339/hirsute,hirsute,now 1.1-2 all [installed,automatic]
 python3-rfc3986/hirsute,hirsute 1.4.0-3 all
 python3-rfc6555/hirsute,hirsute 0.0~git20190913.1a181b4-3 all
 python3-rgpio/hirsute 0.1.6.1-0ubuntu2 amd64
-python3-rgw/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+python3-rgw/hirsute 16.2.0-0ubuntu1 amd64
 python3-rich/hirsute,hirsute 9.11.0-1ubuntu1 all
 python3-ripe-atlas-cousteau/hirsute,hirsute 1.4.2-3 all
 python3-ripe-atlas-sagan/hirsute,hirsute 1.2.2-2 all
@@ -61507,8 +61507,8 @@ radioclk/hirsute 1.0.pristine-2 amd64
 radium-compressor/hirsute 0.5.1+git20190909-1build1 amd64
 radlib-dev/hirsute 2.12.0-6 amd64
 radon/hirsute,hirsute 4.1.0+dfsg-1 all
-rados-objclass-dev/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-radosgw/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+rados-objclass-dev/hirsute 16.2.0-0ubuntu1 amd64
+radosgw/hirsute 16.2.0-0ubuntu1 amd64
 radsecproxy/hirsute 1.8.2-3 amd64
 radvd/hirsute 1:2.18-3 amd64
 radvdump/hirsute 1:2.18-3 amd64
@@ -61542,7 +61542,7 @@ randmac/hirsute 0.1-3 amd64
 randomplay/hirsute,hirsute 0.60+pristine-1 all
 randomsound/hirsute 0.2-5build1 amd64
 randtype/hirsute 1.13-11build1 amd64
-ranger/hirsute,hirsute 1.9.3-3 all
+ranger/hirsute,hirsute,now 1.9.3-3 all [installed]
 rapid-photo-downloader/hirsute,hirsute 0.9.26-0ubuntu1 all
 rapidjson-dev/hirsute,hirsute 1.1.0+dfsg2-7 all
 rapidjson-doc/hirsute,hirsute 1.1.0+dfsg2-7 all
@@ -61588,9 +61588,9 @@ ray/hirsute 2.3.1-7build1 amd64
 raysession/hirsute,hirsute 0.10.1-0ubuntu1 all
 razercfg/hirsute 0.42+ds-1build1 amd64
 razor/hirsute 1:2.85-4.2build6 amd64
-rbd-fuse/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-rbd-mirror/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
-rbd-nbd/hirsute-updates 16.2.1-0ubuntu0.21.04.1 amd64
+rbd-fuse/hirsute 16.2.0-0ubuntu1 amd64
+rbd-mirror/hirsute 16.2.0-0ubuntu1 amd64
+rbd-nbd/hirsute 16.2.0-0ubuntu1 amd64
 rbdoom3bfg/hirsute 1.2.0+dfsg~git20210105-1 amd64
 rbenv/hirsute,hirsute 1.1.2-1 all
 rblcheck/hirsute 20190930-1 amd64
@@ -66412,7 +66412,7 @@ transmission-remote-gtk/hirsute 1.4.1-5 amd64
 transmission/hirsute,hirsute 3.00-1ubuntu1 all
 transrate-tools/hirsute 1.0.0-3 amd64
 transtermhp/hirsute 2.09-5 amd64
-trash-cli/hirsute,hirsute 0.17.1.14-5build1 all
+trash-cli/hirsute,hirsute,now 0.17.1.14-5build1 all [installed]
 traverso/hirsute 0.49.6-1build1 amd64
 travis/hirsute 200504+hf2-1 amd64
 trayer/hirsute 1.1.8-2 amd64
@@ -66420,7 +66420,7 @@ tre-agrep/hirsute 0.8.0-6 amd64
 tree-ppuzzle/hirsute 5.3~rc16+dfsg-8 amd64
 tree-puzzle-doc/hirsute,hirsute 5.3~rc16+dfsg-8 all
 tree-puzzle/hirsute 5.3~rc16+dfsg-8 amd64
-tree/hirsute 1.8.0-1 amd64
+tree/hirsute,now 1.8.0-1 amd64 [installed]
 treeline/hirsute,hirsute 3.0.1-1.1 all
 treesheets/hirsute 1:1.0.2-1build1 amd64
 treetop/hirsute,hirsute 1.6.8-1 all
@@ -66843,9 +66843,9 @@ ubuntu-packaging-guide-pdf/hirsute,hirsute 1.0.2 all
 ubuntu-packaging-guide/hirsute,hirsute 1.0.2 all
 ubuntu-policy/hirsute,hirsute 3.8.2.0ubuntu3 all
 ubuntu-raspi-settings/hirsute,hirsute 21.04.3 all
-ubuntu-release-upgrader-core/hirsute-updates,hirsute-updates,now 1:21.04.13 all [installed,automatic]
-ubuntu-release-upgrader-gtk/hirsute-updates,hirsute-updates 1:21.04.13 all
-ubuntu-release-upgrader-qt/hirsute-updates,hirsute-updates 1:21.04.13 all
+ubuntu-release-upgrader-core/now 1:21.04.13 all [installed,local]
+ubuntu-release-upgrader-gtk/hirsute,hirsute 1:21.04.10 all
+ubuntu-release-upgrader-qt/hirsute,hirsute 1:21.04.10 all
 ubuntu-report/hirsute 1.6.4 amd64
 ubuntu-restricted-addons/hirsute 26 amd64
 ubuntu-restricted-extras/hirsute 67 amd64
@@ -67864,9 +67864,9 @@ w3c-sgml-lib/hirsute,hirsute 1.3-2 all
 w3cam/hirsute 0.7.2-6.2build1 amd64
 w3m-el-snapshot/hirsute,hirsute 1.4.632+0.20210201.2305.54c3ccd-1 all
 w3m-el/hirsute,hirsute 1.4.632+0.20181112-9 all
-w3m-img/hirsute 0.5.3+git20210102-3build1 amd64
+w3m-img/hirsute,now 0.5.3+git20210102-3build1 amd64 [installed,automatic]
 w3m-img/hirsute 0.5.3+git20210102-3build1 i386
-w3m/hirsute 0.5.3+git20210102-3build1 amd64
+w3m/hirsute,now 0.5.3+git20210102-3build1 amd64 [installed,automatic]
 w3m/hirsute 0.5.3+git20210102-3build1 i386
 w9wm/hirsute 0.4.2-8build1 amd64
 wabt/hirsute 1.0.20-1 amd64
@@ -69003,7 +69003,7 @@ xscreensaver/hirsute 5.42+dfsg1-1ubuntu1 amd64
 xsdcxx/hirsute 4.0.0-8.1 amd64
 xsddiagram/hirsute,hirsute 1.0-1 all
 xsecurelock/hirsute 1.5.1-1 amd64
-xsel/hirsute 1.2.0+git9bfc13d.20180109-3 amd64
+xsel/hirsute,now 1.2.0+git9bfc13d.20180109-3 amd64 [installed,automatic]
 xsensors/hirsute 0.70-5 amd64
 xserver-common/hirsute,hirsute,now 2:1.20.11-1ubuntu1 all [installed,automatic]
 xserver-xephyr-hwe-18.04/hirsute 3:14.6 amd64

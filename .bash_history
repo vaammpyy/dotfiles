@@ -1428,3 +1428,151 @@ vim
 clear
 ls
 clear
+wget https://launchpad.net/safe-rm/trunk/1.1.0/+download/safe-rm-1.1.0.tar.gz
+ls
+tar -xvf safe-rm-1.1.0.tar.gz 
+ls
+mv s
+mv safe-rm-1.1.0
+clear
+cd safe-rm-1.1.0/
+ls
+cd ~/codes/
+ls
+cd python/
+ls
+cd Physics/
+ls
+clear
+ls
+clear
+cd
+clear
+ls
+clear
+rm -r safe-rm-1.1.0*
+ls
+clear
+ls
+rm -r Desktop/
+ls
+mkdir Desktop
+mv Desktop/ .desk
+mv .desk/ Desktop
+clear
+sudo apt-get update
+sudo apt-get install trash-cli
+clear
+touch file
+trash file 
+trash-lis
+trash-list 
+cd .config/dotfiles/
+clear
+ls
+gs
+git add --all
+git commit -m "adding the starship promt"
+git push
+clear
+ls
+clear
+ls
+clear
+"alias rm='trash'"
+echo "alias rm='trash'"
+touch f
+rm f
+trash-list 
+ls
+clear
+vim .bashrc 
+ls
+clear
+touch file
+rm file 
+trash-list 
+clear
+touch f2
+clear
+rm f2 
+trash-list 
+clear
+ll
+clear
+ls
+clear
+ls
+ranger
+less .bashrc 
+clear
+ls
+clear
+ls
+vim .bashrc 
+clear
+vim .bashrc 
+bash
+touch d
+ls
+rm d
+trash-list d
+clear
+ls
+clear
+touch ha
+ls
+rm ha
+trash-list 
+clear
+ls
+clear
+fish
+neofetch 
+bling
+ls
+fish
+ls
+clear
+bling 
+clear
+whereis bash
+usermod --shell /usr/bin/bash 
+usermod --shell /usr/bin/bash vampy
+sudo usermod --shell /usr/bin/bash vampy
+ls
+grep /etc/passwd
+clear
+sudo vimm /etc/passwd
+sudo vim /etc/passwd
+ls
+grep /etc/passwd
+bling 
+clear
+man chsh 
+sudo apt-get install chsh
+clear
+cat /etc/shells 
+grep vampy /etc/passwd
+sudo vim /etc/passwd
+clear
+ls
+sudo vim /etc/passwd
+clear
+bling 
+clear
+ls
+clear
+chsh -s `which fish`
+ls
+usermod -s /usr/bin/fish vampy
+sudo usermod -s /usr/bin/fish vampy
+sudo usermod -s /usr/bin/bash vampy
+clear
+grep /etc/passwd "vampy"
+grep /etc/passwd 
+grep "vamp "/etc/passwd 
+grep vamp /etc/passwd 
+sudo usermod -s /usr/bin/fish vampy
+grep vamp /etc/passwd 
+clear
