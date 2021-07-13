@@ -648,3 +648,783 @@ clera
 clear
 ls
 clear
+cl
+clear
+vim .bashrc 
+cd iraf-2.16.1-2021.06.14/
+make
+make sysgen 2>&1 | tee build.log
+make x86_64
+make linux64 
+make sysgen 2>&1 | tee build.log
+./test/run_tests
+make linux64 
+ls
+sudo apt install gcc make flex
+sudo apt install libcurl4-openssl-dev libexpat-dev libreadline-dev
+./install 
+make linux64 
+make sysgen 2>&1 | tee build.log
+./test/run_tests 
+cl
+clear
+cd
+cl
+ls
+clear
+ls
+clear
+cd snap/
+ls
+cd spotify/
+ls
+cd
+cl
+vim login.cl
+mkiraf
+ls
+cl
+clear
+pyraf
+pip uninstall pyraf/
+pip uninstall pyraf
+pip install pyraf
+pyraf
+rm -rf iraf-2.16.1-2021.06.14/
+ls
+rm -rf uparm/
+rm login.cl
+ls
+clear
+wget https://github.com/iraf-community/iraf/archive/refs/tags/v2.16.1+2018.11.01.tar.gz
+tar -xvf v2.16.1+2018.11.01.tar.gz 
+ls
+cd iraf-2.16.1-2018.11.01/
+ls
+./install 
+cd
+ls
+cd /
+ls
+cd
+cd iraf-2.16.1-2018.11.01/
+./install 
+make linux64
+cl
+make sysgen 2>&1 | tee build.log
+ls
+./install -n
+cd
+rm -rf
+ls
+ll
+clear
+ls
+pyraf
+cd iraf-2.16.1-2018.11.01/
+ls
+vim ~/.bashrc 
+./install 
+cl
+mkiraf
+cd
+mkiraf
+cl
+cd iraf-2.16.1-2018.11.01/
+make linux64 
+make sysgen 2>&1 | tee build.log
+pip uninstall pyraf
+clear
+cd ..
+ls
+rm -r v2.16.1+2018.11.01.tar.gz iraf-2.16.1-2018.11.01/ uparm/ login.cl*
+ls
+clear
+rm pyraf/
+rm -r pyraf/
+ls
+clear
+ls
+ll
+rm .imtoolrc 
+ls
+ll
+cd
+cd .config/dotfiles/
+ls
+rm login.cl 
+gs
+git add --all
+git commit -m "removing iraf files"
+git push
+clear
+ls
+cd
+clear
+locate iraf
+clear
+locate iraf ./
+rm -r .iraf/
+ls
+locate iraf
+clear
+ls
+cd /var/
+ls
+locate app
+locate iraf
+cd /var/lib/app-info/
+ls
+cd icons/
+ls
+cd ubuntu-hirsute-universe/
+ls
+cd 64x64
+ls
+clear
+locate zotero
+cd
+cd /opt/
+ls
+cd 
+cd .cache/
+ls
+cd
+ls
+where zotero
+which zotero
+clear
+zotero
+ls
+clear
+bling 
+clear
+df -h ~
+du -h ~
+clear
+ls
+clear
+ls
+ll
+clear
+tmux
+clear
+sudo apt-get update
+sudo apt-get upgrade
+clear
+ls
+clear
+cd /root/
+ls
+ll
+cd acads/
+ls
+cd Astrophysics/
+ls
+rm v2.16.1+2021.06.14.tar.gz 
+clear
+ls
+cd ~/Py
+cd ~/codes/
+ls
+clear
+mv Python/ python
+ls
+mv python/
+cd python/
+ls
+cd xanthers-assignments/
+ls
+clear
+mv Computational\ \ Class\ -\ 1I-wrVNAwFCpM718l8-si7uaNJ9MoKA4i/ Assignments
+ls
+cd Assignment
+ls
+cd Assignments
+ls
+cd Assignments/
+ls
+cd ../..
+ls
+cd Assignment
+cd Assignment1
+ls
+cd ..
+rm -rf Assignment1
+ls
+cd
+clear
+cd .config/
+ls
+vim user-dirs.dirs 
+clear
+ls
+cd
+clear
+chmod -w ~/.config/user-dirs.dirs 
+ls
+clear
+ls
+vim .config/user-dirs.dirs 
+xdg-user-dirs-gtk-update 
+clear
+mv Documents/ docs
+ls
+clear
+vim .config/user-dirs.dirs 
+chmod +w .config/user-dirs.dirs 
+vim .config/user-dirs.dirs 
+clear
+xdg-user-dirs-gtk-update 
+cd .config/
+ls
+cd
+echo "enabled=false" > ~/.config/user-dirs.conf
+clear
+xdg-user-dirs-gtk-update 
+vim .config/user-dirs.dirs 
+sudo tail -n 100 /var/log/syslog
+sudo tail -n 10 /var/log/syslog
+clear
+sudo tail -n 10 /var/log/syslog
+cd /usr/lib
+clear
+ls
+cd systemd/
+ls
+clear
+ls
+cd
+htop
+clear
+sudo tail -n 10 /var/log/syslog
+htop
+mkdir Desktop
+sudo tail -n 10 /var/log/syslog
+clear
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+ls
+clear
+cd .config/
+ls
+vim user-dirs.locale 
+vim user-dirs.dirs 
+clear
+ls
+clear
+cd
+sudo apt-get update
+sudo apt install fish
+clear
+fish
+sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+clear
+bash
+ls
+clear
+ls
+clear
+exit
+ls
+cd codes/
+ls
+cd python/
+ls
+cd Physics/
+clear
+ls
+clear
+ls
+fish
+ls
+cd
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+cd /
+ls
+cd
+clear
+ls
+vim .vimrc 
+clear
+sudo apt update
+clear
+cd codes/
+ls
+cd python/
+cd Physics/
+clear
+git switch main
+clear
+ls
+clear
+ls
+clear
+cd
+cd .config/
+ls
+clear
+cd
+clear
+neofetch 
+clear
+sudo su
+neofetch 
+fish
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+curl -fLo "<FONT NAME> Nerd Font Complete.otf"     https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/<FONT_PATH>/complete/<FONT_NAME>%20Nerd%20Font%20Complete.otf
+clear
+ls
+rm -r 3270.zip ext/
+ls
+clear
+ll
+clera
+clear
+lc
+ls
+clear
+ll
+clear
+ls
+clear
+htop
+clear
+ls
+clear
+fish
+ls
+clear
+ls
+clear
+login-ssh 
+clear
+ls
+clear
+neofetch 
+clear
+ls
+clear
+ls
+clear
+ls
+man ls
+clear
+vim
+clear
+ls
+clear
+vim .bashrc 
+clear
+ls
+clear
+ls
+cl
+ls
+cl
+cll
+login
+clear
+ls
+clear
+ls
+clear
+vim .config/starship.toml
+bash
+clear
+ls
+clear
+sudo su
+ls
+clear
+sudo auto-cpufreq
+sudo auto-cpufreq status
+sudo auto-cpufreq --stat
+sudo auto-cpufreq --stats
+sudo auto-cpufreq
+sudo auto-cpufreq --install
+clear
+ls
+clear
+cd codes/
+ls
+clear
+ls
+clear
+ls
+clear
+bashrc
+ls
+pyraf
+clear
+ls
+clear
+ds9
+ls
+clear
+ls
+ll
+bash
+ls
+ll
+cd .config/dotfiles/
+ls
+ll
+less .bashrc 
+clear
+rm ~/.bashrc 
+ln -s ~/.config/dotfiles/.bashrc ~/
+cd
+ll
+bash
+ls
+ll
+ls
+clear
+cd .config/
+ls
+cd
+locate alacritty
+clear
+ls
+vim .bashrc 
+bash
+ls
+ll
+clear
+ls
+clear
+ls
+clear
+ll
+vim
+clear
+ls
+clear
+ls
+clear
+ll
+clear
+ll
+clear
+ls
+clear
+ll
+clear
+ls
+clear
+ls
+clear
+apt list
+clear
+pip list
+clear
+ls
+clear
+ls
+clear
+time tree /
+clear
+ls
+clear
+time tree /
+sudo apt install tree
+clear
+time tree /
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cd codes/
+ls
+ls
+clear
+tmux
+clear
+tmux
+ls
+tmux
+clear
+ls
+clear
+locate alacritty
+cd .config/
+clear
+cd 
+cd .vim/
+ls
+locate alacritty
+cd undodir/
+ls
+sudo cd
+cd
+cd vi
+cd .vim/
+ls
+cd undodir/
+ls
+clrea
+sudo clear
+ls
+cd
+clear
+ls
+clear
+sudo apt-get autopurge psensors
+sudo apt-get autopurge psensor
+clear
+time tree /
+clear
+sudo apt-get install ranger
+ranger
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ranger
+clear
+ls
+clear
+vim
+clear
+cmatrix
+clear
+ls
+ranger
+clear
+ls
+clear
+sudo apt-get update
+clear
+sudo apt-get install bpytop
+clear
+which bpytop
+which htop 
+clear
+bytop
+clear
+bpytop
+ls
+find .config/ d -name "byptop"
+cd .config/
+ls
+cd bpytop/
+ls
+clear
+ls
+vim bpytop.conf 
+ls
+clear
+ls themes/
+ls
+cd
+bpytop 
+bpytop
+ls
+clear
+ls
+clear
+ls
+clear
+hjhfjdsfh;dsakfkjshdfjs
+ls
+clear
+cd acads/
+ls
+cd
+cd -
+cd Books/
+ls
+cd
+clear
+ranger
+clear
+ranger
+ranger
+cd
+cd .config/
+ls | grep "ranger"
+cd ranger/
+ls
+clear
+ll
+clear
+cd
+cd .config/
+ls
+cd ranger/
+ls
+clear
+ls
+cd
+ranger
+ranger --copy-config
+ranger --copy-config .config/ranger/
+ranger --copy-config .config/ranger/rc.conf
+cd .config/ranger/
+ls
+touch rc.conf
+ranger --copy-config rc.conf
+ls
+clear
+cat rc.conf 
+clear
+cd
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+vim .config/ranger/rc.conf 
+clear
+ranger
+ranger
+ranger
+sudo apt-get install ueberzug
+ranger
+clear
+vim .config/ranger/rc.conf 
+ranger
+clear
+clear
+ranger
+du ./
+du ./ -h
+clear
+cd acads/
+ls
+clear
+mv intro\ to\ modern\ astrophysics/ Books/
+ls Books/
+mv Books/intro\ to\ modern\ astrophysics/ Astrophysics/
+ls Books/Astrophysics/
+clear
+ls
+du -lh
+clear
+cd Books/
+ls
+clear
+du -h ./
+cd ..
+du -h ./
+cd Astrophysics/
+ls
+clear
+ls
+ls intro
+ls 'intro to modern astrophysics'/
+cd ../Books/Astrophysics/
+ls
+cd -
+du -h .
+ls
+rm iraf/
+rm -rf iraf/
+ls
+du -h .
+rm -r 'intro to modern astrophysics'/
+du -h ./*
+du -h ./
+ls
+cd ..
+ls
+clear
+cd Books/
+ls
+cd Astrophysics/
+ls
+ln -s ~/acads/Papers/Astrophysics/ ~/acads/Books/Astrophysics/
+ls
+mv Astrophysics papers
+ls
+clear
+cd papers
+ls
+clear
+ls
+clear
+cd ..
+ls
+cd ..
+ls
+cd Quantum\ Mechanics/
+ls
+ln -s ~/acads/Papers/Quantum-Mechanics/ ~/acads/Books/Quantum\ Mechanics/papers
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd Special\ relativity/
+ls
+clear
+ls
+ln -s ~/acads/Papers/Astrophysics/Time\ dialtion\(Hafele\ and\ keating\)/ ~/acads/Books/Special\ relativity/papers
+ls
+cd ~/acads/Papers/Astrophysics/
+clear
+ls
+mv Time\ dialtion\(Hafele\ and\ keating\)/ ../
+cd ..
+ls
+mkdir Special-Relativity
+mv Time\ dialtion\(Hafele\ and\ keating\)/ Special-Relativity/
+ls
+ln -s ~/acads/Papers/Special-Relativity/ ~/acads/Books/Special\ relativity/papers
+ln -s ~/acads/Papers/Special-Relativity/ ~/acads/Books/Special\ relativity/paper
+cd ~/acads/Books/Special\ relativity/
+clear
+ls
+rm papers
+ls
+mv paper papers
+ls
+clear
+cd ..
+clear
+ls
+cd ~/.config/
+ls
+cd ranger/
+touch ~/.config/ranger/rifle.conf
+ls
+vim rifle.conf 
+ranger --copy-config=rifle
+rm rifle.conf 
+ranger --copy-config=rifle
+less rifle.conf 
+clear
+:q
+ranger
+clear
+ranger
+clear
+ls
+vim
+clear
+ls
+clear
