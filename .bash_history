@@ -1576,3 +1576,244 @@ grep vamp /etc/passwd
 sudo usermod -s /usr/bin/fish vampy
 grep vamp /etc/passwd 
 clear
+ls
+clear
+sudo usermod -s /usr/bin/bash vampy
+grep vamp /etc/passwd 
+clear
+ls
+clear
+ls
+clear
+cd acads/
+ls
+cd Papers/
+ls
+cd Astrophysics/
+ls
+cd ../Tippie\ top/
+ls
+clear
+ls
+clear
+cd acads/notes/
+ls
+clear
+ls
+cd Astrophysics/
+ls
+rm ubuntu-20.04.2.0-desktop-amd64.iso 
+ls
+clear
+ll
+ls -ha
+ls -hal
+ll
+clear
+sudo cp /media/vampy/Ventoy/ubuntu-20.04.2.0-desktop-amd64.iso 
+sudo cp -v /media/vampy/Ventoy/ubuntu-20.04.2.0-desktop-amd64.iso 
+sudo cp -v /media/vampy/Ventoy/ubuntu-20.04.2.0-desktop-amd64.iso ~/
+sudo cp -v /media/vampy/Ventoy/kali-linux-2021.2-live-amd64.iso ~/
+ls
+cd /media/vampy/8GB\ USB/
+du ./ -h
+clear
+ll
+cd vampy/
+ls
+ll
+clear
+ll
+clear
+cd
+ls
+clear
+trash-list
+cd
+clear
+rm kali-linux-2021.2-live-amd64.iso 
+trash-list 
+trash-empty 
+trash-list 
+clear
+ls
+cp /media/vampy/Ventoy/linuxmint-20.1-mate-64bit.iso  ~/
+ls
+clear
+ls
+clear
+bling 
+clear
+cd /media/vampy/8GB\ USB/
+du -h ./
+clear
+ranger
+cd ..
+ls
+sudo cp vampy/ /media/vampy/8GB\ USB/
+sudo cp -v vampy/ /media/vampy/8GB\ USB/
+sudo cp -vr vampy/ /media/vampy/8GB\ USB/
+ls
+clear
+ls
+cd
+clear
+ls
+ll
+clear
+cd /media/vampy/8GB\ USB/
+rm -rf *
+ls
+ll
+cd Tr
+cd .Trash-1000/
+ls
+cd
+trash-list 
+trash-empty 
+clear
+ls
+trash-list 
+clear
+ssh-keygen 
+ssh-keygen -f mint-vm
+cd .ssh/
+ls
+cd
+ls
+mv mint-vm* .ssh/
+cd .ssh/
+ls
+clear
+ls
+clear
+ls
+vim config 
+ssh mint-vm 
+cd
+clear
+ranger
+rm -r .kite/
+clear
+bling 
+clear
+sudo apt-get update
+sudo apt-get upgrade 
+clear
+bpytop 
+ls
+ranger
+clear
+cd acads/Books/General\ relativity/
+wget http://31.42.184.140/main/15000/22e1ce772e77713506f166e017c0f4bc/Bernard%20F.%20Schutz%20-%20A%20first%20course%20in%20general%20relativity-Cambridge%20University%20Press%20%281985%29.djvu
+ls
+okular Bernard\ F.\ Schutz\ -\ A\ first\ course\ in\ general\ relativity-Cambridge\ University\ Press\ \(1985\).djvu 
+clear
+ls
+cd ..
+ls
+vim Books-download.sh
+ls
+mv Books-download.sh ~/.config/dotfiles/
+ln -s ~/.config/dotfiles/Books-download.sh ~/acads/Books/
+ll
+clear
+ls
+clear
+cd ~/.config/dotfiles/
+ls
+chmod 776 Books-download.sh 
+ll
+clear
+ls
+clear
+cd
+cd -
+cd ~/acads/Books/
+ranger
+vim .config/ranger/rifle.conf 
+ranger
+clear
+vim .config/ranger/rifle.conf 
+ranger
+vim .config/ranger/rifle.conf 
+ranger
+vim .config/ranger/rifle.conf 
+ranger
+sudo apt-get install zathura
+zathura 
+clear
+ranger
+sudo apt-get remove zathura
+sudo apt-get autoremove
+clear
+login-ssh 
+clear
+login-ssh 
+clear
+ls
+clear
+login-ssh 
+clear
+ls
+clear
+ls
+clear
+login-ssh 
+ranger
+bpytop 
+ls
+clear
+ls
+clear
+cd codes/
+ls
+cd python/
+ls
+cd Factorial/
+ls
+clear
+ls
+vim
+ls
+chmod 776 *.py
+ls
+./fact-core.py 
+df
+clear
+ls
+chmod 664 *.py
+ls
+vim
+ls
+less *.py
+clear
+ranger
+cler
+clear
+ll
+rm -r .steam*
+ll
+rm -r Steam/
+ls
+clear
+ll
+trash-list 
+clear
+sudo apt-get autopuger
+sudo apt-get autoremove steam*
+clear
+ls
+clear
+ranger
+apt search cheatsheet.sh
+apt search cheatsheet
+apt search cheat
+clear
+bpytop 
+clear
+ls
+clear
+discord &
+q
+discord
