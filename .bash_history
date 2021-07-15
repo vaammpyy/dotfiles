@@ -1817,3 +1817,85 @@ clear
 discord &
 q
 discord
+ll
+sudo apt-get autopurge 0ad
+clear
+0ad
+clear
+ls
+clear
+ll
+sudo apt install pfetch
+git clone https://github.com/dylanaraps/pfetch.git
+ls
+cd pfetch/
+ls
+clear
+ls
+./pfetch 
+clear
+ls
+less Makefile 
+./pfetch 
+sudo install pfetch 
+sudo install pfetch /usr/local/bin/
+pfetch 
+clear
+ls
+cd ..
+rm -r pfetch/
+pfetch 
+clear
+ls
+clear
+vim .bashrc 
+ls
+clear
+neofetch 
+clear
+ls
+clear
+bas
+bash
+ls
+clear
+cd .config/
+ls
+cd
+locate pfetch
+locate -name "pfetch"
+clear
+ls
+clear
+v .bashenv
+tmux
+clear
+ls
+clear
+bash
+ls
+clear
+ls
+clear
+ls
+clear
+bash
+bling
+ls
+clear
+ls
+cd .config/
+ls
+vim starship.toml 
+sudo apt-get update 
+sudo apt-get install 0ad
+bpytop 
+clear
+ls
+clear
+shutdown -now
+shutdown -n
+shutdown --help
+man shutdown 
+shutdown
+cubicsdr
