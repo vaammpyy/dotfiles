@@ -1,0 +1,11 @@
+[line_break]
+disabled=true
+
+[character]
+error_symbol = "[✗](bold red) "
+
+[directory]
+truncation_length = 100
+truncate_to_repo = false
+style = "bold green"
+format = "[$path]($style)[$read_only]($read_only_style) "

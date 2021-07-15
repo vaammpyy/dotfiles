@@ -1899,3 +1899,7 @@ shutdown --help
 man shutdown 
 shutdown
 cubicsdr
+sudo apt install dump1090-fa
+ps -ax
+killall -9 dump1090
+clear
