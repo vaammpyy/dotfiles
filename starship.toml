@@ -4,6 +4,7 @@ disabled=true
 [character]
 error_symbol = "[✗](bold red) "
 
+
 [directory]
 truncation_length = 100
 truncate_to_repo = false
