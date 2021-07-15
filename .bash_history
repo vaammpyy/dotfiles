@@ -1,23 +1,3 @@
-blinng
-bling
-clear
-ls
-clear
-ls
-sudo ln -s codes/shell-scripts/ /usr/local/bin/custom-scripts
-bling
-clear
-ls /usr/
-cd /usr/local/bin/
-ls
-distro
-sudo rm bling custom-scripts login-ssh 
-ls
-cat easy_install 
-ll
-easy_install 
-cd ~
-ls
 vim .profile 
 bling
 clear
@@ -1998,3 +1978,23 @@ clear
 ls
 fish
 echo $SHELL
+login-ssh 
+ls
+clear
+cd
+cd /usr/local/bin/
+ll
+which login-ssh 
+cd 
+vim .bashrc 
+cd -
+ls
+sudo rm bling dump1090 
+ls
+cd
+bash
+fish
+ls
+fish
+clear
+fish
