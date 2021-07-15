@@ -1,356 +1,3 @@
-ks
-ls
-rm log.txt 
-ls
-cd pyraf/
-ls
-cat clcache.v2 
-clear
-ls
-pyraf
-ls
-cd
-ls
-clear
-pyraf -v
-cd desktop/
-cl
-clear
-pyraf
-% pyraf
-clear
-pyraf -v
-man pyraf
-pyraf --help
-pip install tkinter
-python -m tkinter
-python3 -m tkinter
-sudo apt-get install python3-tk
-pyraf --help
-pyraf -y
-pyraf
-pyraf --help
-pyraf -c
-pyraf -c xterm
-clear
-ls
-clear
-systemctl status auto-cpufreq.service 
-systemctl status thinkfan.service 
-cd Do
-cd Downloads/
-ls
-git clone https://github.com/vmatare/thinkfan.git
-cd thinkfan/
-ls
-mkdir build && cd build
-ccmake ..
-sudo apt  install cmake-curses-gui
-ccmake ..
-sudo apt install yaml-cpp
-ccmake ..
-sudo apt install yaml-cpp[-devel]
-sudo apt install yaml-cpp
-sudo snap install yaml-cpp
-clear
-cd ../..
-rm -rf thinkfan/
-ls
-clear
-htop 
-systemctl
-auto-cpufreq 
-sudo apt-get install auto-cpufreq
-sudo snap install auto-cpufreq
-sudo auto-cpufreq
-sudo auto-cpufreq -install
-auto-cpufreq
-clear
-sudo auto-cpufreq --monitor
-sudo snap install auto-cpufreq
-snap help refresh
-sudo snap remove auto-cpufreq
-sudo snap install auto-cpufreq
-sudo auto-cpufreq --monitor
-sudo snap remove auto-cpufreq
-cd Downloads/
-git clone https://github.com/AdnanHodzic/auto-cpufreq.git
-cd auto-cpufreq && sudo ./auto-cpufreq-installer
-auto-cpufreq
-auto-cpufreq --install
-sudo auto-cpufreq --install
-systemctl
-clear
-cd ..
-ls
-rm -r auto-cpufreq/
-sudo rm -r auto-cpufreq/
-systemctl
-clear
-systemctl 
-clear
-systemctl status apache2
-sudo apt-get install apache2
-clear
-systemctl apache2
-systemctl status apache2
-clear
-cd
-clear
-bling
-clear
-systemctl status apache2.service 
-clear
-systemctl status apache2.service 
-clear
-crontab -e
-clear
-sudo systemctl disable --now apache2.service 
-clear
-systemctl status auto-cpufreq.service 
-clear
-syncthing
-clear
-systemctl status thinkfan*
-sudo apt install syncthing
-systemctl status syncthing-resume.service 
-clear
-systemctl status syncthing
-systemctl status syncthing@vampy
-sudo systemctl enable --now syncthing@vampy
-systemctl status syncthing
-systemctl status syncthing@vampy
-clear
-htop
-sudo systemctl disable --now syncthing@vampy
-htop
-clear
-sudo systemctl diable --now apache2
-sudo systemctl disable --now apache2
-htop
-clear
-ls
-clear
-rm -rf Desktop/
-mv desktop/ Desktop/
-ls
-clear
-systemctl status thinkfan*
-systemctl status auto-cpufreq.service 
-clear
-ls -li
-cd desktop/
-cd IISER/
-ls
-okular IISER\ Aptitude\ Test\ 2017\ Previous\ Year\ Paper.pdf &
-sudo apt-get dejavu
-sudo apt-get install dejavu
-sudo apt-get install deja-dup
-clear
-sudo apt update
-sudo apt-get install deja-dup
-sudo apt update
-sudo apt-get install deja-dup
-sudo apt install deja-dup
-sudo apt-get install deja-dup
-ls
-clear
-ls
-clear
-ls
-cd 0ALYA3V8XrKqbUk9PVA/
-ls
-clear
-cd /run/
-ls
-cd user/
-ls
-cd GVfsSharedWithMe/
-ls
-cd
-rm -rf General/
-clear
-cd Desktop/
-cd IISER/
-du ./
-du -h ./
-clear
-cd
-cd Desktop/Astro-data/M31\ Spectra\ Analysis/
-ls
-clear
-cd
-clear
-locate IISER
-clear
-cd $(locate IISER)
-clear
-ls
-clear
-ls
-cd Videos/
-ls
-clear
-cd
-clear
-ls
-clear
-cron
-crontab -e
-clear
-cd .config/
-clear
-exit
-mkdir acads
-ln -s Papers/Astrophysics/ Books/Astrophysics/intro\ to\ modern\ astrophysics/
-ln -s ~/acads/Papers/Astrophysics/ ~/acads/Books/Astrophysics/intro\ to\ modern\ astrophysics/
-ln -s ~/acads/Papers/Astrophysics/ ~/acads/Books/Astrophysics/intro\ to\ modern\ astrophysics/papers
-ln -s ~/acads/notes/Astrophysics/ ~/acads/Books/Astrophysics/intro\ to\ modern\ astrophysics/notes
-ln -s ~/acads/Papers/Quantum-Mechanics/ ~/acads/Books/Quantum\ Mechanics/papers
-clear
-cd acads/
-ls
-cd Books/
-ls
-cd
-cd acads/
-ls
-cd Books/
-ls
-cd Classical\ mech/
-ls
-clear
-pidof kdeconnectd 
-lsof -i UDP:1716
-$ kill -15 `lsof -t -i UDP:1716`
-kill -15 `lsof -t -i UDP:1716`
-sudo apt-get remove kdeconnect
-sudo apt-get autoremove
-cleaer
-clear
-sudo apt-get install texlive-full
-clear
-ll
-vim .obsidian.vimrc
-cd ../.config/dotfiles/
-vim .vimrc 
-cd acads/
-ls
-ll
-cd .obsidian/
-ls
-cd pu
-cd plugins/
-ls
-cd obsidian-vimrc-support/
-ls
-cd ~/acads/
-ls
-ll
-tmux new -s "vim"
-clear
-exit
-cd acads/
-ls
-cd
-cd Python/
-ls
-mv Untitled\ Folder/ 'Drag in fluid'
-ls
-clear
-ls
-cd Drag\ in\ fluid/
-ls
-mv ~/Downloads/5_6289774228245840610.pdf ./
-ls
-clear
-cd
-sudo apt-get install texlive-full
-clear
-auto-cpufreq --moitor
-auto-cpufreq --monitor
-sudo auto-cpufreq --monitor
-auto-cpufreq --status
-auto-cpufreq --stats
-clear
-sudo apt-get install texlive-full
-clear
-sudo apt-get install texlive-full
-sudo apt-get update
-sudo apt-get upgrade
-clear
-cd .config/
-cd
-crontab -e
-clear
-crontab -e
-crontab -e
-clear
-sudo apt-get update
-sudo apt-get upgrade
-clear
-cd acads/
-ls
-cd Astrophysics/
-ls
-cd intro2astro/
-ls
-cd ../xanther\'s\ astro/
-ls
-cd Untitled\ Folder/
-ls
-mv comp\ phys\ assignment\ 1.ipynb ~/Python/
-cd ~/Python/
-ls
-mv comp\ phys\ assignment\ 1.ipynb Drag\ in\ fluid/ xanther's-assignments/
-mkdir xanthers-assignments
-mv comp\ phys\ assignment\ 1.ipynb Drag\ in\ fluid/ xanther's-assignments/
-mv comp\ phys\ assignment\ 1.ipynb Drag\ in\ fluid/ xanthers-assignments/
-ls xanthers-assignments/
-cd -
-cd ..
-ls
-mv Untitled\ Folder/ ~/Python/xanthers-assignments/Assignment1
-cd -
-cd ~/Py
-CD
-cd
-ls
-cd Python/
-ls
-cd xanthers-assignments/
-ls
-rm *.ipynb
-ls
-jupyter notebokk
-jupyter notebook
-ls
-jupyter notebook
-clear
-cd
-ls
-rm -r Desktop/ Music/ Templates/
-ls
-sudo apt-get remove zotero*
-mkdir media
-mv Pictures/ media/
-mv Videos/ media/
-ls
-clear
-ls
-mkdir codes
-mv mv scripts/ codes/shell-scripts
-mv  scripts/ codes/shell-scripts
-ls
-mv Python/ codes/
-ls codes/
-clear
-ls
-ll | wc -l
-lc
-ls
-clera
-clear
 blinng
 bling
 clear
@@ -1903,3 +1550,451 @@ sudo apt install dump1090-fa
 ps -ax
 killall -9 dump1090
 clear
+ls
+clear
+tmux
+ls
+cler
+clear
+ls
+clear
+vim .config/starship.toml 
+ls
+vim .config/starship.toml 
+ls
+clear
+cd codes/dump1090_sdrplus/
+ls
+cd codes/
+cd dump1090_sdrplus/
+./dump1090 --raw
+clear
+cd codes/dump1090_sdrplus/
+ls
+cat 15-7-21.txt 
+ls
+cat 15-7-21.txt 
+clear
+cd codes/dump1090_sdrplus/
+ls
+cat 15-7-21.txt 
+clear
+cd codes/dump1090_sdrplus/
+cat 15-7-21.txt 
+cd codes/dump1090_sdrplus/
+cat 15-7-21.txt 
+cd codes/dump1090_sdrplus/
+cat 15-7-21.txt 
+vim 15-7-21.txt 
+ls
+cat 15-7-21.txt 
+wc -l 15-7-21.txt 
+ls
+clear
+ls
+wc -l 15-7-21.txt 
+clear
+wc -l 15-7-21.txt 
+clear
+vim 15-7-21.txt 
+ls
+gedit 15-7-21.txt 
+cd codes/dump1090_sdrplus/
+wc -l 15-7-21.txt 
+ls
+wc -l 15-7-21.txt 
+cat 15-7-21.txt 
+clear
+du -h ./
+ll
+ll -h
+clear
+cd testfiles/
+ls
+cat modes1.bin 
+clear
+ls
+cd ..
+cat 15-7-21.txt 
+clear
+cls
+clear
+ls
+cd
+sudo systemctl status dump1090.fa
+sudo systemctl status dump1090-fa
+sudo systemctl start dump1090-fa
+cd codes/dump1090_sdrplus/
+ls
+less 15-7-21.txt 
+ls
+clear
+sudo netstat -tulpn | grep :8080
+cd codes/dump1090_sdrplus/
+ls
+./dump1090.o
+nc localhost 30003
+sudo apt-get update
+cd /etc/apt/
+ls
+cat sources.list
+cat sources.list.backup 
+cat sources.list.d
+cd sources.list.d
+ls
+cd ..
+ls
+cd sources.list.~
+cat sources.list.~
+cat sources.list~
+clear
+ls
+cd
+sudo apt-get search sdr-angle
+sudo apt search sdr-angle
+apt search sdr
+apt search sdr | grep "angle"
+apt search --names-only sdr
+sudo apt-get install cubicsdr
+clear
+sudo apt-get install cubicsdr
+which cubic
+which cubicsdr
+which cubic-sdr
+CubicSDR 
+clear
+sudo apt-get remove cubicsdr 
+sudo apt-get install gqrx-sdr
+sudo apt-get install wireshark
+tar -xvf dump1090_1.07.1908.13+git20140103-5adab592_trusty_rm1.debian.tar.gz 
+ls
+cd debian/
+ls
+./rules 
+cd ..
+ls
+rm dump1090_1.07.1908.13+git20140103-5adab592_trusty_rm1.debian.tar.gz 
+rm -rf debian/
+ls
+clear
+git clone https://github.com/antirez/dump1090.git
+ls
+cd dump1090/
+ls
+make
+sudo apt-get install librtlsdr0 librtlsdr-dev
+makke
+make
+ls
+./dump1090 
+sudo apt-get remove librtlsdr0 librtlsdr-dev
+sudo apt-get autoremove 
+cd ..
+ls
+rm -rf dump1090/
+ls
+clear
+sudo apt-get install librtlsdr0 librtlsdr-dev libhackrf-dev libairspy-dev libsoxr-dev
+ls
+git clone https://github.com/itemir/dump1090_sdrplus.git
+cd dump1090_sdrplus/
+ls
+make NoSDRplay=1
+ls
+./dump1090 
+sudo apt-get install hackrf 
+./dump1090 
+hackrf_info 
+modprobe hackrf
+sudo modprobe hackrf
+hackrf_info 
+clear
+./dump1090 
+sudo apt-get install librtlsdr0 librtlsdr-dev libhackrf-dev libairspy-dev libsoxr-dev
+make NoSDRplay=1
+./dump1090 
+clear
+ls
+./dump1090 --interactive
+./dump1090 
+./dump1090 --interactive
+clear
+ls
+clear
+cd images/
+ls
+files &
+nautilus &
+./dump1090 --interactive --net
+cd ..
+./dump1090 --interactive --net
+./dump1090 --net-only --interactive
+./dump1090  --interactive
+ls
+cat TODO 
+cat dump1090.o
+clear
+ls
+cat dump1090
+clear
+vim
+ls
+clear
+ls
+clear
+cd
+ls
+mv dump1090_sdrplus/ codes/sdr
+cd codes/
+ls
+cd sdr/
+ls
+cd ..
+mv sdr/ dump1090_sdrplus
+ls
+mv dump1090_sdrplus/ sdr/
+ls
+mv sdr/ dump1090_sdrplus
+ls
+clear
+ls
+cd
+ls
+clear
+ls
+clear
+cd codes/dump1090_sdrplus/
+./dump1090 --interactive --net
+./dump1090 --interactive
+./dump1090 --interactive --net
+./dump1090 --interactive
+ls
+lsusb
+sudo systemctl status dump1090-fa -l
+./dump1090 --interactive 
+./dump1090 --interactive --net
+ls
+./dump1090 --interactive --net
+ls
+clear
+ls
+pwd
+clear
+cd ..
+cd dump1090_sdrplus/
+ls
+clear
+cd ~/.config/
+vim starship.toml 
+clear
+ls
+la
+lg
+clear
+ls
+clear
+ls
+clear
+cd
+lss
+ls
+clear
+ls
+vim 
+rm .CubicSDR/
+ls
+ll
+vim
+clear
+ls
+cd codes/
+ls
+clear
+cd dump1090_sdrplus/
+ls
+clear
+ls
+cler
+clear
+ls
+cd ~/.config/
+ls
+vim starship.toml 
+ls
+clear
+ls
+clear
+vim starship.toml 
+ls
+clear
+ls
+cd
+ls
+cd -
+vim starship.toml 
+ls
+clear
+ls
+clear
+ls
+mv starship.toml dotfiles/
+ln -s dotfiles/starship.toml ./
+ls
+clear
+cd dotfiles/
+ls
+gs
+git add starship.toml 
+ls
+clear
+ls
+gs
+git add .bash_history 
+gs
+git commit -m "adding the starship prompt config file"
+git push
+cd
+clear
+ls
+cd .config/
+vim starship.toml 
+ls
+clear
+ls
+cd
+cd codes/dump1090_sdrplus/
+./dump1090 --interactive -net
+./dump1090 --interactive --net
+killall dump1090 
+./dump1090 --interactive --net
+killall dump1090 
+./dump1090 --interactive --net
+killall dump1090 
+./dump1090 --interactive --net
+./dump1090 --interactive 
+ls
+vim ~/.config/starship.toml 
+clear
+ls
+./dump1090 --interactive --net
+./dump1090 --interactive
+./dump1090 --interactive --net
+./dump1090 --interactive 
+./dump1090 --interactive --net
+./dump1090 
+ls
+clear
+ls
+./dump1090 --interactive > 15-7-21.txt
+./dump1090 --interactive >> 15-7-21.txt
+ls
+clear
+rm 15-7-21.txt 
+ls
+clear
+ls
+./dump1090 >> 15-7-21.txt
+ls
+clear
+ls
+./dump1090 --interactive --net
+vim codes/dump1090_sdrplus/15-7-21.txt 
+cd codes/
+ls
+cd dump1090_sdrplus/
+ls
+clear
+ls
+less 15-7-21.txt 
+./dump1090 --enable-agc --aggressive --net --net-http-port 8080
+clear
+ls
+./dump1090 --interactive
+clear
+./dump1090 
+clear
+ls
+grep 15-7-21.txt "velocity" | wc -l
+grep "velocity" 15-7-21.txt | wc -l
+grep "velocity" 15-7-21.txt
+clear
+ls
+grep "velocity" 15-7-21.txt 
+grep "icao" 15-7-21.txt 
+grep "vl" 15-7-21.txt 
+grep "ads" 15-7-21.txt 
+grep "adsb" 15-7-21.txt 
+grep adsb 15-7-21.txt 
+cat 15-7-21.txt 
+grep "altitude" 15-7-21.txt 
+grep -i "altitude" 15-7-21.txt 
+clear
+du -h
+clear
+df
+df -h
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+cd codes/
+ls
+cd dump1090_sdrplus/
+ls
+ln -s ~/codes/dump1090_sdrplus/dump1090 /usr/local/bin/
+sudo ln -s ~/codes/dump1090_sdrplus/dump1090 /usr/local/bin/
+ls
+clear
+ls
+fish
+gfortran --version
+clear
+bpytop -p
+bpytop -proc
+bpytop --p
+bpytop --proc
+bpytop
+dump1090 --interactive
+clear
+ls
+clear
+fish
+ls
+bash
+ls
+chsh -s
+clear
+ls
+cd /usr/local/bin/
+ls
+which fish
+echo /usr/bin/fish | sudo tee -a /etc/shells
+cat /etc/shells 
+sudo vim /etc/shells 
+ls
+clear
+cd -
+ls
+clear
+chsh -s /usr/bin/fish 
+ls
+l
+ls
+bling 
+which fish
+clear
+cat /etc/shells 
+which fish
+chsh -s /usr/bin/fish 
+ls
+clear
+ls
+fish
+echo $SHELL
