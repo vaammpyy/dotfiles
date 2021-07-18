@@ -1,12 +1,3 @@
-vim .profile 
-bling
-clear
-ls
-vim .bash_profile 
-vim .profile 
-vim .bash_profile 
-bling
-clear
 ls
 vim .bash
 vim .bash_profile 
@@ -1998,3 +1989,12 @@ ls
 fish
 clear
 fish
+clear
+#
+#d8d8d8d8d8d8d8d8d8d8d8d8
+#d8
+#d9
+iclear
+clear
+#'
+ls

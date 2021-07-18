@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_gs:git\x20status
-SETUVAR _fish_abbr_ll:ls\x20\x2dal
+SETUVAR _fish_abbr_ll:ls\x20\x2dalh
 SETUVAR _fish_abbr_rm:trash
 SETUVAR fish_color_autosuggestion:BD93F9
 SETUVAR fish_color_cancel:\x2dr

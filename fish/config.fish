@@ -9,6 +9,10 @@ set PATH ~/codes/shell-scripts $PATH
 
 #alias
 alias bling='bash bling'
+alias t-ls='trash-list'
+alias ll='ls -alh'
+alias cp='cp -v'
+alias mv='mv -v'
 
 #Vim keybindings
 fish_vi_key_bindings
