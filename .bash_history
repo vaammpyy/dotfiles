@@ -1,11 +1,3 @@
-ls
-vim .bash
-vim .bash_profile 
-exit
-vim .bash_profile 
-clear
-l
-s
 clear
 ls
 clear
@@ -1998,3 +1990,11 @@ iclear
 clear
 #'
 ls
+cd codes/python/Galaxy-Collision/
+ls
+cat requirements.txt 
+clear
+cd
+fish
+source ~/codes/python/Galaxy-Collision/bin/activate
+fish
