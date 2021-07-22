@@ -86,7 +86,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
     alias rm='trash'
     alias vpn='protonvpn-cli'
-    alias jy-book='jupyter notebook'
+    alias jy-nb='jupyter notebook'
 fi
 
 # colored GCC warnings and errors

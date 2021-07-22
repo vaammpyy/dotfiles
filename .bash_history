@@ -1,9 +1,4 @@
 clear
-ls
-clear
-rm -r Zotero/
-ls
-clear
 locate zotero
 cd /opt/zotero/
 ls
@@ -1997,4 +1992,9 @@ clear
 cd
 fish
 source ~/codes/python/Galaxy-Collision/bin/activate
+fish
+clear
+jy-book 
+clear
+ls
 fish
