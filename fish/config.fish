@@ -13,6 +13,7 @@ alias t-ls='trash-list'
 alias ll='ls -alh'
 alias cp='cp -v'
 alias mv='mv -v'
+alias vpn='protonvpn-cli'
 
 #Vim keybindings
 fish_vi_key_bindings
