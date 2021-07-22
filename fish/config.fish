@@ -14,6 +14,7 @@ alias ll='ls -alh'
 alias cp='cp -v'
 alias mv='mv -v'
 alias vpn='protonvpn-cli'
+alias jy-book='jupyter notebook'
 
 #Vim keybindings
 fish_vi_key_bindings
