@@ -16,6 +16,7 @@ alias mv='mv -v'
 alias vpn='protonvpn-cli'
 alias jy-nb='jupyter notebook'
 alias ..='cd ..'
+alias git-ls='git ls-files'
 
 #Vim keybindings
 fish_vi_key_bindings
