@@ -87,7 +87,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias rm='trash'
     alias vpn='protonvpn-cli'
     alias jy-nb='jupyter notebook'
-    alias .. ='cd ..'
 fi
 
 # colored GCC warnings and errors
