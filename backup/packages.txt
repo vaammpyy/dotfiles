@@ -1092,6 +1092,8 @@ atlc/hirsute 4.6.1-5 amd64
 atm-tools/hirsute 1:2.5.1-4 amd64
 atm-tools/hirsute 1:2.5.1-4 i386
 atmel-firmware/hirsute,hirsute 1.3-4 all
+atmi4.2.0/Ubuntu 4.0.1.40200-21 amd64
+atmi/Ubuntu 4.0.1.40200-21 amd64
 atom4/hirsute 4.1-9build2 amd64
 atom/hirsute 1.54.0~pop1~1613504324~21.04~44e7b2d amd64
 atomicparsley/hirsute 0.9.6-2build1 amd64
@@ -1160,7 +1162,7 @@ autoconf-doc/hirsute,hirsute 2.69-14 all
 autoconf2.13/hirsute,hirsute 2.13-69 all
 autoconf2.64/hirsute,hirsute 2.64+dfsg-1 all
 autoconf2.69/hirsute,hirsute 2.69-2 all
-autoconf/hirsute,hirsute 2.69-14 all
+autoconf/hirsute,hirsute,now 2.69-14 all [installed,automatic]
 autocutsel/hirsute 0.10.0-2 amd64
 autodep8/hirsute,hirsute 0.24ubuntu1 all
 autodia/hirsute,hirsute 2.14-4 all
@@ -1185,7 +1187,7 @@ autokey-gtk/hirsute,hirsute 0.95.10-2 all
 autokey-qt/hirsute,hirsute 0.95.10-2 all
 autolog/hirsute 0.42-1 amd64
 automake1.11/hirsute,hirsute 1:1.11.6-6 all
-automake/hirsute,hirsute 1:1.16.3-2ubuntu1 all
+automake/hirsute,hirsute,now 1:1.16.3-2ubuntu1 all [installed,automatic]
 automysqlbackup/hirsute,hirsute 2.6+debian.4-3 all
 autopilot-desktop/hirsute,hirsute 1.6.1+21.04.20210120-0ubuntu1 all
 autopkgtest/hirsute-updates,hirsute-updates 5.16ubuntu0.1 all
@@ -1200,7 +1202,7 @@ autorevision/hirsute,hirsute 1.22-2 all
 autossh/hirsute 1.4g-1 amd64
 autosuspend/hirsute,hirsute 3.0-1 all
 autotalent/hirsute 0.2-6 amd64
-autotools-dev/hirsute,hirsute 20180224.1+nmu1 all
+autotools-dev/hirsute,hirsute,now 20180224.1+nmu1 all [installed,automatic]
 avahi-autoipd/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed]
 avahi-autoipd/hirsute-security,hirsute-updates 0.8-5ubuntu3.1 i386
 avahi-daemon/hirsute-security,hirsute-updates,now 0.8-5ubuntu3.1 amd64 [installed]
@@ -3294,6 +3296,8 @@ com.github.donadigo.eddy/hirsute,now 1.1.9~1579639091~21.04~eec941e amd64 [insta
 comerr-dev/hirsute,now 2.1-1.45.7-1ubuntu2 amd64 [installed,automatic]
 comerr-dev/hirsute 2.1-1.45.7-1ubuntu2 i386
 comet-ms/hirsute 2019015+cleaned1-3 amd64
+comgr4.2.0/Ubuntu 2.0.0.40200-21 amd64
+comgr/Ubuntu 2.0.0.40200-21 amd64
 comgt/hirsute 0.32-3 amd64
 comitup/hirsute,hirsute 1.15-1 all
 comixcursors-lefthanded-opaque/hirsute,hirsute 0.9.1-1.1 all
@@ -8010,7 +8014,7 @@ g++-10-multilib-sparc64-linux-gnu/hirsute 10.3.0-1ubuntu1cross1 i386
 g++-10-multilib-x86-64-linux-gnu/hirsute 10.3.0-1ubuntu1cross1 i386
 g++-10-multilib-x86-64-linux-gnux32/hirsute 10.3.0-1ubuntu1cross1 amd64
 g++-10-multilib-x86-64-linux-gnux32/hirsute 10.3.0-1ubuntu1cross1 i386
-g++-10-multilib/hirsute 10.3.0-1ubuntu1 amd64
+g++-10-multilib/hirsute,now 10.3.0-1ubuntu1 amd64 [installed,automatic]
 g++-10-multilib/hirsute 10.3.0-1ubuntu1 i386
 g++-10-powerpc-linux-gnu/hirsute 10.3.0-1ubuntu1cross1 amd64
 g++-10-powerpc-linux-gnu/hirsute 10.3.0-1ubuntu1cross1 i386
@@ -8209,7 +8213,7 @@ g++-multilib-sparc64-linux-gnu/hirsute 4:10.3.0-1ubuntu1 i386
 g++-multilib-x86-64-linux-gnu/hirsute 4:10.3.0-1ubuntu1 i386
 g++-multilib-x86-64-linux-gnux32/hirsute 4:10.3.0-1ubuntu1 amd64
 g++-multilib-x86-64-linux-gnux32/hirsute 4:10.3.0-1ubuntu1 i386
-g++-multilib/hirsute 4:10.3.0-1ubuntu1 amd64
+g++-multilib/hirsute,now 4:10.3.0-1ubuntu1 amd64 [installed,automatic]
 g++-multilib/hirsute 4:10.3.0-1ubuntu1 i386
 g++-powerpc-linux-gnu/hirsute 4:10.3.0-1ubuntu1 amd64
 g++-powerpc-linux-gnu/hirsute 4:10.3.0-1ubuntu1 i386
@@ -8623,7 +8627,7 @@ gcc-10-multilib-sparc64-linux-gnu/hirsute 10.3.0-1ubuntu1cross1 i386
 gcc-10-multilib-x86-64-linux-gnu/hirsute 10.3.0-1ubuntu1cross1 i386
 gcc-10-multilib-x86-64-linux-gnux32/hirsute 10.3.0-1ubuntu1cross1 amd64
 gcc-10-multilib-x86-64-linux-gnux32/hirsute 10.3.0-1ubuntu1cross1 i386
-gcc-10-multilib/hirsute 10.3.0-1ubuntu1 amd64
+gcc-10-multilib/hirsute,now 10.3.0-1ubuntu1 amd64 [installed,automatic]
 gcc-10-multilib/hirsute 10.3.0-1ubuntu1 i386
 gcc-10-offload-amdgcn/hirsute 10.3.0-1ubuntu1 amd64
 gcc-10-offload-nvptx/hirsute 10.3.0-1ubuntu1 amd64
@@ -8831,7 +8835,7 @@ gcc-11-x86-64-linux-gnux32/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.0
 gcc-11-x86-64-linux-gnux32/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 i386
 gcc-11/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
 gcc-11/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
-gcc-7-base/hirsute 7.5.0-6ubuntu4 amd64
+gcc-7-base/hirsute,now 7.5.0-6ubuntu4 amd64 [installed,automatic]
 gcc-7-doc/hirsute,hirsute 7.5.0-6ubuntu4 all
 gcc-7-hppa64-linux-gnu/hirsute 7.5.0-6ubuntu4 amd64
 gcc-7-locales/hirsute,hirsute 7.5.0-6ubuntu4 all
@@ -8849,7 +8853,7 @@ gcc-8-arm-linux-gnueabi-base/hirsute 8.4.0-5ubuntu1cross1 amd64
 gcc-8-arm-linux-gnueabi/hirsute 8.4.0-5ubuntu1cross1 amd64
 gcc-8-arm-linux-gnueabihf-base/hirsute 8.4.0-5ubuntu1cross1 amd64
 gcc-8-arm-linux-gnueabihf/hirsute 8.4.0-5ubuntu1cross1 amd64
-gcc-8-base/hirsute 8.4.0-7ubuntu3 amd64
+gcc-8-base/hirsute,now 8.4.0-7ubuntu3 amd64 [installed,automatic]
 gcc-8-base/hirsute 8.4.0-7ubuntu3 i386
 gcc-8-cross-base-ports/hirsute,hirsute 8.4.0-5ubuntu1cross1 all
 gcc-8-cross-base/hirsute,hirsute 8.4.0-5ubuntu1cross1 all
@@ -9093,7 +9097,7 @@ gcc-multilib-sparc64-linux-gnu/hirsute 4:10.3.0-1ubuntu1 i386
 gcc-multilib-x86-64-linux-gnu/hirsute 4:10.3.0-1ubuntu1 i386
 gcc-multilib-x86-64-linux-gnux32/hirsute 4:10.3.0-1ubuntu1 amd64
 gcc-multilib-x86-64-linux-gnux32/hirsute 4:10.3.0-1ubuntu1 i386
-gcc-multilib/hirsute 4:10.3.0-1ubuntu1 amd64
+gcc-multilib/hirsute,now 4:10.3.0-1ubuntu1 amd64 [installed,automatic]
 gcc-multilib/hirsute 4:10.3.0-1ubuntu1 i386
 gcc-offload-amdgcn/hirsute 4:10.3.0-1ubuntu1 amd64
 gcc-offload-nvptx/hirsute 4:10.3.0-1ubuntu1 amd64
@@ -14520,6 +14524,8 @@ haci/hirsute,hirsute 0.98c-2.1 all
 hackrf/hirsute,now 2018.01.1-2 amd64 [installed]
 hacktv/hirsute 0+git20201203-1 amd64
 hadori/hirsute 1.1-1 amd64
+half4.2.0/Ubuntu 1.12.0.40200-21 amd64
+half/Ubuntu 1.12.0.40200-21 amd64
 halibut/hirsute 1.2-4build1 amd64
 hamexam/hirsute,hirsute 1.7.0-3 all
 haml-elisp/hirsute,hirsute 1:3.1.0-3.2 all
@@ -14755,7 +14761,29 @@ hime-qt5-immodule/hirsute 0.9.11+dfsg-2 amd64
 hime-tables/hirsute 0.9.11+dfsg-2 amd64
 hime/hirsute 0.9.11+dfsg-2 amd64
 hinawa-utils/hirsute,hirsute 0.2.0-3 all
+hip-base4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-base/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-doc4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-doc/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-nvcc4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-nvcc/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-rocclr4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-rocclr/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-samples4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
+hip-samples/Ubuntu 4.2.21155.5900.40200-21 amd64
+hipblas4.2.0/Ubuntu 0.44.0.40200-21 amd64
+hipblas/Ubuntu 0.44.0.40200-21 amd64
+hipcub4.2.0/Ubuntu 2.10.9.40200-21 amd64
+hipcub/Ubuntu 2.10.9.40200-21 amd64
+hipfft4.2.0/Ubuntu 1.0.2.40200-21 amd64
+hipfft/Ubuntu 1.0.2.40200-21 amd64
+hipfort4.2.0/Ubuntu 0.3.0.40200-21 amd64
+hipfort/Ubuntu 0.3.0.40200-21 amd64
+hipify-clang4.2.0/Ubuntu 12.0.0.40200-21 amd64
+hipify-clang/Ubuntu 12.0.0.40200-21 amd64
 hippomocks/hirsute 5.0-1 amd64
+hipsparse4.2.0/Ubuntu 1.10.6.40200-21 amd64
+hipsparse/Ubuntu 1.10.6.40200-21 amd64
 hisat2/hirsute 2.2.1-2 amd64
 hitch/hirsute 1.6.1-1 amd64
 hitori/hirsute 3.38.0-1 amd64
@@ -14835,8 +14863,16 @@ hplip-gui/hirsute,hirsute 3.21.2+dfsg1-2 all
 hplip/hirsute 3.21.2+dfsg1-2 amd64
 hprof-conv/hirsute 10.0.0+r36-1 amd64
 hpsockd/hirsute 0.17build3 amd64
+hsa-amd-aqlprofile4.2.0/Ubuntu 1.0.0.40200-21 amd64
+hsa-amd-aqlprofile/Ubuntu 1.0.0.40200-21 amd64
+hsa-rocr-dev4.2.0/Ubuntu 1.3.0.40200-21 amd64
+hsa-rocr-dev/Ubuntu 1.3.0.40200-21 amd64
 hsail-tools/hirsute 0~20180830-1build1 amd64
 hsail-tools/hirsute 0~20180830-1build1 i386
+hsakmt-roct-dev4.2.0/Ubuntu 20210315.0.7.40200-21 amd64
+hsakmt-roct-dev/Ubuntu 20210315.0.7.40200-21 amd64
+hsakmt-roct4.2.0/Ubuntu 20210315.0.7.40200-21 amd64
+hsakmt-roct/Ubuntu 20210315.0.7.40200-21 amd64
 hsbrainfuck/hirsute 0.1.0.3-7build3 amd64
 hsc/hirsute 1.0b-0ubuntu2 amd64
 hscolour/hirsute 1.24.4-3build4 amd64
@@ -17444,7 +17480,7 @@ lib32asan6-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute
 lib32asan6-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32asan6-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32asan6-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-lib32asan6/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+lib32asan6/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 lib32atomic1-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32atomic1-mips64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross2 all
 lib32atomic1-mips64el-cross/hirsute,hirsute 10.3.0-1ubuntu1cross2 all
@@ -17454,7 +17490,7 @@ lib32atomic1-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsu
 lib32atomic1-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32atomic1-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32atomic1-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-lib32atomic1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+lib32atomic1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 lib32cilkrts5/hirsute 7.5.0-6ubuntu4 amd64
 lib32gcc-10-dev-amd64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32gcc-10-dev-mips64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross2 all
@@ -17465,7 +17501,7 @@ lib32gcc-10-dev-ppc64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32gcc-10-dev-s390x-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32gcc-10-dev-sparc64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32gcc-10-dev-x32-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
-lib32gcc-10-dev/hirsute 10.3.0-1ubuntu1 amd64
+lib32gcc-10-dev/hirsute,now 10.3.0-1ubuntu1 amd64 [installed,automatic]
 lib32gcc-11-dev-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32gcc-11-dev-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32gcc-11-dev-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
@@ -17498,7 +17534,7 @@ lib32gcc-s1-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsut
 lib32gcc-s1-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32gcc-s1-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32gcc-s1-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-lib32gcc-s1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+lib32gcc-s1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 lib32gfortran-10-dev-amd64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32gfortran-10-dev-mips64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross2 all
 lib32gfortran-10-dev-mips64el-cross/hirsute,hirsute 10.3.0-1ubuntu1cross2 all
@@ -17611,7 +17647,7 @@ lib32gomp1-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute
 lib32gomp1-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32gomp1-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32gomp1-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-lib32gomp1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+lib32gomp1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 lib32gphobos-10-dev-amd64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32gphobos-10-dev-mips64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross2 all
 lib32gphobos-10-dev-mips64el-cross/hirsute,hirsute 10.3.0-1ubuntu1cross2 all
@@ -17666,7 +17702,7 @@ lib32itm1-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-
 lib32itm1-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32itm1-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32itm1-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-lib32itm1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+lib32itm1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 lib32lsan0-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32lsan0-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32lsan0/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
@@ -17720,7 +17756,7 @@ lib32objc4-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-u
 lib32objc4/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
 lib32quadmath0-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32quadmath0-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-lib32quadmath0/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+lib32quadmath0/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 lib32readline-dev/hirsute 8.1-1 amd64
 lib32readline8/hirsute 8.1-1 amd64
 lib32stdc++-10-dev-amd64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
@@ -17732,7 +17768,7 @@ lib32stdc++-10-dev-ppc64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32stdc++-10-dev-s390x-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32stdc++-10-dev-sparc64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 lib32stdc++-10-dev-x32-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
-lib32stdc++-10-dev/hirsute 10.3.0-1ubuntu1 amd64
+lib32stdc++-10-dev/hirsute,now 10.3.0-1ubuntu1 amd64 [installed,automatic]
 lib32stdc++-11-dev-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32stdc++-11-dev-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32stdc++-11-dev-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
@@ -17789,7 +17825,7 @@ lib32stdc++6-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsu
 lib32stdc++6-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32stdc++6-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32stdc++6-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-lib32stdc++6/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+lib32stdc++6/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 lib32tinfo6/hirsute 6.2+20201114-2build1 amd64
 lib32ubsan0/hirsute 7.5.0-6ubuntu4 amd64
 lib32ubsan1-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
@@ -17797,7 +17833,7 @@ lib32ubsan1-ppc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsut
 lib32ubsan1-s390x-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32ubsan1-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 lib32ubsan1-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-lib32ubsan1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+lib32ubsan1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 lib32z1-dev/hirsute 1:1.2.11.dfsg-2ubuntu6 amd64
 lib32z1/hirsute 1:1.2.11.dfsg-2ubuntu6 amd64
 lib3ds-1-3/hirsute 1.3.0-10 amd64
@@ -18752,7 +18788,7 @@ libarrayfire-unified3/hirsute 3.3.2+dfsg1-4ubuntu4 amd64
 libart-2.0-2/hirsute 2.3.21-4 amd64
 libart-2.0-dev/hirsute 2.3.21-4 amd64
 libasa-perl/hirsute,hirsute 1.04-1 all
-libasan4/hirsute 7.5.0-6ubuntu4 amd64
+libasan4/hirsute,now 7.5.0-6ubuntu4 amd64 [installed,automatic]
 libasan5-amd64-cross/hirsute,hirsute 9.3.0-19ubuntu1cross1 all
 libasan5-arm64-cross/hirsute,hirsute 9.3.0-19ubuntu1cross1 all
 libasan5-armel-cross/hirsute,hirsute 9.3.0-19ubuntu1cross1 all
@@ -20019,7 +20055,7 @@ libc6-dev-hppa-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-dev-i386-amd64-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-dev-i386-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-dev-i386-x32-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
-libc6-dev-i386/hirsute 2.33-0ubuntu5 amd64
+libc6-dev-i386/hirsute,now 2.33-0ubuntu5 amd64 [installed,automatic]
 libc6-dev-m68k-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-dev-mips-cross/hirsute,hirsute 2.33-0ubuntu2cross3 all
 libc6-dev-mips32-mips64-cross/hirsute,hirsute 2.33-0ubuntu2cross3 all
@@ -20071,7 +20107,7 @@ libc6-dev-sparc64-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-dev-x32-amd64-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-dev-x32-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-dev-x32-i386-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
-libc6-dev-x32/hirsute 2.33-0ubuntu5 amd64
+libc6-dev-x32/hirsute,now 2.33-0ubuntu5 amd64 [installed,automatic]
 libc6-dev-x32/hirsute 2.33-0ubuntu5 i386
 libc6-dev/hirsute,now 2.33-0ubuntu5 amd64 [installed,automatic]
 libc6-dev/hirsute 2.33-0ubuntu5 i386
@@ -20079,7 +20115,7 @@ libc6-hppa-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-i386-amd64-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-i386-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-i386-x32-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
-libc6-i386/hirsute 2.33-0ubuntu5 amd64
+libc6-i386/hirsute,now 2.33-0ubuntu5 amd64 [installed,automatic]
 libc6-m68k-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-mips-cross/hirsute,hirsute 2.33-0ubuntu2cross3 all
 libc6-mips32-mips64-cross/hirsute,hirsute 2.33-0ubuntu2cross3 all
@@ -20132,7 +20168,7 @@ libc6-sparc64-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-x32-amd64-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-x32-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6-x32-i386-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
-libc6-x32/hirsute 2.33-0ubuntu5 amd64
+libc6-x32/hirsute,now 2.33-0ubuntu5 amd64 [installed,automatic]
 libc6-x32/hirsute 2.33-0ubuntu5 i386
 libc6.1-alpha-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
 libc6.1-dbg-alpha-cross/hirsute,hirsute 2.33-0ubuntu5cross1 all
@@ -20741,7 +20777,7 @@ libcifpp1/hirsute 1.0.1-3 amd64
 libcifti-dev/hirsute 1.6.0-2 amd64
 libcifti-doc/hirsute,hirsute 1.6.0-2 all
 libcifti0/hirsute 1.6.0-2 amd64
-libcilkrts5/hirsute 7.5.0-6ubuntu4 amd64
+libcilkrts5/hirsute,now 7.5.0-6ubuntu4 amd64 [installed,automatic]
 libcimcclient0-dev/hirsute 2.2.8-0ubuntu2 amd64
 libcimcclient0/hirsute 2.2.8-0ubuntu2 amd64
 libcinnamon-control-center-dev/hirsute 4.8.2-1 amd64
@@ -24397,7 +24433,7 @@ libgcc-11-dev-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates,hi
 libgcc-11-dev-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libgcc-11-dev/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
 libgcc-11-dev/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
-libgcc-7-dev/hirsute 7.5.0-6ubuntu4 amd64
+libgcc-7-dev/hirsute,now 7.5.0-6ubuntu4 amd64 [installed,automatic]
 libgcc-8-dev-alpha-cross/hirsute,hirsute 8.4.0-5ubuntu1cross1 all
 libgcc-8-dev-amd64-cross/hirsute,hirsute 8.4.0-5ubuntu1cross1 all
 libgcc-8-dev-arm64-cross/hirsute,hirsute 8.4.0-5ubuntu1cross1 all
@@ -34291,7 +34327,7 @@ libmpv-dev/hirsute 0.32.0-2ubuntu2 amd64
 libmpv1/hirsute 0.32.0-2ubuntu2 amd64
 libmpx2-amd64-cross/hirsute,hirsute 8.4.0-5ubuntu1cross1 all
 libmpx2-i386-cross/hirsute,hirsute 8.4.0-5ubuntu1cross1 all
-libmpx2/hirsute 8.4.0-7ubuntu3 amd64
+libmpx2/hirsute,now 8.4.0-7ubuntu3 amd64 [installed,automatic]
 libmpx2/hirsute 8.4.0-7ubuntu3 i386
 libmqdb-perl/hirsute,hirsute 0.954-2 all
 libmqtt-client-java/hirsute,hirsute 1.16-1 all
@@ -35411,7 +35447,7 @@ libnuget-core-cil-dev/hirsute,hirsute 2.8.7+md510+dhx1-1.1 all
 libnuget-core-cil/hirsute,hirsute 2.8.7+md510+dhx1-1.1 all
 libnum-ocaml-dev/hirsute 1.4-1 amd64
 libnum-ocaml/hirsute 1.4-1 amd64
-libnuma-dev/hirsute 2.0.14-0ubuntu2 amd64
+libnuma-dev/hirsute,now 2.0.14-0ubuntu2 amd64 [installed]
 libnuma-dev/hirsute 2.0.14-0ubuntu2 i386
 libnuma1/hirsute,now 2.0.14-0ubuntu2 amd64 [installed,automatic]
 libnuma1/hirsute 2.0.14-0ubuntu2 i386
@@ -42198,7 +42234,7 @@ libstdc++-11-pic-sparc64-cross/hirsute-security,hirsute-security,hirsute-updates
 libstdc++-11-pic-x32-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libstdc++-11-pic/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
 libstdc++-11-pic/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
-libstdc++-7-dev/hirsute 7.5.0-6ubuntu4 amd64
+libstdc++-7-dev/hirsute,now 7.5.0-6ubuntu4 amd64 [installed,automatic]
 libstdc++-7-doc/hirsute,hirsute 7.5.0-6ubuntu4 all
 libstdc++-7-pic/hirsute 7.5.0-6ubuntu4 amd64
 libstdc++-8-dev-alpha-cross/hirsute,hirsute 8.4.0-5ubuntu1cross1 all
@@ -43834,7 +43870,7 @@ libubootenv-dev/hirsute 0.3-2 amd64
 libubootenv-doc/hirsute,hirsute 0.3-2 all
 libubootenv-tool/hirsute 0.3-2 amd64
 libubootenv0.1/hirsute 0.3-2 amd64
-libubsan0/hirsute 7.5.0-6ubuntu4 amd64
+libubsan0/hirsute,now 7.5.0-6ubuntu4 amd64 [installed,automatic]
 libubsan1-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libubsan1-arm64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libubsan1-armel-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
@@ -45053,16 +45089,16 @@ libx32asan5/hirsute 9.3.0-23ubuntu2 amd64
 libx32asan5/hirsute 9.3.0-23ubuntu2 i386
 libx32asan6-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32asan6-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-libx32asan6/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+libx32asan6/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 libx32asan6/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32atomic1-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32atomic1-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-libx32atomic1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+libx32atomic1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 libx32atomic1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32cilkrts5/hirsute 7.5.0-6ubuntu4 amd64
 libx32gcc-10-dev-amd64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 libx32gcc-10-dev-i386-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
-libx32gcc-10-dev/hirsute 10.3.0-1ubuntu1 amd64
+libx32gcc-10-dev/hirsute,now 10.3.0-1ubuntu1 amd64 [installed,automatic]
 libx32gcc-10-dev/hirsute 10.3.0-1ubuntu1 i386
 libx32gcc-11-dev-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32gcc-11-dev-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
@@ -45079,7 +45115,7 @@ libx32gcc-9-dev/hirsute 9.3.0-23ubuntu2 amd64
 libx32gcc-9-dev/hirsute 9.3.0-23ubuntu2 i386
 libx32gcc-s1-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32gcc-s1-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-libx32gcc-s1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+libx32gcc-s1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 libx32gcc-s1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32gfortran-10-dev-amd64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 libx32gfortran-10-dev-i386-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
@@ -45134,7 +45170,7 @@ libx32go19/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
 libx32go19/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32gomp1-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32gomp1-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-libx32gomp1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+libx32gomp1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 libx32gomp1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32gphobos-10-dev-amd64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 libx32gphobos-10-dev-i386-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
@@ -45168,7 +45204,7 @@ libx32gphobos76/hirsute 9.3.0-23ubuntu2 amd64
 libx32gphobos76/hirsute 9.3.0-23ubuntu2 i386
 libx32itm1-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32itm1-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-libx32itm1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+libx32itm1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 libx32itm1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32lsan0-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32lsan0/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
@@ -45195,11 +45231,11 @@ libx32objc4/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
 libx32objc4/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32quadmath0-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32quadmath0-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-libx32quadmath0/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+libx32quadmath0/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 libx32quadmath0/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32stdc++-10-dev-amd64-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
 libx32stdc++-10-dev-i386-cross/hirsute,hirsute 10.3.0-1ubuntu1cross1 all
-libx32stdc++-10-dev/hirsute 10.3.0-1ubuntu1 amd64
+libx32stdc++-10-dev/hirsute,now 10.3.0-1ubuntu1 amd64 [installed,automatic]
 libx32stdc++-10-dev/hirsute 10.3.0-1ubuntu1 i386
 libx32stdc++-11-dev-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32stdc++-11-dev-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
@@ -45231,12 +45267,12 @@ libx32stdc++6-9-dbg/hirsute 9.3.0-23ubuntu2 amd64
 libx32stdc++6-9-dbg/hirsute 9.3.0-23ubuntu2 i386
 libx32stdc++6-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32stdc++6-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-libx32stdc++6/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+libx32stdc++6/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 libx32stdc++6/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32ubsan0/hirsute 7.5.0-6ubuntu4 amd64
 libx32ubsan1-amd64-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
 libx32ubsan1-i386-cross/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 11.1.0-1ubuntu1~21.04cross1 all
-libx32ubsan1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 amd64
+libx32ubsan1/hirsute-security,hirsute-updates,now 11.1.0-1ubuntu1~21.04 amd64 [installed,automatic]
 libx32ubsan1/hirsute-security,hirsute-updates 11.1.0-1ubuntu1~21.04 i386
 libx32z1-dev/hirsute 1:1.2.11.dfsg-2ubuntu6 amd64
 libx32z1-dev/hirsute 1:1.2.11.dfsg-2ubuntu6 i386
@@ -47441,6 +47477,8 @@ llvm-9-examples/hirsute,hirsute 1:9.0.1-16 all
 llvm-9-runtime/hirsute 1:9.0.1-16 amd64
 llvm-9-tools/hirsute 1:9.0.1-16 amd64
 llvm-9/hirsute 1:9.0.1-16 amd64
+llvm-amdgpu4.2.0/Ubuntu 12.0.0.21161.40200 amd64
+llvm-amdgpu/Ubuntu 12.0.0.21161.40200 amd64
 llvm-dev/hirsute 1:12.0-52~exp1 amd64
 llvm-dev/hirsute 1:12.0-52~exp1 i386
 llvm-runtime/hirsute 1:12.0-52~exp1 amd64
@@ -48684,6 +48722,8 @@ midisport-firmware/hirsute,hirsute 1.2+dsfg1-0ubuntu6 all
 midori/hirsute 7.0-2.1 amd64
 migemo-el/hirsute,hirsute 1:1.2+gh0.20150404-7.1 all
 mighttpd2/hirsute 3.4.6-1build1 amd64
+migraphx4.2.0/Ubuntu 1.0.0.40200-21 amd64
+migraphx/Ubuntu 1.0.0.40200-21 amd64
 migrationtools/hirsute,hirsute 47-9ubuntu1 all
 miio-tools/hirsute,hirsute 0.5.0.1-1 all
 mikmod/hirsute 3.2.8-3 amd64
@@ -48789,6 +48829,24 @@ minlog/hirsute,hirsute 4.0.99.20100221-7 all
 minpack-dev/hirsute 19961126+dfsg1-5build1 amd64
 minuet-data/hirsute,hirsute 20.12.3-0ubuntu1 all
 minuet/hirsute 20.12.3-0ubuntu1 amd64
+miopen-hip4.2.0/Ubuntu 2.11.0.40200-21 amd64
+miopen-hip/Ubuntu 2.11.0.40200-21 amd64
+miopen-opencl4.2.0/Ubuntu 2.11.0.40200-21 amd64
+miopen-opencl/Ubuntu 2.11.0.40200-21 amd64
+miopengemm4.2.0/Ubuntu 1.1.6.40200-21 amd64
+miopengemm/Ubuntu 1.1.6.40200-21 amd64
+miopenkernels-gfx900-56kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx900-56kdb/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx900-64kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx900-64kdb/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx906-60kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx906-60kdb/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx906-64kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx906-64kdb/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx908-120kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
+miopenkernels-gfx908-120kdb/Ubuntu 1.1.0.40200-21 amd64
+miopentensile4.2.0/Ubuntu 1.0.0.40200-21 amd64
+miopentensile/Ubuntu 1.0.0.40200-21 amd64
 mipe/hirsute,hirsute 1.1-9 all
 mir-demos/hirsute 2.3.3-0ubuntu1 amd64
 mir-doc/hirsute,hirsute 2.3.3-0ubuntu1 all
@@ -48834,6 +48892,8 @@ mit-scheme-doc/hirsute,hirsute 11.1-5 all
 mit-scheme/hirsute 11.1-5 amd64
 mitmproxy/hirsute,hirsute 6.0.2-1 all
 mitools/hirsute 2.0.4-1build1 amd64
+mivisionx4.2.0/Ubuntu 2.0.0.40200-21 amd64
+mivisionx/Ubuntu 2.0.0.40200-21 amd64
 miwm/hirsute 1.1-8 amd64
 mixer.app/hirsute 1.8.0-5build1 amd64
 mixxx-data/hirsute,hirsute 2.2.4~dfsg-1 all
@@ -48944,7 +49004,7 @@ modsecurity-crs/hirsute,hirsute 3.3.0-1 all
 module-assistant/hirsute,hirsute 0.11.10 all
 moka-icon-theme/hirsute,hirsute 5.4.0.3-1 all
 mokomaze/hirsute 0.7.1-1build1 amd64
-mokutil/hirsute 0.3.0+1538710437.fb6250f-1 amd64
+mokutil/hirsute,now 0.3.0+1538710437.fb6250f-1 amd64 [installed,automatic]
 molly-guard/hirsute,hirsute 0.7.2 all
 mom/hirsute,hirsute 0.6.0-2 all
 mon-client/hirsute,hirsute 1.2.0-2.1 all
@@ -49823,7 +49883,7 @@ network-manager-strongswan/hirsute 1.5.2-1 amd64
 network-manager-vpnc-gnome/hirsute 1.2.6-3 amd64
 network-manager-vpnc/hirsute 1.2.6-3 amd64
 network-manager/hirsute,now 1.30.0-1ubuntu3 amd64 [installed]
-networkd-dispatcher/hirsute,hirsute,now 2.1-1 all [installed]
+networkd-dispatcher/hirsute-updates,hirsute-updates 2.1-2~ubuntu21.04.1 all [upgradable from: 2.1-1]
 networking-bagpipe-common/hirsute,hirsute 14.0.0-0ubuntu1 all
 networking-bgpvpn-common/hirsute,hirsute 14.0.0-0ubuntu1 all
 networking-l2gw-common/hirsute,hirsute 1:18.0.0-0ubuntu1 all
@@ -52390,6 +52450,8 @@ openmcdf/hirsute,hirsute 1.5.4-3 all
 openmolcas-data/hirsute,hirsute 19.11-5 all
 openmolcas/hirsute 19.11-5 amd64
 openmotor/hirsute,hirsute 0.4.0-4 all
+openmp-extras4.2.0/Ubuntu 12.42.0.40200-21 amd64
+openmp-extras/Ubuntu 12.42.0.40200-21 amd64
 openmpi-bin/hirsute 4.1.0-7ubuntu2 amd64
 openmpi-bin/hirsute 4.1.0-7ubuntu2 i386
 openmpi-common/hirsute,hirsute 4.1.0-7ubuntu2 all
@@ -61780,12 +61842,16 @@ rblcheck/hirsute 20190930-1 amd64
 rbldnsd/hirsute 0.999~20180516-3 amd64
 rbootd/hirsute 3.0 amd64
 rc/hirsute 1.7.4+97.gceb59bb-3 amd64
+rccl4.2.0/Ubuntu 2.8.4.40200-21 amd64
+rccl/Ubuntu 2.8.4.40200-21 amd64
 rclone-browser/hirsute 1.8.0-1.2build1 amd64
 rclone/hirsute 1.53.3-1 amd64
 rcm/hirsute,hirsute 1.3.4-1 all
 rcs-blame/hirsute 1.3.1-4.2 amd64
 rcs/hirsute 5.10.0-1 amd64
 rdate/hirsute 1:1.10-4build2 amd64
+rdc4.2.0/Ubuntu 0.3.0.40200-21 amd64
+rdc/Ubuntu 0.3.0.40200-21 amd64
 rdesktop/hirsute 1.9.0-2build1 amd64
 rdfind/hirsute 1.4.1-1build3 amd64
 rdfind/hirsute 1.4.1-1build3 i386
@@ -62059,11 +62125,64 @@ robot-testing-framework/hirsute 2.0.1+ds1-2 amd64
 robotfindskitten/hirsute 2.8284271.702-1 amd64
 robottestingframework-testrunner/hirsute 2.0.1+ds1-2 amd64
 robustirc-bridge/hirsute 1.8-1build2 amd64
+rocalution4.2.0/Ubuntu 1.11.5.40200-21 amd64
+rocalution/Ubuntu 1.11.5.40200-21 amd64
+rocblas4.2.0/Ubuntu 2.38.0.40200-21 amd64
+rocblas/Ubuntu 2.38.0.40200-21 amd64
+rocfft4.2.0/Ubuntu 1.0.11.40200-21 amd64
+rocfft/Ubuntu 1.0.11.40200-21 amd64
+rock-dkms-firmware/Ubuntu 1:4.2-21 all
+rock-dkms/Ubuntu 1:4.2-21 all
 rockdodger/hirsute 1.1.4-2 amd64
 rocketcea/hirsute 1.1.18+dfsg-2 amd64
 rocksdb-tools/hirsute 6.11.4-3 amd64
 rocksndiamonds/hirsute 4.2.2.1+dfsg-1 amd64
+rocm-bandwidth-test4.2.0/Ubuntu 1.4.0.40200-21 amd64
+rocm-bandwidth-test/Ubuntu 1.4.0.40200-21 amd64
+rocm-clang-ocl4.2.0/Ubuntu 0.5.0.40200-21 amd64
+rocm-clang-ocl/Ubuntu 0.5.0.40200-21 amd64
+rocm-cmake4.2.0/Ubuntu 0.4.0.40200-21 amd64
+rocm-cmake/Ubuntu 0.4.0.40200-21 amd64
+rocm-dbgapi4.2.0/Ubuntu 0.46.0.40200-21 amd64
+rocm-dbgapi/Ubuntu 0.46.0.40200-21 amd64
+rocm-debug-agent4.2.0/Ubuntu 2.0.1.40200-21 amd64
+rocm-debug-agent/Ubuntu 2.0.1.40200-21 amd64
+rocm-dev4.2.0/Ubuntu 4.2.0.40200-21 amd64
+rocm-dev/Ubuntu 4.2.0.40200-21 amd64
+rocm-device-libs4.2.0/Ubuntu 1.0.0.40200-21 amd64
+rocm-device-libs/Ubuntu 1.0.0.40200-21 amd64
+rocm-dkms/Ubuntu 4.2.0.40200-21 amd64
+rocm-gdb4.2.0/Ubuntu 10.1.40200-21 amd64
+rocm-gdb/Ubuntu 10.1.40200-21 amd64
+rocm-libs4.2.0/Ubuntu 4.2.0.40200-21 amd64
+rocm-libs/Ubuntu 4.2.0.40200-21 amd64
+rocm-opencl-dev4.2.0/Ubuntu 2.0.0.40200-21 amd64
+rocm-opencl-dev/Ubuntu 2.0.0.40200-21 amd64
+rocm-opencl4.2.0/Ubuntu 2.0.0.40200-21 amd64
+rocm-opencl/Ubuntu 2.0.0.40200-21 amd64
+rocm-smi-lib4.2.0/Ubuntu 2.8.0.40200-21 amd64
+rocm-smi-lib/Ubuntu 2.8.0.40200-21 amd64
+rocm-utils4.2.0/Ubuntu 4.2.0.40200-21 amd64
+rocm-utils/Ubuntu 4.2.0.40200-21 amd64
+rocm-validation-suite4.2.0/Ubuntu 1.0.40200.40200-21 amd64
+rocm-validation-suite/Ubuntu 1.0.40200.40200-21 amd64
+rocminfo4.2.0/Ubuntu 1.0.0.40200-21 amd64
+rocminfo/Ubuntu 1.0.0.40200-21 amd64
+rocprim4.2.0/Ubuntu 2.10.9.40200-21 amd64
+rocprim/Ubuntu 2.10.9.40200-21 amd64
+rocprofiler-dev4.2.0/Ubuntu 1.0.0.40200-21 amd64
+rocprofiler-dev/Ubuntu 1.0.0.40200-21 amd64
+rocrand4.2.0/Ubuntu 2.10.9.40200-21 amd64
+rocrand/Ubuntu 2.10.9.40200-21 amd64
 rocs/hirsute 4:20.12.3-0ubuntu1 amd64
+rocsolver4.2.0/Ubuntu 3.12.0.40200-21 amd64
+rocsolver/Ubuntu 3.12.0.40200-21 amd64
+rocsparse4.2.0/Ubuntu 1.19.5.40200-21 amd64
+rocsparse/Ubuntu 1.19.5.40200-21 amd64
+rocthrust4.2.0/Ubuntu 2.10.9.40200-21 amd64
+rocthrust/Ubuntu 2.10.9.40200-21 amd64
+roctracer-dev4.2.0/Ubuntu 1.0.0.40200-21 amd64
+roctracer-dev/Ubuntu 1.0.0.40200-21 amd64
 roffit/hirsute,hirsute 0.7~20120815+gitbbf62e6-2 all
 rofi-dev/hirsute 1.5.4-1 amd64
 rofi/hirsute 1.5.4-1 amd64
@@ -64314,9 +64433,9 @@ shiki-noble-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shiki-wine-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shiki-wise-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shim-canonical-unsigned/hirsute 2 amd64
-shim-dbg/hirsute 15.4-0ubuntu1 amd64
-shim-signed/hirsute-updates 1.48+15.4-0ubuntu5 amd64
-shim/hirsute 15.4-0ubuntu1 amd64
+shim-dbg/hirsute-updates 15.4-0ubuntu5 amd64
+shim-signed/hirsute-updates,now 1.48+15.4-0ubuntu5 amd64 [installed,automatic]
+shim/hirsute-updates 15.4-0ubuntu5 amd64
 shimmer-themes/hirsute,hirsute 2.1.3 all
 shineenc/hirsute 3.1.1-2 amd64
 shineenc/hirsute 3.1.1-2 i386
