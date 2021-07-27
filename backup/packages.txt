@@ -892,7 +892,7 @@ aspell-cy/hirsute,hirsute 0.50-3-6.2 all
 aspell-da/hirsute,hirsute 1.6.36-11.1 all
 aspell-de-1901/hirsute,hirsute 1:2-37 all
 aspell-de/hirsute,hirsute 20161207-9 all
-aspell-doc/hirsute,hirsute 0.60.8-2 all
+aspell-doc/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 0.60.8-2ubuntu0.1 all
 aspell-el/hirsute,hirsute 0.50-3-6.2 all
 aspell-en/hirsute,hirsute,now 2018.04.16-0-1 all [installed,automatic]
 aspell-eo-cx7/hirsute,hirsute 2.1.2000.02.25-58 all
@@ -948,8 +948,8 @@ aspell-uk/hirsute,hirsute 1.7.1-2 all
 aspell-uz/hirsute,hirsute 0.6.0-2 all
 aspell-xh/hirsute,hirsute 20070206-4ubuntu3 all
 aspell-zu/hirsute,hirsute 20070207-5ubuntu3 all
-aspell/hirsute,now 0.60.8-2 amd64 [installed,automatic]
-aspell/hirsute 0.60.8-2 i386
+aspell/hirsute-security,hirsute-updates 0.60.8-2ubuntu0.1 amd64 [upgradable from: 0.60.8-2]
+aspell/hirsute-security,hirsute-updates 0.60.8-2ubuntu0.1 i386
 aspic/hirsute 1.05-4build1 amd64
 asql/hirsute,hirsute 1.6-1.1 all
 assaultcube-data/hirsute,hirsute 1.2.0.2.1-3 all
@@ -1092,8 +1092,6 @@ atlc/hirsute 4.6.1-5 amd64
 atm-tools/hirsute 1:2.5.1-4 amd64
 atm-tools/hirsute 1:2.5.1-4 i386
 atmel-firmware/hirsute,hirsute 1.3-4 all
-atmi4.2.0/Ubuntu 4.0.1.40200-21 amd64
-atmi/Ubuntu 4.0.1.40200-21 amd64
 atom4/hirsute 4.1-9build2 amd64
 atom/hirsute 1.54.0~pop1~1613504324~21.04~44e7b2d amd64
 atomicparsley/hirsute 0.9.6-2build1 amd64
@@ -3296,8 +3294,6 @@ com.github.donadigo.eddy/hirsute,now 1.1.9~1579639091~21.04~eec941e amd64 [insta
 comerr-dev/hirsute,now 2.1-1.45.7-1ubuntu2 amd64 [installed,automatic]
 comerr-dev/hirsute 2.1-1.45.7-1ubuntu2 i386
 comet-ms/hirsute 2019015+cleaned1-3 amd64
-comgr4.2.0/Ubuntu 2.0.0.40200-21 amd64
-comgr/Ubuntu 2.0.0.40200-21 amd64
 comgt/hirsute 0.32-3 amd64
 comitup/hirsute,hirsute 1.15-1 all
 comixcursors-lefthanded-opaque/hirsute,hirsute 0.9.1-1.1 all
@@ -4442,7 +4438,7 @@ dh-make-golang/hirsute 0.4.0-1 amd64
 dh-make-perl/hirsute,hirsute 0.116 all
 dh-make/hirsute,hirsute 2.202003 all
 dh-migrations/hirsute,hirsute 0.3.5 all
-dh-modaliases/hirsute,hirsute 1:0.8.9.1pop0~1618329589~21.04~ecfec6f all
+dh-modaliases/hirsute,hirsute 1:0.9.0pop0~1627315407~21.04~b1ffa0a all
 dh-ocaml/hirsute,hirsute 1.1.3 all
 dh-octave-autopkgtest/hirsute,hirsute 1.0.3 all
 dh-octave/hirsute,hirsute 1.0.3 all
@@ -6596,7 +6592,7 @@ fftw2/hirsute 2.1.5-4.2build2 amd64
 ffuf/hirsute 1.1.0-1 amd64
 fgallery/hirsute,hirsute 1.8.2-2.1 all
 fgetty/hirsute 0.7-7 amd64
-fglrx-pxpress/hirsute 1:0.8.9.1pop0~1618329589~21.04~ecfec6f amd64
+fglrx-pxpress/hirsute 1:0.9.0pop0~1627315407~21.04~b1ffa0a amd64
 fh2odg/hirsute 0.9.6-2build1 amd64
 fheroes2-pkg/hirsute,hirsute 0+svn20150122r3274-2-2 all
 fhist/hirsute 1.18-2.1 amd64
@@ -6779,9 +6775,9 @@ firmware-ath9k-htc-dbgsym/hirsute,hirsute 1.4.0-97-g75b3e59+dfsg-3 all
 firmware-ath9k-htc/hirsute,hirsute 1.4.0-97-g75b3e59+dfsg-3 all
 firmware-b43-installer/hirsute,hirsute 1:019-6 all
 firmware-b43legacy-installer/hirsute,hirsute 1:019-6 all
-firmware-manager-notify/hirsute,now 0.1.2~1626370684~21.04~2a7dc10 amd64 [installed,automatic]
-firmware-manager-shared/hirsute,hirsute,now 0.1.2~1626370684~21.04~2a7dc10 all [installed,automatic]
-firmware-manager/hirsute 0.1.2~1626370684~21.04~2a7dc10 amd64
+firmware-manager-notify/hirsute 0.1.2~1627064406~21.04~aa920da amd64 [upgradable from: 0.1.2~1626370684~21.04~2a7dc10]
+firmware-manager-shared/hirsute,hirsute 0.1.2~1627064406~21.04~aa920da all [upgradable from: 0.1.2~1626370684~21.04~2a7dc10]
+firmware-manager/hirsute 0.1.2~1627064406~21.04~aa920da amd64
 firmware-microbit-micropython-dl/hirsute,hirsute 1.2.4+dfsg-7 all
 firmware-microbit-micropython-doc/hirsute,hirsute 1.0.1-2 all
 firmware-microbit-micropython/hirsute,hirsute 1.0.1-2 all
@@ -7590,7 +7586,7 @@ fpgatools/hirsute 0.0+201212-1build1 amd64
 fping/hirsute 5.0-1 amd64
 fplll-tools/hirsute 5.4.0-2 amd64
 fprintd-doc/hirsute,hirsute 1.90.9-1 all
-fprintd/hirsute,now 1.90.9-1 amd64 [installed,automatic]
+fprintd/hirsute,now 1.90.9-1 amd64 [installed]
 fprobe/hirsute 1.1-8 amd64
 fpzip-utils/hirsute 1.3.0-2 amd64
 fqterm/hirsute 0.9.10.1-1 amd64
@@ -13222,7 +13218,7 @@ golang-github-onsi-ginkgo-dev/hirsute,hirsute 1.14.2-1 all
 golang-github-op-go-logging-dev/hirsute,hirsute 1+git20160315.970db52-2 all
 golang-github-opencontainers-go-digest-dev/hirsute,hirsute 1.0.0-1 all
 golang-github-opencontainers-image-spec-dev/hirsute,hirsute 1.0.1-5 all
-golang-github-opencontainers-runc-dev/hirsute-updates,hirsute-updates 1.0.0~rc95-0ubuntu1~21.04.1 all
+golang-github-opencontainers-runc-dev/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 1.0.0~rc95-0ubuntu1~21.04.2 all
 golang-github-opencontainers-runtime-tools-dev/hirsute,hirsute 0.9.0+dfsg-2 all
 golang-github-opencontainers-selinux-dev/hirsute,hirsute 1.8.0-1 all
 golang-github-opencontainers-specs-dev/hirsute,hirsute 1.0.2.41.g7413a7f-1 all
@@ -14524,8 +14520,6 @@ haci/hirsute,hirsute 0.98c-2.1 all
 hackrf/hirsute,now 2018.01.1-2 amd64 [installed]
 hacktv/hirsute 0+git20201203-1 amd64
 hadori/hirsute 1.1-1 amd64
-half4.2.0/Ubuntu 1.12.0.40200-21 amd64
-half/Ubuntu 1.12.0.40200-21 amd64
 halibut/hirsute 1.2-4build1 amd64
 hamexam/hirsute,hirsute 1.7.0-3 all
 haml-elisp/hirsute,hirsute 1:3.1.0-3.2 all
@@ -14761,29 +14755,7 @@ hime-qt5-immodule/hirsute 0.9.11+dfsg-2 amd64
 hime-tables/hirsute 0.9.11+dfsg-2 amd64
 hime/hirsute 0.9.11+dfsg-2 amd64
 hinawa-utils/hirsute,hirsute 0.2.0-3 all
-hip-base4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-base/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-doc4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-doc/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-nvcc4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-nvcc/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-rocclr4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-rocclr/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-samples4.2.0/Ubuntu 4.2.21155.5900.40200-21 amd64
-hip-samples/Ubuntu 4.2.21155.5900.40200-21 amd64
-hipblas4.2.0/Ubuntu 0.44.0.40200-21 amd64
-hipblas/Ubuntu 0.44.0.40200-21 amd64
-hipcub4.2.0/Ubuntu 2.10.9.40200-21 amd64
-hipcub/Ubuntu 2.10.9.40200-21 amd64
-hipfft4.2.0/Ubuntu 1.0.2.40200-21 amd64
-hipfft/Ubuntu 1.0.2.40200-21 amd64
-hipfort4.2.0/Ubuntu 0.3.0.40200-21 amd64
-hipfort/Ubuntu 0.3.0.40200-21 amd64
-hipify-clang4.2.0/Ubuntu 12.0.0.40200-21 amd64
-hipify-clang/Ubuntu 12.0.0.40200-21 amd64
 hippomocks/hirsute 5.0-1 amd64
-hipsparse4.2.0/Ubuntu 1.10.6.40200-21 amd64
-hipsparse/Ubuntu 1.10.6.40200-21 amd64
 hisat2/hirsute 2.2.1-2 amd64
 hitch/hirsute 1.6.1-1 amd64
 hitori/hirsute 3.38.0-1 amd64
@@ -14863,16 +14835,8 @@ hplip-gui/hirsute,hirsute 3.21.2+dfsg1-2 all
 hplip/hirsute 3.21.2+dfsg1-2 amd64
 hprof-conv/hirsute 10.0.0+r36-1 amd64
 hpsockd/hirsute 0.17build3 amd64
-hsa-amd-aqlprofile4.2.0/Ubuntu 1.0.0.40200-21 amd64
-hsa-amd-aqlprofile/Ubuntu 1.0.0.40200-21 amd64
-hsa-rocr-dev4.2.0/Ubuntu 1.3.0.40200-21 amd64
-hsa-rocr-dev/Ubuntu 1.3.0.40200-21 amd64
 hsail-tools/hirsute 0~20180830-1build1 amd64
 hsail-tools/hirsute 0~20180830-1build1 i386
-hsakmt-roct-dev4.2.0/Ubuntu 20210315.0.7.40200-21 amd64
-hsakmt-roct-dev/Ubuntu 20210315.0.7.40200-21 amd64
-hsakmt-roct4.2.0/Ubuntu 20210315.0.7.40200-21 amd64
-hsakmt-roct/Ubuntu 20210315.0.7.40200-21 amd64
 hsbrainfuck/hirsute 0.1.0.3-7build3 amd64
 hsc/hirsute 1.0b-0ubuntu2 amd64
 hscolour/hirsute 1.24.4-3build4 amd64
@@ -15643,7 +15607,7 @@ ipwatchd/hirsute 1.2.1-1build1 amd64
 ipxe-qemu-256k-compat-efi-roms/hirsute,hirsute 1.0.0+git-20150424.a25a16d-0ubuntu4 all
 ipxe-qemu/hirsute,hirsute 1.0.0+git-20190125.36a4c85-5ubuntu4 all
 ipxe/hirsute,hirsute 1.0.0+git-20190125.36a4c85-5ubuntu4 all
-ipython3/hirsute,hirsute 7.20.0-1 all
+ipython3/hirsute,hirsute,now 7.20.0-1 all [installed]
 iqtree/hirsute 1.6.12+dfsg-1build1 amd64
 ir-keytable/hirsute 1.20.0-3 amd64
 ir-keytable/hirsute 1.20.0-3 i386
@@ -18849,10 +18813,10 @@ libasound2/hirsute 1.2.4-1.1ubuntu2 i386
 libaspect-perl/hirsute,hirsute 1.04-1.1 all
 libaspectj-java/hirsute,hirsute 1.9.2-2 all
 libaspectj-maven-plugin-java/hirsute,hirsute 1.11-2 all
-libaspell-dev/hirsute 0.60.8-2 amd64
-libaspell-dev/hirsute 0.60.8-2 i386
-libaspell15/hirsute,now 0.60.8-2 amd64 [installed,automatic]
-libaspell15/hirsute 0.60.8-2 i386
+libaspell-dev/hirsute-security,hirsute-updates 0.60.8-2ubuntu0.1 amd64
+libaspell-dev/hirsute-security,hirsute-updates 0.60.8-2ubuntu0.1 i386
+libaspell15/hirsute-security,hirsute-updates 0.60.8-2ubuntu0.1 amd64 [upgradable from: 0.60.8-2]
+libaspell15/hirsute-security,hirsute-updates 0.60.8-2ubuntu0.1 i386
 libasprintf-dev/hirsute 0.21-3ubuntu2 amd64
 libasprintf-dev/hirsute 0.21-3ubuntu2 i386
 libasprintf0v5/hirsute 0.21-3ubuntu2 amd64
@@ -23905,8 +23869,8 @@ libfindlib-ocaml-dev/hirsute 1.8.1-2 amd64
 libfindlib-ocaml-dev/hirsute 1.8.1-2 i386
 libfindlib-ocaml/hirsute 1.8.1-2 amd64
 libfindlib-ocaml/hirsute 1.8.1-2 i386
-libfirmware-manager-dev/hirsute,hirsute 0.1.2~1626370684~21.04~2a7dc10 all
-libfirmware-manager/hirsute,now 0.1.2~1626370684~21.04~2a7dc10 amd64 [installed,automatic]
+libfirmware-manager-dev/hirsute,hirsute 0.1.2~1627064406~21.04~aa920da all
+libfirmware-manager/hirsute 0.1.2~1627064406~21.04~aa920da amd64 [upgradable from: 0.1.2~1626370684~21.04~2a7dc10]
 libfishsound1-dev/hirsute 1.0.0-8 amd64
 libfishsound1/hirsute 1.0.0-8 amd64
 libfits-java-doc/hirsute,hirsute 1.15.2-1 all
@@ -34561,10 +34525,10 @@ libmysql++3v5/hirsute 3.2.5-2 amd64
 libmysql-diff-perl/hirsute,hirsute 0.60-1 all
 libmysql-ocaml-dev/hirsute 1.2.4-1ubuntu2 amd64
 libmysql-ocaml/hirsute 1.2.4-1ubuntu2 amd64
-libmysqlclient-dev/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-libmysqlclient-dev/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
-libmysqlclient21/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-libmysqlclient21/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
+libmysqlclient-dev/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+libmysqlclient-dev/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
+libmysqlclient21/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+libmysqlclient21/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
 libmysqlcppconn-dev/hirsute 1.1.12-4ubuntu2 amd64
 libmysqlcppconn7v5/hirsute 1.1.12-4ubuntu2 amd64
 libmyth-dev/hirsute 2:31.0+fixes.20200323.9579662cdc-0ubuntu9 amd64
@@ -36729,7 +36693,7 @@ libpam-cracklib/hirsute-updates 1.3.1-5ubuntu6.21.04.1 i386
 libpam-doc/hirsute-updates,hirsute-updates 1.3.1-5ubuntu6.21.04.1 all
 libpam-duo/hirsute 1.11.3-1 amd64
 libpam-encfs/hirsute 0.1.4.4-13 amd64
-libpam-fprintd/hirsute,now 1.90.9-1 amd64 [installed,automatic]
+libpam-fprintd/hirsute,now 1.90.9-1 amd64 [installed]
 libpam-freerdp2-dev/hirsute 2.0.0-3 amd64
 libpam-freerdp2/hirsute 2.0.0-3 amd64
 libpam-fscrypt/hirsute 0.2.9-1build1 amd64
@@ -37603,12 +37567,12 @@ libpomp0/hirsute 1.1+dfsg-9 amd64
 libpomp2-dev/hirsute 2.0.5-2 amd64
 libpomp2-doc/hirsute,hirsute 2.0.5-2 all
 libponapi-client-perl/hirsute,hirsute 0.002012-1 all
-libpop-desktop-widget-dev/hirsute,hirsute 0.1.0~1626712938~21.04~bcc9f97 all
-libpop-desktop-widget/hirsute,now 0.1.0~1626712938~21.04~bcc9f97 amd64 [installed,automatic]
+libpop-desktop-widget-dev/hirsute,hirsute 0.1.0~1627138527~21.04~43820e9 all
+libpop-desktop-widget/hirsute 0.1.0~1627138527~21.04~43820e9 amd64 [upgradable from: 0.1.0~1626712938~21.04~bcc9f97]
 libpop-theme-switcher-dev/hirsute,hirsute 0.1.1~1610663176~21.04~f9b766d all
 libpop-theme-switcher/hirsute,now 0.1.1~1610663176~21.04~f9b766d amd64 [installed,automatic]
-libpop-upgrade-gtk-dev/hirsute 1.0.0~1626905955~21.04~6c5b444 amd64
-libpop-upgrade-gtk/hirsute,now 1.0.0~1626905955~21.04~6c5b444 amd64 [installed,automatic]
+libpop-upgrade-gtk-dev/hirsute 1.0.0~1626981427~21.04~0e6fc70 amd64
+libpop-upgrade-gtk/hirsute,now 1.0.0~1626981427~21.04~0e6fc70 amd64 [installed,automatic]
 libpoppler-cil-dev/hirsute,hirsute 0.0.3-4.1 all
 libpoppler-cil/hirsute,hirsute 0.0.3-4.1 all
 libpoppler-cpp-dev/hirsute 21.02.0-1 amd64
@@ -37876,8 +37840,8 @@ libpsm2-dev/hirsute 11.2.185-1 amd64
 libpsocksxx-dev/hirsute 1.1.1-1build1 amd64
 libpsocksxx-doc/hirsute,hirsute 1.1.1-1build1 all
 libpsocksxx0/hirsute 1.1.1-1build1 amd64
-libpspell-dev/hirsute 0.60.8-2 amd64
-libpspell-dev/hirsute 0.60.8-2 i386
+libpspell-dev/hirsute-security,hirsute-updates 0.60.8-2ubuntu0.1 amd64
+libpspell-dev/hirsute-security,hirsute-updates 0.60.8-2ubuntu0.1 i386
 libpst-dev/hirsute 0.6.75-1 amd64
 libpst4/hirsute 0.6.75-1 amd64
 libpstoedit-dev/hirsute 3.75-1build2 amd64
@@ -42725,8 +42689,8 @@ libsysstat-qt5-0/hirsute 0.4.4-1ubuntu1 amd64
 libsystem-command-perl/hirsute,hirsute 1.121-1 all
 libsystem-info-perl/hirsute,hirsute 0.060-1 all
 libsystem-sub-perl/hirsute,hirsute 0.162800-2.1 all
-libsystem76-keyboard-configurator-dev/hirsute,hirsute 1.0.0~1625866534~21.04~8c56f6c all
-libsystem76-keyboard-configurator/hirsute 1.0.0~1625866534~21.04~8c56f6c amd64
+libsystem76-keyboard-configurator-dev/hirsute,hirsute 1.0.0~1627062540~21.04~5f90491 all
+libsystem76-keyboard-configurator/hirsute 1.0.0~1627062540~21.04~5f90491 amd64
 libsystemc-dev/hirsute 2.3.3-5 amd64
 libsystemc-doc/hirsute,hirsute 2.3.3-5 all
 libsystemc/hirsute 2.3.3-5 amd64
@@ -47477,8 +47441,6 @@ llvm-9-examples/hirsute,hirsute 1:9.0.1-16 all
 llvm-9-runtime/hirsute 1:9.0.1-16 amd64
 llvm-9-tools/hirsute 1:9.0.1-16 amd64
 llvm-9/hirsute 1:9.0.1-16 amd64
-llvm-amdgpu4.2.0/Ubuntu 12.0.0.21161.40200 amd64
-llvm-amdgpu/Ubuntu 12.0.0.21161.40200 amd64
 llvm-dev/hirsute 1:12.0-52~exp1 amd64
 llvm-dev/hirsute 1:12.0-52~exp1 i386
 llvm-runtime/hirsute 1:12.0-52~exp1 amd64
@@ -48722,8 +48684,6 @@ midisport-firmware/hirsute,hirsute 1.2+dsfg1-0ubuntu6 all
 midori/hirsute 7.0-2.1 amd64
 migemo-el/hirsute,hirsute 1:1.2+gh0.20150404-7.1 all
 mighttpd2/hirsute 3.4.6-1build1 amd64
-migraphx4.2.0/Ubuntu 1.0.0.40200-21 amd64
-migraphx/Ubuntu 1.0.0.40200-21 amd64
 migrationtools/hirsute,hirsute 47-9ubuntu1 all
 miio-tools/hirsute,hirsute 0.5.0.1-1 all
 mikmod/hirsute 3.2.8-3 amd64
@@ -48829,24 +48789,6 @@ minlog/hirsute,hirsute 4.0.99.20100221-7 all
 minpack-dev/hirsute 19961126+dfsg1-5build1 amd64
 minuet-data/hirsute,hirsute 20.12.3-0ubuntu1 all
 minuet/hirsute 20.12.3-0ubuntu1 amd64
-miopen-hip4.2.0/Ubuntu 2.11.0.40200-21 amd64
-miopen-hip/Ubuntu 2.11.0.40200-21 amd64
-miopen-opencl4.2.0/Ubuntu 2.11.0.40200-21 amd64
-miopen-opencl/Ubuntu 2.11.0.40200-21 amd64
-miopengemm4.2.0/Ubuntu 1.1.6.40200-21 amd64
-miopengemm/Ubuntu 1.1.6.40200-21 amd64
-miopenkernels-gfx900-56kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx900-56kdb/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx900-64kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx900-64kdb/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx906-60kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx906-60kdb/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx906-64kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx906-64kdb/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx908-120kdb4.2.0/Ubuntu 1.1.0.40200-21 amd64
-miopenkernels-gfx908-120kdb/Ubuntu 1.1.0.40200-21 amd64
-miopentensile4.2.0/Ubuntu 1.0.0.40200-21 amd64
-miopentensile/Ubuntu 1.0.0.40200-21 amd64
 mipe/hirsute,hirsute 1.1-9 all
 mir-demos/hirsute 2.3.3-0ubuntu1 amd64
 mir-doc/hirsute,hirsute 2.3.3-0ubuntu1 all
@@ -48892,8 +48834,6 @@ mit-scheme-doc/hirsute,hirsute 11.1-5 all
 mit-scheme/hirsute 11.1-5 amd64
 mitmproxy/hirsute,hirsute 6.0.2-1 all
 mitools/hirsute 2.0.4-1build1 amd64
-mivisionx4.2.0/Ubuntu 2.0.0.40200-21 amd64
-mivisionx/Ubuntu 2.0.0.40200-21 amd64
 miwm/hirsute 1.1-8 amd64
 mixer.app/hirsute 1.8.0-5build1 amd64
 mixxx-data/hirsute,hirsute 2.2.4~dfsg-1 all
@@ -49517,25 +49457,25 @@ myspell-uk/hirsute,hirsute 1.7.1-2 all
 myspell-ve/hirsute,hirsute 20070206-3ubuntu2 all
 myspell-xh/hirsute,hirsute 20070206-4ubuntu3 all
 myspell-zu/hirsute,hirsute 20070207-5ubuntu3 all
-mysql-client-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-mysql-client-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
-mysql-client-core-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-mysql-client-core-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
-mysql-client/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 8.0.25-0ubuntu0.21.04.1 all
+mysql-client-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+mysql-client-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
+mysql-client-core-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+mysql-client-core-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
+mysql-client/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 8.0.26-0ubuntu0.21.04.3 all
 mysql-common/hirsute,hirsute,now 5.8+1.0.5ubuntu2 all [residual-config]
-mysql-router/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-mysql-router/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
+mysql-router/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+mysql-router/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
 mysql-sandbox/hirsute,hirsute 3.2.05-1 all
-mysql-server-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-mysql-server-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
-mysql-server-core-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-mysql-server-core-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
-mysql-server/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 8.0.25-0ubuntu0.21.04.1 all
-mysql-source-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-mysql-source-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
-mysql-testsuite-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 amd64
-mysql-testsuite-8.0/hirsute-security,hirsute-updates 8.0.25-0ubuntu0.21.04.1 i386
-mysql-testsuite/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 8.0.25-0ubuntu0.21.04.1 all
+mysql-server-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+mysql-server-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
+mysql-server-core-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+mysql-server-core-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
+mysql-server/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 8.0.26-0ubuntu0.21.04.3 all
+mysql-source-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+mysql-source-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
+mysql-testsuite-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 amd64
+mysql-testsuite-8.0/hirsute-security,hirsute-updates 8.0.26-0ubuntu0.21.04.3 i386
+mysql-testsuite/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 8.0.26-0ubuntu0.21.04.3 all
 mysqltcl/hirsute 3.052-3ubuntu1 amd64
 mysqltuner/hirsute,hirsute 1.7.17-1 all
 mysqmail-courier-logger/hirsute 0.4.9-10.2build2 amd64
@@ -51623,9 +51563,9 @@ ntfs-3g/hirsute,now 1:2017.3.23AR.3-3ubuntu4 amd64 [installed,automatic]
 ntopng-data/hirsute,hirsute 3.8.1+dfsg1-1build2 all
 ntopng-doc/hirsute,hirsute 3.8.1+dfsg1-1build2 all
 ntopng/hirsute 3.8.1+dfsg1-1build2 amd64
-ntp-doc/hirsute,hirsute 1:4.2.8p12+dfsg-3ubuntu4 all
-ntp/hirsute 1:4.2.8p12+dfsg-3ubuntu4 amd64
-ntpdate/hirsute 1:4.2.8p12+dfsg-3ubuntu4 amd64
+ntp-doc/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 1:4.2.8p12+dfsg-3ubuntu4.1 all
+ntp/hirsute-security,hirsute-updates 1:4.2.8p12+dfsg-3ubuntu4.1 amd64
+ntpdate/hirsute-security,hirsute-updates 1:4.2.8p12+dfsg-3ubuntu4.1 amd64
 ntpsec-doc/hirsute,hirsute 1.2.0+dfsg1-3 all
 ntpsec-ntpdate/hirsute 1.2.0+dfsg1-3 amd64
 ntpsec-ntpviz/hirsute 1.2.0+dfsg1-3 amd64
@@ -51692,7 +51632,7 @@ nvidia-cg-dev/hirsute 3.1.0013-5 i386
 nvidia-cg-doc/hirsute,hirsute 3.1.0013-5 all
 nvidia-cg-toolkit/hirsute 3.1.0013-5 amd64
 nvidia-cg-toolkit/hirsute 3.1.0013-5 i386
-nvidia-common/hirsute 1:0.8.9.1pop0~1618329589~21.04~ecfec6f amd64
+nvidia-common/hirsute 1:0.9.0pop0~1627315407~21.04~b1ffa0a amd64
 nvidia-compute-utils-390/hirsute-security,hirsute-updates 390.144-0ubuntu0.21.04.1 amd64
 nvidia-compute-utils-390/hirsute-security,hirsute-updates 390.144-0ubuntu0.21.04.1 i386
 nvidia-compute-utils-418-server/hirsute-security,hirsute-updates 418.211.00-0ubunt0.21.04.1 amd64
@@ -52450,8 +52390,6 @@ openmcdf/hirsute,hirsute 1.5.4-3 all
 openmolcas-data/hirsute,hirsute 19.11-5 all
 openmolcas/hirsute 19.11-5 amd64
 openmotor/hirsute,hirsute 0.4.0-4 all
-openmp-extras4.2.0/Ubuntu 12.42.0.40200-21 amd64
-openmp-extras/Ubuntu 12.42.0.40200-21 amd64
 openmpi-bin/hirsute 4.1.0-7ubuntu2 amd64
 openmpi-bin/hirsute 4.1.0-7ubuntu2 i386
 openmpi-common/hirsute,hirsute 4.1.0-7ubuntu2 all
@@ -54391,7 +54329,7 @@ pong2/hirsute 0.1.3-3 amd64
 ponyprog/hirsute 3.1.2+ds-1 amd64
 poolcounter/hirsute 1.1.3-1 amd64
 pop-boot/hirsute,hirsute 3.1.4~1623173088~21.04~afe27ca all
-pop-cosmic/hirsute,hirsute,now 0.1.0~1626297043~21.04~2b297b4 all [installed,automatic]
+pop-cosmic/hirsute,hirsute 0.1.0~1627314332~21.04~af07d31 all [upgradable from: 0.1.0~1626297043~21.04~2b297b4]
 pop-default-settings/hirsute,hirsute,now 5.0.0~1624981545~21.04~38927e0 all [installed]
 pop-desktop/hirsute,hirsute,now 1.6.0~1625267683~21.04~ac0465f all [installed]
 pop-fonts/hirsute,hirsute,now 1.0.3~1555617065~21.04~a86eb73 all [installed,automatic]
@@ -54412,7 +54350,7 @@ pop-shop/hirsute,now 3.4.2pop0~1625253683~21.04~eff4ef8 amd64 [installed,automat
 pop-sound-theme/hirsute,hirsute,now 5.3.3~1625837590~21.04~11bcd41 all [installed,automatic]
 pop-theme/hirsute,hirsute,now 1.0.4~1571245319~21.04~ed52981 all [installed,automatic]
 pop-transition/hirsute,hirsute,now 1.1.2~1622814235~21.04~44c59f0 all [installed]
-pop-upgrade/hirsute,now 1.0.0~1626905955~21.04~6c5b444 amd64 [installed,automatic]
+pop-upgrade/hirsute,now 1.0.0~1626981427~21.04~0e6fc70 amd64 [installed,automatic]
 pop-wallpapers/hirsute,hirsute,now 1.0.5~1624894990~21.04~c7a37b4 all [installed]
 pop3browser/hirsute,hirsute 0.4.1-8 all
 popa3d/hirsute 1.0.3-1build1 amd64
@@ -54422,8 +54360,8 @@ poppassd/hirsute 1.8.5-5 amd64
 poppler-data/hirsute,hirsute,now 0.4.10-1 all [installed]
 poppler-utils/hirsute,now 21.02.0-1 amd64 [installed,automatic]
 poppler-utils/hirsute 21.02.0-1 i386
-popsicle-gtk/hirsute,now 1.3.0~1626109057~21.04~b889d40 amd64 [installed]
-popsicle/hirsute,now 1.3.0~1626109057~21.04~b889d40 amd64 [installed]
+popsicle-gtk/hirsute 1.3.0~1627061277~21.04~1a94779 amd64 [upgradable from: 1.3.0~1626109057~21.04~b889d40]
+popsicle/hirsute 1.3.0~1627061277~21.04~1a94779 amd64 [upgradable from: 1.3.0~1626109057~21.04~b889d40]
 popularity-contest/hirsute,hirsute 1.70ubuntu3 all
 populations/hirsute 1.2.33+svn0120106+dfsg-6 amd64
 porechop/hirsute 0.2.4+dfsg-2 amd64
@@ -54837,7 +54775,7 @@ protobuf-compiler/hirsute 3.12.4-1ubuntu2 i386
 protoc-gen-go/hirsute 1.25.0+git20201208.160c747-1 amd64
 protoc-gen-yarpc/hirsute 0.0.1-1build2 amd64
 protonvpn-cli/unknown,now 3.7.2-2 all [installed]
-protonvpn-gui/unknown 1.0.1-1 all
+protonvpn-gui/unknown 1.1.0-7 all
 protonvpn-stable-release/now 1.0.1-1 all [installed,local]
 protonvpn/unknown 1.0.0-3 all
 protracker/hirsute,hirsute 2.b37+really1.27+ds-1 all
@@ -61842,16 +61780,12 @@ rblcheck/hirsute 20190930-1 amd64
 rbldnsd/hirsute 0.999~20180516-3 amd64
 rbootd/hirsute 3.0 amd64
 rc/hirsute 1.7.4+97.gceb59bb-3 amd64
-rccl4.2.0/Ubuntu 2.8.4.40200-21 amd64
-rccl/Ubuntu 2.8.4.40200-21 amd64
 rclone-browser/hirsute 1.8.0-1.2build1 amd64
 rclone/hirsute 1.53.3-1 amd64
 rcm/hirsute,hirsute 1.3.4-1 all
 rcs-blame/hirsute 1.3.1-4.2 amd64
 rcs/hirsute 5.10.0-1 amd64
 rdate/hirsute 1:1.10-4build2 amd64
-rdc4.2.0/Ubuntu 0.3.0.40200-21 amd64
-rdc/Ubuntu 0.3.0.40200-21 amd64
 rdesktop/hirsute 1.9.0-2build1 amd64
 rdfind/hirsute 1.4.1-1build3 amd64
 rdfind/hirsute 1.4.1-1build3 i386
@@ -62125,64 +62059,11 @@ robot-testing-framework/hirsute 2.0.1+ds1-2 amd64
 robotfindskitten/hirsute 2.8284271.702-1 amd64
 robottestingframework-testrunner/hirsute 2.0.1+ds1-2 amd64
 robustirc-bridge/hirsute 1.8-1build2 amd64
-rocalution4.2.0/Ubuntu 1.11.5.40200-21 amd64
-rocalution/Ubuntu 1.11.5.40200-21 amd64
-rocblas4.2.0/Ubuntu 2.38.0.40200-21 amd64
-rocblas/Ubuntu 2.38.0.40200-21 amd64
-rocfft4.2.0/Ubuntu 1.0.11.40200-21 amd64
-rocfft/Ubuntu 1.0.11.40200-21 amd64
-rock-dkms-firmware/Ubuntu 1:4.2-21 all
-rock-dkms/Ubuntu 1:4.2-21 all
 rockdodger/hirsute 1.1.4-2 amd64
 rocketcea/hirsute 1.1.18+dfsg-2 amd64
 rocksdb-tools/hirsute 6.11.4-3 amd64
 rocksndiamonds/hirsute 4.2.2.1+dfsg-1 amd64
-rocm-bandwidth-test4.2.0/Ubuntu 1.4.0.40200-21 amd64
-rocm-bandwidth-test/Ubuntu 1.4.0.40200-21 amd64
-rocm-clang-ocl4.2.0/Ubuntu 0.5.0.40200-21 amd64
-rocm-clang-ocl/Ubuntu 0.5.0.40200-21 amd64
-rocm-cmake4.2.0/Ubuntu 0.4.0.40200-21 amd64
-rocm-cmake/Ubuntu 0.4.0.40200-21 amd64
-rocm-dbgapi4.2.0/Ubuntu 0.46.0.40200-21 amd64
-rocm-dbgapi/Ubuntu 0.46.0.40200-21 amd64
-rocm-debug-agent4.2.0/Ubuntu 2.0.1.40200-21 amd64
-rocm-debug-agent/Ubuntu 2.0.1.40200-21 amd64
-rocm-dev4.2.0/Ubuntu 4.2.0.40200-21 amd64
-rocm-dev/Ubuntu 4.2.0.40200-21 amd64
-rocm-device-libs4.2.0/Ubuntu 1.0.0.40200-21 amd64
-rocm-device-libs/Ubuntu 1.0.0.40200-21 amd64
-rocm-dkms/Ubuntu 4.2.0.40200-21 amd64
-rocm-gdb4.2.0/Ubuntu 10.1.40200-21 amd64
-rocm-gdb/Ubuntu 10.1.40200-21 amd64
-rocm-libs4.2.0/Ubuntu 4.2.0.40200-21 amd64
-rocm-libs/Ubuntu 4.2.0.40200-21 amd64
-rocm-opencl-dev4.2.0/Ubuntu 2.0.0.40200-21 amd64
-rocm-opencl-dev/Ubuntu 2.0.0.40200-21 amd64
-rocm-opencl4.2.0/Ubuntu 2.0.0.40200-21 amd64
-rocm-opencl/Ubuntu 2.0.0.40200-21 amd64
-rocm-smi-lib4.2.0/Ubuntu 2.8.0.40200-21 amd64
-rocm-smi-lib/Ubuntu 2.8.0.40200-21 amd64
-rocm-utils4.2.0/Ubuntu 4.2.0.40200-21 amd64
-rocm-utils/Ubuntu 4.2.0.40200-21 amd64
-rocm-validation-suite4.2.0/Ubuntu 1.0.40200.40200-21 amd64
-rocm-validation-suite/Ubuntu 1.0.40200.40200-21 amd64
-rocminfo4.2.0/Ubuntu 1.0.0.40200-21 amd64
-rocminfo/Ubuntu 1.0.0.40200-21 amd64
-rocprim4.2.0/Ubuntu 2.10.9.40200-21 amd64
-rocprim/Ubuntu 2.10.9.40200-21 amd64
-rocprofiler-dev4.2.0/Ubuntu 1.0.0.40200-21 amd64
-rocprofiler-dev/Ubuntu 1.0.0.40200-21 amd64
-rocrand4.2.0/Ubuntu 2.10.9.40200-21 amd64
-rocrand/Ubuntu 2.10.9.40200-21 amd64
 rocs/hirsute 4:20.12.3-0ubuntu1 amd64
-rocsolver4.2.0/Ubuntu 3.12.0.40200-21 amd64
-rocsolver/Ubuntu 3.12.0.40200-21 amd64
-rocsparse4.2.0/Ubuntu 1.19.5.40200-21 amd64
-rocsparse/Ubuntu 1.19.5.40200-21 amd64
-rocthrust4.2.0/Ubuntu 2.10.9.40200-21 amd64
-rocthrust/Ubuntu 2.10.9.40200-21 amd64
-roctracer-dev4.2.0/Ubuntu 1.0.0.40200-21 amd64
-roctracer-dev/Ubuntu 1.0.0.40200-21 amd64
 roffit/hirsute,hirsute 0.7~20120815+gitbbf62e6-2 all
 rofi-dev/hirsute 1.5.4-1 amd64
 rofi/hirsute 1.5.4-1 amd64
@@ -63811,7 +63692,7 @@ rubygems-integration/hirsute,hirsute,now 1.18 all [installed,automatic]
 rumur/hirsute 2020.12.20-1 amd64
 run-one/hirsute,hirsute 1.17-0ubuntu1 all
 runawk/hirsute 1.6.0-2 amd64
-runc/hirsute-updates 1.0.0~rc95-0ubuntu1~21.04.1 amd64
+runc/hirsute-security,hirsute-updates 1.0.0~rc95-0ubuntu1~21.04.2 amd64
 runcircos-gui/hirsute 0.0+git20200528.82dda8c-1 amd64
 runescape/hirsute,hirsute 0.8-2 all
 rungetty/hirsute 1.2-16ubuntu1 amd64
@@ -64433,9 +64314,9 @@ shiki-noble-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shiki-wine-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shiki-wise-theme/hirsute,hirsute 4.6-2ubuntu1 all
 shim-canonical-unsigned/hirsute 2 amd64
-shim-dbg/hirsute-updates 15.4-0ubuntu5 amd64
-shim-signed/hirsute-updates,now 1.48+15.4-0ubuntu5 amd64 [installed,automatic]
-shim/hirsute-updates 15.4-0ubuntu5 amd64
+shim-dbg/hirsute-updates 15.4-0ubuntu7 amd64
+shim-signed/hirsute-updates 1.50+15.4-0ubuntu7 amd64 [upgradable from: 1.48+15.4-0ubuntu5]
+shim/hirsute-updates 15.4-0ubuntu7 amd64
 shimmer-themes/hirsute,hirsute 2.1.3 all
 shineenc/hirsute 3.1.1-2 amd64
 shineenc/hirsute 3.1.1-2 i386
@@ -64847,7 +64728,7 @@ snowdrop/hirsute 0.02b-13 amd64
 snp-sites/hirsute 2.5.1-1 amd64
 snpomatic/hirsute 1.0-5 amd64
 sntop/hirsute 1.4.3-5 amd64
-sntp/hirsute 1:4.2.8p12+dfsg-3ubuntu4 amd64
+sntp/hirsute-security,hirsute-updates 1:4.2.8p12+dfsg-3ubuntu4.1 amd64
 so-synth-lv2/hirsute 1.5-1 amd64
 soapaligner/hirsute 2.20-5 amd64
 soapdenovo2/hirsute 242+dfsg-1 amd64
@@ -65694,7 +65575,7 @@ system76-driver/hirsute,hirsute 20.04.40~1626304923~21.04~9a2d421 all
 system76-firmware-daemon/hirsute 1.0.28~1626197076~21.04~031b923 amd64
 system76-firmware/hirsute 1.0.28~1626197076~21.04~031b923 amd64
 system76-io-dkms/hirsute,now 1.0.1~1616424744~21.04~57c15ff amd64 [installed]
-system76-keyboard-configurator/hirsute 1.0.0~1625866534~21.04~8c56f6c amd64
+system76-keyboard-configurator/hirsute 1.0.0~1627062540~21.04~5f90491 amd64
 system76-nccl-11.1/hirsute 2.8.3-1 amd64
 system76-nccl-11.2/hirsute 2.8.3-1 amd64
 system76-oled/hirsute 0.1.4~1588092956~21.04~805ebb1 amd64
@@ -67044,8 +66925,8 @@ ubiquity/hirsute 21.04.19 amd64
 ublock-origin-doc/hirsute,hirsute 1.33.0+dfsg-1build1 all
 ubufox/hirsute,hirsute 3.4-0ubuntu1.17.10.1 all
 ubumirror/hirsute,hirsute 0.5 all
-ubuntu-advantage-pro/hirsute-updates,hirsute-updates 27.1~21.04.1 all
-ubuntu-advantage-tools/hirsute-updates,now 27.1~21.04.1 amd64 [installed]
+ubuntu-advantage-pro/hirsute-updates,hirsute-updates 27.2.1~21.04.1 all
+ubuntu-advantage-tools/hirsute-updates 27.2.1~21.04.1 amd64 [upgradable from: 27.1~21.04.1]
 ubuntu-artwork/hirsute,hirsute 1:20.10-0ubuntu1 all
 ubuntu-budgie-desktop/hirsute 0.83 amd64
 ubuntu-budgie-themes/hirsute,hirsute 0.13.8 all
@@ -67064,7 +66945,7 @@ ubuntu-desktop-minimal/hirsute 1.469 amd64
 ubuntu-desktop/hirsute 1.469 amd64
 ubuntu-dev-tools/hirsute,hirsute 0.180 all
 ubuntu-docs/hirsute,hirsute,now 21.04.1 all [installed,automatic]
-ubuntu-drivers-common/hirsute,now 1:0.8.9.1pop0~1618329589~21.04~ecfec6f amd64 [installed]
+ubuntu-drivers-common/hirsute 1:0.9.0pop0~1627315407~21.04~b1ffa0a amd64 [upgradable from: 1:0.8.9.1pop0~1618329589~21.04~ecfec6f]
 ubuntu-fan/hirsute,hirsute 0.12.15 all
 ubuntu-gnome-default-settings/hirsute,hirsute 20.04.1 all
 ubuntu-gnome-desktop/hirsute 0.88 amd64
