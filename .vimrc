@@ -26,7 +26,7 @@ set encoding=utf-8
 set showcmd
 
 call plug#begin('~/.vim/plugged')
-"Plug 'lervag/vimtex'
+Plug 'lervag/vimtex'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
