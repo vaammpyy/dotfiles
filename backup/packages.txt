@@ -41627,10 +41627,10 @@ libsnappy-jni/hirsute 1.1.8.3-1 amd64
 libsnappy-jni/hirsute 1.1.8.3-1 i386
 libsnappy1v5/hirsute,now 1.1.8-1build1 amd64 [installed,automatic]
 libsnappy1v5/hirsute 1.1.8-1build1 i386
-libsndfile1-dev/hirsute 1.0.31-1ubuntu1 amd64
-libsndfile1-dev/hirsute 1.0.31-1ubuntu1 i386
-libsndfile1/hirsute,now 1.0.31-1ubuntu1 amd64 [installed,automatic]
-libsndfile1/hirsute 1.0.31-1ubuntu1 i386
+libsndfile1-dev/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 amd64
+libsndfile1-dev/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 i386
+libsndfile1/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 amd64 [upgradable from: 1.0.31-1ubuntu1]
+libsndfile1/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 i386
 libsndifsdl2-dev/hirsute 0.8.3-2 amd64
 libsndio-dev/hirsute 1.5.0-3 amd64
 libsndio-dev/hirsute 1.5.0-3 i386
@@ -53546,7 +53546,7 @@ php-patchwork-utf8/hirsute,hirsute 1.3.1-1 all
 php-pclzip/hirsute,hirsute 2.8.2-5 all
 php-pcov/hirsute 1.0.6-4build1 amd64
 php-pda-pheanstalk/hirsute,hirsute 4.0.3-1 all
-php-pear/hirsute,hirsute 1:1.10.9+submodules+notgz-1.1ubuntu1 all
+php-pear/hirsute-security,hirsute-security,hirsute-updates,hirsute-updates 1:1.10.9+submodules+notgz-1.1ubuntu1.1 all
 php-pgsql/hirsute,hirsute 2:7.4+76ubuntu1 all
 php-phar-io-manifest/hirsute,hirsute 2.0.1-2 all
 php-phar-io-version/hirsute,hirsute 3.0.4-1 all
@@ -64713,8 +64713,8 @@ snd-gui-jack/hirsute 21.1-1 amd64
 snd-gui-pulse/hirsute 21.1-1 amd64
 snd-nox/hirsute 21.1-1 amd64
 snd/hirsute,hirsute 21.1-1 all
-sndfile-programs/hirsute 1.0.31-1ubuntu1 amd64
-sndfile-programs/hirsute 1.0.31-1ubuntu1 i386
+sndfile-programs/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 amd64
+sndfile-programs/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 i386
 sndfile-tools/hirsute 1.5-1 amd64
 sndio-tools/hirsute 1.5.0-3 amd64
 sndio-tools/hirsute 1.5.0-3 i386
@@ -66948,8 +66948,8 @@ ubiquity/hirsute 21.04.19 amd64
 ublock-origin-doc/hirsute,hirsute 1.33.0+dfsg-1build1 all
 ubufox/hirsute,hirsute 3.4-0ubuntu1.17.10.1 all
 ubumirror/hirsute,hirsute 0.5 all
-ubuntu-advantage-pro/hirsute 26.2 amd64
-ubuntu-advantage-tools/now 27.1~21.04.1 amd64 [installed,local]
+ubuntu-advantage-pro/hirsute-updates,hirsute-updates 27.2.2~21.04.1 all
+ubuntu-advantage-tools/hirsute-updates 27.2.2~21.04.1 amd64 [upgradable from: 27.1~21.04.1]
 ubuntu-artwork/hirsute,hirsute 1:20.10-0ubuntu1 all
 ubuntu-budgie-desktop/hirsute 0.83 amd64
 ubuntu-budgie-themes/hirsute,hirsute 0.13.8 all
