@@ -6178,7 +6178,7 @@ extlinux/hirsute 3:6.04~git20190206.bf6db5b4+dfsg1-3 amd64
 extra-cmake-modules-doc/hirsute,hirsute 5.80.0-0ubuntu1 all
 extra-cmake-modules/hirsute 5.80.0-0ubuntu1 amd64
 extra-cmake-modules/hirsute 5.80.0-0ubuntu1 i386
-extra-xdg-menus/hirsute,hirsute 1.0-5 all
+extra-xdg-menus/hirsute,hirsute,now 1.0-5 all [installed,automatic]
 extrace/hirsute 0.7-2 amd64
 extract/hirsute 1:1.11-1 amd64
 extractpdfmark/hirsute 1.1.0-1ubuntu3.1 amd64
@@ -6833,7 +6833,7 @@ flatpak/hirsute,now 1.8.5-1pop1~1612228017~21.04~7ba959a amd64 [installed]
 flatzinc/hirsute 6.2.0-5 amd64
 flawfinder/hirsute,hirsute 2.0.10-0.1 all
 fldiff/hirsute 1.1+0-6build1 amd64
-fldigi/hirsute 4.1.18-1 amd64
+fldigi/hirsute,now 4.1.18-1 amd64 [installed]
 flent/hirsute,hirsute 2.0.0-2 all
 flex-doc/hirsute,hirsute 2.6.4-8 all
 flex-old-doc/hirsute,hirsute 2.5.4a-10.1 all
@@ -23950,14 +23950,14 @@ libfltk-forms1.3/hirsute 1.3.5-3 amd64
 libfltk-forms1.3/hirsute 1.3.5-3 i386
 libfltk-gl1.3/hirsute 1.3.5-3 amd64
 libfltk-gl1.3/hirsute 1.3.5-3 i386
-libfltk-images1.3/hirsute 1.3.5-3 amd64
+libfltk-images1.3/hirsute,now 1.3.5-3 amd64 [installed,automatic]
 libfltk-images1.3/hirsute 1.3.5-3 i386
 libfltk1.1-dev/hirsute 1.1.10-29ubuntu1 amd64
 libfltk1.1/hirsute 1.1.10-29ubuntu1 amd64
 libfltk1.3-compat-headers/hirsute,hirsute 1.3.5-3 all
 libfltk1.3-dev/hirsute 1.3.5-3 amd64
 libfltk1.3-dev/hirsute 1.3.5-3 i386
-libfltk1.3/hirsute 1.3.5-3 amd64
+libfltk1.3/hirsute,now 1.3.5-3 amd64 [installed,automatic]
 libfltk1.3/hirsute 1.3.5-3 i386
 libfluidsynth-dev/hirsute 2.1.7-1 amd64
 libfluidsynth-dev/hirsute 2.1.7-1 i386
@@ -23966,7 +23966,7 @@ libfluidsynth2/hirsute 2.1.7-1 i386
 libflute-java-doc/hirsute,hirsute 1:1.1.6-4 all
 libflute-java/hirsute,hirsute 1:1.1.6-4 all
 libflxmlrpc-dev/hirsute 0.1.4-5ubuntu2 amd64
-libflxmlrpc1/hirsute 0.1.4-5ubuntu2 amd64
+libflxmlrpc1/hirsute,now 0.1.4-5ubuntu2 amd64 [installed,automatic]
 libfm-data/hirsute,hirsute 1.3.2-1 all
 libfm-dev/hirsute 1.3.2-1 amd64
 libfm-doc/hirsute,hirsute 1.3.2-1 all
@@ -41629,7 +41629,7 @@ libsnappy1v5/hirsute,now 1.1.8-1build1 amd64 [installed,automatic]
 libsnappy1v5/hirsute 1.1.8-1build1 i386
 libsndfile1-dev/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 amd64
 libsndfile1-dev/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 i386
-libsndfile1/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 amd64 [upgradable from: 1.0.31-1ubuntu1]
+libsndfile1/hirsute-security,hirsute-updates,now 1.0.31-1ubuntu1.1 amd64 [installed,automatic]
 libsndfile1/hirsute-security,hirsute-updates 1.0.31-1ubuntu1.1 i386
 libsndifsdl2-dev/hirsute 0.8.3-2 amd64
 libsndio-dev/hirsute 1.5.0-3 amd64
@@ -52930,7 +52930,7 @@ patroni/hirsute,hirsute 2.0.2-1 all
 paulstretch/hirsute 2.2-2-4.1build1 amd64
 pavucontrol-qt-l10n/hirsute,hirsute 0.16.0-1ubuntu2 all
 pavucontrol-qt/hirsute 0.16.0-1ubuntu2 amd64
-pavucontrol/hirsute 4.0-2 amd64
+pavucontrol/hirsute,now 4.0-2 amd64 [installed]
 pavumeter/hirsute 0.9.3-4build3 amd64
 pax-britannica-data/hirsute,hirsute 1.0.0-3 all
 pax-britannica/hirsute 1.0.0-3 amd64
@@ -66949,7 +66949,7 @@ ublock-origin-doc/hirsute,hirsute 1.33.0+dfsg-1build1 all
 ubufox/hirsute,hirsute 3.4-0ubuntu1.17.10.1 all
 ubumirror/hirsute,hirsute 0.5 all
 ubuntu-advantage-pro/hirsute-updates,hirsute-updates 27.2.2~21.04.1 all
-ubuntu-advantage-tools/hirsute-updates 27.2.2~21.04.1 amd64 [upgradable from: 27.1~21.04.1]
+ubuntu-advantage-tools/hirsute-updates,now 27.2.2~21.04.1 amd64 [installed]
 ubuntu-artwork/hirsute,hirsute 1:20.10-0ubuntu1 all
 ubuntu-budgie-desktop/hirsute 0.83 amd64
 ubuntu-budgie-themes/hirsute,hirsute 0.13.8 all
