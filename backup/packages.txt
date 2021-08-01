@@ -54798,7 +54798,7 @@ protobuf-compiler/hirsute 3.12.4-1ubuntu2 i386
 protoc-gen-go/hirsute 1.25.0+git20201208.160c747-1 amd64
 protoc-gen-yarpc/hirsute 0.0.1-1build2 amd64
 protonvpn-cli/unknown,now 3.7.2-2 all [installed]
-protonvpn-gui/unknown 1.1.0-7 all
+protonvpn-gui/unknown 1.1.1-1 all
 protonvpn-stable-release/now 1.0.1-1 all [installed,local]
 protonvpn/unknown 1.0.0-3 all
 protracker/hirsute,hirsute 2.b37+really1.27+ds-1 all
