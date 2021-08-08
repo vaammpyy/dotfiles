@@ -19,6 +19,7 @@ alias jy-nb='jupyter notebook'
 alias ..='cd ..'
 alias git-ls='git ls-files'
 alias ampy='ampy -p /dev/ttyUSB0'
+alias upgrade='sudo apt update && sudo apt upgrade'
 
 #Vim keybindings
 fish_vi_key_bindings
