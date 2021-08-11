@@ -133,7 +133,7 @@ prometheus-client==0.9.0
 prompt-toolkit==3.0.14
 protobuf==3.12.4
 proton-client==0.5.1
-protonvpn-cli==3.7.2
+protonvpn-cli==3.8.0
 protonvpn-nm-lib==3.3.2
 psutil==5.8.0
 pyarrow==5.0.0
