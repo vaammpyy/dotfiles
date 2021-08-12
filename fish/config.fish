@@ -8,6 +8,7 @@ set fish_greeting
 set PATH ~/codes/shell-scripts $PATH
 set PATH ~/.local/bin $PATH 
 set PATH ~/.iraf/bin $PATH
+
 #alias
 alias bling='bash bling'
 alias t-ls='trash-list'
