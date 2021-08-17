@@ -159,6 +159,7 @@ PyQt-Qwt==1.2.2
 PyQt5==5.15.4
 PyQt5-sip==12.8.1
 pyqtgraph==0.12.1
+pyraf==2.1.15
 pyRFC3339==1.1
 pyrsistent==0.15.5
 pyserial==3.5
