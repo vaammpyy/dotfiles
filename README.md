@@ -21,10 +21,18 @@ Type `crontab -e` in the terminal to edit the crontab menu.
 ```
 # Paste this in the crontab file
 
-0 9 * * * /usr/bin/pip list | /usr/bin/tail -n +3 | /usr/bin/awk '{print $1"=="$2}'> ~/.config/dotfiles/backup/py-libs.txt && /usr/bin/apt list > ~/.config/dotfiles/backup/packages.txt && cd ~/.config/dotfiles/ && cd ~/.config/dotfiles && git add --all && git commit -m "Daily crontab backup commit $(date)" && git push
-0 12 * * * /usr/bin/pip list | /usr/bin/tail -n +3 | /usr/bin/awk '{print $1"=="$2}'> ~/.config/dotfiles/backup/py-libs.txt && /usr/bin/apt list > ~/.config/dotfiles/backup/packages.txt && cd ~/.config/dotfiles/ && cd ~/.config/dotfiles && git add --all && git commit -m "Daily crontab backup commit $(date)" && git push
-0 18 * * * /usr/bin/pip list | /usr/bin/tail -n +3 | /usr/bin/awk '{print $1"=="$2}'> ~/.config/dotfiles/backup/py-libs.txt && /usr/bin/apt list > ~/.config/dotfiles/backup/packages.txt && cd ~/.config/dotfiles/ && cd ~/.config/dotfiles && git add --all && git commit -m "Daily crontab backup commit $(date)" && git push
+0 9 * * * /usr/bin/pip list | /usr/bin/tail -n +3 | /usr/bin/awk '{print $1"=="$2}'> ~/.config/dotfiles/backup/py-libs.txt && /usr/bin/apt list > ~/.config/dotfiles/backup/packages.txt && cd ~/.config/dotfiles && dconf dump /org/gnome/terminal > gterminal_config.txt && git add --all && git commit -m "Daily crontab backup commit $(date)" && git push
+0 12 * * * /usr/bin/pip list | /usr/bin/tail -n +3 | /usr/bin/awk '{print $1"=="$2}'> ~/.config/dotfiles/backup/py-libs.txt && /usr/bin/apt list > ~/.config/dotfiles/backup/packages.txt && cd ~/.config/dotfiles && dconf dump /org/gnome/terminal > gterminal_config.txt && git add --all && git commit -m "Daily crontab backup commit $(date)" && git push
+0 18 * * * /usr/bin/pip list | /usr/bin/tail -n +3 | /usr/bin/awk '{print $1"=="$2}'> ~/.config/dotfiles/backup/py-libs.txt && /usr/bin/apt list > ~/.config/dotfiles/backup/packages.txt && cd ~/.config/dotfiles && dconf dump /org/gnome/terminal > gterminal_config.txt && git add --all && git commit -m "Daily crontab backup commit $(date)" && git push
 ```
+
+
+
+
+
+## Gnome Terminal
+
+Configuration is stored in `gterminal_config.txt` to install this config make sure that dconf is installed `sudo apt install dconf-editor` after that run `cat ~/gterminal_config.txt | dconf load /org/gnome/terminal/legacy/profiles:/` this will load the configuration in gnome-terminal.
 
 
 
