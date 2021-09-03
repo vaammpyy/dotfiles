@@ -138,3 +138,7 @@ if [ -e /home/vampy/.iraf/setup.sh ]; then
     source /home/vampy/.iraf/setup.sh
 fi
 eval "$(starship init bash)"
+
+#Default Editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
