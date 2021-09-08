@@ -22,6 +22,7 @@ alias git-ls='git ls-files'
 alias ampy='ampy -p /dev/ttyUSB0'
 alias splat='~/codes/splat-vo/bin/splat/splat'
 alias sys-upgrade='sudo apt update && sudo apt upgrade -y'
+alias ventoy='bash ventoy'
 
 #Vim keybindings
 fish_vi_key_bindings
