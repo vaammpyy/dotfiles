@@ -1,4 +1,6 @@
 syntax on
+filetype plugin indent on
+
 set complete+=kspell
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd BufRead,BufNewFile *.tex setlocal spell
