@@ -91,7 +91,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias vpn='protonvpn-cli'
     alias jy-nb='jupyter notebook'
     alias git-ls='git ls-files'
-    alias sys-upgrade='sudo apt update && sudo apt upgrade -y'
 fi
 
 # colored GCC warnings and errors
