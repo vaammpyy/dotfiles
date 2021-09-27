@@ -27,3 +27,13 @@ ssh_only = false
 format =  "at [$hostname](bold bright-red) "
 trim_at = ".companyname.com"
 disabled = false
+
+[conda]
+symbol="🅒  "
+format = "[$symbol$environment](dimmed green) "
+
+[shell]
+fish_indicator = "🐠"
+bash_indicator = "🐦"
+unknown_indicator = "mystery shell"
+disabled = false
