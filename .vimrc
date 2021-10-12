@@ -2,12 +2,15 @@ syntax on
 filetype plugin indent on
 
 set complete+=kspell
+
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd BufRead,BufNewFile *.tex setlocal spell
 autocmd VimEnter * NERDTree
 " Exit Vim if NERDTree is the only window left.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
+
+" Auto run python program with <F9> key
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!clear && python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!clear && python3' shellescape(@%, 1)<CR>
 
@@ -53,7 +56,7 @@ map <C-p>m :MarkdownPreview<CR>
 map <C-p>l :LLPStartPreview<CR>
 
 inoremap ( ()<ESC>i
-inoremap { {}<ESC>i
+"inoremap { {}<ESC>i
 inoremap [ []<ESC>i
 inoremap " ""<ESC>i
 inoremap jj <Esc>
