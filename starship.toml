@@ -30,7 +30,7 @@ disabled = false
 
 [conda]
 symbol="🅒  "
-format = "[$symbol$environment](dimmed green) "
+format = "[$symbol$environment](bright-green) "
 
 [shell]
 fish_indicator = "🐠"
