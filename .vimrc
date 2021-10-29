@@ -40,8 +40,15 @@ Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox'
 Plug 'rudrab/vimf90'
 Plug 'ycm-core/YouCompleteMe'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 call plug#end()
 
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+let g:vimtex_view_method = 'zathura'
 
 colorscheme gruvbox
 hi Normal guibg=NONE ctermbg=NONE
