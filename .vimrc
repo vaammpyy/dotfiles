@@ -43,6 +43,7 @@ Plug 'ycm-core/YouCompleteMe'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'ervandew/supertab'
+Plug 'turbio/bracey.vim'
 call plug#end()
 
 " make YCM compatible with UltiSnips (using supertab)

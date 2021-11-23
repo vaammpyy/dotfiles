@@ -84,9 +84,11 @@ jupyter-fortran-kernel==0.1.0
 jupyter-highlight-selected-word==0.2.0
 jupyter-kite==2.0.2
 jupyter-latex-envs==1.4.6
+jupyter-lsp==1.5.0
 jupyter-nbextensions-configurator==0.4.1
 jupyter-server==1.9.0
 jupyterlab==3.0.16
+jupyterlab-lsp==3.9.1
 jupyterlab-server==2.6.0
 jupyterlab-widgets==1.0.0
 kernelstub==3.1.4
@@ -147,7 +149,7 @@ prompt-toolkit==3.0.14
 protobuf==3.12.4
 proton-client==0.7.1
 protonvpn-cli==3.10.1
-protonvpn-nm-lib==3.6.0
+protonvpn-nm-lib==3.6.1
 psutil==5.8.0
 py==1.10.0
 pyarrow==5.0.0
@@ -165,6 +167,7 @@ PyGObject==3.38.0
 PyJWT==1.7.1
 pylint==2.9.6
 pymacaroons==0.13.0
+pymongo==3.12.1
 PyNaCl==1.4.0
 pyopencl==2021.2.5
 PyOpenGL==3.1.5
@@ -200,6 +203,7 @@ repoman==1.4.0
 requests==2.25.1
 requests-unixsocket==0.2.0
 rsa==4.0
+scikit-learn==1.0.1
 scipy==1.6.0
 scour==0.38.2
 SecretStorage==3.3.1
@@ -225,6 +229,7 @@ terminado==0.9.2
 testpath==0.4.4
 testresources==2.0.1
 thonny==3.3.13
+threadpoolctl==3.0.0
 thrift==0.13.0
 TLPUI==1.4.0a0
 toml==0.10.2
@@ -234,7 +239,7 @@ traitlets==5.0.5
 trash-cli==0.17.1.14
 typing-extensions==3.10.0.0
 tzlocal==2.1
-ubuntu-advantage-tools==27.2
+ubuntu-advantage-tools==27.4
 ubuntu-drivers-common==0.0.0
 ufw==0.36
 uritemplate==3.0.1
