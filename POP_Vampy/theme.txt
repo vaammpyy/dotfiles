@@ -12,7 +12,7 @@ terminal-font: "Unifont Regular 16"
     item_font = "Unifont Regular 16"
     item_color = "#C6C6C6"
     selected_item_font = "Unifont Regular 16"
-    selected_item_color= "#46B3C1"
+    selected_item_color= "#F10005"
     item_height = 20
     item_padding = 10
     item_spacing = 0
