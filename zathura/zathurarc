@@ -1,0 +1,6 @@
+set selection-clipboard clipboard
+set recolor
+set recolor-lightcolor \#241900
+set recolor-keephue
+set default-bg \#241900
+

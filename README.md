@@ -1,4 +1,8 @@
 # Dotfiles
+![desktop](rice_0.png)
+![terminal](rice_1.png)
+![editing](rice_2.png)
+![bpytop](rice_3.png)
 
 This is a repository of all the important config files and packages that I frequently use.
 
