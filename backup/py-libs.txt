@@ -290,7 +290,7 @@ trash-cli==0.17.1.14
 typeguard==2.13.3
 typing-extensions==3.10.0.0
 tzlocal==2.1
-ubuntu-advantage-tools==27.5
+ubuntu-advantage-tools==27.6
 ubuntu-drivers-common==0.0.0
 ufw==0.36.1
 ujson==4.3.0
