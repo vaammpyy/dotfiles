@@ -182,8 +182,8 @@ prometheus-client==0.9.0
 prompt-toolkit==3.0.19
 protobuf==3.19.4
 proton-client==0.7.1
-protonvpn-cli==3.11.0
-protonvpn-nm-lib==3.7.0
+protonvpn-cli==3.11.1
+protonvpn-nm-lib==3.8.0
 psutil==5.8.0
 py==1.10.0
 pyarrow==5.0.0
