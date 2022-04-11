@@ -97,7 +97,7 @@ ipywidgets==7.6.3
 iso8601==0.1.16
 isort==5.9.2
 isosurfaces==0.1.0
-jedi==0.18.1
+jedi==0.17.2
 jedi-language-server==0.34.12
 jeepney==0.7.1
 Jinja2==3.1.1
@@ -185,7 +185,7 @@ packaging==21.3
 pandas==1.2.5
 pandocfilters==1.5.0
 paramiko==2.7.2
-parso==0.8.3
+parso==0.7.1
 patsy==0.5.2
 pbr==5.6.0
 pexpect==4.8.0
@@ -255,6 +255,7 @@ python-debian==0.1.39ubuntu1
 python-dotenv==0.19.0
 python-gnupg==0.4.6
 python-jsonrpc-server==0.4.0
+python-language-server==0.36.2
 python-lsp-jsonrpc==1.0.0
 python-lsp-server==1.4.0
 python-magic==0.4.20
