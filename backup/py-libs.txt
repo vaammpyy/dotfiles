@@ -62,7 +62,6 @@ duplicity==0.8.20
 ecdsa==0.17.0
 entrypoints==0.4
 esptool==3.1
-evdev==1.4.0
 executing==0.8.3
 fasteners==0.14.1
 fastjsonschema==2.15.3
@@ -261,7 +260,6 @@ python-jsonrpc-server==0.4.0
 python-language-server==0.36.2
 python-lsp-jsonrpc==1.0.0
 python-lsp-server==1.4.0
-python-magic==0.4.20
 python-xlib==0.29
 pythondialog==3.5.1
 pytools==2021.2.7
@@ -292,7 +290,6 @@ SecretStorage==3.3.1
 semantic-version==2.8.5
 Send2Trash==1.8.0
 sessioninstaller==0.0.0
-setproctitle==1.2.1
 setuptools==62.0.0
 simpervisor==0.4
 simplejson==3.17.2
