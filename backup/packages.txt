@@ -3069,7 +3069,7 @@ pop-shell-shortcuts/impish,now 0.1.0~1633121872~21.10~52cc83f amd64 [installed,a
 pop-shell/impish,impish,now 1.1.0~1648206495~21.10~28c3a18 all [installed,automatic]
 pop-shop/impish,now 3.4.2pop0~1650311375~21.10~b2e7dbb amd64 [installed,automatic]
 pop-sound-theme/impish,impish,now 5.4.5~1645564624~21.10~d3e2898 all [installed,automatic]
-pop-system-updater/now 0.1.0~1650496933~21.10~500a384 amd64 [installed,upgradable to: 0.1.0~1650585850~21.10~36436e2]
+pop-system-updater/impish,now 0.1.0~1650585850~21.10~36436e2 amd64 [installed,automatic]
 pop-theme/impish,impish,now 1.0.4~1571245319~21.10~ed52981 all [installed,automatic]
 pop-transition/impish,impish,now 1.1.2~1642814356~21.10~617772e all [installed]
 pop-upgrade/impish,now 1.0.0~1650585876~21.10~ddcabc4 amd64 [installed]
