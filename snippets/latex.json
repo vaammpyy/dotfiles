@@ -1,0 +1,250 @@
+{
+	// Place your snippets for latex here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+//Figure 
+	"Figure":{
+	"prefix": "fig",
+	"body":[
+	"\\begin{figure}",
+	"\t \\centering",
+	"\t \\includegraphics[scale=${2:scale}]{${1:name}}",
+	"\t \\caption{${3:caption}}",
+	"\t \\label{fig:${label}}",
+	"\\end{figure}",
+]
+	},
+
+	//Equations
+
+	"equation_num":{
+		"prefix": "eq",
+		"body": [
+			"\\begin{equation}",
+		"\t ${1:insert equation here}",
+	"\\end{equation}"]
+	},
+
+	"equation_boxed":{
+		"prefix": "eq",
+	"body": [
+		"\\begin{equation*}",
+	"\t \\boxed{${1:insert here}},",
+"\\end{equation*}"]
+	},
+
+	"inline equation":{
+		"prefix": "eq",
+		"body": [
+			"$${1:insert here}$"]
+	},
+
+	//Section types
+
+	"abstract":{
+		"prefix": "abs",
+		"body": ["\\begin{abstract}",
+		"$1",
+	"\\end{abstract}"]
+	},
+
+	"section":{
+		"prefix": "sec",
+		"body": "\\section{${1:name}}"
+	},
+
+	"subsection":{
+		"prefix": "sec",
+		"body": "\\subsection{${1:name}}"
+	},
+
+	"subsubsection":{
+		"prefix": "sec",
+		"body": "\\subsubsection{${1:name}}"
+	},
+
+	//bullet points
+
+	"item":{
+		"prefix": "item",
+		"body": [
+			"\\begin{itemize}",
+		"\t \\item $1",
+	"\\end{itemize}"]
+		},
+
+	// project format
+
+	"project":{
+		"prefix": "proj",
+		"body": [
+			"\\documentclass{article}",
+
+"\\usepackage[justification=centering]{caption}",
+"\\usepackage[T1]{fontenc}",
+"\\usepackage{geometry}",
+"\\usepackage{tablefootnote}",
+"\\usepackage{lipsum}",
+"\\usepackage{makecell}",
+"\\usepackage{booktabs}",
+"\\usepackage{amsmath, amssymb, amsthm}",
+"\\usepackage{listings}",
+"\\usepackage{xcolor}",
+"\\usepackage{hyperref}",
+"\\usepackage{graphicx}",
+"\\usepackage{fancyhdr}",
+"\\usepackage{lipsum}",
+"\\usepackage{longtable}",
+"\\usepackage{caption}",
+"\\usepackage{subcaption}",
+"\\usepackage{float}",
+"",
+"\\begin{document}",
+"\\begin{titlepage}",
+	"\t \\centering",
+	"\t \\includegraphics[scale=${2:scale}]{${1:image}}\\par\\vspace{1cm}",
+	"\t \\vspace{1cm}",
+	"\t {\\scshape \\Huge ${3:course name}\\par}",
+	"\t \\vspace{2cm}",
+	"\t {\\Huge\\bfseries ${4:Title}\\par}",
+	"\t \\vspace{2cm}",
+    "\t {\\Large{Rohan Kumar} ${5:insert double backslash} \\large{21MS019} $5 \\tt rk21ms019@iiserkol.ac.in\\par}",
+	"\t \\vspace{2cm}",
+	"\t \\vfill",
+"% Bottom of the page",
+	"\t {\\large \\today\\par}",
+"\\end{titlepage}",
+"",
+"\\tableofcontents",
+"",
+"\\newpage",
+"",
+"\\section{$6}",
+"$7",
+"",
+"\\end{document}",
+]
+	},
+
+//Report format
+
+"lab report":{
+	"prefix": "report",
+	"body": [
+			"\\documentclass{article}",
+
+"\\usepackage[justification=centering]{caption}",
+"\\usepackage[T1]{fontenc}",
+"\\usepackage{geometry}",
+"\\usepackage{tablefootnote}",
+"\\usepackage{lipsum}",
+"\\usepackage{makecell}",
+"\\usepackage{booktabs}",
+"\\usepackage{amsmath, amssymb, amsthm}",
+"\\usepackage{listings}",
+"\\usepackage{xcolor}",
+"\\usepackage{hyperref}",
+"\\usepackage{graphicx}",
+"\\usepackage{fancyhdr}",
+"\\usepackage{lipsum}",
+"\\usepackage{longtable}",
+"\\usepackage{caption}",
+"\\usepackage{subcaption}",
+"\\usepackage{float}",
+"",
+"\\title{",
+"\\Large\\textsc{${1:Course}} ${2:insert double backslash}",
+"\\vspace{10pt}",
+"\\Huge\\textbf{${3:Title}}$2",
+"}",
+"\\author{",
+"\\large Rohan Kumar",
+        "\\thanks{Email: \\tt rk21ms019@iiserkol.ac.in}",
+        "$2\\textsc{\\small 21MS019}",
+"}",
+"\\date{\\today}",
+		"\\begin{document}",
+	"\\maketitle",
+	"",
+"$4",
+"",
+"\\end{document}"]
+},
+
+//Footnotes
+
+"footnote":{
+	"prefix": "fnote",
+	"body": "\\footnote{$1}"
+},
+
+"table footnote":{
+	"prefix": "fnote",
+	"body": "\\tablefootnote{$1}"
+},
+
+"footnotemark":{
+	"prefix": "fmark",
+	"body": "\\footnotemark"
+},
+
+"footnote text":{
+	"prefix": "ftext",
+	"body": "\\footnotetext{$1}"
+},
+
+//table
+
+"table":{
+	"prefix": "tab",	
+	"body": [
+"\\begin{table}[h]",
+"\t \\centering",
+"\t \\caption{${1:Caption}}",
+"\t \\begin{tabular}{${2:rr}}",
+"\t \\hline",
+"\t \t $3 & $4 ${5:insert backslash}",
+"\t \t \\hline",
+"\t \t $6 & $7  $5",
+"\t \t \\hline",
+"\t \\end{tabular}",
+"\\end{table}"]
+},
+
+
+// equations
+
+"fraction":{
+	"prefix":"frac",
+	"body": "\\frac{$1}{$2}"
+},
+
+"brackets":{
+	"prefix": "(",
+	"body": "\\left($1\\right)"
+},
+
+//misc
+
+"hyperlink":{
+	"prefix": "href",
+	"body": "\\href{${1:link}}{\\color{blue}${2:name}}"
+},
+
+"emphasized":{
+	"prefix":"emph",
+	"body": "\\emph{$1}"
+}
+	
+}
