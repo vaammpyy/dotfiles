@@ -13,6 +13,16 @@
 	// 	"description": "Log output to console"
 	// }
 
+//begin
+
+"begin":{
+	"prefix": "beg",
+	"body": [
+		"\\begin{$1}",
+	"\t $2",
+"\\end{$1}"]
+},
+
 //Figure 
 	"Figure":{
 	"prefix": "fig",
@@ -27,6 +37,14 @@
 	},
 
 	//Equations
+
+	"equation":{
+		"prefix": "eq",
+		"body": [
+			"\\begin{equation*}",
+		"\t ${1:insert equation here}",
+	"\\end{equation*}"]
+	},
 
 	"equation_num":{
 		"prefix": "eq",
@@ -182,6 +200,53 @@
 "\\end{document}"]
 },
 
+//assignment format
+
+"assignment":{
+	"prefix": "assi",
+	"body": [
+"\\documentclass{article}",
+
+"\\usepackage[justification=centering]{caption}",
+"\\usepackage[T1]{fontenc}",
+"\\usepackage{geometry}",
+"\\usepackage{tablefootnote}",
+"\\usepackage{lipsum}",
+"\\usepackage{makecell}",
+"\\usepackage{booktabs}",
+"\\usepackage{amsmath, amssymb, amsthm}",
+"\\usepackage{listings}",
+"\\usepackage{xcolor}",
+"\\usepackage{hyperref}",
+"\\usepackage{graphicx}",
+"\\usepackage{fancyhdr}",
+"\\usepackage{lipsum}",
+"\\usepackage{longtable}",
+"\\usepackage{caption}",
+"\\usepackage{subcaption}",
+"\\usepackage{float}",
+"",
+"\\begin{document}",
+"\\begin{center}",
+"\\textbf{IISER Kolkata}",
+"\\end{center}",
+"\\hrule",
+"\\vspace{1pt}",
+"\t\\begin{center}",
+"\t \t \\LARGE{\\textbf{${2:Course name}: ${3:Assignment number}}}",
+"\t \\end{center}",
+"\\vspace{1pt}",
+"\\hrule",
+"\\vspace{3pt}",
+"\\small{Rohan Kumar, \\texttt{21MS019}\\hfill\\today}",
+"\\vspace{20pt}",
+"",
+"\t $4",
+"",
+"\\end{document}"]
+},
+
+
 //Footnotes
 
 "footnote":{
@@ -245,6 +310,22 @@
 "emphasized":{
 	"prefix":"emph",
 	"body": "\\emph{$1}"
-}
+},
+
+"text bold":{
+	"prefix": "bf",
+	"body": "\\textbf{$1}"
+},
+
+"unit":{
+	"prefix": "un",
+	"body": "\\text{ $1}"
+},
+
+"caligraphic":{
+	"prefix": "cal",
+	"body": "\\textcal{$1}"
+},
+
 	
 }
