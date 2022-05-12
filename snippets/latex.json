@@ -27,7 +27,7 @@
 	"Figure":{
 	"prefix": "fig",
 	"body":[
-	"\\begin{figure}",
+	"\\begin{figure}[H]",
 	"\t \\centering",
 	"\t \\includegraphics[scale=${2:scale}]{${1:name}}",
 	"\t \\caption{${3:caption}}",
