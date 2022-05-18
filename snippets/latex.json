@@ -102,6 +102,14 @@
 	"\\end{itemize}"]
 		},
 
+	"item_numbers":{
+		"prefix": "item",
+		"body": [
+			"\\begin{enumerate}",
+		"\t \\item $1",
+	"\\end{enumerate}"]
+		},
+
 	// project format
 
 	"project":{
