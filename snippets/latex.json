@@ -58,7 +58,7 @@
 		"prefix": "eq",
 	"body": [
 		"\\begin{equation*}",
-	"\t \\boxed{${1:insert here}},",
+	"\t \\boxed{${1:insert here}}",
 "\\end{equation*}"]
 	},
 
