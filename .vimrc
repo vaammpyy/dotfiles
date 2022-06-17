@@ -5,7 +5,7 @@ set complete+=kspell
 
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd BufRead,BufNewFile *.tex setlocal spell
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * NERDTree
 " Exit Vim if NERDTree is the only window left.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
@@ -32,30 +32,12 @@ set showcmd
 
 call plug#begin('~/.vim/plugged')
 Plug 'lervag/vimtex'
-Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox'
-Plug 'rudrab/vimf90'
-Plug 'ycm-core/YouCompleteMe'
-Plug 'SirVer/ultisnips'
-Plug 'zxqfl/tabnine-vim'
-Plug 'honza/vim-snippets'
-Plug 'ervandew/supertab'
-Plug 'turbio/bracey.vim'
 call plug#end()
-
-" make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
-
-" better key bindings for UltiSnipsExpandTrigger
-let g:UltiSnipsExpandTrigger = "<tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
 let g:vimtex_view_method = 'zathura'
 

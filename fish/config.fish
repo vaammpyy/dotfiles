@@ -22,6 +22,7 @@ alias git-ls='git ls-files'
 alias ampy='ampy -p /dev/ttyUSB0'
 alias splat='~/codes/splat-vo/bin/splat/splat'
 alias ventoy='bash ventoy'
+alias rtv='rtv --enabled-media'
 
 #Vim keybindings
 fish_vi_key_bindings
