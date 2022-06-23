@@ -23,6 +23,8 @@ alias ampy='ampy -p /dev/ttyUSB0'
 alias splat='~/codes/splat-vo/bin/splat/splat'
 alias ventoy='bash ventoy'
 alias rtv='rtv --enabled-media'
+alias ls='exa -lh --color=always --group-directories-first --icons'
+alias la='exa -alh --color=always --group-directories-first --icons'
 
 #Vim keybindings
 fish_vi_key_bindings
