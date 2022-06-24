@@ -40,3 +40,24 @@ disabled = false
 
 [jobs]
 symbol= "🛠️  "
+
+[battery]
+disabled=false
+full_symbol = " " 
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+empty_symbol = " "
+
+[time]
+disabled = false
+time_format = "%v %r"
+format = "[$time]($style) "
+style = "bold yellow"
+use_12hr= true
+utc_time_offset= "local"
+
+[memory_usage]
+format = "$symbol[${ram}( | ${swap})]($style) "
+threshold = 70
+style = "bold dimmed white"
+disabled = false
