@@ -1,13 +1,23 @@
+add_newline = true
 
 command_timeout = 2000
 
 #[line_break]
 #disabled=true
 
+
 [character]
 error_symbol = "[ ✗ ](bold bright-red) "
 vicmd_symbol = "[ ❮ ](bold bright-cyan)"
 success_symbol="[ ❯ ](bold bright-green)"
+
+[time]
+disabled = false
+time_format = "%v %r"
+format = "[$time]($style) "
+style = "bold purple"
+use_12hr= true
+utc_time_offset= "local"
 
 [directory]
 truncation_length = 100
@@ -48,15 +58,9 @@ charging_symbol = "⚡️ "
 discharging_symbol = "💀 "
 empty_symbol = " "
 
-[time]
-disabled = false
-time_format = "%v %r"
-format = "[$time]($style) "
-style = "bold yellow"
-use_12hr= true
-utc_time_offset= "local"
 
 [memory_usage]
+symbol=" "
 format = "$symbol[${ram}( | ${swap})]($style) "
 threshold = 70
 style = "bold dimmed white"

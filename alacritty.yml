@@ -189,7 +189,7 @@ font:
 #draw_bold_text_with_bright_colors: false
 
 # Colors (Tomorrow Night)
-colors:
+#colors:
   # Default colors
   #primary:
   #  background: '#1d1f21'
@@ -280,40 +280,40 @@ colors:
   #  background: CellForeground
 
   # Normal colors
-  normal:
-    black:   '#666666'
-    red:     '#FF1E8E'
-    green:   '#8EFF1E'
-    yellow:  '#FFFB00'
-    blue:    '#1E8EFF'
-    magenta: '#E500E5'
-    cyan:    '#00E5E5'
-    white:   '#FFFFFF'
+  #  normal:
+  #  black:   '#666666'
+  #  red:     '#FF1E8E'
+  #  green:   '#8EFF1E'
+  #  yellow:  '#FFFB00'
+  #  blue:    '#1E8EFF'
+  #  magenta: '#E500E5'
+  #  cyan:    '#00E5E5'
+  #  white:   '#FFFFFF'
 
   # Bright colors
-  bright:
-    black:   '#666666'
-    red:     '#FF1E8E'
-    green:   '#8EFF1E'
-    yellow:  '#FFFB00'
-    blue:    '#1E8EFF'
-    magenta: '#E500E5'
-    cyan:    '#00E5E5'
-    white:   '#FFFFFF'
+  #bright:
+  #  black:   '#666666'
+  #  red:     '#FF1E8E'
+  #  green:   '#8EFF1E'
+  #  yellow:  '#FFFB00'
+  #  blue:    '#1E8EFF'
+  #  magenta: '#E500E5'
+  #  cyan:    '#00E5E5'
+  #  white:   '#FFFFFF'
 
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
   # on the `normal` colors.
-  dim:
-    black:   '#666666'
-    red:     '#FF1E8E'
-    green:   '#8EFF1E'
-    yellow:  '#FFFB00'
-    blue:    '#1E8EFF'
-    magenta: '#E500E5'
-    cyan:    '#00E5E5'
-    white:   '#FFFFFF'
+  #dim:
+  #  black:   '#666666'
+  #  red:     '#FF1E8E'
+  #  green:   '#8EFF1E'
+  #  yellow:  '#FFFB00'
+  #  blue:    '#1E8EFF'
+  #  magenta: '#E500E5'
+  #  cyan:    '#00E5E5'
+  #  white:   '#FFFFFF'
 
   # Indexed Colors
   #
@@ -331,6 +331,37 @@ colors:
   # the default background. When set to `true` all cells will be transparent
   # regardless of their background color.
   #transparent_background_colors: false
+
+# Colors (Gruvbox dark)
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '0x1d2021'
+    background: '0x282828'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xebdbb2'
+
+  # Normal colors
+  normal:
+    black:   '0x282828'
+    red:     '0xcc241d'
+    green:   '0x98971a'
+    yellow:  '0xd79921'
+    blue:    '0x458588'
+    magenta: '0xb16286'
+    cyan:    '0x689d6a'
+    white:   '0xa89984'
+
+  # Bright colors
+  bright:
+    black:   '0x928374'
+    red:     '0xfb4934'
+    green:   '0xb8bb26'
+    yellow:  '0xfabd2f'
+    blue:    '0x83a598'
+    magenta: '0xd3869b'
+    cyan:    '0x8ec07c'
+    white:   '0xebdbb2'
 
 # Bell
 #
