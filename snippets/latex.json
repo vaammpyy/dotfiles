@@ -339,5 +339,56 @@
 	"body": "\\textcal{$1}"
 },
 
+//sagemath
+
+"sage":{
+	"prefix": "sg",
+	"body": "\\sage{$1}"
+},
+
+"sage cmd-line":{
+	"prefix": "scmd",
+	"body": ["\\begin{sagecommandline}",
+	"\t $1",
+	"\\end{sagecommandline}"
+	]
+},
+
+"sage silent":{
+	"prefix": "slnt",
+	"body": ["\\begin{sagesilent}",
+	"\t $1",
+	"\\end{sagesilent}"
+	]
+},
+
+"sage plot":{
+	"prefix": "splot",
+	"body": ["\\begin{figure}[H]",
+	"\t \\centering",
+"\t \\sageplot[scale=${5:scale}]{plot(${1:function},${2:left_lim},${3:right_lim},legend_label=${4:label},typeset='latex')}",
+"\\caption{${6:caption}}",
+"\\end{figure}"
+]
+},
+
+"sage plot frame":{
+	"prefix": "splot",
+	"body": ["\\begin{figure}[H]",
+	"\t \\centering",
+"\t \\fbox{\\sageplot[scale=${5:scale}]{plot(${1:function},${2:left_lim},${3:right_lim},legend_label=${4:label},typeset='latex')}",
+"\t \\caption{${6:caption}}",
+"\\end{figure}"
+]
+},
+
+"sage figure":{
+	"prefix": "splot",
+	"body": ["\\begin{figure}[H]",
+	"\t \\centering",
+"\t \\sageplot[scale=${2:scale}]{${1:enter figure code}}",
+"\t \\caption{${3:caption}}",
+"\\end{figure}"]
+},
 	
 }

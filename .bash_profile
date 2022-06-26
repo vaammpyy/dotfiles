@@ -15,3 +15,4 @@ fi
 
 source ~/.bashrc
 
+. "$HOME/.cargo/env"
