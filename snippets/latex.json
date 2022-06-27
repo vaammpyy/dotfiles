@@ -390,5 +390,10 @@
 "\t \\caption{${3:caption}}",
 "\\end{figure}"]
 },
+
+"legend config":{
+	"prefix": "lgnd",
+	"body": "${1:plot name}.set_legend_options(font_size=12,shadow=False,markerscale=1,fancybox=True,borderaxespad=1.0)"
+},
 	
 }
