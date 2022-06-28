@@ -224,6 +224,7 @@ stack-data==0.2.0
 sympy==1.9
 systemd-python==234
 terminado==0.13.3
+termtyper==1.0.1
 testpath==0.5.0
 textual==0.1.18
 textual-extras==0.1.0
