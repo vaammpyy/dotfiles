@@ -67,7 +67,6 @@ google-auth-httplib2==0.1.0
 google-auth-oauthlib==0.5.1
 googleapis-common-protos==1.56.0
 greenlet==1.1.2
-gupshup==1.0.0
 hidpidaemon==18.4.6
 html5lib==1.1
 httplib2==0.20.2
@@ -238,7 +237,7 @@ traitlets==5.1.1
 trash-cli==0.17.1.14
 twister==0.0.1
 tzlocal==2.1
-ubuntu-advantage-tools==27.8
+ubuntu-advantage-tools==27.9
 ubuntu-drivers-common==0.0.0
 ueberzug==18.1.9
 ufoLib2==0.13.1
