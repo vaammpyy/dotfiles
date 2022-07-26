@@ -24,6 +24,7 @@ alias splat='~/codes/splat-vo/bin/splat/splat'
 alias ventoy='bash ventoy'
 alias ls='exa -lh --color=always --group-directories-first --icons'
 alias la='exa -alh --color=always --group-directories-first --icons'
+alias cat='batcat'
 
 #Vim keybindings
 fish_vi_key_bindings
