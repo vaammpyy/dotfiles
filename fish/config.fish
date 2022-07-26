@@ -1,5 +1,6 @@
 #Starship prompt
 starship init fish | source
+zoxide init fish | source
 
 #disabling the greeting message
 set fish_greeting
