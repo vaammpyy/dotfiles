@@ -26,6 +26,7 @@ alias ventoy='bash ventoy'
 alias ls='exa -lh --color=always --group-directories-first --icons'
 alias la='exa -alh --color=always --group-directories-first --icons'
 alias cat='batcat'
+alias fcd='find -type d | cd $(fzf)'
 
 #Vim keybindings
 fish_vi_key_bindings

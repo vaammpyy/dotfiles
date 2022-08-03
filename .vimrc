@@ -25,7 +25,6 @@ set relativenumber number
 set incsearch 
 set ic
 set undodir=~/.vim/undodir
-set nowrap 
 set undofile 
 set hls is
 set encoding=utf-8
@@ -38,6 +37,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox'
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 let g:vimtex_view_method = 'zathura'
