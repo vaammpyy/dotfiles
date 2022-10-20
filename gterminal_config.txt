@@ -38,7 +38,7 @@ font='Fira Mono 16'
 [legacy/profiles:/:f13f3525-aa80-4ae0-ad98-d4871253b884]
 allow-bold=true
 audible-bell=true
-background-color='rgb(0,0,0)'
+background-color='rgb(29,32,33)'
 background-transparency-percent=35
 bold-color='#ebebdbdbb2b2'
 bold-color-same-as-fg=true
@@ -58,5 +58,5 @@ scrollbar-policy='never'
 use-theme-background=false
 use-theme-colors=false
 use-theme-transparency=false
-use-transparent-background=false
+use-transparent-background=true
 visible-name='Gruvbox Dark'
