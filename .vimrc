@@ -38,6 +38,9 @@ Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf.vim'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'jpalardy/vim-slime', { 'for': 'python' }
+Plug 'hanschen/vim-ipython-cell', { 'for': 'python' }
 call plug#end()
 
 let g:vimtex_view_method = 'zathura'

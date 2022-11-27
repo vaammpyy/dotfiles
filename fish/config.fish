@@ -28,7 +28,7 @@ alias ventoy='bash ventoy'
 alias ls='exa -lh --color=always --group-directories-first --icons'
 alias la='exa -alh --color=always --group-directories-first --icons'
 alias cat='batcat'
-alias fcd='find -type d | cd $(fzf)'
+alias fcd='find -type d | cd $(fzf --preview "exa --icons {}")'
 alias libgen='libgen-cli -o ~/acads/Books/libgen_downloads/'
 
 #Vim keybindings
@@ -39,7 +39,6 @@ end
 
 #Default editor
 set -gx EDITOR vim
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/vampy/miniconda3/bin/conda "shell.fish" "hook" $argv | source
