@@ -41,6 +41,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'jpalardy/vim-slime', { 'for': 'python' }
 Plug 'hanschen/vim-ipython-cell', { 'for': 'python' }
+Plug 'SirVer/ultisnips'
 call plug#end()
 
 let g:vimtex_view_method = 'zathura'
