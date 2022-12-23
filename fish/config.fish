@@ -45,5 +45,5 @@ eval /home/vampy/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
 if status is-interactive
 and not set -q TMUX
-    exec tmux
+    exec tmux new-session -A -s main
 end

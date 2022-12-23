@@ -3,6 +3,8 @@ filetype plugin indent on
 
 set complete+=kspell
 set pastetoggle=<F10>
+set noswapfile
+set splitbelow
 
 autocmd BufRead,BufNewFile *.md setlocal spell
 autocmd BufRead,BufNewFile *.tex setlocal spell
@@ -43,12 +45,13 @@ Plug 'jpalardy/vim-slime', { 'for': 'python' }
 Plug 'hanschen/vim-ipython-cell', { 'for': 'python' }
 Plug 'SirVer/ultisnips'
 Plug 'dccsillag/magma.vim'
+Plug 'ervandew/supertab'
 call plug#end()
 
 let g:vimtex_view_method = 'zathura'
 
 colorscheme gruvbox
-"hi Normal guibg=NONE ctermbg=NONE
+hi Normal guibg=NONE ctermbg=NONE
 map <C-t> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
 map <C-h> <C-w>h
@@ -65,3 +68,12 @@ inoremap [ []<ESC>i
 inoremap " ""<ESC>i
 inoremap jj <Esc>
 
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"

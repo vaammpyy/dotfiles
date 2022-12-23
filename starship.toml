@@ -12,7 +12,7 @@ vicmd_symbol = "[ ❮ ](bold bright-cyan)"
 success_symbol="[ ❯ ](bold bright-green)"
 
 [time]
-disabled = false
+disabled = true
 time_format = "%v %r"
 format = "[$time]($style) "
 style = "bold purple"
