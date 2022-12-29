@@ -30,6 +30,7 @@ alias la='exa -alh --color=always --group-directories-first --icons'
 alias cat='batcat'
 alias fcd='find -type d | cd $(fzf --preview "exa --icons {}")'
 alias libgen='libgen-cli -o ~/acads/Books/libgen_downloads/'
+alias open='xdg-open'
 
 #Vim keybindings
 fish_vi_key_bindings

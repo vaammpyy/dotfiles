@@ -52,6 +52,7 @@ cycler==0.11.0
 cypari2==2.1.2
 cysignals==1.11.2
 Cython==0.29.28
+datadispatch==1.0.0
 dbus-python==1.2.18
 debugpy==1.6.0
 decorator==5.1.1
@@ -289,6 +290,7 @@ stingray==1.0
 sunpy==4.0.5
 sympy==1.9
 systemd-python==234
+tasklib==2.5.1
 termcolor==1.1.0
 terminado==0.13.3
 testpath==0.5.0

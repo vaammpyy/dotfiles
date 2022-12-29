@@ -3634,6 +3634,7 @@ update-manager-core/jammy,now 1.0.0~1666200735~22.04~e720c01 amd64 [installed,au
 upower/jammy,now 0.99.17-1 amd64 [installed,automatic]
 ure-java/jammy-updates,now 1:7.3.7-0ubuntu0.22.04.1 amd64 [installed,automatic]
 ure/jammy-updates,now 1:7.3.7-0ubuntu0.22.04.1 amd64 [installed,automatic]
+urlview/jammy,jammy,now 0.9-22 amd64 [installed]
 usb-modeswitch-data/jammy,jammy,jammy,jammy,now 20191128-4 all [installed,automatic]
 usb-modeswitch/jammy,now 2.6.1-3ubuntu2 amd64 [installed,automatic]
 usb.ids/jammy,jammy,now 2022.04.02-1 all [installed,automatic]
