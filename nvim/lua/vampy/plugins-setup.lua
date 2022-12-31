@@ -73,13 +73,12 @@ return packer.startup(function(use)
     use("windwp/nvim-autopairs")
 
     -- startup screen
-    use {
-      "startup-nvim/startup.nvim",
-      requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
-      config = function()
-        require"startup".setup()
-      end
-    }
+   use {
+    'goolord/alpha-nvim',
+    config = function ()
+        require'alpha'.setup(require'alpha.themes.dashboard'.config)
+    end
+}
 
     if packer_bootstrap then
         require("packer").sync()
