@@ -23,6 +23,7 @@ if not status then
     return
 end
 
+
 return packer.startup(function(use)
     use("wbthomason/packer.nvim") -- packer nvim package manager
     use("nvim-lua/plenary.nvim")-- lua functions that many plugins use
@@ -78,9 +79,34 @@ return packer.startup(function(use)
     config = function ()
         require'alpha'.setup(require'alpha.themes.dashboard'.config)
     end
+    }
+    -- toggle term
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+      require("toggleterm").setup{
+            auto_scroll = true,
+        }
+    end
+    }
+    -- vimtex
+    use 'lervag/vimtex'
+
+    -- vimwiki
+    use {
+    'vimwiki/vimwiki',
+    config = function()
+        vim.g.vimwiki_list = {
+            {
+                path = '/home/vampy/acads/vimwiki',
+                syntax = 'markdown',
+                ext = '.md',
+            }
+        }
+    end
 }
 
     if packer_bootstrap then
         require("packer").sync()
     end
 end)
+
+

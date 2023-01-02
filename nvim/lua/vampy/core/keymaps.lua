@@ -47,3 +47,7 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
 keymap.set("v", "<leader>r", ":<c-u>MagmaEvaluateVisual<CR>")
 keymap.set("n", "<leader>s", ":MagmaInit<CR>")
 keymap.set("n", "<leader>r", ":MagmaEvaluateLine<CR>")
+
+-- toggle term keymaps
+keymap.set("n", "<C-t>", ":ToggleTerm<CR>")
+keymap.set("v", "<C-r>", ":ToggleTermSendVisualLines<CR>")

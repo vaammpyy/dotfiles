@@ -31,6 +31,7 @@ alias cat='batcat'
 alias fcd='find -type d | cd $(fzf --preview "exa --icons {}")'
 alias libgen='libgen-cli -o ~/acads/Books/libgen_downloads/'
 alias open='xdg-open'
+alias v='nvim'
 
 #Vim keybindings
 fish_vi_key_bindings
