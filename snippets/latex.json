@@ -396,4 +396,12 @@
 	"body": "${1:plot name}.set_legend_options(font_size=12,shadow=False,markerscale=1,fancybox=True,borderaxespad=1.0)"
 },
 	
+	"frame":{
+		"prefix": "frame",
+		"body": [
+			"\\begin{frame}",
+		"\t \\frametitle{${1:insert equation here}}",
+		"\t \t $2",
+	"\\end{frame}"]
+	},
 }
