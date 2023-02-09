@@ -50,6 +50,14 @@
 			"plt.legend([$5])",
 			"plt.grid(${6:True})",
 			"plt.show()"]
+	},
+
+	"Slashdot":{
+		"prefix": "sldot",
+		"body":[
+			"while ${1:smt}:",
+			"\t $2"
+		]
 	}
 
 }
