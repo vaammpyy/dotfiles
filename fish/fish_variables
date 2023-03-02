@@ -3,6 +3,7 @@
 SETUVAR --export FZF_DEFAULT_COMMAND:find\x20\x2e
 SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dcolor\x3dfg\x3a\x23d5c4a1\x2cbg\x3a\x2d1\x2chl\x3a\x2383a598\x0a\x20\x2d\x2dcolor\x3dfg\x2b\x3a\x23ebdbb2\x2cbg\x2b\x3a\x23665c54\x2chl\x2b\x3a\x23fb4934\x0a\x20\x2d\x2dcolor\x3dinfo\x3a\x23689d6a\x2cprompt\x3a\x23fe8019\x2cpointer\x3a\x23cc241d\x0a\x20\x2d\x2dcolor\x3dmarker\x3a\x238ec07c\x2cspinner\x3a\x23fe8019\x2cheader\x3a\x23fabd2f
 SETUVAR --export OPENAI_API_KEY:sk\x2dkE9pgTE8tbtdpxfxb1hbT3BlbkFJKsxE5ZKuet9ZAtyyY8Mg
+SETUVAR --export PLUTO_DIR:/home/vampy/codes/PLUTO
 SETUVAR VIRTUAL_ENV_DISABLE_PROMPT:true
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_gs:git\x20status
