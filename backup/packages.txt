@@ -253,7 +253,7 @@ firebird3.0-common-doc/jammy,jammy,now 3.0.8.33535.ds4-1ubuntu2 all [installed,a
 firebird3.0-common/jammy,jammy,now 3.0.8.33535.ds4-1ubuntu2 all [installed,automatic]
 firebird3.0-server-core/jammy,now 3.0.8.33535.ds4-1ubuntu2 amd64 [installed,automatic]
 firebird3.0-utils/jammy,now 3.0.8.33535.ds4-1ubuntu2 amd64 [installed,automatic]
-firefox/jammy,now 111.0~1678821227~22.04~1002577 amd64 [installed]
+firefox/jammy,now 111.0.1~1679511166~22.04~e374679 amd64 [installed]
 firmware-manager-notify/jammy,now 0.1.2~1675191795~22.04~4be1703 amd64 [installed,automatic]
 firmware-manager-shared/jammy,jammy,now 0.1.2~1675191795~22.04~4be1703 all [installed,automatic]
 firmware-sof-signed/jammy-updates,jammy-updates,now 2.0-1ubuntu4.1 all [installed,automatic]
