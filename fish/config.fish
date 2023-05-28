@@ -11,6 +11,7 @@ set PATH ~/.local/bin $PATH
 set PATH ~/.iraf/bin $PATH
 set PATH /usr/local/go/bin $PATH
 set PATH ~/go/bin/ $PATH
+set PATH /usr/local/visit/bin/ $PATH
 
 #alias
 alias bling='bash bling'
