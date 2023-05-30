@@ -3535,6 +3535,7 @@ ruby3.0/jammy-security,jammy-updates,now 3.0.2-7ubuntu2.3 amd64 [installed,autom
 ruby/jammy,now 1:3.0~exp1 amd64 [installed,automatic]
 rubygems-integration/jammy,jammy,jammy,jammy,now 1.18 all [installed,automatic]
 runc/jammy-security,jammy-updates,now 1.1.4-0ubuntu1~22.04.3 amd64 [installed,automatic]
+rustdesk/now 1.1.9 amd64 [installed,local]
 rygel/jammy,now 0.40.3-1ubuntu2 amd64 [installed,automatic]
 sagemath-database-conway-polynomials/jammy,jammy,jammy,jammy,now 0.5-8 all [installed,automatic]
 sagemath-database-elliptic-curves/jammy,jammy,jammy,jammy,now 0.8.1-5 all [installed,automatic]
