@@ -44,7 +44,9 @@ end
 set -gx EDITOR vim
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /home/vampy/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+if test -f /home/vampy/miniconda3/bin/conda
+    eval /home/vampy/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+end
 # <<< conda initialize <<<
 if status is-interactive
 and not set -q TMUX
