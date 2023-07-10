@@ -127,6 +127,7 @@ launchpadlib==1.10.16
 lazr.restfulclient==0.14.4
 lazr.uri==1.0.6
 libevdev==0.5
+libvirt-python==8.0.0
 lockfile==0.12.2
 louis==3.20.0
 lxml==4.8.0
