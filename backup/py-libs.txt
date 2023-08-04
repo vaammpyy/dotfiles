@@ -86,7 +86,7 @@ google-auth==2.6.6
 google-auth-httplib2==0.1.0
 google-auth-oauthlib==0.5.1
 googleapis-common-protos==1.56.0
-gpg==1.16.0-unknown
+gpg==1.16.0
 greenlet==1.1.2
 h11==0.14.0
 hidpidaemon==18.4.6
@@ -232,7 +232,7 @@ pyrsistent==0.18.1
 pyserial==3.5
 PySocks==1.7.1
 pytest==6.2.5
-python-apt==2.4.0+ubuntu1
+python-apt==2.4.0+ubuntu2
 python-dateutil==2.8.2
 python-debian==0.1.49
 python-gnupg==0.4.8
