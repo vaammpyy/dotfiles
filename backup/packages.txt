@@ -674,7 +674,7 @@ initramfs-tools/jammy-updates,jammy-updates,now 0.140ubuntu13.2 all [installed,a
 inputattach/jammy,jammy,now 1:1.7.1-1build2 amd64 [installed]
 install-info/jammy,jammy,now 6.8-4build1 amd64 [installed,automatic]
 intel-media-va-driver/jammy-updates,now 22.3.1+dfsg1-1ubuntu2 amd64 [installed,automatic]
-intel-microcode/jammy-security,jammy-updates,now 3.20230214.0ubuntu0.22.04.1 amd64 [installed,automatic]
+intel-microcode/now 3.20230214.0ubuntu0.22.04.1 amd64 [installed,upgradable to: 3.20230808.0ubuntu0.22.04.1]
 intltool-debian/jammy,jammy,jammy,jammy,now 0.35.0+20060710.5 all [installed,automatic]
 iotop/jammy-updates,now 0.6-24-g733f3f8-1.1ubuntu0.1 amd64 [installed]
 ipp-usb/jammy-security,jammy-updates,now 0.9.20-1ubuntu0.22.04.1 amd64 [installed,automatic]
