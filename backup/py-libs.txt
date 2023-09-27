@@ -322,7 +322,7 @@ webencodings==0.5.1
 webrequests==1.0.4
 websocket-client==1.3.2
 websockets==9.1
-welearn-bot-iiserkol==1.3.0
+welearn-bot-iiserkol==1.3.1
 Werkzeug==2.2.2
 wheel==0.37.1
 widgetsnbextension==4.0.3
