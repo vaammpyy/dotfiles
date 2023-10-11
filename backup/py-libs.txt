@@ -4,7 +4,7 @@ aioftp==0.21.4
 aiohttp==3.8.3
 aiosignal==1.2.0
 alabaster==0.7.12
-anyio==3.6.2
+anyio==3.7.0
 appdirs==1.4.4
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
@@ -68,6 +68,7 @@ drms==0.6.3
 duplicity==0.8.21
 entrypoints==0.4
 evdev==1.6.1
+exceptiongroup==1.1.3
 executing==0.8.3
 fasteners==0.14.1
 fastjsonschema==2.15.3
@@ -151,7 +152,7 @@ mpmath==0.0.0
 msgpack==1.0.4
 multidict==6.0.2
 mutagen==1.45.1
-nala==0.13.0
+nala==0.14.0
 nbclassic==0.3.7
 nbclient==0.5.6
 nbconvert==6.4.0
