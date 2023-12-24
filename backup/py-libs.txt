@@ -31,6 +31,7 @@ cachetools==5.0.0
 cachy==0.3.0
 cairocffi==1.4.0
 CairoSVG==2.5.2
+celerite2==0.3.0
 certifi==2020.6.20
 cffi==1.15.0
 chardet==4.0.0
