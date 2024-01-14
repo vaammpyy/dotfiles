@@ -115,7 +115,11 @@ Jinja2==3.1.1
 json5==0.9.6
 jsonschema==4.4.0
 jupyter-client==7.1.2
+jupyter-contrib-core==0.4.2
+jupyter-contrib-nbextensions==0.7.0
 jupyter-core==4.9.1
+jupyter-highlight-selected-word==0.2.0
+jupyter-nbextensions-configurator==0.6.3
 jupyter-server==1.13.5
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==3.0.3
@@ -162,7 +166,7 @@ nest-asyncio==1.5.5
 netaddr==0.8.0
 netifaces==0.11.0
 networkx==2.4
-notebook==6.4.8
+notebook==6.1.1
 notebook-shim==0.1.0
 numpy==1.21.5
 oauth2client==4.1.3
