@@ -311,8 +311,8 @@ twister==0.0.1
 typer==0.9.0
 typing_extensions==4.10.0
 tzlocal==2.1
-ubuntu-advantage-tools==8001
 ubuntu-drivers-common==0.0.0
+ubuntu-pro-client==8001
 ueberzug==18.1.9
 ufoLib2==0.13.1
 ufw==0.36.1
