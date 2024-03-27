@@ -3619,7 +3619,7 @@ system-config-printer/jammy,jammy,jammy,jammy,now 1.5.16-0ubuntu3 all [installed
 system76-acpi-dkms/jammy,now 1.0.2~1707324865~22.04~19ad0c5 amd64 [installed]
 system76-dkms/jammy,now 1.0.14~1707324875~22.04~da04fd6 amd64 [installed]
 system76-io-dkms/jammy,now 1.0.3~1707324885~22.04~3dd4c32 amd64 [installed]
-system76-power/jammy,now 1.1.26~1710180257~22.04~d7f73b2 amd64 [installed,automatic]
+system76-power/now 1.1.26~1710180257~22.04~d7f73b2 amd64 [installed,upgradable to: 1.1.26~1711386470~22.04~6bbe1c2]
 system76-scheduler/jammy,now 2.0.0~1701988455~22.04~b8d6545 amd64 [installed,automatic]
 systemd-container/jammy,now 249.11-0ubuntu3.11pop0~1704473387~22.04~3ce38bf amd64 [installed,automatic]
 systemd-hwe-hwdb/jammy-updates,jammy-updates,now 249.11.5 all [installed,automatic]
