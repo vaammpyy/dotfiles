@@ -259,7 +259,7 @@ firebird3.0-utils/jammy,jammy,now 3.0.8.33535.ds4-1ubuntu2 amd64 [installed,auto
 firefox/jammy,now 1:124.0.1~1711133088~22.04~660929d amd64 [installed]
 firmware-manager-notify/jammy,now 0.1.2~1711477253~22.04~3c542bd amd64 [installed,automatic]
 firmware-manager-shared/jammy,jammy,now 0.1.2~1711477253~22.04~3c542bd all [installed,automatic]
-firmware-sof-signed/now 2.0-1ubuntu4.5 all [installed,upgradable to: 2.0-1ubuntu4.7]
+firmware-sof-signed/jammy-updates,jammy-updates,now 2.0-1ubuntu4.7 all [installed,automatic]
 fish/now 3.4.1-1~impish amd64 [installed,local]
 flatpak/jammy,now 1.14.4-1pop1~1686169801~22.04~88193fc amd64 [installed]
 flex/jammy,jammy,now 2.6.4-8build2 amd64 [installed]
