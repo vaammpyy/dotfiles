@@ -835,6 +835,7 @@ libatk-wrapper-java/jammy,jammy,jammy,jammy,now 0.38.0-5build1 all [installed,au
 libatk1.0-0/jammy,jammy,now 2.36.0-3build1 amd64 [installed,automatic]
 libatk1.0-data/jammy,jammy,jammy,jammy,now 2.36.0-3build1 all [installed,automatic]
 libatkmm-1.6-1v5/jammy,jammy,now 2.28.2-1build1 amd64 [installed,automatic]
+libatlas-base-dev/jammy,jammy,now 3.10.3-12ubuntu1 amd64 [installed]
 libatlas3-base/jammy,jammy,now 3.10.3-12ubuntu1 amd64 [installed,automatic]
 libatm1/jammy,jammy,now 1:2.5.1-4build2 amd64 [installed]
 libatomic-ops-dev/jammy,jammy,now 7.6.12-1 amd64 [installed,automatic]

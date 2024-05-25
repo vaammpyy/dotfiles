@@ -34,6 +34,9 @@ alias libgen='libgen-cli -o ~/acads/Books/libgen_downloads/'
 alias open='xdg-open'
 alias v='nvim'
 
+# setting the environment variables
+set -x THEANO_FLAGS "blas.ldflags=-latlas"
+
 #Vim keybindings
 fish_vi_key_bindings
 function fish_user_key_bindings

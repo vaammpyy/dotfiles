@@ -158,3 +158,6 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 . "$HOME/.cargo/env"
+
+# Environment variable
+export THEANO_FLAGS=blas.ldflags="-latlas"
