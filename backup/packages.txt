@@ -3602,6 +3602,7 @@ spice-client-glib-usb-acl-helper/jammy,jammy,now 0.39-3ubuntu1 amd64 [installed,
 sqlite3/jammy-security,jammy-updates,now 3.37.2-2ubuntu0.3 amd64 [installed,automatic]
 squashfs-tools/jammy,jammy,now 1:4.5-3build1 amd64 [installed,automatic]
 ssh-import-id/jammy,jammy,jammy,jammy,now 5.11-0ubuntu1 all [installed,automatic]
+sshfs/jammy,jammy,now 3.7.1+repack-2 amd64 [installed]
 ssl-cert/jammy,jammy,jammy,jammy,now 1.1.2 all [installed,automatic]
 stacer/jammy,jammy,now 1.1.0+ds-1 amd64 [installed]
 strace/jammy,jammy,now 5.16-0ubuntu3 amd64 [installed,automatic]
