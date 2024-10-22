@@ -3144,7 +3144,7 @@ pop-gnome-shell-theme/jammy,jammy,now 5.5.1~1723827328~22.04~25ea85d all [instal
 pop-gtk-theme/jammy,jammy,now 5.5.1~1723827328~22.04~25ea85d all [installed,automatic]
 pop-icon-theme/jammy,jammy,now 3.5.1~1727801177~22.04~1a575a8 all [installed,automatic]
 pop-keyring/jammy,jammy,now 1.0.0~1641313934~22.04~356a75e all [installed,automatic]
-pop-launcher/jammy,now 1.2.3~1727746060~22.04~476a8fb amd64 [installed,automatic]
+pop-launcher/jammy,now 1.2.4~1729271777~22.04~fca3b25 amd64 [installed,automatic]
 pop-pipewire/jammy,now 2.0.0~1722298299~22.04~4746943 amd64 [installed,automatic]
 pop-plymouth-theme/jammy,jammy,now 2.0.2~1646089097~22.04~8cd4acc all [installed,automatic]
 pop-server/jammy,now 2.0.0~1722298299~22.04~4746943 amd64 [installed,automatic]
