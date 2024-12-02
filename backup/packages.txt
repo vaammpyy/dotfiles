@@ -2239,7 +2239,7 @@ libpostproc55/jammy-security,jammy-updates,now 7:4.4.2-0ubuntu0.22.04.1 amd64 [i
 libppl-c4/jammy,jammy,now 1:1.2-8.1build1 amd64 [installed,automatic]
 libppl-dev/jammy,jammy,now 1:1.2-8.1build1 amd64 [installed,automatic]
 libppl14/jammy,jammy,now 1:1.2-8.1build1 amd64 [installed,automatic]
-libpq5/jammy-security,jammy-updates,now 14.13-0ubuntu0.22.04.1 amd64 [installed,automatic]
+libpq5/jammy-updates,now 14.13-0ubuntu0.22.04.1 amd64 [installed,upgradable to: 14.15-0ubuntu0.22.04.1]
 libprimecount7/jammy,jammy,now 7.2+ds-6 amd64 [installed,automatic]
 libprimesieve9/jammy,jammy,now 7.8+ds-1 amd64 [installed,automatic]
 libprocps8/jammy-security,jammy-updates,now 2:3.3.17-6ubuntu2.1 amd64 [installed]
