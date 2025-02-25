@@ -131,6 +131,7 @@ fi
 
 # adding ~/.local/bin to path
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 
 # Add iraf setup commands
 if [ -e /home/vampy/.iraf/setup.sh ]; then
