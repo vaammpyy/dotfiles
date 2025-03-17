@@ -214,6 +214,7 @@ pure-eval==0.2.2
 py==1.10.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.1
+pybind11==2.13.6
 pycairo==1.20.1
 pycryptodomex==3.11.0
 pycups==2.0.1
@@ -223,6 +224,7 @@ pygccxml==2.2.1
 Pygments==2.17.2
 PyGObject==3.42.1
 PyJWT==2.3.0
+pylanczos==2.1.1
 pylev==1.4.0
 pymacaroons==0.13.0
 PyNaCl==1.5.0
