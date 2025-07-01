@@ -3663,7 +3663,7 @@ starlink-util-java/jammy,jammy,jammy,jammy,now 1.0+2021.09.10-1 all [installed,a
 starlink-vo-java/jammy,jammy,jammy,jammy,now 0.2+2022.01.20-1 all [installed,automatic]
 starlink-votable-java/jammy,jammy,jammy,jammy,now 2.0+2022.01.28-1 all [installed,automatic]
 strace/jammy,jammy,now 5.16-0ubuntu3 amd64 [installed,automatic]
-sudo/jammy-security,jammy-updates,now 1.9.9-1ubuntu2.4 amd64 [installed]
+sudo/jammy-updates,now 1.9.9-1ubuntu2.4 amd64 [installed,upgradable to: 1.9.9-1ubuntu2.5]
 surf-alggeo-nox/jammy,jammy,now 1.0.6+ds-6 amd64 [installed,automatic]
 surf-alggeo/jammy,jammy,now 1.0.6+ds-6 amd64 [installed,automatic]
 swig4.0/jammy,jammy,now 4.0.2-1ubuntu1 amd64 [installed,automatic]
