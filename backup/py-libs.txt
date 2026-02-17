@@ -364,6 +364,7 @@ sagenb-export==3.2
 sci-hub==1.0.4
 scikit-image==0.19.3
 scipy==1.8.0
+scour==0.38.2
 SecretStorage==3.3.1
 Send2Trash==1.8.3
 sessioninstaller==0.0.0
