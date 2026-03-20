@@ -1256,7 +1256,7 @@ libexec-maven-plugin-java/jammy,jammy,jammy,jammy,now 1.6.0-4.1 all [installed,a
 libexempi8/jammy-security,jammy-updates,now 2.5.2-1ubuntu0.22.04.1 amd64 [installed,automatic]
 libexif12/jammy,jammy,now 0.6.24-1build1 amd64 [installed,automatic]
 libexif12/jammy,jammy,now 0.6.24-1build1 i386 [installed,automatic]
-libexiv2-27/jammy-updates,now 0.27.5-3ubuntu1.1 amd64 [installed,upgradable to: 0.27.5-3ubuntu1.3]
+libexiv2-27/now 0.27.5-3ubuntu1.1 amd64 [installed,upgradable to: 0.27.5-3ubuntu1.3]
 libexpat1-dev/jammy-security,jammy-updates,now 2.4.7-1ubuntu0.7 amd64 [installed]
 libexpat1/jammy-security,jammy-updates,now 2.4.7-1ubuntu0.7 amd64 [installed]
 libexpat1/jammy-security,jammy-updates,now 2.4.7-1ubuntu0.7 i386 [installed,automatic]
