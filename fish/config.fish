@@ -36,6 +36,8 @@ alias v='nvim'
 
 # setting the environment variables
 set -x THEANO_FLAGS "blas.ldflags=-latlas"
+set -gx POSEIDON_input_data "/home/vampy/acads/research/POSEIDON/inputs/"
+set -gx PYSYN_CDBS "/home/vampy/acads/research/POSEIDON/inputs/stellar_grids/"
 
 #Vim keybindings
 fish_vi_key_bindings
