@@ -38,6 +38,7 @@ alias v='nvim'
 set -x THEANO_FLAGS "blas.ldflags=-latlas"
 set -gx POSEIDON_input_data "/home/vampy/acads/research/POSEIDON/inputs/"
 set -gx PYSYN_CDBS "/home/vampy/acads/research/POSEIDON/inputs/stellar_grids/"
+set -gx LD_LIBRARY_PATH /usr/local/lib $LD_LIBRARY_PATH
 
 #Vim keybindings
 fish_vi_key_bindings
@@ -57,3 +58,4 @@ if status is-interactive
 and not set -q TMUX
     exec tmux new-session -A -s main
 end
+
