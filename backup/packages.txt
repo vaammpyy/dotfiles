@@ -698,7 +698,7 @@ intel-microcode/jammy-security,jammy-updates,now 3.20260210.0ubuntu0.22.04.1 amd
 intltool-debian/jammy,jammy,jammy,jammy,now 0.35.0+20060710.5 all [installed,automatic]
 iotop/jammy-updates,now 0.6-24-g733f3f8-1.1ubuntu0.1 amd64 [installed]
 ipp-usb/jammy-security,jammy-updates,now 0.9.20-1ubuntu0.22.04.2 amd64 [installed,automatic]
-iproute2/jammy-updates,now 5.15.0-1ubuntu2.1 amd64 [installed]
+iproute2/now 5.15.0-1ubuntu2.1 amd64 [installed,upgradable to: 5.15.0-1ubuntu2.2]
 iptables/jammy-updates,now 1.8.7-1ubuntu5.2 amd64 [installed,automatic]
 iputils-ping/jammy-security,jammy-updates,now 3:20211215-1ubuntu0.1 amd64 [installed]
 iputils-tracepath/jammy-security,jammy-updates,now 3:20211215-1ubuntu0.1 amd64 [installed,automatic]
