@@ -38,6 +38,7 @@ defusedxml==0.7.1
 distlib==0.3.8
 distro==1.9.0
 dnspython==2.6.1
+docopt==0.6.2
 duplicity==2.1.4
 entrypoints==0.4
 executing==2.0.1
@@ -354,6 +355,7 @@ types-zxcvbn==4.4
 typing_extensions==4.10.0
 ubuntu-drivers-common==0.0.0
 ubuntu-pro-client==8001
+ueberzug==18.2.2
 ufoLib2==0.16.0
 ufw==0.36.2
 unicodedata2==15.1.0
