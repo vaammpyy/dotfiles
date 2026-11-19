@@ -6,7 +6,6 @@ asttokens==2.4.1
 async-timeout==4.0.3
 attrs==23.2.0
 Babel==2.10.3
-bcc==0.29.1
 bcrypt==3.2.2
 beautifulsoup4==4.12.3
 bleach==6.1.0
@@ -111,7 +110,6 @@ nbclient==0.8.0
 nbconvert==6.5.3
 nbformat==5.9.1
 nest-asyncio==1.5.4
-netaddr==0.8.0
 netifaces==0.11.0
 notebook==6.4.12
 numpy==1.26.4
